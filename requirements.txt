@@ -4,3 +4,5 @@ torch
 datasets
 scikit-learn
 accelerate
+matplotlib
+seaborn

@@ -12,23 +12,22 @@ from sklearn.model_selection import train_test_split
 from transformers import BertTokenizer, BertForSequenceClassification, get_linear_schedule_with_warmup
 
 
-def get_problems_and_topics():
+def get_number_theory_problems_and_skills():
     with open("training_data_1k.json", 'r') as file:
         data = json.load(file)
     rows = []
-    for topic in data["topics"]:
-        for skill in data["topics"][topic]:
-            for problem in data["topics"][topic][skill]:
-                entry = data["topics"][topic][skill][problem]
-                if not entry['problem'] == "" and not entry['solution'] == "":
-                    # no dolla signs
-                    rows.append({'problem': entry['problem'].replace(
-                        '$', ''), 'topic': topic, 'skill': skill})
+    for skill in data["topics"]["number_theory"]:
+        for problem in data["topics"]["number_theory"][skill]:
+            entry = data["topics"]["number_theory"][skill][problem]
+            if not entry['problem'] == "" and not entry['solution'] == "":
+                # no dolla signs
+                rows.append({'problem': entry['problem'].replace(
+                    '$', ''), 'skill': skill})
 
     df = pd.DataFrame(rows)
     problems = df['problem'].values
-    topics = df['topic'].values
-    return problems, topics
+    skills = df['skill'].values
+    return problems, skills
 
 
 def get_input_ids_and_attention_masks(tokenizer, problems):
@@ -308,11 +307,22 @@ def test(model, test_dataloader):
 def plot_confusion_matrix(y_true, y_predicted):
     cm = metrics.confusion_matrix(y_true, y_predicted)
     print("Plotting the Confusion Matrix")
-    labels = ["algebra", "geometry", "number_theory", "combinatorics"]
+    labels = [
+        "The Last Digit (Base 10)",
+        "Modular Arithmetic",
+        "Remainders",
+        "Greatest Common Divisor",
+        "LCM and GCD",
+        "Counting Divisors",
+        "Prime Factorization",
+        "Converting to Base 10",
+        "Base Number Problem-Solving",
+        "Repeating Decimals"
+    ]
     df_cm = pd.DataFrame(cm, index=labels, columns=labels)
-    fig = plt.figure(figsize=(7, 6))
+    fig = plt.figure(figsize=(15, 12))
     res = sns.heatmap(df_cm, annot=True, cmap='Blues', fmt='g')
-    plt.yticks([0, 1, 2, 3], labels, va='center')
+    plt.yticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], labels, va='center')
     plt.title('Confusion Matrix - TestData')
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
@@ -324,27 +334,34 @@ def main():
     global device
     seed = 42
     batch_size = 32
-    label_map = {0: "algebra", 1: "geometry",
-                 2: "number_theory", 3: "combinatorics"}
+    label_map = {
+        0: "The Last Digit (Base 10)",
+        1: "Modular Arithmetic",
+        2: "Remainders",
+        3: "Greatest Common Divisor",
+        4: "LCM and GCD",
+        5: "Counting Divisors",
+        6: "Prime Factorization",
+        7: "Converting to Base 10",
+        8: "Base Number Problem-Solving",
+        9: "Repeating Decimals"
+    }
     label_to_id = {v: k for k, v in label_map.items()}
-
     model_name = "aieng-lab/math_pretrained_bert_mamut"
     tokenizer = BertTokenizer.from_pretrained(model_name)
-    # training topics (not subcategories) for now
+    # training subcategories
     model = BertForSequenceClassification.from_pretrained(
         model_name,
-        num_labels=4,
+        num_labels=10,
         output_attentions=False,
         output_hidden_states=False,
     )
-    # print(model_name, "vocab size:", len(tokenizer))
-
-    problems, topics = get_problems_and_topics()
-    topics = np.array([label_to_id[t] for t in topics], dtype=np.int64)
+    problems, skills = get_number_theory_problems_and_skills()
+    skills = np.array([label_to_id[t] for t in skills], dtype=np.int64)
     input_ids, attention_masks = get_input_ids_and_attention_masks(
         tokenizer, problems)
     train_dataloader, validation_dataloader, test_dataloader = get_train_val_test_dataloader(
-        attention_masks, input_ids, topics, seed, batch_size)
+        attention_masks, input_ids, skills, seed, batch_size)
 
     if torch.cuda.is_available():
         device = "cuda"
@@ -368,9 +385,7 @@ def main():
         model, train_dataloader, validation_dataloader, optimizer, epochs, total_steps)
 
     plot_losses(training_loss, validation_loss)
-
     test(model, test_dataloader)
-
 
 if __name__ == "__main__":
     main()
