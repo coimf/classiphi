@@ -2,8 +2,8 @@ import streamlit as st
 st.set_page_config(page_title="Math Problem Classifier", page_icon="👾")
 st.title("Math Problem Topic and Skill Classifier")
 with st.spinner("Loading models...", show_time=True):
-    import time
     import psutil
+    import os
     import torch
     import pandas as pd
     import altair as alt
@@ -107,8 +107,10 @@ def load_streamlit_ui():
         problem_section, predictions_section = st.columns([5,2], border=True)
         st.divider()
         problem_section.markdown(problem)
+        process = psutil.Process(os.getpid())
         predictions_section.code(f"{predicted_topic[0]}", language=None, wrap_lines=True, height="stretch")
         predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
+        predictions_section.code(f"Memory Usage\n{process.memory_info().rss / 1024 ** 2:.2f} MB")
 
         topic_probability_chart_data = pd.DataFrame.from_dict(
             dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']
@@ -129,21 +131,6 @@ def load_streamlit_ui():
 def main():
     load_models(models, device)
     load_streamlit_ui()
-
-    # process = psutil.Process(os.getpid())
-    # while True:
-    #     start_time = time.perf_counter()
-    #     predicted_topic = classify_topic(problem)
-    #     print(f"\t\033[92m{time.perf_counter()-start_time:.3f}s\033[0m | Predicted topic '{predicted_topic}'")
-    #     st.write(f"Predicted topic: {predicted_topic}")
-
-    #     start_time = time.perf_counter()
-    #     predicted_skill = classify_skill(problem, predicted_topic)
-    #     print(f"\t\033[92m{time.perf_counter()-start_time:.3f}s\033[0m | Predicted skill '{predicted_skill}'")
-    #     st.write(f"Predicted skill: {predicted_skill}")
-
-    #     print(f"\tMemory usage: {process.memory_info().rss / 1024 ** 2:.2f} MB\n")
-    #     st.write(f"Memory usage: {process.memory_info().rss / 1024 ** 2:.2f} MB")
 
 if __name__ == "__main__":
     device = "cpu"
