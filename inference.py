@@ -4,11 +4,12 @@ st.title("Math Problem Topic and Skill Classifier")
 with st.spinner("Loading models...", show_time=True):
     import time
     import psutil
-    import os
-    import re
     import torch
+    import pandas as pd
+    import altair as alt
     from transformers import BertForSequenceClassification, BertTokenizer
     from streamlit_extras.stylable_container import stylable_container
+    from typing import Optional, Union, Tuple, Dict
 
 def load_models(models, device: str) -> None:
     """
@@ -30,67 +31,100 @@ def load_models(models, device: str) -> None:
         model = model.to(torch.device(device))
         model.eval()
 
-def classify_topic(problem: str) -> str:
+def build_colored_bar_chart(df, title):
+    df = df.copy()
+    df['label'] = df.index
+    max_index = df['probability'].idxmax()
+    df['color'] = ['highlight' if idx == max_index else 'normal' for idx in df.index]
+
+    color_scale = alt.Scale(
+        domain=['normal', 'highlight'],
+        range=['gray', '#cb785c']
+    )
+
+    chart = alt.Chart(df.reset_index()).mark_bar().encode(
+        y=alt.Y('label:N', sort='-x', title=None),
+        x=alt.X('probability:Q', title='Probability'),
+        color=alt.Color('color:N', scale=color_scale, legend=None)
+    ).properties(
+        title=title
+    )
+
+    return chart
+
+def classify_problem(
+    problem: str,
+    topic: Optional[str] = None,
+    return_probabilities: bool = False
+) -> Union[str, Tuple[str, Dict[str, float]]]:
     """
-    Classifies topic of the given problem using topic classifier model.
+    Classifies either topic or skill of the given problem using respective classifier model.
 
     Args:
-        problem (str): The problem to classify.
+        problem (str): Text of problem to classify.
+        topic (Optional[str]): The topic of the problem (if classifying skill).
+        return_probabilities (bool): If True, also return normalized probabilities for all labels.
 
     Returns:
-        str: The predicted topic of the problem.
+        str or (str, dict): Predicted label, optionally with dict of label probabilities.
     """
-    global models
-    input_ids = models['topic_classifier']['tokenizer'](problem, return_tensors="pt").to(device)
+    global models, device
+    classifier_name = f"{topic or 'topic'}_classifier".lower()
+    tokenizer = models[classifier_name]['tokenizer']
+    model = models[classifier_name]['model']
+    labels = models[classifier_name]['labels']
+
+    input_ids = tokenizer(problem, return_tensors="pt").to(device)
     with torch.no_grad():
-        outputs = models['topic_classifier']['model'](**input_ids)
+        outputs = model(**input_ids)
     logits = outputs.logits
-    predicted_topic_id = torch.argmax(logits, dim=-1).item()
-    predicted_topic = models['topic_classifier']['labels'][predicted_topic_id].capitalize()
-    return predicted_topic
 
-def classify_skill(problem: str, topic: str) -> str:
-    """
-    Classifies skill of the given problem using skill classifier model.
+    probs = torch.nn.functional.softmax(logits, dim=-1).squeeze(0) #shape: (num_labels,)
+    predicted_id = int(torch.argmax(probs).item())
+    predicted_label = str(labels[predicted_id]).lower()
 
-    Args:
-        problem (str): The problem to classify.
-        topic (str): The topic of the problem.
-
-    Returns:
-        str: The predicted skill of the problem.
-    """
-    global models
-    skill_classifier_name = f"{topic}_classifier".lower()
-    input_ids = models[skill_classifier_name]['tokenizer'](problem, return_tensors="pt").to(device)
-    with torch.no_grad():
-        outputs = models[skill_classifier_name]['model'](**input_ids)
-    logits = outputs.logits
-    predicted_skill_id = torch.argmax(logits, dim=-1).item()
-    predicted_skill = models[skill_classifier_name]['labels'][predicted_skill_id].capitalize()
-    return predicted_skill
+    if return_probabilities:
+        probabilities_dict = {str(label).lower(): prob.item() for label, prob in zip(labels.values(), probs)}
+        return predicted_label, probabilities_dict
+    else:
+        return predicted_label
 
 def load_streamlit_ui():
-    problem = st.text_area("Enter a problem for classification:", placeholder="Paste a problem here...", height="content")
+    problem = st.text_area("# Enter a problem for classification:", placeholder="Paste a problem here...", height="content", label_visibility="hidden")
     with stylable_container(key="classify", css_styles=r"""
         button {
             float: right;
             margin-bottom: 20px;
         }
     """):
-        start_classification = st.button("Classify", type="primary")
+        start_classification = st.button("Classify", type="primary", disabled=(len(problem) == 0))
 
-    if start_classification:
-        if problem:
-            with st.spinner("Classifying...", show_time=True):
-                predicted_topic = classify_topic(problem)
-                predicted_skill = classify_skill(problem, predicted_topic)
-            if '$' in problem:
-                st.markdown(problem)
-            st.write(f"Predicted topic: {predicted_topic}")
-            st.write(f"Predicted skill: {predicted_skill}")
-        else:
-            st.info("Please enter a problem first.")
+    if start_classification and problem:
+        with st.spinner("Classifying...", show_time=True):
+            predicted_topic = classify_problem(problem, return_probabilities=True)
+            predicted_skill = classify_problem(problem, topic=predicted_topic[0], return_probabilities=True)
+
+        problem_section, predictions_section = st.columns([5,2], border=True)
+        st.divider()
+        problem_section.markdown(problem)
+        predictions_section.code(f"{predicted_topic[0]}", language=None, wrap_lines=True, height="stretch")
+        predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
+
+        topic_probability_chart_data = pd.DataFrame.from_dict(
+            dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']
+        ).sort_values(by='probability', ascending=True)
+        skill_probability_chart_data = pd.DataFrame.from_dict(
+            dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']
+        ).sort_values(by='probability', ascending=True)
+
+        topic_chart, skill_chart = st.columns([40,60])
+
+        # Build and display charts
+        topic_chart_altair = build_colored_bar_chart(topic_probability_chart_data, "Topic Probabilities")
+        skill_chart_altair = build_colored_bar_chart(skill_probability_chart_data, "Skill Probabilities")
+        topic_chart.altair_chart(topic_chart_altair, use_container_width=True)
+        skill_chart.altair_chart(skill_chart_altair, use_container_width=True)
+
 
 def main():
     load_models(models, device)
