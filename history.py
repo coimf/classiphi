@@ -2,7 +2,6 @@ import streamlit as st
 import json
 import uuid
 from datetime import datetime
-from typing import Union
 
 def add_history(
     problem: str,
@@ -11,7 +10,7 @@ def add_history(
     topic_classifier_model_name: str,
     skill_classifier_model_name: str,
     memory_usage_mb: float,
-) -> Union[str, None]:
+) -> str:
     with open('history.json', 'r') as f:
         st.session_state.history = json.load(f)
     entry_id = str(uuid.uuid4())
@@ -28,6 +27,7 @@ def add_history(
     }
     with open('history.json', 'w') as f:
         json.dump(st.session_state.history, f)
+    return entry_id
 
 def save_feedback(id, feedback) -> None:
     with open('history.json', 'r') as f:
@@ -38,6 +38,7 @@ def save_feedback(id, feedback) -> None:
         json.dump(st.session_state.history, f)
 
 def main():
+    st.set_page_config(page_title="History", page_icon="👾")
     st.title("History")
     with st.spinner("Loading history..."):
         with open('history.json', 'r') as f:
