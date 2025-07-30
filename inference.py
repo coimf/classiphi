@@ -1,8 +1,9 @@
 import streamlit as st
 st.set_page_config(page_title="Math Problem Classifier", page_icon="👾")
-st.title("Math Problem Topic and Skill Classifier")
+st.title("Math Problem Classifier")
 with st.spinner("Loading models...", show_time=True):
     import psutil
+    import random
     import os
     import torch
     import pandas as pd
@@ -31,7 +32,7 @@ def load_models(models, device: str) -> None:
         model = model.to(torch.device(device))
         model.eval()
 
-def build_colored_bar_chart(df, title):
+def build_colored_bar_chart(df: pd.DataFrame, title: str) -> alt.Chart:
     df = df.copy()
     df['label'] = df.index
     max_index = df['probability'].idxmax()
@@ -41,7 +42,6 @@ def build_colored_bar_chart(df, title):
         domain=['normal', 'highlight'],
         range=['gray', '#cb785c']
     )
-
     chart = alt.Chart(df.reset_index()).mark_bar().encode(
         y=alt.Y('label:N', sort='-x', title=None),
         x=alt.X('probability:Q', title='Probability'),
@@ -49,7 +49,6 @@ def build_colored_bar_chart(df, title):
     ).properties(
         title=title
     )
-
     return chart
 
 def classify_problem(
@@ -90,42 +89,58 @@ def classify_problem(
         return predicted_label
 
 def load_streamlit_ui():
-    problem = st.text_area("# Enter a problem for classification:", placeholder="Paste a problem here...", height="content", label_visibility="hidden")
+    st.subheader("Examples")
+    if "shuffled_examples" not in st.session_state:
+        st.session_state.shuffled_examples = random.sample(example_problems, len(example_problems))
+    example_columns = st.columns(3, vertical_alignment="center")
+    if "selected_problem" not in st.session_state:
+        st.session_state.selected_problem = ""
+    for i, column in enumerate(example_columns):
+        example = st.session_state.shuffled_examples[i]
+        if column.button(f"{example[:40]}...", key=f"example_btn_{i}"):  # Show a preview
+            st.session_state.selected_problem = example
+    problem = st.text_area(
+        "Enter a problem:",
+        placeholder="Paste a problem here...",
+        value=st.session_state.selected_problem,
+        height="content",
+        label_visibility="hidden"
+    )
     with stylable_container(key="classify", css_styles=r"""
+        toggle {
+            float: left;
+        }
         button {
             float: right;
-            margin-bottom: 20px;
         }
     """):
-        start_classification = st.button("Classify", type="primary", disabled=(len(problem) == 0))
+        cols = st.columns(2)
+        classify_skill = cols[0].toggle("Classify Skill :material/experiment:", value=True)
+        start_classification = cols[1].button("Classify", type="primary", disabled=(len(problem) == 0))
+        st.divider()
 
     if start_classification and problem:
         with st.spinner("Classifying...", show_time=True):
             predicted_topic = classify_problem(problem, return_probabilities=True)
-            predicted_skill = classify_problem(problem, topic=predicted_topic[0], return_probabilities=True)
+            predicted_skill = classify_problem(problem, topic=predicted_topic[0], return_probabilities=True) if classify_skill else None
 
-        problem_section, predictions_section = st.columns([5,2], border=True)
+        problem_section, predictions_section = st.columns([65, 35], border=True)
         st.divider()
         problem_section.markdown(problem)
         process = psutil.Process(os.getpid())
         predictions_section.code(f"{predicted_topic[0]}", language=None, wrap_lines=True, height="stretch")
-        predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
+        if classify_skill:
+            predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
         predictions_section.code(f"Memory Usage\n{process.memory_info().rss / 1024 ** 2:.2f} MB")
-
-        topic_probability_chart_data = pd.DataFrame.from_dict(
-            dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']
-        ).sort_values(by='probability', ascending=True)
-        skill_probability_chart_data = pd.DataFrame.from_dict(
-            dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']
-        ).sort_values(by='probability', ascending=True)
-
-        topic_chart, skill_chart = st.columns([40,60])
-
-        # Build and display charts
-        topic_chart_altair = build_colored_bar_chart(topic_probability_chart_data, "Topic Probabilities")
-        skill_chart_altair = build_colored_bar_chart(skill_probability_chart_data, "Skill Probabilities")
+        topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
+        topic_chart_altair = build_colored_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Topic Probabilities")
         topic_chart.altair_chart(topic_chart_altair, use_container_width=True)
-        skill_chart.altair_chart(skill_chart_altair, use_container_width=True)
+        if classify_skill:
+            skill_chart_altair = build_colored_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Skill Probabilities")
+            skill_chart.altair_chart(skill_chart_altair, use_container_width=True)
+        st.divider()
+        st.write("Was this helpful?")
+        selected = st.feedback("thumbs")
 
 
 def main():
@@ -210,4 +225,10 @@ if __name__ == "__main__":
             }
         }
     }
+    example_problems = [
+        r"""Let $p$, $q$, and $r$ be the distinct roots of the polynomial $x^3 - 22x^2 + 80x - 67$. It is given that there exist real numbers $A$, $B$, and $C$ such that $$\dfrac{1}{s^3 - 22s^2 + 80s - 67} = \dfrac{A}{s-p} + \dfrac{B}{s-q} + \frac{C}{s-r}$$for all $s\not\in\{p,q,r\}$. What is $\tfrac1A+\tfrac1B+\tfrac1C$?""",
+        r"""A square with side length $x$ is inscribed in a right triangle with sides of length $3$, $4$, and $5$ so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length $y$ is inscribed in another right triangle with sides of length $3$, $4$, and $5$ so that one side of the square lies on the hypotenuse of the triangle. What is $\dfrac{x}{y}$?""",
+        r"""For how many integer values of $x$ is $|2x| \leq 7 \pi$?""",
+        r"""For each positive integer $n$, let $f(n) = \sum_{k = 1}^{100} \lfloor \log_{10} (kn) \rfloor$. Find the largest value of $n$ for which $f(n) \le 300$.""",
+    ]
     main()
