@@ -32,7 +32,7 @@ def load_models(models, device: str) -> None:
         model = model.to(torch.device(device))
         model.eval()
 
-def build_colored_bar_chart(df: pd.DataFrame, title: str) -> alt.Chart:
+def build_altair_bar_chart(df: pd.DataFrame, title: str) -> alt.Chart:
     df = df.copy()
     df['label'] = df.index
     max_index = df['probability'].idxmax()
@@ -67,7 +67,6 @@ def classify_problem(
     Returns:
         str or (str, dict): Predicted label, optionally with dict of label probabilities.
     """
-    global models, device
     classifier_name = f"{topic or 'topic'}_classifier".lower()
     tokenizer = models[classifier_name]['tokenizer']
     model = models[classifier_name]['model']
@@ -97,7 +96,7 @@ def load_streamlit_ui():
         st.session_state.selected_problem = ""
     for i, column in enumerate(example_columns):
         example = st.session_state.shuffled_examples[i]
-        if column.button(f"{example[:40]}...", key=f"example_btn_{i}"):  # Show a preview
+        if column.button(f"{example[:42]}...", key=f"example_btn_{i}"):  # Show a preview
             st.session_state.selected_problem = example
     problem = st.text_area(
         "Enter a problem:",
@@ -133,15 +132,14 @@ def load_streamlit_ui():
             predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
         predictions_section.code(f"Memory Usage\n{process.memory_info().rss / 1024 ** 2:.2f} MB")
         topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
-        topic_chart_altair = build_colored_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Topic Probabilities")
+        topic_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Topic Probabilities")
         topic_chart.altair_chart(topic_chart_altair, use_container_width=True)
         if classify_skill:
-            skill_chart_altair = build_colored_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Skill Probabilities")
+            skill_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Skill Probabilities")
             skill_chart.altair_chart(skill_chart_altair, use_container_width=True)
         st.divider()
         st.write("Was this helpful?")
         selected = st.feedback("thumbs")
-
 
 def main():
     load_models(models, device)
@@ -226,7 +224,7 @@ if __name__ == "__main__":
         }
     }
     example_problems = [
-        r"""Let $p$, $q$, and $r$ be the distinct roots of the polynomial $x^3 - 22x^2 + 80x - 67$. It is given that there exist real numbers $A$, $B$, and $C$ such that $$\dfrac{1}{s^3 - 22s^2 + 80s - 67} = \dfrac{A}{s-p} + \dfrac{B}{s-q} + \frac{C}{s-r}$$for all $s\not\in\{p,q,r\}$. What is $\tfrac1A+\tfrac1B+\tfrac1C$?""",
+        r"""Let $p$, $q$, and $r$ be the distinct roots of the polynomial $x^3 - 22x^2 + 80x - 67$. It is given that there exist real numbers $A$, $B$, and $C$ such that $$\dfrac{1}{s^3 - 22s^2 + 80s - 67} = \dfrac{A}{s-p} + \dfrac{B}{s-q} + \dfrac{C}{s-r}$$for all $s\not\in\{p,q,r\}$. What is $\tfrac1A+\tfrac1B+\tfrac1C$?""",
         r"""A square with side length $x$ is inscribed in a right triangle with sides of length $3$, $4$, and $5$ so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length $y$ is inscribed in another right triangle with sides of length $3$, $4$, and $5$ so that one side of the square lies on the hypotenuse of the triangle. What is $\dfrac{x}{y}$?""",
         r"""For how many integer values of $x$ is $|2x| \leq 7 \pi$?""",
         r"""For each positive integer $n$, let $f(n) = \sum_{k = 1}^{100} \lfloor \log_{10} (kn) \rfloor$. Find the largest value of $n$ for which $f(n) \le 300$.""",
