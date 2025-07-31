@@ -1,11 +1,8 @@
 pandas
 transformers
 torch
-datasets
 scikit-learn
 accelerate
-matplotlib
-seaborn
 streamlit
 streamlit-extras
 watchdog
