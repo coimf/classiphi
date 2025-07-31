@@ -2,20 +2,29 @@ import streamlit as st
 st.set_page_config(page_title="ClassiPhi | Classify Math Problems", page_icon="👾")
 st.title("Math Problem Classifier")
 with st.spinner("Loading models...", show_time=True):
-    from psutil import Process
-    from random import sample
-    from os import getpid
-    from torch.nn.functional import softmax
-    from torch import inference_mode, device, float16
     import pandas as pd
     import altair as alt
+    import os
+    from psutil import Process
+    from random import sample
+    from torch.nn.functional import softmax
+    from torch import inference_mode, device, float16
     from transformers import BertForSequenceClassification, BertTokenizer
     from streamlit_extras.stylable_container import stylable_container
     from typing import Optional, Union, Tuple, Dict, cast
+    from huggingface_hub import snapshot_download
     import history
 
 @st.cache_resource
 def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertTokenizer]:
+    if not os.path.exists(model_name):
+        snapshot_download(
+            repo_id="cof139/bert-classiphi",
+            repo_type="model",
+            local_dir=model_name,
+            allow_patterns=model_name.removeprefix("models/")+"/*",
+            local_dir_use_symlinks=False
+        )
     model = (BertForSequenceClassification
                  .from_pretrained(model_name, torch_dtype=float16)
                  .to(device("cpu")))
@@ -122,7 +131,7 @@ def load_streamlit_ui() -> None:
         problem_section, predictions_section = st.columns([65, 35], border=True)
         st.divider()
         problem_section.markdown(problem)
-        process = Process(getpid())
+        process = Process(os.getpid())
         predictions_section.code(f"{predicted_topic}", language=None, wrap_lines=True, height="stretch")
         if classify_skill and predicted_skill:
             predictions_section.code(f"{predicted_skill}", language=None, wrap_lines=True, height="stretch")
