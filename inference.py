@@ -129,16 +129,16 @@ def load_streamlit_ui() -> None:
         st.divider()
         problem_section.markdown(problem)
         process = psutil.Process(os.getpid())
-        predictions_section.code(f"{predicted_topic[0]}", language=None, wrap_lines=True, height="stretch")
+        predictions_section.code(f"{predicted_topic}", language=None, wrap_lines=True, height="stretch")
         if classify_skill and predicted_skill:
-            predictions_section.code(f"{predicted_skill[0]}", language=None, wrap_lines=True, height="stretch")
+            predictions_section.code(f"{predicted_skill}", language=None, wrap_lines=True, height="stretch")
         predictions_section.code(f"Memory Usage\n{process.memory_info().rss / 1024 ** 2:.2f} MB")
         problem_id = history.add_history(
             problem,
             predicted_topic,
             predicted_skill,
             models['topic_classifier']['model_name'],
-            models[f'{predicted_topic[0]}_classifier']['model_name'],
+            models[f'{predicted_topic}_classifier']['model_name'],
             process.memory_info().rss / 1024 ** 2
         )
         topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
