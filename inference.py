@@ -18,6 +18,7 @@ with st.spinner("Loading models...", show_time=True):
 @st.cache_resource
 def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertTokenizer]:
     if not os.path.exists(model_name):
+        hf_token = st.secrets["HF_TOKEN"]
         with st.spinner("Downloading models...", show_time=True):
             print(f"Local models not detected. Downloading {model_name}")
             snapshot_download(
@@ -25,7 +26,8 @@ def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertToke
                 repo_type="model",
                 local_dir=model_name,
                 allow_patterns=model_name.removeprefix("models/")+"/*",
-                local_dir_use_symlinks=False
+                local_dir_use_symlinks=False,
+                token=hf_token
             )
     model = (BertForSequenceClassification
                  .from_pretrained(model_name, torch_dtype=float16)
