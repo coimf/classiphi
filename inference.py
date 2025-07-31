@@ -18,13 +18,15 @@ with st.spinner("Loading models...", show_time=True):
 @st.cache_resource
 def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertTokenizer]:
     if not os.path.exists(model_name):
-        snapshot_download(
-            repo_id="cof139/bert-classiphi",
-            repo_type="model",
-            local_dir=model_name,
-            allow_patterns=model_name.removeprefix("models/")+"/*",
-            local_dir_use_symlinks=False
-        )
+        with st.spinner("Downloading models...", show_time=True):
+            print(f"Local models not detected. Downloading {model_name}")
+            snapshot_download(
+                repo_id="cof139/bert-classiphi",
+                repo_type="model",
+                local_dir=model_name,
+                allow_patterns=model_name.removeprefix("models/")+"/*",
+                local_dir_use_symlinks=False
+            )
     model = (BertForSequenceClassification
                  .from_pretrained(model_name, torch_dtype=float16)
                  .to(device("cpu")))
