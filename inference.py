@@ -158,6 +158,14 @@ def request_feedback(id: str) -> None:
         st.success("Thank you for your feedback!")
         history.save_feedback(id, selected)
 
+@st.cache_resource
+def load_model(model_path: str) -> BertForSequenceClassification:
+    return BertForSequenceClassification.from_pretrained(model_path)
+
+@st.cache_resource
+def load_tokenizer(model_path: str) -> BertTokenizer:
+    return BertTokenizer.from_pretrained(model_path)
+
 def main():
     load_models(models, device)
     load_streamlit_ui()
@@ -167,8 +175,8 @@ if __name__ == "__main__":
     models = {
         "topic_classifier": {
             "model_name": "models/topic_classifier",
-            "model": BertForSequenceClassification.from_pretrained("models/topic_classifier"),
-            "tokenizer": BertTokenizer.from_pretrained("models/topic_classifier"),
+            "model": load_model("models/topic_classifier"),
+            "tokenizer": load_tokenizer("models/topic_classifier"),
             "labels": {
                 0: "algebra",
                 1: "geometry",
@@ -178,8 +186,8 @@ if __name__ == "__main__":
         },
         "algebra_classifier": {
             "model_name": "models/algebra_classifier_8158_epoch12_0729_21-45-15",
-            "model": BertForSequenceClassification.from_pretrained("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
-            "tokenizer": BertTokenizer.from_pretrained("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
+            "model": load_model("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
+            "tokenizer": load_tokenizer("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
             "labels" : {
                 0: "Simon's Favorite Factoring Trick",
                 1: "Clever Algebraic Manipulations",
@@ -195,8 +203,8 @@ if __name__ == "__main__":
         },
         "geometry_classifier": {
             "model_name": "models/geometry_classifier_8435_epoch6_0729_20-40-41",
-            "model": BertForSequenceClassification.from_pretrained("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
-            "tokenizer": BertTokenizer.from_pretrained("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
+            "model": load_model("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
+            "tokenizer": load_tokenizer("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
             "labels" : {
                 0: "Similar Triangles",
                 1: "Bisectors in a Triangle",
@@ -212,8 +220,8 @@ if __name__ == "__main__":
         },
         "number_theory_classifier": {
             "model_name": "models/number_theory_classifier_7109_epoch6_0729_20-34-55",
-            "model": BertForSequenceClassification.from_pretrained("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
-            "tokenizer": BertTokenizer.from_pretrained("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
+            "model": load_model("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
+            "tokenizer": load_tokenizer("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
             "labels" : {
                 0: "The Last Digit (Base 10)",
                 1: "Modular Arithmetic",
@@ -229,8 +237,8 @@ if __name__ == "__main__":
         },
         "combinatorics_classifier": {
             "model_name": "models/combinatorics_classifier_7368_epoch16_0729_22-36-57",
-            "model": BertForSequenceClassification.from_pretrained("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
-            "tokenizer": BertTokenizer.from_pretrained("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
+            "model": load_model("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
+            "tokenizer": load_tokenizer("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
             "labels": {
                 0: "Constructive Counting",
                 1: "Complementary Counting",

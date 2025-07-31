@@ -1,7 +1,6 @@
 pandas
 transformers
 torch
-scikit-learn
 accelerate
 streamlit
 streamlit-extras
