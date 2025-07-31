@@ -54,7 +54,7 @@ def increase_max_results_per_page(increment: Optional[int] = 10) -> None:
 def main():
     global load_persistent_history
     load_persistent_history = os.path.exists('history.json')
-    st.set_page_config(page_title="History", page_icon="👾")
+    st.set_page_config(page_title="ClassiPhi | History", page_icon="👾")
     st.title("History :material/history:")
     with st.spinner("Loading history..."):
         if load_persistent_history:

@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Math Problem Classifier", page_icon="👾")
+st.set_page_config(page_title="ClassiPhi | Classify Math Problems", page_icon="👾")
 st.title("Math Problem Classifier")
 with st.spinner("Loading models...", show_time=True):
     import psutil
