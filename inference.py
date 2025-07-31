@@ -10,9 +10,10 @@ with st.spinner("Loading models...", show_time=True):
     import altair as alt
     from transformers import BertForSequenceClassification, BertTokenizer
     from streamlit_extras.stylable_container import stylable_container
-    from typing import Optional, Union, Tuple, Dict
+    from typing import Optional, Union, Tuple, Dict, cast
     import history
 
+@st.fragment
 def load_models(models, device: str) -> None:
     """
     Loads models onto the specified device.
@@ -88,7 +89,7 @@ def classify_problem(
     else:
         return predicted_label
 
-def load_streamlit_ui():
+def load_streamlit_ui() -> None:
     st.subheader("Examples")
     if "shuffled_examples" not in st.session_state:
         st.session_state.shuffled_examples = random.sample(example_problems, len(example_problems))
@@ -110,15 +111,20 @@ def load_streamlit_ui():
         toggle { float: left; }
         button { float: right; }
     """):
-        cols = st.columns(2)
+        cols = st.columns(2, vertical_alignment="center")
+        cols[0].badge("BETA", color="primary")
         classify_skill = cols[0].toggle("Classify Skill :material/experiment:", value=True)
         start_classification = cols[1].button("Classify", type="primary", disabled=(len(problem) == 0))
         st.divider()
 
     if start_classification and problem:
         with st.spinner("Classifying...", show_time=True):
-            predicted_topic = classify_problem(problem, return_probabilities=True)
-            predicted_skill = classify_problem(problem, topic=predicted_topic[0], return_probabilities=True) if classify_skill else None
+            predicted_topic, topic_probabilities = cast(Tuple[str, Dict[str, float]], classify_problem(problem, return_probabilities=True))
+            if classify_skill:
+                predicted_skill, skill_probabilities = cast(Tuple[str, Dict[str, float]], classify_problem(problem, topic=predicted_topic, return_probabilities=True))
+            else:
+                predicted_skill = "disabled_by_user"
+                skill_probabilities = None
         problem_section, predictions_section = st.columns([65, 35], border=True)
         st.divider()
         problem_section.markdown(problem)
@@ -129,29 +135,28 @@ def load_streamlit_ui():
         predictions_section.code(f"Memory Usage\n{process.memory_info().rss / 1024 ** 2:.2f} MB")
         problem_id = history.add_history(
             problem,
-            predicted_topic[0],
-            predicted_skill[0] if classify_skill else "disabled_by_user",
+            predicted_topic,
+            predicted_skill,
             models['topic_classifier']['model_name'],
             models[f'{predicted_topic[0]}_classifier']['model_name'],
             process.memory_info().rss / 1024 ** 2
         )
         topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
-        topic_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_topic[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Topic Probabilities")
+        topic_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(topic_probabilities, orient='index').rename(columns={0: 'probability'}), "Topic Probabilities")
         topic_chart.altair_chart(topic_chart_altair, use_container_width=True)
-        if classify_skill and predicted_skill:
-            skill_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(dict(sorted(predicted_skill[1].items(), key=lambda item: item[1], reverse=True)), orient='index', columns=['probability']), "Skill Probabilities")
+        if skill_probabilities and classify_skill:
+            skill_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(skill_probabilities, orient='index').rename(columns={0: 'probability'}), "Skill Probabilities")
             skill_chart.altair_chart(skill_chart_altair, use_container_width=True)
         st.divider()
         request_feedback(problem_id)
 
 @st.fragment
-def request_feedback(id: str) -> int:
+def request_feedback(id: str) -> None:
     st.write("Was this helpful?")
     selected = st.feedback("thumbs")
-    if selected in (-1, 1):
+    if selected in (0, 1):
         st.success("Thank you for your feedback!")
         history.save_feedback(id, selected)
-    return selected
 
 def main():
     load_models(models, device)

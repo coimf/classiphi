@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import uuid
 from datetime import datetime
+from typing import Optional
 
 def add_history(
     problem: str,
@@ -29,7 +30,7 @@ def add_history(
         json.dump(st.session_state.history, f)
     return entry_id
 
-def save_feedback(id, feedback) -> None:
+def save_feedback(id: str, feedback: int) -> None:
     with open('history.json', 'r') as f:
         st.session_state.history = json.load(f)
     if id in st.session_state.history and feedback in [0,1]:
@@ -37,24 +38,35 @@ def save_feedback(id, feedback) -> None:
     with open('history.json', 'w') as f:
         json.dump(st.session_state.history, f)
 
+def increase_max_results_per_page(increment: Optional[int] = 10) -> None:
+    if "max_results_per_page" in st.session_state:
+        st.session_state.max_results_per_page += (increment if increment and increment > 0 else 10)
+
 def main():
     st.set_page_config(page_title="History", page_icon="👾")
-    st.title("History")
+    st.title("History :material/history:")
     with st.spinner("Loading history..."):
         with open('history.json', 'r') as f:
             st.session_state.history = json.load(f)
+        if "max_results_per_page" not in st.session_state:
+            st.session_state.max_results_per_page = 10
     if len(st.session_state.history) == 0:
         st.write("No history yet. Classify a problem to get started!")
-        st.page_link("inference.py", label="To Classification")
+        st.page_link("inference.py", label="To Classification", icon=":material/arrow_forward_ios:")
     else:
+        st.write("Problems you classify will appear here.")
+        st.divider()
         columns = st.columns([65, 35])
         columns[0].write("## Problem")
         columns[1].write("## Result")
-        for entry in reversed(st.session_state.history.values()):
+        for entry in reversed(list(st.session_state.history.values())[-st.session_state.max_results_per_page:]):
             columns = st.columns([65, 35])
             columns[0].markdown(entry['problem'])
             columns[1].code(entry['predicted_topic'], language=None, wrap_lines=True, height="stretch")
             columns[1].code(entry['predicted_skill'], language=None, wrap_lines=True, height="stretch")
+            st.divider()
+        if(len(st.session_state.history.values()) > st.session_state.max_results_per_page):
+            st.button("Load More", key="load_more", on_click=increase_max_results_per_page)
 
 if __name__ == "__main__":
     main()
