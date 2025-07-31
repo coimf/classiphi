@@ -24,9 +24,8 @@ def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertToke
             snapshot_download(
                 repo_id="cof139/bert-classiphi",
                 repo_type="model",
-                local_dir=model_name,
+                local_dir="models/",
                 allow_patterns=model_name.removeprefix("models/")+"/*",
-                local_dir_use_symlinks=False,
                 token=hf_token
             )
     model = (BertForSequenceClassification
