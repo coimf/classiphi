@@ -2,10 +2,11 @@ import streamlit as st
 st.set_page_config(page_title="ClassiPhi | Classify Math Problems", page_icon="👾")
 st.title("Math Problem Classifier")
 with st.spinner("Loading models...", show_time=True):
-    import psutil
-    import random
-    import os
-    import torch
+    from psutil import Process
+    from random import sample
+    from os import getpid
+    from torch.nn.functional import softmax
+    from torch import inference_mode, device, float16
     import pandas as pd
     import altair as alt
     from transformers import BertForSequenceClassification, BertTokenizer
@@ -13,46 +14,38 @@ with st.spinner("Loading models...", show_time=True):
     from typing import Optional, Union, Tuple, Dict, cast
     import history
 
-@st.fragment
-def load_models(models, device: str) -> None:
-    """
-    Loads models onto the specified device.
+@st.cache_resource
+def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertTokenizer]:
+    model = (BertForSequenceClassification
+                 .from_pretrained(model_name, torch_dtype=float16)
+                 .to(device("cpu")))
+    model.eval()
+    tokenizer = BertTokenizer.from_pretrained(model_name)
+    return model, tokenizer
 
-    Args:
-        models (dict): Dictionary of models to load.
-        device (str): Device to load models onto.
-
-    Returns:
-        None
-    """
-    device = device.lower()
-    if device not in ['cpu', 'cuda', 'mps']:
-        print(f"Device '{device}' not supported, defaulting to cpu.")
-        device = "cpu"
-    for model_name in models:
-        model = models[model_name]['model']
-        model = model.to(torch.device(device))
-        model.eval()
-
+@st.cache_data
 def build_altair_bar_chart(df: pd.DataFrame, title: str) -> alt.Chart:
-    df = df.copy()
-    df['label'] = df.index
-    max_index = df['probability'].idxmax()
-    df['color'] = ['highlight' if idx == max_index else 'normal' for idx in df.index]
-
+    max_idx = df['probability'].idxmax()
+    df2 = df.reset_index().assign(
+        label = lambda d: d['index'],
+        color = lambda d: ['highlight' if i == max_idx else 'normal' for i in d['index']]
+    )
     color_scale = alt.Scale(
         domain=['normal', 'highlight'],
         range=['gray', '#cb785c']
     )
-    chart = alt.Chart(df.reset_index()).mark_bar().encode(
-        y=alt.Y('label:N', sort='-x', title=None),
-        x=alt.X('probability:Q', title='Probability'),
-        color=alt.Color('color:N', scale=color_scale, legend=None)
-    ).properties(
-        title=title
+    return (
+        alt.Chart(df2)
+        .mark_bar()
+        .encode(
+            y=alt.Y('label:N', sort='-x', title=None),
+            x=alt.X('probability:Q', title='Probability'),
+            color=alt.Color('color:N', scale=color_scale, legend=None)
+        )
+        .properties(title=title)
     )
-    return chart
 
+@st.cache_data(show_spinner=False)
 def classify_problem(
     problem: str,
     topic: Optional[str] = None,
@@ -69,30 +62,31 @@ def classify_problem(
     Returns:
         str or (str, dict): Predicted label, optionally with dict of label probabilities.
     """
-    classifier_name = f"{topic or 'topic'}_classifier".lower()
-    tokenizer = models[classifier_name]['tokenizer']
-    model = models[classifier_name]['model']
+    classifier_name = (topic or 'topic').lower() + "_classifier"
+    model, tokenizer = load_model(models[classifier_name]["model_path"])
     labels = models[classifier_name]['labels']
 
-    input_ids = tokenizer(problem, return_tensors="pt").to(device)
-    with torch.no_grad():
-        outputs = model(**input_ids)
-    logits = outputs.logits
+    encoded = tokenizer(problem, return_tensors="pt", padding=True, truncation=True)
 
-    probs = torch.nn.functional.softmax(logits, dim=-1).squeeze(0)
-    predicted_id = int(torch.argmax(probs).item())
-    predicted_label = str(labels[predicted_id]).lower()
+    with inference_mode():
+        logits = model(**encoded).logits
 
-    if return_probabilities:
-        probabilities_dict = {str(label).lower(): prob.item() for label, prob in zip(labels.values(), probs)}
-        return predicted_label, probabilities_dict
-    else:
+    predicted_id = int(logits.argmax(dim=-1).item())
+    predicted_label = labels[predicted_id].lower()
+
+    if not return_probabilities:
         return predicted_label
+
+    probs = softmax(logits, dim=-1).half()[0]
+    prob_vals = probs.cpu().numpy()
+    probabilities_dict = {labels[i].lower(): float(prob_vals[i]) for i in range(len(labels))}
+    del probs, logits, encoded
+    return predicted_label, probabilities_dict
 
 def load_streamlit_ui() -> None:
     st.subheader("Examples")
     if "shuffled_examples" not in st.session_state:
-        st.session_state.shuffled_examples = random.sample(example_problems, len(example_problems))
+        st.session_state.shuffled_examples = sample(example_problems, len(example_problems))
     example_columns = st.columns(3, vertical_alignment="center")
     if "selected_example_problem" not in st.session_state:
         st.session_state.selected_example_problem = ""
@@ -128,7 +122,7 @@ def load_streamlit_ui() -> None:
         problem_section, predictions_section = st.columns([65, 35], border=True)
         st.divider()
         problem_section.markdown(problem)
-        process = psutil.Process(os.getpid())
+        process = Process(getpid())
         predictions_section.code(f"{predicted_topic}", language=None, wrap_lines=True, height="stretch")
         if classify_skill and predicted_skill:
             predictions_section.code(f"{predicted_skill}", language=None, wrap_lines=True, height="stretch")
@@ -137,8 +131,8 @@ def load_streamlit_ui() -> None:
             problem,
             predicted_topic,
             predicted_skill,
-            models['topic_classifier']['model_name'],
-            models[f'{predicted_topic}_classifier']['model_name'],
+            models['topic_classifier']['model_path'],
+            models[f'{predicted_topic}_classifier']['model_path'],
             process.memory_info().rss / 1024 ** 2
         )
         topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
@@ -158,25 +152,11 @@ def request_feedback(id: str) -> None:
         st.success("Thank you for your feedback!")
         history.save_feedback(id, selected)
 
-@st.cache_resource
-def load_model(model_path: str) -> BertForSequenceClassification:
-    return BertForSequenceClassification.from_pretrained(model_path)
-
-@st.cache_resource
-def load_tokenizer(model_path: str) -> BertTokenizer:
-    return BertTokenizer.from_pretrained(model_path)
-
 def main():
-    load_models(models, device)
-    load_streamlit_ui()
-
-if __name__ == "__main__":
-    device = "cpu"
+    global example_problems, models
     models = {
         "topic_classifier": {
-            "model_name": "models/topic_classifier",
-            "model": load_model("models/topic_classifier"),
-            "tokenizer": load_tokenizer("models/topic_classifier"),
+            "model_path": "models/topic_classifier",
             "labels": {
                 0: "algebra",
                 1: "geometry",
@@ -185,9 +165,7 @@ if __name__ == "__main__":
             }
         },
         "algebra_classifier": {
-            "model_name": "models/algebra_classifier_8158_epoch12_0729_21-45-15",
-            "model": load_model("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
-            "tokenizer": load_tokenizer("models/algebra_classifier_8158_epoch12_0729_21-45-15"),
+            "model_path": "models/algebra_classifier_8158_epoch12_0729_21-45-15",
             "labels" : {
                 0: "Simon's Favorite Factoring Trick",
                 1: "Clever Algebraic Manipulations",
@@ -202,9 +180,7 @@ if __name__ == "__main__":
             }
         },
         "geometry_classifier": {
-            "model_name": "models/geometry_classifier_8435_epoch6_0729_20-40-41",
-            "model": load_model("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
-            "tokenizer": load_tokenizer("models/geometry_classifier_8435_epoch6_0729_20-40-41"),
+            "model_path": "models/geometry_classifier_8435_epoch6_0729_20-40-41",
             "labels" : {
                 0: "Similar Triangles",
                 1: "Bisectors in a Triangle",
@@ -219,9 +195,7 @@ if __name__ == "__main__":
             }
         },
         "number_theory_classifier": {
-            "model_name": "models/number_theory_classifier_7109_epoch6_0729_20-34-55",
-            "model": load_model("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
-            "tokenizer": load_tokenizer("models/number_theory_classifier_7109_epoch6_0729_20-34-55"),
+            "model_path": "models/number_theory_classifier_7109_epoch6_0729_20-34-55",
             "labels" : {
                 0: "The Last Digit (Base 10)",
                 1: "Modular Arithmetic",
@@ -236,9 +210,7 @@ if __name__ == "__main__":
             }
         },
         "combinatorics_classifier": {
-            "model_name": "models/combinatorics_classifier_7368_epoch16_0729_22-36-57",
-            "model": load_model("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
-            "tokenizer": load_tokenizer("models/combinatorics_classifier_7368_epoch16_0729_22-36-57"),
+            "model_path": "models/combinatorics_classifier_7368_epoch16_0729_22-36-57",
             "labels": {
                 0: "Constructive Counting",
                 1: "Complementary Counting",
@@ -259,4 +231,7 @@ if __name__ == "__main__":
         r"""For how many integer values of $x$ is $|2x| \leq 7 \pi$?""",
         r"""For each positive integer $n$, let $f(n) = \sum_{k = 1}^{100} \lfloor \log_{10} (kn) \rfloor$. Find the largest value of $n$ for which $f(n) \le 300$.""",
     ]
+    load_streamlit_ui()
+
+if __name__ == "__main__":
     main()

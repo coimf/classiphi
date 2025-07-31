@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 from typing import Optional
 
+@st.cache_data(show_spinner=False)
 def add_history(
     problem: str,
     predicted_topic: str,
@@ -13,6 +14,7 @@ def add_history(
     skill_classifier_model_name: str,
     memory_usage_mb: float,
 ) -> str:
+    load_persistent_history = os.path.exists('history.json')
     if load_persistent_history:
         with open('history.json', 'r') as f:
             st.session_state.history = json.load(f)
