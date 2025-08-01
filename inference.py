@@ -8,7 +8,7 @@ with st.spinner("Loading models...", show_time=True):
     from psutil import Process
     from random import sample
     from torch.nn.functional import softmax
-    from torch import inference_mode, device, float16
+    from torch import inference_mode, float16
     from transformers import BertForSequenceClassification, BertTokenizer
     from streamlit_extras.stylable_container import stylable_container
     from typing import Optional, Union, Tuple, Dict, cast
@@ -28,11 +28,9 @@ def load_model(model_name: str) -> Tuple[BertForSequenceClassification, BertToke
                 allow_patterns=model_name.removeprefix("models/")+"/*",
                 token=hf_token
             )
-    model = (BertForSequenceClassification
-                 .from_pretrained(model_name, torch_dtype=float16)
-                 .to(device("cpu")))
+    model = BertForSequenceClassification.from_pretrained(model_name, torch_dtype=float16)
     model.eval()
-    tokenizer = BertTokenizer.from_pretrained(model_name)
+    tokenizer = BertTokenizer.from_pretrained(model_name, torch_dtype=float16)
     return model, tokenizer
 
 @st.cache_data
@@ -242,6 +240,17 @@ def main():
         r"""A square with side length $x$ is inscribed in a right triangle with sides of length $3$, $4$, and $5$ so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length $y$ is inscribed in another right triangle with sides of length $3$, $4$, and $5$ so that one side of the square lies on the hypotenuse of the triangle. What is $\dfrac{x}{y}$?""",
         r"""For how many integer values of $x$ is $|2x| \leq 7 \pi$?""",
         r"""For each positive integer $n$, let $f(n) = \sum_{k = 1}^{100} \lfloor \log_{10} (kn) \rfloor$. Find the largest value of $n$ for which $f(n) \le 300$.""",
+        r"""Find the number of ordered pairs $(x,y)$, where both $x$ and $y$ are integers between $-100$ and $100$, inclusive, such that $12x^2-xy-6y^2=0$.""",
+        r"""Find the sum of all integer bases $b>9$ for which $17_b$ is a divisor of $97_b.$""",
+        r"""There are exactly $K$ positive integers $5 \leq b \leq 2024$ such that the base-$b$ integer $2024_{b}$ is divisible by $16$(where $16$ is in base ten). What is the sum of the digits of $K$?""",
+        r"""Integers $a$, $b$, and $c$ satisfy $ab + c = 100$, $bc + a = 87$, and $ca + b = 60$. What is $ab + bc + ca?$""",
+        r"""What is the remainder when $7^{2024}+7^{2025}+7^{2026}$ is divided by $19$?""",
+        r"""Jerry likes to play with numbers. One day, he wrote all the integers from $1$ to $2024$ on the whiteboard. Then he repeatedly chose four numbers on the whiteboard, erased them, and replaced them by either their sum or their product. (For example, Jerry's first step might have been to erase $1$, $2$, $3$, and $5$, and then write either $11$, their sum, or $30$, their product, on the whiteboard.) After repeatedly performing this operation, Jerry noticed that all the remaining numbers on the whiteboard were odd. What is the maximum possible number of integers on the whiteboard at that time?""",
+        r"""How many different remainders can result when the $100$th power of an integer is divided by $125$?""",
+        r"""A rectangle has integer side lengths and an area of $2024$. What is the least possible perimeter of the rectangle?""",
+        r"""Real numbers $a, b,$ and $c$ have arithmetic mean $0$. The arithmetic mean of $a^2, b^2,$ and $c^2$ is $10$. What is the arithmetic mean of $ab, ac,$ and $bc$?""",
+        r"""A dartboard is the region $B$ in the coordinate plane consisting of points $(x,y)$ such that $|x| + |y| \le 8$ . A target $T$ is the region where $(x^2 + y^2 - 25)^2 \le 49.$ A dart is thrown and lands at a random point in $B$. The probability that the dart lands in $T$ can be expressed as $\frac{m}{n} \cdot \pi,$ where $m$ and $n$ are relatively prime positive integers. What is $m + n?$""",
+        r"""A list of $9$ real numbers consists of $1$, $2.2$, $3.2$, $5.2$, $6.2$, and $7$, as well as $x$, $y$ , and $z$ with $x$ $\le$ $y$ $\le$ $z$. The range of the list is $7$, and the mean and the median are both positive integers. How many ordered triples ($x$, $y$, $z$) are possible?"""
     ]
     load_streamlit_ui()
 

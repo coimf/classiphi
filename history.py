@@ -18,7 +18,7 @@ def add_history(
     if load_persistent_history:
         with open('history.json', 'r') as f:
             st.session_state.history = json.load(f)
-    else:
+    elif "history" not in st.session_state:
         st.session_state.history = {}
     entry_id = str(uuid.uuid4())
     st.session_state.history[entry_id] = {
@@ -38,10 +38,11 @@ def add_history(
     return entry_id
 
 def save_feedback(id: str, feedback: int) -> None:
+    load_persistent_history = os.path.exists('history.json')
     if load_persistent_history:
         with open('history.json', 'r') as f:
             st.session_state.history = json.load(f)
-    else:
+    elif "history" not in st.session_state:
         st.session_state.history = {}
     if id in st.session_state.history and feedback in [0,1]:
         st.session_state.history[id]['feedback'] = feedback
@@ -60,11 +61,8 @@ def main():
     st.title("History :material/history:")
     with st.spinner("Loading history..."):
         if load_persistent_history:
-            if load_persistent_history:
-                with open('history.json', 'r') as f:
-                    st.session_state.history = json.load(f)
-            else:
-                st.session_state.history = {}
+            with open('history.json', 'r') as f:
+                st.session_state.history = json.load(f)
         else:
             st.session_state.history = {}
         if "max_results_per_page" not in st.session_state:
