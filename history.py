@@ -63,7 +63,7 @@ def main():
         if load_persistent_history:
             with open('history.json', 'r') as f:
                 st.session_state.history = json.load(f)
-        else:
+        elif "history" not in st.session_state:
             st.session_state.history = {}
         if "max_results_per_page" not in st.session_state:
             st.session_state.max_results_per_page = 10
