@@ -76,7 +76,7 @@ def classify_problem(
     model, tokenizer = load_model(models[classifier_name]["model_path"])
     labels = models[classifier_name]['labels']
 
-    encoded = tokenizer(problem, return_tensors="pt", padding=True, truncation=True)
+    encoded = tokenizer(problem.replace('$', ''), return_tensors="pt", padding=True, truncation=True)
 
     with inference_mode():
         logits = model(**encoded).logits
