@@ -5,3 +5,6 @@ accelerate
 streamlit
 streamlit-extras
 watchdog
+beautifulsoup4
+tqdm
+requests
