@@ -166,7 +166,7 @@ def main():
     global example_problems, models
     models = {
         "topic_classifier": {
-            "model_path": "models/topic_classifier",
+            "model_path": "models/topic_classifier_9900_epoch3_0805_23-10-17",
             "labels": {
                 0: "algebra",
                 1: "geometry",
