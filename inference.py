@@ -113,12 +113,15 @@ def load_streamlit_ui() -> None:
     )
     with stylable_container(key="classify", css_styles=r"""
         toggle { float: left; }
-        button { float: right; }
+        button {
+            float: right;
+            right: 0;
+        }
     """):
-        cols = st.columns(2, vertical_alignment="center")
+        cols = st.columns([2, 4, 1], vertical_alignment="center")
         cols[0].badge("BETA", color="primary")
         classify_skill = cols[0].toggle("Classify Skill :material/experiment:", value=True)
-        start_classification = cols[1].button("Classify", type="primary", disabled=(len(problem) == 0))
+        start_classification = cols[2].button("Classify", type="primary", disabled=(len(problem) == 0), use_container_width=True)
         st.divider()
 
     if start_classification and problem:
