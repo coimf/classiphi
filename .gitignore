@@ -32,4 +32,3 @@ history.json
 !.gitignore
 !.streamlit
 *secret*
-tick_urls*

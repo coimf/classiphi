@@ -1,0 +1,66 @@
+{
+  "algebra": {
+    "intro": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Introductory_Algebra_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Algebra_Problems&pagefrom=1963+AHSME+Problems%2FProblem+24#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Algebra_Problems&pagefrom=1985+AJHSME+Problems%2FProblem+3#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Algebra_Problems&pagefrom=1995+AHSME+Problems%2FProblem+16#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Algebra_Problems&pagefrom=2007+AMC+10A+Problems%2FProblem+10#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Algebra_Problems&pagefrom=2018+AMC+8+Problems%2FProblem+5#mw-pages"
+    ],
+    "inter": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Intermediate_Algebra_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Algebra_Problems&pagefrom=1998+AIME+Problems%2FProblem+3#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Algebra_Problems&pagefrom=2014+UMO+Problems%2FProblem+2#mw-pages"
+    ],
+    "olympiad": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Olympiad_Algebra_Problems"
+    ]
+  },
+  "geometry": {
+    "intro": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Introductory_Geometry_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Geometry_Problems&pagefrom=1991+AHSME+Problems%2FProblem+4#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Geometry_Problems&pagefrom=2008+iTest+Problems%2FProblem+32#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Geometry_Problems&pagefrom=2020+AMC+12A+Problems%2FProblem+12#mw-pages"
+    ],
+    "inter": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Intermediate_Geometry_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Geometry_Problems&pagefrom=2002+AIME+I+Problems%2FProblem+11#mw-pages",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Geometry_Problems&pagefrom=2018+AMC+12B+Problems%2FProblem+25#mw-pages"
+    ],
+    "olympiad": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Olympiad_Geometry_Problems"
+    ],
+    "trig": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Introductory_Trigonometry_Problems",
+      "https://artofproblemsolving.com/wiki/index.php/Category:Intermediate_Trigonometry_Problems",
+      "https://artofproblemsolving.com/wiki/index.php/Category:Olympiad_Trigonometry_Problems"
+    ]
+  },
+  "combinatorics": {
+    "intro": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Introductory_Combinatorics_Problems"
+    ],
+    "inter": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Intermediate_Combinatorics_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Combinatorics_Problems&pagefrom=2018+UNCO+Math+Contest+II+Problems%2FProblem+10#mw-pages"
+    ],
+    "olympiad": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Olympiad_Combinatorics_Problems"
+    ]
+  },
+  "number_theory": {
+    "intro": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Introductory_Number_Theory_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Introductory_Number_Theory_Problems&pagefrom=2018+AMC+8+Problems%2FProblem+21#mw-pages"
+    ],
+    "inter": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Intermediate_Number_Theory_Problems",
+      "https://artofproblemsolving.com/wiki/index.php?title=Category:Intermediate_Number_Theory_Problems&pagefrom=2015+UNCO+Math+Contest+II+Problems%2FProblem+6#mw-pages"
+    ],
+    "olympiad": [
+      "https://artofproblemsolving.com/wiki/index.php/Category:Olympiad_Number_Theory_Problems"
+    ]
+  }
+}
