@@ -96,7 +96,7 @@ def classify_problem(
 def load_streamlit_ui() -> None:
     st.subheader("Examples")
     if "shuffled_examples" not in st.session_state:
-        st.session_state.shuffled_examples = sample(example_problems, len(example_problems))
+        st.session_state.shuffled_examples = sample(examples, len(examples))
     example_columns = st.columns(3, vertical_alignment="center")
     if "selected_example_problem" not in st.session_state:
         st.session_state.selected_example_problem = ""
@@ -118,6 +118,7 @@ def load_streamlit_ui() -> None:
             right: 0;
         }
     """):
+        #st is annoyging
         cols = st.columns([2, 4, 1], vertical_alignment="center")
         cols[0].badge("BETA", color="primary")
         classify_skill = cols[0].toggle("Classify Skill :material/experiment:", value=True)
@@ -146,7 +147,7 @@ def load_streamlit_ui() -> None:
             predicted_skill,
             models['topic_classifier']['model_path'],
             models[f'{predicted_topic}_classifier']['model_path'],
-            process.memory_info().rss / 1024 ** 2
+            process.memory_info().rss/1024 ** 2
         )
         topic_chart, skill_chart = st.columns([40 if classify_skill else 100, 60 if classify_skill else 1])
         topic_chart_altair = build_altair_bar_chart(pd.DataFrame.from_dict(topic_probabilities, orient='index').rename(columns={0: 'probability'}), "Topic Probabilities")
@@ -163,10 +164,12 @@ def request_feedback(id: str) -> None:
     selected = st.feedback("thumbs")
     if selected in (0, 1):
         st.success("Thank you for your feedback!")
+        #doesnt work L
+        #i need firebase
         history.save_feedback(id, selected)
 
 def main():
-    global example_problems, models
+    global examples, models
     models = {
         "topic_classifier": {
             "model_path": "models/topic_classifier_9900_epoch3_0805_23-10-17",
@@ -238,7 +241,7 @@ def main():
             }
         }
     }
-    example_problems = [
+    examples = [
         r"""Let $p$, $q$, and $r$ be the distinct roots of the polynomial $x^3 - 22x^2 + 80x - 67$. It is given that there exist real numbers $A$, $B$, and $C$ such that $$\dfrac{1}{s^3 - 22s^2 + 80s - 67} = \dfrac{A}{s-p} + \dfrac{B}{s-q} + \dfrac{C}{s-r}$$for all $s\not\in\{p,q,r\}$. What is $\tfrac1A+\tfrac1B+\tfrac1C$?""",
         r"""A square with side length $x$ is inscribed in a right triangle with sides of length $3$, $4$, and $5$ so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length $y$ is inscribed in another right triangle with sides of length $3$, $4$, and $5$ so that one side of the square lies on the hypotenuse of the triangle. What is $\dfrac{x}{y}$?""",
         r"""For how many integer values of $x$ is $|2x| \leq 7 \pi$?""",

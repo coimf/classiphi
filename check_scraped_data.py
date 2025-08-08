@@ -2,14 +2,14 @@ import json
 import os
 from transformers import BertTokenizer
 
-def extract_topic(filename: str):
-    #filename format: level_topic_problems.json
+def extract_topic(filename: str) -> str:
+    #format: level_topic_problems.json
     parts = filename.split("_")
     if len(parts) >= 3:
         return parts[1]
     return ""
 
-def main():
+def main() -> None:
     total_problems = 0
     total_chars = 0
     total_tokens = 0
@@ -23,15 +23,21 @@ def main():
     problem_files = sorted(problem_files, key=extract_topic)
     for file in problem_files:
         with open(f"scraped_data/problems/{file}", "r") as f:
+            if not file.endswith(".json"):
+                continue
             data = json.load(f)
             num_problems = len(data)
             print(f"{file:<40} {num_problems:>5} problems")
             total_problems += num_problems
 
-            for problem in data:
-                char_len = len(problem)
-                tokens = tokenizer.tokenize(problem)
+            for id, problem_data in data.items():
+                problem_text = problem_data['problem'] + problem_data['answer_choices']
+                char_len = len(problem_text)
+                tokens = tokenizer.tokenize(problem_text)
                 token_len = len(tokens)
+
+                if token_len < 20:
+                    print(f"WARNING: Problem {file}/{id} has {token_len} tokens")
 
                 total_chars += char_len
                 total_tokens += token_len
@@ -40,6 +46,7 @@ def main():
                 max_chars = max(max_chars, char_len)
                 min_tokens = min(min_tokens, token_len)
                 max_tokens = max(max_tokens, token_len)
+
     total_ticks = 0
     problem_files = os.listdir("scraped_data/ticks")
     for file in sorted(problem_files):
@@ -48,7 +55,7 @@ def main():
             num_ticks = len(data)
             total_ticks += num_ticks
 
-    print(f"...\n{'Total problems listed on wiki:':<40} {total_ticks:>5}")
+    print(f"...\n{'Total problems indexed on wiki:':<40} {total_ticks:>5}")
     print(f"{'Total problems scraped:':<40} {total_problems:>5} ({100 * total_problems / total_ticks:.2f}%)")
     print(f"{'Total characters:':<40} {total_chars:>8}")
     print(f"{'Total tokens:':<40} {total_tokens:>8}")

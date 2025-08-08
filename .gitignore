@@ -26,12 +26,10 @@ training_data*.json
 training_stats*.json
 train*.py
 count.py
-scraper.py
 history.json
 *.png
 !.gitattributes
 !.gitignore
 !.streamlit
 *secret*
-scraped_data/
 tick_urls*
