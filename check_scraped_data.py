@@ -21,6 +21,9 @@ def main() -> None:
 
     problem_files = os.listdir("scraped_data/problems")
     problem_files = sorted(problem_files, key=extract_topic)
+
+    suspicious_problems = {}
+
     for file in problem_files:
         with open(f"scraped_data/problems/{file}", "r") as f:
             if not file.endswith(".json"):
@@ -36,8 +39,8 @@ def main() -> None:
                 tokens = tokenizer.tokenize(problem_text)
                 token_len = len(tokens)
 
-                if token_len < 20:
-                    print(f"WARNING: Problem {file}/{id} has {token_len} tokens")
+                if token_len <= 18:
+                    suspicious_problems[id] = problem_data
 
                 total_chars += char_len
                 total_tokens += token_len
@@ -65,6 +68,9 @@ def main() -> None:
     print(f"{'Longest sequence length:':<40} {max_tokens:>8} tokens")
     print(f"{'':<40} {max_chars:>8} chars")
     print(f"{'Vocab size:':<40} {len(tokenizer.vocab):>8}")
+
+    with open("suspicious_problems.json", "w") as f:
+        json.dump(suspicious_problems, f, indent=4)
 
 if __name__ == "__main__":
     main()

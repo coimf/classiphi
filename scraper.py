@@ -82,7 +82,21 @@ def get_html(url: str) -> BeautifulSoup | None:
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         #some idiot mispelled referrer
-        "Referer": "https://www.google.com/",
+        "Referer": random.choice([
+            "https://www.google.com/",
+            "https://www.bing.com/",
+            "https://www.yahoo.com/",
+            "https://www.reddit.com/",
+            "https://www.twitter.com/",
+            "https://www.instagram.com/",
+            "https://www.facebook.com/",
+            "https://www.linkedin.com/",
+            "https://www.pinterest.com/",
+            "https://www.tiktok.com/",
+            "https://www.x.com/",
+            "https://www.youtube.com/",
+            "https://www.twitch.tv/",
+        ])
     }
     try:
         req = Request(url=url,headers=headers)
@@ -130,21 +144,43 @@ def save_ticks_to_folder(topic: Literal['Algebra', 'Geometry', 'Number_Theory', 
     if total_ticks_scraped > 0:
         logging.info(f"Scraped {total_ticks_scraped} total ticks to {data_folder}")
 
-def scrape_problem(url: str) -> ProblemData:
+def scrape_problem(url: str, max_retries: int = 10, max_wait_time_ms: float = 3000) -> ProblemData:
     global total_problems_scraped
 
     def is_answer_choices(latex: str, num_choices_threshold: int = 4) -> bool:
-        _bolded_label: Pattern = re.compile(r'\\text\s*\{\s*([A-Za-z])\.?\s*\}')
-        _begin_choices: Pattern = re.compile(r'\\begin\{choices\}')
-        if _begin_choices.search(latex):
+        exclude_envs = [
+            r'\\begin\{(eqnarray\*?|array|cases|aligned|align\*?)\}.*?\\end\{\1\}',
+            r'\[asy\].*?\[/asy\]'
+        ]
+
+        cleaned_latex = latex
+        for pattern in exclude_envs:
+            cleaned_latex = re.sub(pattern, '', cleaned_latex, flags=re.DOTALL)
+
+        label_pattern = re.compile(
+            r'(\\mathrm|\\text)?\s*\{?\(?([A-E])\)?\}?\s*'
+        )
+
+        matches = label_pattern.findall(cleaned_latex)
+
+        candidate_labels = []
+        for m in label_pattern.finditer(cleaned_latex):
+            full_match = m.group(0)
+            letter = m.group(2)
+            if '(' in full_match and ')' in full_match:
+                candidate_labels.append(letter)
+
+        unique_labels = set(candidate_labels)
+        if len(unique_labels) >= num_choices_threshold:
             return True
 
-        total_bolds = latex.count(r'\text')
-        if total_bolds >= num_choices_threshold:
+        if re.search(r'\\begin\{choices\}', latex):
             return True
 
-        labels = set(_bolded_label.findall(latex))
-        if len(labels) >= num_choices_threshold:
+        fallback_count = 0
+        fallback_pattern = re.compile(r'(\\mathrm|\\text)\s*\{[^}]*\(?[A-E]\)?[^}]*\}')
+        fallback_count = len(fallback_pattern.findall(latex))
+        if fallback_count >= num_choices_threshold:
             return True
 
         return False
@@ -204,21 +240,27 @@ def scrape_problem(url: str) -> ProblemData:
             "contest_name": "The Skibidi Contest",
             "problem_number": -1
         },
-        "title": "i got no idea man",
+        "title": "who knows",
         "problem": "",
         "answer_choices": "",
         "answer": "idk",
-        "solutions": ["bing", "bong", "ding", "dong"]
+        "solutions": ["we", "ran", "out", "of", "retries"]
     }
     html = get_html(url)
     if not html:
+        import time
+        for _ in range(max_retries):
+            time.sleep(max_wait_time_ms/1000)
+            html = get_html(url)
+            if html:
+                break
         return problem_data
 
     title = html.find('h1', {'class': 'firstHeading', 'id': 'firstHeading'}).text.strip()
     problem_data['id'] = get_problem_id(title)
     problem_data['title'] = title
 
-    problem_heading = html.find('span', {'class': 'mw-headline', 'id': 'Problem'})
+    problem_heading_span = html.find('span', {'class': 'mw-headline', 'id': 'Problem'})
     solution_heading_span = html.find('span', {'class': 'mw-headline', 'id': 'Solution'})
     stop_heading = html.find('span', {'class': 'mw-headline', 'id': 'See_Also'})
     video_solution_heading = html.find('span', {
@@ -247,17 +289,31 @@ def scrape_problem(url: str) -> ProblemData:
         if not solution_heading_span:
             solution_heading_span = stop_heading
 
-    if not problem_heading:
+    if not problem_heading_span:
         return problem_data
 
     paragraphs = []
-    if problem_heading:
-        problem_section = problem_heading.parent
-        if problem_section:
-            curr_paragraph = problem_section.next_sibling
+    if problem_heading_span:
+        problem_h2 = problem_heading_span.parent
+        if problem_h2:
+            curr_paragraph = problem_h2.next_sibling
             while curr_paragraph and curr_paragraph != solution_heading_span.parent:
-                if hasattr(curr_paragraph, 'name') and curr_paragraph.name == 'p':
-                    paragraphs.append(retrieve_latex_text(curr_paragraph))
+                #aime 1984 q15 has a div for centered latex bruh
+                #nooo 1990 aime q4 uses center!?
+                if hasattr(curr_paragraph, 'name') and (curr_paragraph.name == 'p' or curr_paragraph.name == 'div' or curr_paragraph.name == 'center'):
+                    latex = retrieve_latex(curr_paragraph)
+                    if latex:
+                        #1990 ahsme q6
+                        if len(paragraphs) > 0 and is_answer_choices(paragraphs[-1]+latex) and is_answer_choices(paragraphs[-1]):
+                            paragraphs[-1] += latex
+                        else:
+                            paragraphs.append(latex)
+                #2023 aime I 15 has a list
+                elif hasattr(curr_paragraph, 'name') and curr_paragraph.name == 'ul':
+                    for li in curr_paragraph.find_all('li'):
+                        latex = retrieve_latex(li)
+                        if latex:
+                            paragraphs.append(latex)
                 curr_paragraph = curr_paragraph.next_sibling
 
     solutions = []
@@ -270,7 +326,7 @@ def scrape_problem(url: str) -> ProblemData:
             curr_solution = ""
             while curr_paragraph and curr_paragraph != stop_element_h2:
                 if hasattr(curr_paragraph, 'name') and curr_paragraph.name == 'p':
-                    curr_solution += retrieve_latex_text(curr_paragraph)
+                    curr_solution += retrieve_latex(curr_paragraph)
                 elif hasattr(curr_paragraph, 'name') and curr_paragraph.name == 'h2':
                     #reset and skip h2 (multisolution heading)
                     if curr_solution:
@@ -295,11 +351,11 @@ def scrape_problem(url: str) -> ProblemData:
         return problem_data
     else:
         #likely FRQ problem
-        problem_data['problem'] = paragraphs[0]
+        problem_data['problem'] = concat_parts(paragraphs)
         problem_data['answer_choices'] = "frq"
         return problem_data
 
-def retrieve_latex_text(paragraph) -> str:
+def retrieve_latex(paragraph) -> str:
     problem = []
     if not hasattr(paragraph, 'children'):
         #nolatex
@@ -323,7 +379,7 @@ def retrieve_latex_text(paragraph) -> str:
                 problem.append(element.text)
             else:
                 if hasattr(element, 'children'):
-                    problem.append(retrieve_latex_text(element))
+                    problem.append(retrieve_latex(element))
                 else:
                     problem.append(element.text if hasattr(element, 'text') else str(element))
         else:
@@ -335,7 +391,7 @@ def retrieve_latex_text(paragraph) -> str:
     final_prob = re.sub(r' *\n *', '\n', final_prob)
     return final_prob.strip()
 
-def scrape_problems(base_url: str, ticks_filepath: str) -> dict[str, ProblemData]:
+def scrape_problems(base_url: str, ticks_filepath: str, max_retry_cycles: int = 3) -> dict[str, ProblemData]:
     global failed_problems_scraped
     if not os.path.exists(ticks_filepath) or not os.path.splitext(ticks_filepath)[1] == '.json':
         raise FileNotFoundError(f"JSON Ticks file not found at {ticks_filepath}")
@@ -343,18 +399,44 @@ def scrape_problems(base_url: str, ticks_filepath: str) -> dict[str, ProblemData
         ticks = json.load(f)
 
     problems = {}
+    ticks_to_retry = []
+
     logging.info(f"Scraping {ticks_filepath.removeprefix('scraped_data/ticks/').removesuffix('_ticks.json').replace('_', ' ')} problems...")
-    for tick in tqdm(ticks):
+    for tick in tqdm(ticks, desc="Scraping problems"):
         url = base_url + tick
         try:
             problem = scrape_problem(url)
             if problem is not None and problem['problem'].strip():
                 problems[problem['title'].lower().replace(' ', '_')] = problem
             else:
-                failed_problems_scraped += 1
-        except Exception as e:
-            logging.error(f"Failed to scrape problem at {url}: {e}")
-            failed_problems_scraped += 1
+                ticks_to_retry.append(tick)
+        except Exception:
+            ticks_to_retry.append(tick)
+
+    for i in range(max_retry_cycles):
+        if not ticks_to_retry:
+            break
+        logging.info(f"Failed to scrape {len(ticks_to_retry)} problems. Retrying... ({i+1}/{max_retry_cycles} retry cycles)")
+        new_ticks_to_retry = []
+        for tick in tqdm(ticks_to_retry, desc=f"Retry cycle {i+1}"):
+            url = base_url + tick
+            try:
+                problem = scrape_problem(url)
+                if problem is not None and problem['problem'].strip():
+                    key = problem['title'].lower().replace(' ', '_')
+                    problems[key] = problem
+                else:
+                    if i < max_retry_cycles - 1:
+                        new_ticks_to_retry.append(tick)
+                    else:
+                        failed_problems_scraped += 1
+            except Exception as e:
+                if i < max_retry_cycles - 1:
+                    new_ticks_to_retry.append(tick)
+                else:
+                    failed_problems_scraped += 1
+        ticks_to_retry = new_ticks_to_retry
+
     return problems
 
 def save_problems_to_folder(topic: Literal['Algebra', 'Geometry', 'Combinatorics', 'Number_Theory'], data_folder: str) -> None:
@@ -370,6 +452,32 @@ def save_problems_to_folder(topic: Literal['Algebra', 'Geometry', 'Combinatorics
                 json.dump(problems, f)
             logging.info(f"Saved {len(problems)} {lv.capitalize()} {topic} problems.")
 
+def run_test_cases(testcases_file: str, output_file: str = "test_results.json", run_first_n: int = 10) -> None:
+    try:
+        with open(testcases_file, 'r') as f:
+            testcases = json.load(f)
+    except FileNotFoundError:
+        logging.error(f"No test cases file found at '{testcases_file}'.")
+        quit()
+
+    assert isinstance(run_first_n, int) and run_first_n > 0, "run_first_n must be a positive integer"
+
+    scraped = {}
+    ticks = ["/wiki/index.php/"+obj['title'].replace(' ', '_') for _, obj in testcases.items()]
+    ticks = ticks[:run_first_n]
+    logging.info(f"Scraping {len(ticks)} suspicious problems...")
+    for tick in tqdm(ticks):
+        try:
+            scraped[tick] = scrape_problem('https://artofproblemsolving.com'+tick)
+        except Exception as e:
+            logging.error(f"🚨🚨🚨 This problem is very suspicious! {tick}: {e}")
+
+    with open(output_file, 'w') as f:
+        json.dump(scraped, f)
+
+    logging.info(f"Finished scraping suspicious problems. Check {output_file} for results.")
+    quit()
+
 def main() -> None:
     global total_reqs, total_problems_scraped, failed_problems_scraped, failed_reqs
     start = time.time()
@@ -384,6 +492,8 @@ def main() -> None:
     total_problems_scraped = 0
     failed_problems_scraped = 0
 
+    # run_test_cases('suspicious_problems.json')
+
     #type checker sucks
     topics: list[Literal['Algebra', 'Geometry', 'Number_Theory', 'Combinatorics']] = ['Algebra', 'Geometry', 'Number_Theory', 'Combinatorics']
     for topic in topics:
@@ -394,6 +504,14 @@ def main() -> None:
     total_time = end-start
     total_hrs, total_mins, total_secs = int(total_time//3600), int((total_time%3600)//60), int(total_time%60)
     avg_secs_per_req = total_time/total_reqs if total_reqs else 0
+    if total_reqs:
+        failed_reqs_percent = failed_reqs / total_reqs * 100
+    else:
+        failed_reqs_percent = 0
+    if total_problems_scraped:
+        failed_problems_scraped_percent = failed_problems_scraped / total_problems_scraped * 100
+    else:
+        failed_problems_scraped_percent = 0
 
     logging.info(f"""
 
@@ -404,11 +522,11 @@ def main() -> None:
         Wall time:                {total_hrs:02d}:{total_mins:02d}:{total_secs:02d}
 
         Total requests made:      {total_reqs}
-        Failed requests:          {failed_reqs} ({failed_reqs / total_reqs * 100:.2f}%)
+        Failed requests:          {failed_reqs} ({failed_reqs_percent:.2f}%)
         Average time per request: {avg_secs_per_req:.2f}s
 
         Total problems scraped:   {total_problems_scraped}
-        Failed problems scraped:  {failed_problems_scraped} ({failed_problems_scraped / total_problems_scraped * 100:.2f}%)
+        Failed problems scraped:  {failed_problems_scraped} ({failed_problems_scraped_percent:.2f}%)
 
     """)
 
