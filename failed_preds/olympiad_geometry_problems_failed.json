@@ -1,0 +1,98 @@
+[
+    [
+        "Let $a_1, a_2,\\cdots, a_n$ be $n$ positive numbers, and let $q$ be a given real number such that $0<q<1.$ Find $n$ numbers $b_1, b_2, \\cdots, b_n$ for which (a) $a_k<b_k$ for $k=1,2,\\cdots, n,$ (b) $q<\\dfrac{b_{k+1}}{b_k}<\\dfrac{1}{q}$ for $k=1,2,\\cdots,n-1,$ (c) $b_1+b_2+\\cdots+b_n<\\dfrac{1+q}{1-q}(a_1+a_2+\\cdots+a_n).$ ",
+        "algebra"
+    ],
+    [
+        "Prove that the number $\\sum^n_{k=0}\\binom{2n+1}{2k+1}2^{3k}$ is not divisible by $5$ for any integer $n\\ge0.$ ",
+        "algebra"
+    ],
+    [
+        "Consider decompositions of an $8\\times8$ chessboard into $p$ non-overlapping rectangles subject to the following conditions: (i) Each rectangle has as many white squares as black squares. (ii) If $a_i$ is the number of white squares in the $i$ -th rectangle, then $a_1<a_2<\\cdots<a_p.$ Find the maximum value of $p$ for which such a decomposition is possible. For this value of $p,$ determine all possible sequences $a_1, a_2, \\cdots, a_p.$ ",
+        "combinatorics"
+    ],
+    [
+        "Let $P$ be a non-constant polynomial with integer coefficients. If $n(P)$ is the number of distinct integers $k$ such that $(P(k))^2=1,$ prove that $n(P)-\\deg(P)\\le2,$ where $\\deg(P)$ denotes the degree of the polynomial $P.$ ",
+        "algebra"
+    ],
+    [
+        "Let $x_i, y_i$ $(i=1,2,\\cdots,n)$ be real numbers such that\n\n\\[x_1\\ge x_2\\ge\\cdots\\ge x_n \\text{ and } y_1\\ge y_2\\ge\\cdots\\ge y_n.\\]\n\nProve that, if $z_1, z_2,\\cdots, z_n$ is any permutation of $y_1, y_2, \\cdots, y_n,$ then\n\n\\[\\sum^n_{i=1}(x_i-y_i)^2\\le\\sum^n_{i=1}(x_i-z_i)^2.\\] https://youtu.be/3-iF4zIxsUQ ",
+        "algebra"
+    ],
+    [
+        "Let $A,B,C,D$ denote four points in space and $AB$ the distance between $A$ and $B$, and so on. Show that\n\n\n\\[AC^2+BD^2+AD^2+BC^2\\ge AB^2+CD^2.\\] ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be an integer greater than or equal to 3. Prove that there is a set of $n$ points in the plane such that the distance between any two points is irrational and each set of three points determines a non-degenerate triangle with rational area. ",
+        "algebra"
+    ],
+    [
+        "An infinite sequence $x_0, x_1, x_2,\\ldots$ of real numbers is said to be bounded if there is a constant $C$ such that $|x_i| \\leq C$ for every $i \\geq 0$. Given any real number $a > 1$, construct a bounded infinite sequence $x_0,x_1,x_2,\\ldots$ such that $|x_i-x_j|\\cdot |i-j|^a\\geq 1$ for every pair of distinct nonnegative integers $i,j$. ",
+        "algebra"
+    ],
+    [
+        "Find all integers $a$, $b$, $c$ satisfying $1 < a < b < c$ such that $(a - 1)(b -1)(c - 1)$ is a divisor of $abc - 1$. ",
+        "algebra"
+    ],
+    [
+        "Let $\\mathbb{R}$ denote the set of all real numbers. Find all functions $f:\\mathbb{R} \\to \\mathbb{R}$ such that \\[f\\left( x^{2}+f(y) \\right)= y+(f(x))^{2} \\hspace{0.5cm} \\forall x,y \\in \\mathbb{R}\\] ",
+        "algebra"
+    ],
+    [
+        "Consider nine points in space, no four of which are coplanar. Each pair of points is joined by an edge (that is, a line segment) and each edge is either colored blue or red or left uncolored. Find the smallest value of $n$ such that whenever exactly n edges are colored, the set of colored edges necessarily contains a triangle all of whose edges have the same color. ",
+        "combinatorics"
+    ],
+    [
+        "For each positive integer $n$, $S(n)$ is defined to be the greatest integer such that, for every positive integer $k \\le S(n)$, $n^{2}$ can be written as the sum of $k$ positive squares. (a) Prove that $S(n) \\le n^{2}-14$ for each $n \\ge 4$. (b) Find an integer $n$ such that $S(n)=n^{2}-14$. (c) Prove that there are infinitely many integers $n$ such that $S(n)=n^{2}-14$. ",
+        "algebra"
+    ],
+    [
+        "We are given a positive integer $r$ and a rectangular board $ABCD$ with dimensions $|AB|=20$, $|BC|=12$. The rectangle is divided into a grid of $20 \\times 12$ unit squares. The following moves are permitted on the board: one can move from one square to another only if the distance between the centers of the two squares is $\\sqrt{r}$. The task is to find a sequence of moves leading from the square with $A$ as a vertex to the square with $B$ as a vertex. (a) Show that the task cannot be done if $r$ is divisible by $2$ or $3$. (b) Prove that the task is possible when $r=73$. (c) Can the task be done when $r=97$? ",
+        "algebra"
+    ],
+    [
+        "Let $S$ denote the set of nonnegative integers. Find all functions $f$ from $S$ to itself such that $f(m+f(n))=f(f(m))+f(n)$ $\\forall m,n \\in S$ ",
+        "algebra"
+    ],
+    [
+        "In the plane the points with integer coordinates are the vertices of unit squares. The squares are colored alternatively black and white (as on a chessboard). For any pair of positive integers $m$ and $n$, consider a right-angled triangle whose vertices have integer coordinates and whose legs, of lengths $m$ and $n$, lie along edges of the squares. Let $S_{1}$ be the total area of the black part of the triangle and $S_{2}$ be the total area of the white part. Let $f(m,n)=|S_{1}-S_{2}|$ (a) Calculate $f(m,n)$ for all positive integers $m$ and $n$ which are either both even or both odd. (b) Prove that $f(m,n) \\le \\frac{1}{2} max\\left\\{ m,n \\right\\}$ for all $m$ and $n$. (c) Show that there is no constant $C$ such that $f(m,n)<C$ for all $m$ and $n$. ",
+        "algebra"
+    ],
+    [
+        "Let $x_{1}$, $x_{2}$,..., $x_{n}$ be real numbers satisfying the conditions $|x_{1}+x_{2}+...+x_{n}|=1$ and $|x_{i}| \\le \\frac{n+1}{2}$, for $i=1,2,...,n$ Show that there exists a permutation $y_{1}$, $y_{2}$,..., $y_{n}$ of $x_{1}$, $x_{2}$,..., $x_{n}$ such that $|y_{1}+2y_{2}+...+ny_{n}|\\le \\frac{n+1}{2}$ ",
+        "algebra"
+    ],
+    [
+        "An $n \\times n$ matrix whose entries come from the set $S={1,2,...,2n-1}$ is called a $\\textit{silver}$ matrix if, for each $i=1,2,...,n$, the $i$ th row and the $i$ th column together contain all elements of $S$. Show that (a) there is no $\\textit{silver}$ matrix for $n=1997$ ; (b) $\\textit{silver}$ matrices exist for infinitely many values of $n$. ",
+        "algebra"
+    ],
+    [
+        "Find all pairs $(a,b)$ of integers $a,b \\ge 1$ that satisfy the equation $a^{b^{2}}=b^{a}$ ",
+        "algebra"
+    ],
+    [
+        "For each positive integer $n$, let $f(n)$ denote the number of ways of representing $n$ as a sum of powers of $2$ with nonnegative integer exponents. Representations which differ only in the ordering of their summands are considered to be the same. For instance, $f(4)=4$, because the number 4 can be represented in the following four ways: $4;2+2;2+1+1;1+1+1+1$ Prove that, for any integer $n \\ge 3$, $2^{n^{2}/4}<f(2^{n})<2^{n^{2}/2}$. ",
+        "algebra"
+    ],
+    [
+        "Let $n \\geq 5$ be an integer. Find the largest integer $k$ (as a function of $n$ ) such that there exists a convex $n$ -gon $A_{1}A_{2}\\dots A_{n}$ for which exactly $k$ of the quadrilaterals $A_{i}A_{i+1}A_{i+2}A_{i+3}$ have an inscribed circle. (Here $A_{n+j} = A_{j}$.) ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a positive integer. Consider\n\n\n\\[S=\\{(x,y,z)~:~x,y,z\\in \\{0,1,\\ldots,n \\},~x+y+z>0\\}\\]\n\n\nas a set of $(n+1)^3-1$ points in three-dimensional space.\nDetermine the smallest possible number of planes, the union of which contain $S$ but does not include $(0,0,0)$. ",
+        "algebra"
+    ],
+    [
+        "( Gregory Galperin ) A square grid on the Euclidean plane consists of all points $(m,n)$, where $m$ and $n$ are integers. Is it possible to cover all grid points by an infinite family of discs with non-overlapping interiors if each disc in the family has radius at least 5? ",
+        "algebra"
+    ],
+    [
+        "Each of the six boxes $B_1$, $B_2$, $B_3$, $B_4$, $B_5$, $B_6$ initially contains one coin. The following operations are allowed Type 1) Choose a non-empty box $B_j$, $1\\leq j \\leq 5$, remove one coin from $B_j$ and add two coins to $B_{j+1}$ ; Type 2) Choose a non-empty box $B_k$, $1\\leq k \\leq 4$, remove one coin from $B_k$ and swap the contents (maybe empty) of the boxes $B_{k+1}$ and $B_{k+2}$. Determine if there exists a finite sequence of operations of the allowed types, such that the five boxes $B_1$, $B_2$, $B_3$, $B_4$, $B_5$ become empty, while box $B_6$ contains exactly $2010^{2010^{2010}}$ coins. Author: Hans Zantema ",
+        "algebra"
+    ],
+    [
+        "Prove that there exists a positive constant $c$ such that the following statement is true: Consider an integer $n > 1$, and a set $S$ of n points in the plane such that the distance between any two different points in $S$ is at least $1$. It follows that there is a line $\\ell$ separating $S$ such that the distance from any point of $S$ to $\\ell$ is at least $cn^{- \\frac{1}{3}}$. (A line $\\ell$ separates a set of points $S$ if some segment joining two points in $S$ crosses $\\ell$.) Note. Weaker results with $cn^{- \\frac{1}{3}}$ replaced by $cn^{- \\alpha}$ may be awarded points depending on the value\nof the constant $\\alpha > \\frac{1}{3}$. ",
+        "algebra"
+    ]
+]

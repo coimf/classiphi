@@ -1,0 +1,162 @@
+[
+    [
+        "A father, mother and son hold a family tournament, playing a two person board game with no ties. The tournament rules are: (i) The weakest player chooses the first two contestants. (ii) The winner of any game plays the next game against the person left out. (iii) The first person to win two games wins the tournament. The father is the weakest player, the son the strongest, and it is assumed that any player's probability of winning an individual game from another player does not change during the tournament. Prove that the father's optimal strategy for winning the tournament is to play the first game with his wife. ",
+        "algebra"
+    ],
+    [
+        "[asy] void fillsq(int x, int y){ fill((x,y)--(x+1,y)--(x+1,y+1)--(x,y+1)--cycle, mediumgray); } int i; fillsq(1,0);fillsq(4,0);fillsq(6,0); fillsq(0,1);fillsq(1,1);fillsq(2,1);fillsq(4,1);fillsq(5,1); fillsq(0,2);fillsq(2,2);fillsq(4,2); fillsq(0,3);fillsq(1,3);fillsq(4,3);fillsq(5,3); for(i=0; i<=7; ++i){draw((i,0)--(i,4),black+0.5);} for(i=0; i<=4; ++i){draw((0,i)--(7,i),black+0.5);} draw((3,1)--(3,3)--(7,3)--(7,1)--cycle,black+1); [/asy] (a) Suppose that each square of a $4\\times 7$ chessboard, as shown above, is colored either black or white. Prove that with any such coloring, the board must contain a rectangle (formed by the horizontal and vertical lines of the board such as the one outlined in the figure) whose four distinct unit corner squares are all of the same color. (b) Exhibit a black-white coloring of a $4\\times 6$ board in which the four corner squares of every rectangle, as described above, are not all of the same color. ",
+        "algebra"
+    ],
+    [
+        "$a_1, a_2, \\ldots, a_n$ is an arbitrary sequence of positive integers. A member of the sequence is picked at\nrandom. Its value is $a$. Another member is picked at random, independently of the first. Its value is $b$. Then a third value, $c$. Show that the probability that $a + b +c$ is divisible by $3$ is at least $\\frac14$. The given problem is equivalent to proving that $4(x^3 + y^3 + z^3 + 6xyz) \\ge (x + y + z)^3$. Try proving this inequality for all nonnegative real numbers x, y, z; not just positive integers. Prove that $x^3 + y^3 + z^3 + 3xyz \\ge x^2(y+z) + y^2(x+z) + z^2(x+y).$ ",
+        "algebra"
+    ],
+    [
+        "Let $A_1,A_2,...,A_{n+1}$ be distinct subsets of $[n]$ with $|A_1|=|A_2|=\\cdots =|A_{n+1}|=3$. Prove that $|A_i\\cap A_j|=1$ for some pair $\\{i,j\\}$. ",
+        "algebra"
+    ],
+    [
+        "Each set of a finite family of subsets of a line is a union of two closed intervals. Moreover, any three of the sets of the family have a point in common. Prove that there is a point which is common to at least half the sets of the family. ",
+        "algebra"
+    ],
+    [
+        "A difficult mathematical competition consisted of a Part I and a Part II with a combined total of $28$ problems. Each contestant solved $7$ problems altogether. For each pair of problems, there were exactly two contestants who solved both of them. Prove that there was a contestant who, in Part I, solved either no problems or at least four problems. ",
+        "algebra"
+    ],
+    [
+        "Let $a_1,a_2,a_3,\\cdots$ be a non-decreasing sequence of positive integers. For $m\\ge1$, define $b_m=\\min\\{n: a_n \\ge m\\}$, that is, $b_m$ is the minimum value of $n$ such that $a_n\\ge m$. If $a_{19}=85$, determine the maximum value of $a_1+a_2+\\cdots+a_{19}+b_1+b_2+\\cdots+b_{85}$. ",
+        "algebra"
+    ],
+    [
+        "During a certain lecture, each of five mathematicians fell asleep exactly twice. For each pair of mathematicians, there was some moment when both were asleep simultaneously. Prove that, at some moment, three of them were sleeping simultaneously. ",
+        "algebra"
+    ],
+    [
+        "$a_1, a_2, \\cdots, a_n$ is a sequence of 0's and 1's. T is the number of triples $(a_i, a_j, a_k)$ with $i<j<k$ which are not equal to (0, 1, 0) or (1, 0, 1). For $1\\le i\\le n$, $f(i)$ is the number of $j<i$ with $a_j = a_i$ plus the number of $j>i$ with $a_j\\neq a_i$. Show that $T=\\sum_{i=1}^n f(i)\\cdot\\left(\\frac{f(i)-1}2\\right)$. If n is odd, what is the smallest value of T? ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a positive integer and let $A_1, A_2, \\cdots, A_{2n+1}$ be subsets of a set $B$. Suppose that (a) Each $A_i$ has exactly $2n$ elements, (b) Each $A_i\\cap A_j$ $(1\\le i<j\\le 2n+1)$ contains exactly one element, and (c) Every element of $B$ belongs to at least two of the $A_i$. For which values of $n$ can one assign to every element of $B$ one of the numbers $0$ and $1$ in such a way that $A_i$ has $0$ assigned to exactly $n$ of its elements? ",
+        "algebra"
+    ],
+    [
+        "Let $X$ be the set $\\{ 1, 2, \\cdots, 20\\}$ and let $P$ be the set of all 9-element subsets of $X$. Show that for any map $f: P\\mapsto X$ we can find a 10-element subset $Y$ of $X$, such that $f(Y-\\{k\\})\\neq k$ for any $k$ in $Y$. ",
+        "algebra"
+    ],
+    [
+        "Find, with proof, the number of positive integers whose base- $n$ representation consists of distinct digits with the property that, except for the leftmost digit, every digit differs by $\\pm 1$ from some digit further to the left. (Your answer should be an explicit function of $n$ in simplest form.) ",
+        "algebra"
+    ],
+    [
+        "For a nonempty set $S$ of integers, let $\\sigma(S)$ be the sum of the elements of $S$. Suppose that $A = \\{a_1, a_2, \\ldots, a_{11}\\}$ is a set of positive integers with $a_1 < a_2 < \\cdots < a_{11}$ and that, for each positive integer $n \\le 1500$, there is a subset $S$ of $A$ for which $\\sigma(S) = n$. What is the smallest possible value of $a_{10}$? ",
+        "algebra"
+    ],
+    [
+        "Let $\\, |U|, \\, \\sigma(U) \\,$ and $\\, \\pi(U) \\,$ denote the number of elements, the sum, and the product, respectively, of a finite set $\\, U \\,$ of positive integers. (If $\\, U \\,$ is the empty set, $\\, |U| = 0, \\, \\sigma(U) = 0, \\, \\pi(U) = 1$.) Let $\\, S \\,$ be a finite set of positive integers. As usual, let $\\, \\binom{n}{k} \\,$ denote $\\, n! \\over k! \\, (n-k)!$. Prove that\n\n\\[\\sum_{U \\subseteq S} (-1)^{|U|} \\binom{m - \\sigma(U)}{|S|} = \\pi(S)\\]\n\nfor all integers $\\, m \\geq \\sigma(S)$. ",
+        "algebra"
+    ],
+    [
+        "Suppose that in a certain society, each pair of persons can be classified as either amicable or hostile. We shall say that each member of an amicable pair is a friend of the other, and each member of a hostile pair is a foe of the other. Suppose that the society has $\\, n \\,$ persons and $\\, q \\,$ amicable pairs, and that for every set of three persons, at least one pair is hostile. Prove that there is at least one member of the society whose foes include $\\, q(1 - 4q/n^2) \\,$ or fewer amicable pairs. ",
+        "algebra"
+    ],
+    [
+        "For any nonempty set $S$ of real numbers, let $\\sigma(S)$ denote the sum of the elements of $S$. Given a set $A$ of $n$ positive integers, consider the collection of all distinct sums $\\sigma(S)$ as $S$ ranges over the nonempty subsets of $A$. Prove that this collection of sums can be partitioned into $n$ classes so that in each class, the ratio of the largest sum to the smallest sum does not exceed 2. ",
+        "algebra"
+    ],
+    [
+        "An $n$ -term sequence $(x_1, x_2, \\ldots, x_n)$ in which each term is either 0 or 1 is called a binary sequence of length $n$. Let $a_n$ be the number of binary sequences of length n containing no three consecutive terms equal to 0, 1, 0 in that order. Let $b_n$ be the number of binary sequences of length $n$ that contain no four consecutive terms equal to 0, 0, 1, 1 or 1, 1, 0, 0 in that order. Prove that $b_{n+1} = 2a_n$ for all positive integers $n$. (proposed by Kiran Kedlaya) ",
+        "algebra"
+    ],
+    [
+        "Twenty-one girls and twenty-one boys took part in a mathematical competition. It turned out that each contestant solved at most six problems, and for each pair of a girl and a boy, there was at least one problem that was solved by both the girl and the boy. Show that there is a problem that was solved by at least three girls and at least three boys. https://www.youtube.com/watch?v=zfsyYMbUwno ",
+        "algebra"
+    ],
+    [
+        "Each point in the plane is assigned a real number such that, for any triangle, the number at the center of its inscribed circle is equal to the arithmetic mean of the three numbers at its vertices. Prove that all points in the plane are assigned the same number. ",
+        "geometry"
+    ],
+    [
+        "I have an $n \\times n$ sheet of stamps, from which I've been asked to tear out blocks of three adjacent stamps in a single row or column. (I can only tear along the perforations separating adjacent stamps, and each block must come out of the sheet in one piece.) Let $b(n)$ be the smallest number of blocks I can tear out and make it impossible to tear out any more blocks. Prove that there are real constants $c$ and $d$ such that $\\dfrac{1}{7} n^2 - cn \\leq b(n) \\leq \\dfrac{1}{5} n^2 + dn$ for all $n > 0$. ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be a set of $n\\ge 3$ points in the interior of a circle. Show that there are three distinct points $a,b,c\\in S$ and three distinct points $A,B,C$ on the circle such that $a$ is (strictly) closer to $A$ than any other point in $S$, $b$ is closer to $B$ than any other point in $S$ and $c$ is closer to $C$ than any other point in $S$. Show that for no value of $n$ can four such points in $S$ (and corresponding points on the circle) be guaranteed. ",
+        "algebra"
+    ],
+    [
+        "Let $M$ be a set composed of $n$ elements and let $\\mathcal P (M)$ be its power set. Find all functions $f\u00a0: \\mathcal P (M) \\to \\{ 0,1,2,\\ldots,n \\}$ that have the properties (a) $f(A) \\neq 0$, for $A \\neq \\phi$ ; (b) $f \\left( A \\cup B \\right) = f \\left( A \\cap B \\right) + f \\left( A \\Delta B \\right)$, for all $A,B \\in \\mathcal P (M)$, where $A \\Delta B = \\left( A \\cup B \\right) \\backslash \\left( A \\cap B \\right)$. ",
+        "algebra"
+    ],
+    [
+        "( Dick Gibbs ) For a given positive integer $k$ find, in terms of $k$, the minimum value of $N$ for which there is a set of $2k+1$ distinct positive integers that has sum greater than $N$ but every subset of size $k$ has sum at most $N/2$. ",
+        "algebra"
+    ],
+    [
+        "( Reid Barton ) An animal with $n$ cells is a connected figure consisting of $n$ equal-sized square cells. ${}^1$ The figure below shows an 8-cell animal. A dinosaur is an animal with at least 2007 cells. It is said to be primitive if its cells cannot be partitioned into two or more dinosaurs. Find with proof the maximum number of cells in a primitive dinosaur. ${}^1$ Animals are also called polyominoes. They can be defined inductively. Two cells are adjacent if they share a complete edge. A single cell is an animal, and given an animal with $n$ cells, one with $n+1$ cells is obtained by adjoining a new cell by making it adjacent to one or more existing cells. ",
+        "algebra"
+    ],
+    [
+        "( Gabriel Carroll ) Let $n$ be a positive integer. Denote by $S_n$ the set of points $(x, y)$ with integer coordinates such that\n\n\n\\[\\left|x\\right| + \\left|y + \\frac {1}{2}\\right| < n\\]\n\n\nA path is a sequence of distinct points $(x_1, y_1 ), (x_2, y_2 ), \\ldots, (x_\\ell, y_\\ell)$ in $S_n$ such that, for $i = 2, \\ldots, \\ell$, the distance between $(x_i, y_i )$ and $(x_{i - 1}, y_{i - 1} )$ is $1$ (in other words, the points $(x_i, y_i )$ and $(x_{i - 1}, y_{i - 1} )$ are neighbors in the lattice of points with integer coordinates). Prove that the points in $S_n$ cannot be partitioned into fewer than $n$ paths (a partition of $S_n$ into $m$ paths is a set $\\mathcal{P}$ of $m$ nonempty paths such that each point in $S_n$ appears in exactly one of the $m$ paths in $\\mathcal{P}$ ). ",
+        "algebra"
+    ],
+    [
+        "( Gregory Galparin ) Let $\\mathcal{P}$ be a convex polygon with $n$ sides, $n\\ge3$. Any set of $n - 3$ diagonals of $\\mathcal{P}$ that do not intersect in the interior of the polygon determine a triangulation of $\\mathcal{P}$ into $n - 2$ triangles. If $\\mathcal{P}$ is regular and there is a triangulation of $\\mathcal{P}$ consisting of only isosceles triangles, find all the possible values of $n$. ",
+        "geometry"
+    ],
+    [
+        "We define a chessboard polygon to be a polygon whose sides are situated along lines of the form $x = a$ or $y = b$, where $a$ and $b$ are integers. These lines divide the interior into unit squares, which are shaded alternately grey and white so that adjacent squares have different colors. To tile a chessboard polygon by dominoes is to exactly cover the polygon by non-overlapping $1 \\times 2$ rectangles. Finally, a tasteful tiling is one which avoids the two configurations of dominoes shown on the left below. Two tilings of a $3 \\times 4$ rectangle are shown; the first one is tasteful, while the second is not, due to the vertical dominoes in the upper right corner. [asy] size(400); pathpen = linewidth(2.5); void chessboard(int a, int b, pair P){ for(int i = 0; i < a; ++i) for(int j = 0; j < b; ++j) if((i+j)\u00a0% 2 == 1) fill(shift(P.x+i,P.y+j)*unitsquare,rgb(0.6,0.6,0.6)); D(P--P+(a,0)--P+(a,b)--P+(0,b)--cycle); } chessboard(2,2,(2.5,0));fill(unitsquare,rgb(0.6,0.6,0.6));fill(shift(1,1)*unitsquare,rgb(0.6,0.6,0.6)); chessboard(4,3,(6,0)); chessboard(4,3,(11,0)); MP(\"\\mathrm{Distasteful\\ tilings}\",(2.25,3),fontsize(12)); /* draw lines */ D((0,0)--(2,0)--(2,2)--(0,2)--cycle); D((1,0)--(1,2)); D((2.5,1)--(4.5,1)); D((7,0)--(7,2)--(6,2)--(10,2)--(9,2)--(9,0)--(9,1)--(7,1)); D((8,2)--(8,3)); D((12,0)--(12,2)--(11,2)--(13,2)); D((13,1)--(15,1)--(14,1)--(14,3)); D((13,0)--(13,3)); [/asy] a) Prove that if a chessboard polygon can be tiled by dominoes, then it can be done so tastefully. b) Prove that such a tasteful tiling is unique. ",
+        "algebra"
+    ],
+    [
+        "A set of lines in the plane is in $\\textit{general position}$ if no two are parallel and no three pass through the same point. A set of lines in general position cuts the plane into regions, some of which have finite area; we call these its $\\textit{finite regions}$. Prove that for all sufficiently large $n$, in any set of $n$ lines in general position it is possible to colour at least $\\sqrt{n}$ of the lines blue in such a way that none of its finite regions has a completely blue boundary. ",
+        "algebra"
+    ],
+    [
+        "We say that a finite set $\\mathcal{S}$ in the plane is balanced\nif, for any two different points $A$, $B$ in $\\mathcal{S}$, there is\na point $C$ in $\\mathcal{S}$ such that $AC=BC$. We say that\n$\\mathcal{S}$ is centre-free if for any three points $A$, $B$, $C$ in\n$\\mathcal{S}$, there is no point $P$ in $\\mathcal{S}$ such that\n$PA=PB=PC$. ",
+        "algebra"
+    ],
+    [
+        "The sequence $a_1,a_2,\\dots$ of integers satisfies the conditions:\n(i) $1\\le a_j\\le2015$ for all $j\\ge1$,\n(ii) $k+a_k\\neq \\ell+a_\\ell$ for all $1\\le k<\\ell$.\nProve that there exist two positive integers $b$ and $N$ for which\n\n\\[\\left\\vert\\sum_{j=m+1}^n(a_j-b)\\right\\vert\\le1007^2\\]\n\nfor all integers $m$ and $n$ such that $n>m\\ge N$.\nProposed by Ivan Guo and Ross Atkins, Australia. ",
+        "algebra"
+    ],
+    [
+        "There is an integer $n > 1$. There are $n^2$ stations on a slope of a mountain, all at different altitudes. Each of two cable car companies, $A$ and $B$, operates $k$ cable cars; each cable car provides a transfer from one of the stations to a higher one (with no intermediate stops). The $k$ cable cars of $A$ have $k$ different starting points and $k$ different finishing points, and a cable car that starts higher also finishes higher. The same conditions hold for $B$. We say that two stations are linked by a company if one can start from the lower station and reach the higher one by using one or more cars of that company (no other movements between stations are allowed). Determine the smallest positive integer k for which one can guarantee that there are two stations that are linked by both companies. ",
+        "algebra"
+    ],
+    [
+        "Two squirrels, Bushy and Jumpy, have collected 2021 walnuts for the winter. Jumpy numbers the walnuts from 1 through 2021, and digs 2021 little holes in a circular pattern in the ground around their favourite tree. The next morning Jumpy notices that Bushy had placed one walnut into each hole, but had paid no attention to the numbering. Unhappy, Jumpy decides to reorder the walnuts by performing a sequence of 2021 moves. In the $k$ -th move, Jumpy swaps the positions of the two walnuts adjacent to walnut $k$. Prove that there exists a value of $k$ such that, on the $k$ -th move, Jumpy swaps some walnuts $a$ and $b$ such that $a < k < b$. https://youtu.be/vUftJHRaNx8 [Much shorter solution, video contains solutions to all day 2 problems] ",
+        "algebra"
+    ],
+    [
+        "By a partition $\\pi$ of an integer $n\\ge 1,$ we mean here a representation of $n$ as a sum of one or more positive integers where the summands must be put in nondecreasing order. (E.g., if $n=4,$ then the partitions $\\pi$ are $1+1+1+1,$ $1+1+2,$ $1+3, 2+2,$ and $4$ ). For any partition $\\pi,$ define $A(\\pi)$ to be the number of $1$ 's which appear in $\\pi,$ and define $B(\\pi)$ to be the number of distinct integers which appear in $\\pi$ (E.g., if $n=13$ and $\\pi$ is the partition $1+1+2+2+2+5,$ then $A(\\pi)=2$ and $B(\\pi) = 3$ ). Prove that, for any fixed $n,$ the sum of $A(\\pi)$ over all partitions of $\\pi$ of $n$ is equal to the sum of $B(\\pi)$ over all partitions of $\\pi$ of $n.$ ",
+        "algebra"
+    ],
+    [
+        "A permutation $\\{x_1, \\ldots, x_{2n}\\}$ of the set $\\{1,2, \\ldots, 2n\\}$ where $\\mbox{n}$ is a positive integer, is said to have property $T$ if $|x_i - x_{i + 1}| = n$ for at least one $i \\in \\{1,2, \\ldots, 2n - 1\\}$. Show that, for each $\\mbox{n}$, there are more permutations with property $T$ than without. ",
+        "algebra"
+    ],
+    [
+        "Determine (with proof) whether there is a subset $X$ of the integers with the following property: for any integer $n$ there is exactly one solution of $a + 2b = n$ with $a,b \\in X$. ",
+        "algebra"
+    ],
+    [
+        "Let $n_1, n_2, \\dots, n_m$ be integers where $m>1$ is odd. Let $x = (x_1, \\dots, x_m)$ denote a permutation of the integers $1, 2, \\cdots, m$. Let $f(x) = x_1n_1 + x_2n_2 +... + x_mn_m$. Show that for some distinct permutations $a$, $b$ the difference $f(a) - f(b)$ is a multiple of $m!$. ",
+        "algebra"
+    ],
+    [
+        "( Sam Vandervelde ) At a certain mathematical conference, every pair of mathematicians are either friends or strangers. At mealtime, every participant eats in one of two large dining rooms. Each mathematician insists upon eating in a room which contains an even number of his or her friends. Prove that the number of ways that the mathematicians may be split between the two rooms is a power of two (i.e., is of the form $2^k$ for some positive integer $k$ ). ",
+        "algebra"
+    ],
+    [
+        "For each positive integer $n$, the Bank of Cape Town issues coins of denomination $\\tfrac{1}{n}$. Given a finite collection of such coins (of not necessarily different denominations) with total value at most $99+\\tfrac{1}{2}$, prove that it is possible to split this collection into $100$ or fewer groups, such that each group has total value at most $1$. ",
+        "algebra"
+    ],
+    [
+        "Carina has three pins, labeled $A, B$, and $C$, respectively, located at the origin of the coordinate plane. In a move, Carina may move a pin to an adjacent lattice point at distance $1$ away. What is the least number of moves that Carina can make in order for triangle $ABC$ to have area 2021? (A lattice point is a point $(x, y)$ in the coordinate plane where $x$ and $y$ are both integers, not necessarily positive.) ",
+        "geometry"
+    ],
+    [
+        "A game of solitaire is played with $R$ red cards, $W$ white cards, and $B$ blue cards. A player plays all the cards one at a time. With each play he accumulates a penalty. If he plays a blue card, then he is charged a penalty which is the number of white cards still in his hand. If he plays a white card, then he is charged a penalty which is twice the number of red cards still in his hand. If he plays a red card, then he is charged a penalty which is three times the number of blue cards still in his hand. Find, as a function of $R, W,$ and $B,$ the minimal total penalty a player can amass and all the ways in which this minimum can be achieved. ",
+        "algebra"
+    ]
+]

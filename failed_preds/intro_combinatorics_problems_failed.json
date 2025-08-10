@@ -1,0 +1,258 @@
+[
+    [
+        "The number of diagonals that can be drawn in a polygon of $100$ sides is: $\\textbf{(A)}\\ 4850 \\qquad \\textbf{(B)}\\ 4950\\qquad \\textbf{(C)}\\ 9900 \\qquad \\textbf{(D)}\\ 98 \\qquad \\textbf{(E)}\\ 8800$",
+        "geometry"
+    ],
+    [
+        "Six straight lines are drawn in a plane with no two parallel and no three concurrent. The number of regions into which they divide the plane is: $\\textbf{(A)}\\ 16 \\qquad \\textbf{(B)}\\ 20\\qquad \\textbf{(C)}\\ 22 \\qquad \\textbf{(D)}\\ 24 \\qquad \\textbf{(E)}\\ 26$",
+        "geometry"
+    ],
+    [
+        "One thousand unit cubes are fastened together to form a large cube with edge length 10 units; this is painted and then separated into the original cubes. The number of these unit cubes which have at least one face painted is $\\textbf{(A)}\\ 600\\qquad\\textbf{(B)}\\ 520\\qquad\\textbf{(C)}\\ 488\\qquad\\textbf{(D)}\\ 480\\qquad\\textbf{(E)}\\ 400$",
+        "algebra"
+    ],
+    [
+        "The coefficient of $x^7$ in the polynomial expansion of \\[(1+2x-x^2)^4\\] is $\\mathrm{(A)\\ } -8 \\qquad \\mathrm{(B) \\ }12 \\qquad \\mathrm{(C) \\ } 6 \\qquad \\mathrm{(D) \\ } -12 \\qquad \\mathrm{(E) \\ }\\text{none of these}$",
+        "algebra"
+    ],
+    [
+        "Assume every 7-digit whole number is a possible telephone number except those that begin with $0$ or $1$. What fraction of telephone numbers begin with $9$ and end with $0$? $\\text{(A)}\\ \\frac{1}{63} \\qquad \\text{(B)}\\ \\frac{1}{80} \\qquad \\text{(C)}\\ \\frac{1}{81} \\qquad \\text{(D)}\\ \\frac{1}{90} \\qquad \\text{(E)}\\ \\frac{1}{100}$Note: All telephone numbers are 7-digit whole numbers.",
+        "algebra"
+    ],
+    [
+        "How many whole numbers are between $\\sqrt{8}$ and $\\sqrt{80}$? $\\text{(A)}\\ 5 \\qquad \\text{(B)}\\ 6 \\qquad \\text{(C)}\\ 7 \\qquad \\text{(D)}\\ 8 \\qquad \\text{(E)}\\ 9$",
+        "algebra"
+    ],
+    [
+        "Using only the paths and the directions shown, how many different routes are there from $\\text{M}$ to $\\text{N}$? [asy] draw((0,0)--(3,0),MidArrow); draw((3,0)--(6,0),MidArrow); draw(6*dir(60)--3*dir(60),MidArrow); draw(3*dir(60)--(0,0),MidArrow); draw(3*dir(60)--(3,0),MidArrow); draw(5.1961524227066318805823390245176*dir(30)--(6,0),MidArrow); draw(6*dir(60)--5.1961524227066318805823390245176*dir(30),MidArrow); draw(5.1961524227066318805823390245176*dir(30)--3*dir(60),MidArrow); draw(5.1961524227066318805823390245176*dir(30)--(3,0),MidArrow); label(\"M\",6*dir(60),N); label(\"N\",(6,0),SE); label(\"A\",3*dir(60),NW); label(\"B\",5.1961524227066318805823390245176*dir(30),NE); label(\"C\",(3,0),S); label(\"D\",(0,0),SW); [/asy] $\\text{(A)}\\ 2 \\qquad \\text{(B)}\\ 3 \\qquad \\text{(C)}\\ 4 \\qquad \\text{(D)}\\ 5 \\qquad \\text{(E)}\\ 6$",
+        "algebra"
+    ],
+    [
+        "For any real number a and positive integer k, define ${a \\choose k} = \\frac{a(a-1)(a-2)\\cdots(a-(k-1))}{k(k-1)(k-2)\\cdots(2)(1)}$ What is ${-\\frac{1}{2} \\choose 100} \\div {\\frac{1}{2} \\choose 100}$? $\\textbf{(A)}\\ -199\\qquad \\textbf{(B)}\\ -197\\qquad \\textbf{(C)}\\ -1\\qquad \\textbf{(D)}\\ 197\\qquad \\textbf{(E)}\\ 199$",
+        "algebra"
+    ],
+    [
+        "Placing no more than one $\\text{X}$ in each small square, what is the greatest number of $\\text{X}$ 's that can be put on the grid shown without getting three $\\text{X}$ 's in a row vertically, horizontally, or diagonally? $\\text{(A)}\\ 2 \\qquad \\text{(B)}\\ 3 \\qquad \\text{(C)}\\ 4 \\qquad \\text{(D)}\\ 5 \\qquad \\text{(E)}\\ 6$[asy] for(int a=0; a<4; ++a) { draw((a,0)--(a,3)); } for(int b=0; b<4; ++b) { draw((0,b)--(3,b)); } [/asy]",
+        "algebra"
+    ],
+    [
+        "The Pythagoras High School band has $100$ female and $80$ male members. The Pythagoras High School orchestra has $80$ female and $100$ male members. There are $60$ females who are members in both band and orchestra. Altogether, there are $230$ students who are in either band or orchestra or both. The number of males in the band who are NOT in the orchestra is $\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 20 \\qquad \\text{(C)}\\ 30 \\qquad \\text{(D)}\\ 50 \\qquad \\text{(E)}\\ 70$",
+        "algebra"
+    ],
+    [
+        "How many line segments have both their endpoints located at the vertices of a given cube? $\\text{(A)}\\ 12\\qquad\\text{(B)}\\ 15\\qquad\\text{(C)}\\ 24\\qquad\\text{(D)}\\ 28\\qquad\\text{(E)}\\ 56$Contents 1 Problem 1.1 Solution 1 1.2 Solution 2 2 See also",
+        "geometry"
+    ],
+    [
+        "How many paths from $A$ to $B$ consist of exactly six line segments (vertical, horizontal or inclined)? [asy] for(int i = 0; i < 3; ++i){ draw((0,i+1)--(0,i)--(4,i)--(4,i+1)); draw((4/3,i+1)--(4/3,i)--(8/3,i+1)--(8/3,i)); } draw((0,3)--(4,3)); label(\"$A$\",(0,0),SW); label(\"$B$\",(4,3),NE); //Credit to chezbgone2 for the diagram[/asy] ",
+        "algebra"
+    ],
+    [
+        "Color the surfaces of a cube of dimension $5\\times 5\\times 5$ red, and then cut the cube into smaller cubes of dimension $1\\times 1\\times 1$. Take out all the smaller cubes which have at least one red surface and fix a cuboid, keeping the surfaces of the cuboid red. Now what is the maximum possible volume of the cuboid? ",
+        "geometry"
+    ],
+    [
+        "Call a $7$ -digit telephone number $d_1d_2d_3-d_4d_5d_6d_7$ memorable if the prefix sequence $d_1d_2d_3$ is exactly the same as either of the sequences $d_4d_5d_6$ or $d_5d_6d_7$ (possibly both). Assuming that each $d_i$ can be any of the ten decimal digits $0,1,2, \\ldots, 9$, the number of different memorable telephone numbers is $\\mathrm{(A)}\\ 19,810 \\qquad\\mathrm{(B)}\\ 19,910 \\qquad\\mathrm{(C)}\\ 19,990 \\qquad\\mathrm{(D)}\\ 20,000 \\qquad\\mathrm{(E)}\\ 20,100$",
+        "algebra"
+    ],
+    [
+        "The Fibonacci sequence $1,1,2,3,5,8,13,21,\\ldots$ starts with two 1s, and each term afterwards is the sum of its two predecessors. Which one of the ten digits is the last to appear in the units position of a number in the Fibonacci sequence? $\\textbf{(A)} \\ 0 \\qquad \\textbf{(B)} \\ 4 \\qquad \\textbf{(C)} \\ 6 \\qquad \\textbf{(D)} \\ 7 \\qquad \\textbf{(E)} \\ 9$",
+        "number"
+    ],
+    [
+        "Points $R$, $S$ and $T$ are vertices of an equilateral triangle, and points $X$, $Y$ and $Z$ are midpoints of its sides. How many noncongruent triangles can be\ndrawn using any three of these six points as vertices? [asy] pair SS,R,T,X,Y,Z; SS = (2,2*sqrt(3)); R = (0,0); T = (4,0); X = (2,0); Y = (1,sqrt(3)); Z = (3,sqrt(3)); dot(SS); dot(R); dot(T); dot(X); dot(Y); dot(Z); label(\"$S$\",SS,N); label(\"$R$\",R,SW); label(\"$T$\",T,SE); label(\"$X$\",X,S); label(\"$Y$\",Y,NW); label(\"$Z$\",Z,NE); [/asy] $\\text{(A)}\\ 1 \\qquad \\text{(B)}\\ 2 \\qquad \\text{(C)}\\ 3 \\qquad \\text{(D)}\\ 4 \\qquad \\text{(E)}\\ 20$",
+        "geometry"
+    ],
+    [
+        "A large equilateral triangle is constructed by using toothpicks to create rows of small equilateral triangles. For example, in the figure, we have $3$ rows of small congruent equilateral triangles, with $5$ small triangles in the base row. How many toothpicks would be needed to construct a large equilateral triangle if the base row of the triangle consists of $2003$ small equilateral triangles? [asy] unitsize(15mm); defaultpen(linewidth(.8pt)+fontsize(8pt)); pair Ap=(0,0), Bp=(1,0), Cp=(2,0), Dp=(3,0), Gp=dir(60); pair Fp=shift(Gp)*Bp, Ep=shift(Gp)*Cp; pair Hp=shift(Gp)*Gp, Ip=shift(Gp)*Fp; pair Jp=shift(Gp)*Hp; pair[] points={Ap,Bp,Cp,Dp,Ep,Fp,Gp,Hp,Ip,Jp}; draw(Ap--Dp--Jp--cycle); draw(Gp--Bp--Ip--Hp--Cp--Ep--cycle); for(pair p\u00a0: points) { fill(circle(p, 0.07),white); } pair[] Cn=new pair[5]; Cn[0]=centroid(Ap,Bp,Gp); Cn[1]=centroid(Gp,Bp,Fp); Cn[2]=centroid(Bp,Fp,Cp); Cn[3]=centroid(Cp,Fp,Ep); Cn[4]=centroid(Cp,Ep,Dp); label(\"$1$\",Cn[0]); label(\"$2$\",Cn[1]); label(\"$3$\",Cn[2]); label(\"$4$\",Cn[3]); label(\"$5$\",Cn[4]); for (pair p\u00a0: Cn) { draw(circle(p,0.1)); }[/asy] $\\mathrm{(A) \\ } 1,004,004 \\qquad \\mathrm{(B) \\ } 1,005,006 \\qquad \\mathrm{(C) \\ } 1,507,509 \\qquad \\mathrm{(D) \\ } 3,015,018 \\qquad \\mathrm{(E) \\ } 6,021,018$",
+        "geometry"
+    ],
+    [
+        "Henry's Hamburger Haven offers its hamburgers with the following condiments: ketchup, mustard, mayonnaise, tomato, lettuce, pickles, cheese, and onions. A customer can choose one, two,or three meat patties and any collection of condiments. How many different kinds of hamburgers can be ordered? $\\text{(A) \\ } 24 \\qquad \\text{(B) \\ } 256 \\qquad \\text{(C) \\ } 768 \\qquad \\text{(D) \\ } 40,320 \\qquad \\text{(E) \\ } 120,960$",
+        "algebra"
+    ],
+    [
+        "The $5\\times 5$ grid shown contains a collection of squares with sizes from $1\\times 1$ to $5\\times 5$. How many of these squares contain the black center square? [asy] for (int i=0; i<5; ++i) { for (int j=0; j<5; ++j) { draw((-2.5+i, -2.5+j)--(-1.5+i, -2.5+j) -- (-1.5+i, -1.5+j) -- (-2.5+i, -1.5+j)--cycle); } fill((-0.5,-0.5)--(-0.5, 0.5)--(0.5,0.5) -- (0.5,-0.5)--cycle, black); } [/asy] $\\mathrm{(A) \\ } 12 \\qquad \\mathrm{(B) \\ } 15 \\qquad \\mathrm{(C) \\ } 17 \\qquad \\mathrm{(D) \\ } 19\\qquad \\mathrm{(E) \\ } 20$",
+        "algebra"
+    ],
+    [
+        "Let $x$ be a fraction between $\\frac{35}{36}$ and $\\frac{91}{183}$. If the denominator of $x$ is $455$ and the numerator and denominator have no common factor except $1$, how many possible values are there for $x$? ",
+        "algebra"
+    ],
+    [
+        "The expression \\[(x+y+z)^{2006}+(x-y-z)^{2006}\\] is simplified by expanding it and combining like terms. How many terms are in the simplified expression? $\\mathrm{(A) \\ } 6018\\qquad \\mathrm{(B) \\ } 671,676\\qquad \\mathrm{(C) \\ } 1,007,514\\qquad \\mathrm{(D) \\ } 1,008,016\\qquad\\mathrm{(E) \\ } 2,015,028$",
+        "algebra"
+    ],
+    [
+        "A convex polygon has $n$ sides and $740$ diagonals. Then $n$ equals $\\mathrm{(A)}\\ 30\\qquad\\mathrm{(B)}\\ 40\\qquad\\mathrm{(C)}\\ 50\\qquad\\mathrm{(D)}\\ 60\\qquad\\mathrm{(E)}\\ \\text{None of these}$",
+        "geometry"
+    ],
+    [
+        "How many integers between $1$ and $2006$, inclusive, are perfect squares? $\\text{(A) }37\\qquad \\text{(B) }38\\qquad \\text{(C) }39\\qquad \\text{(D) }40\\qquad \\text{(E) }41\\qquad \\text{(F) }42\\qquad \\text{(G) }43\\qquad \\text{(H) }44\\qquad$$\\text{(I) }45\\qquad \\text{(J) }46\\qquad \\text{(K) }47\\qquad \\text{(L) }48\\qquad \\text{(M) }49\\qquad \\text{(N) }50\\qquad \\text{(O) }\\text{none of the above}\\qquad$",
+        "algebra"
+    ],
+    [
+        "The first $2007$ positive integers are each written in base $3$. How many of these base- $3$ representations are palindromes? (A palindrome is a number that reads the same forward and backward.) $\\mathrm {(A)}\\ 100 \\qquad \\mathrm {(B)}\\ 101 \\qquad \\mathrm {(C)}\\ 102 \\qquad \\mathrm {(D)}\\ 103 \\qquad \\mathrm {(E)}\\ 104$",
+        "number"
+    ],
+    [
+        "A 10-digit arrangement $0,1,2,3,4,5,6,7,8,9$ is called beautiful if (i) when read left to right, $0,1,2,3,4$ form an increasing sequence, and $5,6,7,8,9$ form a decreasing sequence, and (ii) $0$ is not the leftmost digit. For example, $9807123654$ is a beautiful arrangement. Determine the number of beautiful arrangements. ",
+        "algebra"
+    ],
+    [
+        "What is the smallest positive integer $k$ such that the number ${{2k}\\choose k}$ ends in two zeros? $\\text{(A) } 3 \\quad \\text{(B) } 4 \\quad \\text{(C) } 5 \\quad \\text{(D) } 6 \\quad \\text{(E) } 7 \\quad \\text{(F) } 8 \\quad \\text{(G) } 9 \\quad \\text{(H) } 10 \\quad \\text{(I) } 11 \\quad \\text{(J) } 12 \\quad \\text{(K) } 13 \\quad \\text{(L) } 14 \\quad \\text{(M) } 2007\\quad$",
+        "algebra"
+    ],
+    [
+        "How many lattice points lie within or on the border of the circle in the $xy$ -plane defined by the equation\n\n\n\\[x^2+y^2=100\\] $\\text{(A) }1\\qquad \\text{(B) }2\\qquad \\text{(C) }4\\qquad \\text{(D) }5\\qquad \\text{(E) }41\\qquad \\text{(F) }42\\qquad \\text{(G) }69\\qquad \\text{(H) }76\\qquad \\text{(I) }130\\qquad \\\\ \\text{(J) }133\\qquad \\text{(K) }233\\qquad \\text{(L) }311\\qquad \\text{(M) }317\\qquad \\text{(N) }420\\qquad \\text{(O) }520\\qquad \\text{(P) }2007$",
+        "algebra"
+    ],
+    [
+        "Postman Pete has a pedometer to count his steps. The pedometer records up to $99999$ steps, then flips over to $00000$ on the next step. Pete plans to determine his mileage for a year. On January $1$ Pete sets the pedometer to $00000$. During the year, the pedometer flips from $99999$ to $00000$ forty-four times. On December $31$ the pedometer reads $50000$. Pete takes $1800$ steps per mile. Which of the following is closest to the number of miles Pete walked during the year? $\\textbf{(A)}\\ 2500 \\qquad \\textbf{(B)}\\ 3000 \\qquad \\textbf{(C)}\\ 3500 \\qquad \\textbf{(D)}\\ 4000 \\qquad \\textbf{(E)}\\ 4500$",
+        "algebra"
+    ],
+    [
+        "Hannah Kubik leads a local volunteer group of thirteen adults that takes turns holding classes for patients at the Children\u2019s Hospital. At the end of August, Hannah took a tour of the hospital and talked with some members of the sta\ufb00. Dr. Yang told Hannah that it looked like there would be more girls than boys in the hospital during September. The next day Hannah brought the volunteers together and it was decided that three women and two men would volunteer to run the September classes at the Children\u2019s Hospital. If there are exactly six women in the volunteer group, how many combinations of three women and two men could Hannah choose from the volunteer group to run the classes? ",
+        "algebra"
+    ],
+    [
+        "Of the thirteen members of the volunteer group, Hannah selects herself, Tom Morris, Jerry Hsu, Thelma Paterson, and Louise Bueller to teach the September classes. When she is done, she decides that it's not necessary to balance the number of female and male teachers with the proportions of girls and boys at the hospital $\\textit{every}$ month, and having half the women work while only $2$ of the $7$ men work on some months means that some of the women risk getting burned out. After all, nearly all the members of the volunteer group have other jobs. Hannah comes up with a plan that the committee likes. Beginning in October, the committee of five volunteer teachers will consist of any five members of the volunteer group,\nso long as there is at least one woman and at least one man teaching each month. Under this new plan, what is the least number of months that $\\textit{must}$ go by\n(including October when the first set of five teachers is selected, but not September) such that some five-member committee $\\textit{must have}$ taught together twice\n(all five members are the same during two different months)? ",
+        "algebra"
+    ],
+    [
+        "As the Kubiks head out of town for vacation, Jerry takes the first driving shift while Hannah and most of the kids settle down to read books they brought along. Tony does not feel like reading, so Alexis gives him one of her math notebooks and Tony gets to work solving some of the problems, and struggling over others. After a while, Tony comes to a problem he likes from an old AMC 10 exam : Four distinct circles are drawn in a plane. What is the maximum number of points where at least two of the circles intersect? Tony realizes that he can draw the four circles such that each pair of circles intersects in two points. After careful doodling, Tony finds the correct answer, and is proud that he can solve a problem from late on an AMC 10 exam. \"Mom, why didn't we all get Tony's brain?\" Wendy inquires before turning he head back into her favorite Harry Potter volume (the fifth year). Joshua leans over to Tony's seat to see his brother's work. Joshua knows that Tony has not yet discovered all the underlying principles behind the problem, so Joshua challenges, \"What if there are a dozen circles?\" Tony gets to work on Joshua's problem of finding the maximum number of points of intersections where at least two of the twelve circles in a plane intersect. What is the answer to this problem? ",
+        "algebra"
+    ],
+    [
+        "One of Michael\u2019s responsibilities in organizing the family vacation is to call around and \ufb01nd room rates for hotels along the route the Kubik family plans to drive. While calling hotels near the Grand Canyon, a phone number catches Michael\u2019s eye. Michael notices that the \ufb01rst four digits of $987-1234$ descend $(9-8-7-1)$ and that the last four ascend in order $(1-2-3-4)$. This fact along with the fact that the digits are split into consecutive groups makes that number easier to remember. Looking back at the list of numbers that Michael called already, he notices that several of the phone numbers have the same property: their \ufb01rst four digits are in descending order while the last four are in ascending order. Suddenly, Michael realizes that he can remember all those numbers without looking back at his list of hotel phone numbers. \u201cWow,\u201d he thinks, \u201cthat\u2019s good marketing strategy.\u201d Michael then wonders to himself how many businesses in a single area code could have such phone numbers. How many $7$ -digit telephone numbers are there such that all seven digits are distinct, the \ufb01rst four digits are in descending order, and the last four digits are in ascending order? ",
+        "algebra"
+    ],
+    [
+        "Alexis and Joshua are walking along the beach when they decide to draw symbols in the sand. Alex draws only stars and only draws them in pairs while Joshua draws only squares in trios. \"Let's see how many rows of $15$ adjacent symbols we can make this way,\" suggests Josh. Alexis is game for the task and the two get busy drawing. Some of their rows look like \\[\\begin{array}{ccccccccccccccc}\\vspace{10pt}*&*&*&*&*&*&*&*&*&*&*&*&\\blacksquare&\\blacksquare&\\blacksquare\\\\\\vspace{10pt}\\blacksquare&\\blacksquare&\\blacksquare&*&*&*&*&*&*&*&*&*&*&*&*\\\\\\vspace{10pt}\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&*&*&*&*&*&*&\\blacksquare&\\blacksquare&\\blacksquare\\\\\\vspace{10pt}\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare&\\blacksquare\\\\\\vspace{10pt}*&*&*&*&*&*&\\blacksquare&\\blacksquare&\\blacksquare&*&*&*&*&*&*\\end{array}\\] The twins decide to count each of the first two rows above as distinct rows, even though one is the mirror image of the other. But the last of the rows above is its own mirror image, so they count it only once. Around an hour later, the twins realized that they had drawn every possible row exactly once using their rules of stars in pairs and squares in trips. How many rows did they draw in the sand? ",
+        "algebra"
+    ],
+    [
+        "Rachel and Robert run on a circular track. Rachel runs counterclockwise and completes a lap every 90 seconds, and Robert runs clockwise and completes a lap every 80 seconds. Both start from the same line at the same time. At some random time between 10 minutes and 11 minutes after they begin to run, a photographer standing inside the track takes a picture that shows one-fourth of the track, centered on the starting line. What is the probability that both Rachel and Robert are in the picture? $\\mathrm{(A)}\\frac {1}{16}\\qquad \\mathrm{(B)}\\frac 18\\qquad \\mathrm{(C)}\\frac {3}{16}\\qquad \\mathrm{(D)}\\frac 14\\qquad \\mathrm{(E)}\\frac {5}{16}$",
+        "algebra"
+    ],
+    [
+        "A convex polyhedron $Q$ has vertices $V_1,V_2,\\ldots,V_n$, and $100$ edges. The polyhedron is cut by planes $P_1,P_2,\\ldots,P_n$ in such a way that plane $P_k$ cuts only those edges that meet at vertex $V_k$. In addition, no two planes intersect inside or on $Q$. The cuts produce $n$ pyramids and a new polyhedron $R$. How many edges does $R$ have? $\\mathrm{(A)}\\ 200\\qquad \\mathrm{(B)}\\ 2n\\qquad \\mathrm{(C)}\\ 300\\qquad \\mathrm{(D)}\\ 400\\qquad \\mathrm{(E)}\\ 4n$The process described in this problem exists in practice and is known as a truncation.",
+        "geometry"
+    ],
+    [
+        "Let each of $m$ distinct points on the positive\n$x$ -axis be joined to each of $n$ distinct points on\nthe positive $y$ -axis. Assume no three segments\nare concurrent (except at the axes). Obtain\nwith proof a formula for the number of interior\nintersection points. The diagram shows that\nthe answer is $3$ when $m=3$ and $n=2.$ [asy] draw((0,0)--(0,3),arrow=Arrow()); draw((0,0)--(4,0),arrow=Arrow()); for(int x=0;x<4;++x){ for(int y=0;y<3;++y){ D((x,0)--(0,y),black); }} dot(IP((2,0)--(0,1),(1,0)--(0,2))); dot(IP((3,0)--(0,1),(1,0)--(0,2))); dot(IP((3,0)--(0,1),(2,0)--(0,2))); [/asy] ",
+        "algebra"
+    ],
+    [
+        "A 16-step path is to go from $(-4,-4)$ to $(4,4)$ with each step increasing either the $x$ -coordinate or the $y$ -coordinate by 1. How many such paths stay outside or on the boundary of the square $-2 \\le x \\le 2$, $-2 \\le y \\le 2$ at each step? $\\textbf{(A)}\\ 92 \\qquad \\textbf{(B)}\\ 144 \\qquad \\textbf{(C)}\\ 1568 \\qquad \\textbf{(D)}\\ 1698 \\qquad \\textbf{(E)}\\ 12,800$",
+        "algebra"
+    ],
+    [
+        "There are $5$ coins placed flat on a table according to the figure. What is the order of the coins from top to bottom? [asy] size(100); defaultpen(linewidth(.8pt)+fontsize(8pt)); draw(arc((0,1), 1.2, 25, 214)); draw(arc((.951,.309), 1.2, 0, 360)); draw(arc((.588,-.809), 1.2, 132, 370)); draw(arc((-.588,-.809), 1.2, 75, 300)); draw(arc((-.951,.309), 1.2, 96, 228)); label(\"$A$\",(0,1),NW); label(\"$B$\",(-1.1,.309),NW); label(\"$C$\",(.951,.309),E); label(\"$D$\",(-.588,-.809),W); label(\"$E$\",(.588,-.809),S); [/asy] $\\textbf{(A)}\\ (C, A, E, D, B) \\qquad \\textbf{(B)}\\ (C, A, D, E, B) \\qquad \\textbf{(C)}\\ (C, D, E, A, B) \\qquad \\textbf{(D)}\\ (C, E, A, D, B) \\qquad \\textbf{(E)}\\ (C, E, D, A, B)$",
+        "algebra"
+    ],
+    [
+        "Let $n>3$ be a positive integer. Equilateral triangle ABC is divided into $n^2$ smaller congruent equilateral triangles (with sides parallel to its sides). Let $m$ be the number of rhombuses that contain two small equilateral triangles and $d$ the number of rhombuses that contain eight small equilateral triangles. Find the difference $m-d$ in terms of $n$. ",
+        "geometry"
+    ],
+    [
+        "Find the number of positive integers with three not necessarily distinct digits, $abc$, with $a \\neq 0$ and $c \\neq 0$ such that both $abc$ and $cba$ are multiples of $4$. ",
+        "number"
+    ],
+    [
+        "Central High School is competing against Northern High School in a backgammon match. Each school has three players, and the contest rules require that each player play two games against each of the other school's players. The match takes place in six rounds, with three games played simultaneously in each round. In how many different ways can the match be scheduled? $\\textbf{(A)}\\ 540\\qquad\\textbf{(B)}\\ 600\\qquad\\textbf{(C)}\\ 720\\qquad\\textbf{(D)}\\ 810\\qquad\\textbf{(E)}\\ 900$",
+        "algebra"
+    ],
+    [
+        "The regular octagon $ABCDEFGH$ has its center at $J$. Each of the vertices and the center are to be associated with one of the digits $1$ through $9$, with each digit used once, in such a way that the sums of the numbers on the lines $AJE$, $BJF$, $CJG$, and $DJH$ are all equal. In how many ways can this be done? $\\textbf{(A)}\\ 384 \\qquad\\textbf{(B)}\\ 576 \\qquad\\textbf{(C)}\\ 1152 \\qquad\\textbf{(D)}\\ 1680 \\qquad\\textbf{(E)}\\ 3456$[asy] pair A,B,C,D,E,F,G,H,J; A=(20,20(2+sqrt(2))); B=(20(1+sqrt(2)),20(2+sqrt(2))); C=(20(2+sqrt(2)),20(1+sqrt(2))); D=(20(2+sqrt(2)),20); E=(20(1+sqrt(2)),0); F=(20,0); G=(0,20); H=(0,20(1+sqrt(2))); J=(10(2+sqrt(2)),10(2+sqrt(2))); draw(A--B); draw(B--C); draw(C--D); draw(D--E); draw(E--F); draw(F--G); draw(G--H); draw(H--A); dot(A); dot(B); dot(C); dot(D); dot(E); dot(F); dot(G); dot(H); dot(J); label(\"A\",A,NNW); label(\"B\",B,NNE); label(\"C\",C,ENE); label(\"D\",D,ESE); label(\"E\",E,SSE); label(\"F\",F,SSW); label(\"G\",G,WSW); label(\"H\",H,WNW); label(\"J\",J,SE); [/asy]",
+        "algebra"
+    ],
+    [
+        "Rabbits Peter and Pauline have three offspring\u2014Flopsie, Mopsie, and Cotton-tail. These five rabbits are to be distributed to four different pet stores so that no store gets both a parent and a child. It is not required that every store gets a rabbit. In how many different ways can this be done? $\\textbf{(A)} \\ 96 \\qquad \\textbf{(B)} \\ 108 \\qquad \\textbf{(C)} \\ 156 \\qquad \\textbf{(D)} \\ 204 \\qquad \\textbf{(E)} \\ 372$",
+        "algebra"
+    ],
+    [
+        "Consider all 1000-element subsets of the set $\\{1, 2, 3,..., 2015\\}$. From each such subset choose the least element. The arithmetic mean of all of these least elements is $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p + q$. Use the Hockey Stick Identity in the form \\[\\binom{a}{a} + \\binom{a+1}{a} + \\binom{a+2}{a} + \\dots + \\binom{b}{a} = \\binom{b+1}{a+1}.\\] (This is best proven by a combinatorial argument that coincidentally pertains to the problem: count two ways the number of subsets of the first $(b + 1)$ numbers with $(a + 1)$ elements whose least element is $i$, for $1 \\le i \\le b - a + 1$.) ",
+        "algebra"
+    ],
+    [
+        "In the figure below, $3$ of the $6$ disks are to be painted blue, $2$ are to be painted red, and $1$ is to be painted green. Two paintings that can be obtained from one another by a rotation or a reflection of the entire figure are considered the same. How many different paintings are possible? [asy] size(100); pair A, B, C, D, E, F; A = (0,0); B = (1,0); C = (2,0); D = rotate(60, A)*B; E = B + D; F = rotate(60, A)*C; draw(Circle(A, 0.5)); draw(Circle(B, 0.5)); draw(Circle(C, 0.5)); draw(Circle(D, 0.5)); draw(Circle(E, 0.5)); draw(Circle(F, 0.5)); [/asy] $\\textbf{(A) } 6 \\qquad \\textbf{(B) } 8 \\qquad \\textbf{(C) } 9 \\qquad \\textbf{(D) } 12 \\qquad \\textbf{(E) } 15$",
+        "geometry"
+    ],
+    [
+        "In the arrangement of letters and numerals below, by how many different paths can one spell AMC8? Beginning at the A in the middle, a path only allows moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in the picture. [asy] fill((0.5, 4.5)--(1.5,4.5)--(1.5,2.5)--(0.5,2.5)--cycle,lightgray); fill((1.5,3.5)--(2.5,3.5)--(2.5,1.5)--(1.5,1.5)--cycle,lightgray); label(\"$8$\", (1, 0)); label(\"$C$\", (2, 0)); label(\"$8$\", (3, 0)); label(\"$8$\", (0, 1)); label(\"$C$\", (1, 1)); label(\"$M$\", (2, 1)); label(\"$C$\", (3, 1)); label(\"$8$\", (4, 1)); label(\"$C$\", (0, 2)); label(\"$M$\", (1, 2)); label(\"$A$\", (2, 2)); label(\"$M$\", (3, 2)); label(\"$C$\", (4, 2)); label(\"$8$\", (0, 3)); label(\"$C$\", (1, 3)); label(\"$M$\", (2, 3)); label(\"$C$\", (3, 3)); label(\"$8$\", (4, 3)); label(\"$8$\", (1, 4)); label(\"$C$\", (2, 4)); label(\"$8$\", (3, 4));[/asy] $\\textbf{(A) }8\\qquad\\textbf{(B) }9\\qquad\\textbf{(C) }12\\qquad\\textbf{(D) }24\\qquad\\textbf{(E) }36$",
+        "algebra"
+    ],
+    [
+        "Mrs. Sanders has three grandchildren, who call her regularly. One calls her every three days, one calls her every four days, and one calls her every five days. All three called her on December 31, 2016. On how many days during the next year did she not receive a phone call from any of her grandchildren? $\\textbf{(A) }78\\qquad\\textbf{(B) }80\\qquad\\textbf{(C) }144\\qquad\\textbf{(D) }146\\qquad\\textbf{(E) }152$",
+        "algebra"
+    ],
+    [
+        "How many ways can a student schedule $3$ mathematics courses -- algebra, geometry, and number theory -- in a $6$ -period day if no two mathematics courses can be taken in consecutive periods? (What courses the student takes during the other $3$ periods is of no concern here.) $\\textbf{(A) }3\\qquad\\textbf{(B) }6\\qquad\\textbf{(C) }12\\qquad\\textbf{(D) }18\\qquad\\textbf{(E) }24$",
+        "algebra"
+    ],
+    [
+        "In a sign pyramid a cell gets a \"+\" if the two cells below it have the same sign, and it gets a \"-\" if the two cells below it have different signs. The diagram below illustrates a sign pyramid with four levels. How many possible ways are there to fill the four cells in the bottom row to produce a \"+\" at the top of the pyramid? [asy] unitsize(2cm); path box = (-0.5,-0.2)--(-0.5,0.2)--(0.5,0.2)--(0.5,-0.2)--cycle; draw(box); label(\"$+$\",(0,0)); draw(shift(1,0)*box); label(\"$-$\",(1,0)); draw(shift(2,0)*box); label(\"$+$\",(2,0)); draw(shift(3,0)*box); label(\"$-$\",(3,0)); draw(shift(0.5,0.4)*box); label(\"$-$\",(0.5,0.4)); draw(shift(1.5,0.4)*box); label(\"$-$\",(1.5,0.4)); draw(shift(2.5,0.4)*box); label(\"$-$\",(2.5,0.4)); draw(shift(1,0.8)*box); label(\"$+$\",(1,0.8)); draw(shift(2,0.8)*box); label(\"$+$\",(2,0.8)); draw(shift(1.5,1.2)*box); label(\"$+$\",(1.5,1.2)); [/asy] $\\textbf{(A) } 2 \\qquad \\textbf{(B) } 4 \\qquad \\textbf{(C) } 8 \\qquad \\textbf{(D) } 12 \\qquad \\textbf{(E) } 16$",
+        "algebra"
+    ],
+    [
+        "The eighth grade class at Lincoln Middle School has $93$ students. Each student takes a math class or a foreign language class or both. There are $70$ eighth graders taking a math class, and there are $54$ eighth graders taking a foreign language class. How many eighth graders take only a math class and not a foreign language class? $\\textbf{(A) }16\\qquad\\textbf{(B) }53\\qquad\\textbf{(C) }31\\qquad\\textbf{(D) }39\\qquad\\textbf{(E) }70$",
+        "algebra"
+    ],
+    [
+        "A palindrome is a number that has the same value when read from left to right or from right to left. (For example, 12321 is a palindrome.) Let $N$ be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of $N$? $\\textbf{(A) }2\\qquad\\textbf{(B) }3\\qquad\\textbf{(C) }4\\qquad\\textbf{(D) }5\\qquad\\textbf{(E) }6$",
+        "algebra"
+    ],
+    [
+        "A game board consists of $64$ squares that alternate in color between black and white. The figure below shows square $P$ in the bottom row and square $Q$ in the top row. A marker is placed at $P.$ A step consists of moving the marker onto one of the adjoining white squares in the row above. How many $7$ -step paths are there from $P$ to $Q?$ (The figure shows a sample path.) [asy]//diagram by SirCalcsALot size(200); int[] x = {6, 5, 4, 5, 6, 5, 6}; int[] y = {1, 2, 3, 4, 5, 6, 7}; int N = 7; for (int i = 0; i < 8; ++i) { for (int j = 0; j < 8; ++j) { draw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)); if ((i+j)\u00a0% 2 == 0) { filldraw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)--cycle,black); } } } for (int i = 0; i < N; ++i) { draw(circle((x[i],y[i])+(0.5,0.5),0.35)); } label(\"$P$\", (5.5, 0.5)); label(\"$Q$\", (6.5, 7.5)); [/asy] $\\textbf{(A) }28 \\qquad \\textbf{(B) }30 \\qquad \\textbf{(C) }32 \\qquad \\textbf{(D) }33 \\qquad \\textbf{(E) }35$",
+        "algebra"
+    ],
+    [
+        "Three hexagons of increasing size are shown below. Suppose the dot pattern continues so that each successive hexagon contains one more band of dots. How many dots are in the next hexagon? [asy] // diagram by SirCalcsALot, edited by MRENTHUSIASM size(250); path p = scale(0.8)*unitcircle; pair[] A; pen grey1 = rgb(100/256, 100/256, 100/256); pen grey2 = rgb(183/256, 183/256, 183/256); for (int i=0; i<7; ++i) { A[i] = rotate(60*i)*(1,0);} path hex = A[0]--A[1]--A[2]--A[3]--A[4]--A[5]--cycle; fill(p,grey1); draw(scale(1.25)*hex,black+linewidth(1.25)); pair S = 6A[0]+2A[1]; fill(shift(S)*p,grey1); for (int i=0; i<6; ++i) { fill(shift(S+2*A[i])*p,grey2);} draw(shift(S)*scale(3.25)*hex,black+linewidth(1.25)); pair T = 16A[0]+4A[1]; fill(shift(T)*p,grey1); for (int i=0; i<6; ++i) { fill(shift(T+2*A[i])*p,grey2); fill(shift(T+4*A[i])*p,grey1); fill(shift(T+2*A[i]+2*A[i+1])*p,grey1); } draw(shift(T)*scale(5.25)*hex,black+linewidth(1.25)); [/asy] $\\textbf{(A) }35 \\qquad \\textbf{(B) }37 \\qquad \\textbf{(C) }39 \\qquad \\textbf{(D) }43 \\qquad \\textbf{(E) }49$",
+        "algebra"
+    ],
+    [
+        "Zou and Chou are practicing their $100$ -meter sprints by running $6$ races against each other. Zou wins the first race, and after that, the probability that one of them wins a race is $\\frac23$ if they won the previous race but only $\\frac13$ if they lost the previous race. The probability that Zou will win exactly $5$ of the $6$ races is $\\frac mn$, where $m$ and $n$ are relatively prime positive integers. Find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "A $\\triangle$ or $\\bigcirc$ is placed in each of the nine squares in a $3$ -by- $3$ grid. Shown below is a sample configuration with three $\\triangle$ s in a line.\n\n\n[asy] //diagram size(5cm); defaultpen(linewidth(1.5)); real r = 0.37; path equi = r * dir(-30) -- (r+0.03) * dir(90) -- r * dir(210) -- cycle; draw((0,0)--(0,3)--(3,3)--(3,0)--cycle); draw((0,1)--(3,1)--(3,2)--(0,2)--cycle); draw((1,0)--(1,3)--(2,3)--(2,0)--cycle); draw(circle((3/2,5/2),1/3)); draw(circle((5/2,1/2),1/3)); draw(circle((3/2,3/2),1/3)); draw(shift(0.5,0.38) * equi); draw(shift(1.5,0.38) * equi); draw(shift(0.5,1.38) * equi); draw(shift(2.5,1.38) * equi); draw(shift(0.5,2.38) * equi); draw(shift(2.5,2.38) * equi); [/asy]\n\n\nHow many configurations will have three $\\triangle$ s in a line and three $\\bigcirc$ s in a line? $\\textbf{(A) } 39 \\qquad \\textbf{(B) } 42 \\qquad \\textbf{(C) } 78 \\qquad \\textbf{(D) } 84 \\qquad \\textbf{(E) } 96$",
+        "algebra"
+    ],
+    [
+        "A plane contains $40$ lines, no $2$ of which are parallel. Suppose that there are $3$ points where exactly $3$ lines intersect, $4$ points where exactly $4$ lines intersect, $5$ points where exactly $5$ lines intersect, $6$ points where exactly $6$ lines intersect, and no points where more than $6$ lines intersect. Find the number of points where exactly $2$ lines intersect. ",
+        "algebra"
+    ],
+    [
+        "Lola, Lolo, Tiya, and Tiyo participated in a ping pong tournament. Each player competed against each of the other three players exactly twice. Shown below are the win-loss records for the players. The numbers $1$ and $0$ represent a win or loss, respectively. For example, Lola won five matches and lost the fourth match. What was Tiyo\u2019s win-loss record? \\[\\begin{tabular}{c | c} Player & Result \\\\ \\hline Lola & \\texttt{111011}\\\\ Lolo & \\texttt{101010}\\\\ Tiya & \\texttt{010100}\\\\ Tiyo & \\texttt{??????} \\end{tabular}\\]\n\n$\\textbf{(A)}\\ \\texttt{000101} \\qquad \\textbf{(B)}\\ \\texttt{001001} \\qquad \\textbf{(C)}\\ \\texttt{010000} \\qquad \\textbf{(D)}\\ \\texttt{010101} \\qquad \\textbf{(E)}\\ \\texttt{011000}$",
+        "algebra"
+    ],
+    [
+        "Among the 900 residents of Aimeville, there are 195 who own a diamond ring, 367 who own a set of golf clubs, and 562 who own a garden spade. In addition, each of the 900 residents owns a bag of candy hearts. There are 437 residents who own exactly two of these things, and 234 residents who own exactly three of these things. Find the number of residents of Aimeville who own all four of these things. https://www.youtube.com/watch?v=3ZuOIsVZhdA ",
+        "algebra"
+    ],
+    [
+        "A chess king is said to attack all the squares one step away from it, horizontally, vertically, or diagonally. For instance, a king on the center square of a $3$ x $3$ grid attacks all $8$ other squares, as shown below. Suppose a white king and a black king are placed on different squares of a $3$ x $3$ grid so that they do not attack each other (in other words, not right next to each other). In how many ways can this be done? [asy] unitsize(29pt); import math; add(grid(3,3)); pair [] a = {(0.5,0.5), (0.5, 1.5), (0.5, 2.5), (1.5, 2.5), (2.5,2.5), (2.5,1.5), (2.5,0.5), (1.5,0.5)}; for (int i=0; i<a.length; ++i) { pair x = (1.5,1.5) + 0.4*dir(225-45*i); draw(x -- a[i], arrow=EndArrow()); } label(\"$K$\", (1.5,1.5)); [/asy] $\\textbf{(A)}\\ 20 \\qquad \\textbf{(B)}\\ 24 \\qquad \\textbf{(C)}\\ 27 \\qquad \\textbf{(D)}\\ 28 \\qquad \\textbf{(E)}\\ 32$",
+        "algebra"
+    ],
+    [
+        "On Monday, Taye has $$2$. Every day, he either gains $$3$ or doubles the amount of money he had on the previous day. How many different dollar amounts could Taye have on Thursday, $3$ days later? $\\textbf{(A) } 3\\qquad\\textbf{(B) } 4\\qquad\\textbf{(C) } 5\\qquad\\textbf{(D) } 6\\qquad\\textbf{(E) } 7$",
+        "algebra"
+    ],
+    [
+        "Makayla finds all the possible ways to draw a path in a $5 \\times 5$ diamond-shaped grid. Each path starts at the bottom of the grid and ends at the top, always moving one unit northeast or northwest. She computes the area of the region between each path and the right side of the grid. Two examples are shown in the figures below. What is the sum of the areas determined by all possible paths? [asy] // Asymptote by aoum unitsize(5mm); path createpath(pair[][] P, int[] p) { int i=0; int j=0; path dp = P[0][0]; for (int s=0; s<10; ++s) { if (p[s] == 0) {++i;} else {++j;} dp = dp--P[i][j]; } return(dp); } pair A[][], B[][]; for (int i=0; i<6; ++i) { A[i] = new pair[]; B[i] = new pair[]; for (int j=0; j<6; ++j) { A[i].push(rotate(45)*(i,j)); B[i].push(shift(9,0)*A[i][j]); } } int[] p = {0,0,1,1,1,0,0,1,1,0}; path pA = createpath(A,p); int[] q = {1,0,0,0,1,1,1,1,0,0}; path qB = createpath(B,q); fill(pA--A[5][0]--cycle,lightgray); fill(qB--B[5][0]--cycle,lightgray); for (int i=0; i<6; ++i) { draw(A[i][0]--A[i][5],gray); draw(B[i][0]--B[i][5],gray); draw(A[0][i]--A[5][i],gray); draw(B[0][i]--B[5][i],gray); } draw(pA,black+2bp); draw(qB,black+2bp); dot(A[0][0],black+5bp); dot(A[5][5],black+5bp); dot(B[0][0],black+5bp); dot(B[5][5],black+5bp); label(\"$\\mathrm{area} = 11$\", A[0][0], S); label(\"$\\mathrm{area} = 13$\", B[0][0], S); [/asy] $\\textbf{(A)}\\ 2520 \\qquad \\textbf{(B)}\\ 3150 \\qquad \\textbf{(C)}\\ 3840 \\qquad \\textbf{(D)}\\ 4730 \\qquad \\textbf{(E)}\\ 5050$https://www.youtube.com/watch?v=Z54kAp8ez5M\n~TheMathGeek",
+        "algebra"
+    ],
+    [
+        "Let the set $\\mathcal{S} = \\{8, 5, 1, 13, 34, 3, 21, 2\\}.$ Susan makes a list as follows: for each two-element subset of $\\mathcal{S},$ she writes on her list the greater of the set's two elements. Find the sum of the numbers on the list. ",
+        "algebra"
+    ],
+    [
+        "Call a positive integer monotonous if it is a one-digit number or its digits, when read from left to right, form either a strictly increasing or a strictly decreasing sequence. For example, $3$, $23578$, and $987620$ are monotonous, but $88$, $7434$, and $23557$ are not. How many monotonous positive integers are there? $\\textbf{(A)}\\ 1024\\qquad\\textbf{(B)}\\ 1524\\qquad\\textbf{(C)}\\ 1533\\qquad\\textbf{(D)}\\ 1536\\qquad\\textbf{(E)}\\ 2048$",
+        "algebra"
+    ],
+    [
+        "Buzz Bunny is hopping up and down a set of stairs, one step at a time. In how many ways can Buzz Bunny start on the ground, make a sequence of $6$ hops, and end up back on the ground?\n(For example, one sequence of hops is up-up-down-down-up-down.) $\\textbf{(A)}\\ 4 \\qquad \\textbf{(B)}\\ 5 \\qquad \\textbf{(C)}\\ 6 \\qquad \\textbf{(D)}\\ 8 \\qquad \\textbf{(E)}\\ 12$",
+        "algebra"
+    ]
+]

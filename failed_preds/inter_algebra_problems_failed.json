@@ -1,0 +1,226 @@
+[
+    [
+        "The area of a square inscribed in a semicircle is to the area of the square inscribed in the entire circle as: $\\textbf{(A)}\\ 1: 2\\qquad\\textbf{(B)}\\ 2: 3\\qquad\\textbf{(C)}\\ 2: 5\\qquad\\textbf{(D)}\\ 3: 4\\qquad\\textbf{(E)}\\ 3: 5$",
+        "geometry"
+    ],
+    [
+        "The dimensions of a rectangle $R$ are $a$ and $b$, $a < b$. It is required to obtain a rectangle with dimensions $x$ and $y$, $x < a, y < a$,\nso that its perimeter is one-third that of $R$, and its area is one-third that of $R$. The number of such (different) rectangles is: $\\textbf{(A)}\\ 0 \\qquad \\textbf{(B)}\\ 1\\qquad \\textbf{(C)}\\ 2 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ \\infty$",
+        "geometry"
+    ],
+    [
+        "In base $R_1$ the expanded fraction $F_1$ becomes $.373737\\cdots$, and the expanded fraction $F_2$ becomes $.737373\\cdots$. In base $R_2$ fraction $F_1$, when expanded, becomes $.252525\\cdots$, while the fraction $F_2$ becomes $.525252\\cdots$. The sum of $R_1$ and $R_2$, each written in the base ten, is: $\\text{(A) } 24 \\quad \\text{(B) } 22 \\quad \\text{(C) } 21 \\quad \\text{(D) } 20 \\quad \\text{(E) } 19$",
+        "number"
+    ],
+    [
+        "If $S=1!+2!+3!+\\cdots +99!$, then the units' digit in the value of S is: $\\text{(A) } 9\\quad \\text{(B) } 8\\quad \\text{(C) } 5\\quad \\text{(D) } 3\\quad \\text{(E) } 0$",
+        "number"
+    ],
+    [
+        "A painting $18$ \" X $24$ \" is to be placed into a wooden frame with the longer dimension vertical. The wood at the top and bottom is twice as wide as the wood on the sides. If the frame area equals that of the painting itself, the ratio of the smaller to the larger dimension of the framed painting is: $\\text{(A) } 1:3\\quad \\text{(B) } 1:2\\quad \\text{(C) } 2:3\\quad \\text{(D) } 3:4\\quad \\text{(E) } 1:1$",
+        "geometry"
+    ],
+    [
+        "A number $N$ has three digits when expressed in base $7$. When $N$ is expressed in base $9$ the digits are reversed. Then the middle digit is: $\\text{(A) } 0\\quad \\text{(B) } 1\\quad \\text{(C) } 3\\quad \\text{(D) } 4\\quad \\text{(E) } 5$",
+        "number"
+    ],
+    [
+        "If a number is selected at random from the set of all five-digit numbers in which the sum of the digits is equal to 43, what is the probability that this number will be divisible by 11? $\\text{(A) } \\frac{2}{5}\\quad \\text{(B) } \\frac{1}{5}\\quad \\text{(C) } \\frac{1}{6}\\quad \\text{(D) } \\frac{1}{11}\\quad \\text{(E) } \\frac{1}{15}$",
+        "combinatorics"
+    ],
+    [
+        "The number of sets of two or more consecutive positive integers whose sum is 100 is $\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 3 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ 5$",
+        "combinatorics"
+    ],
+    [
+        "Let $S$ be a list of positive integers--not necessarily distinct--in which the number $68$ appears. The average (arithmetic mean) of the numbers in $S$ is $56$. However, if $68$ is removed, the average of the remaining numbers drops to $55$. What is the largest number that can appear in $S$? ",
+        "combinatorics"
+    ],
+    [
+        "A cryptographer devises the following method for encoding positive integers. First, the integer is expressed in base $5$.\nSecond, a 1-to-1 correspondence is established between the digits that appear in the expressions in base $5$ and the elements of the set\n$\\{V, W, X, Y, Z\\}$. Using this correspondence, the cryptographer finds that three consecutive integers in increasing\norder are coded as $VYZ, VYX, VVW$, respectively. What is the base- $10$ expression for the integer coded as $XYZ$? $\\textbf{(A)}\\ 48 \\qquad \\textbf{(B)}\\ 71 \\qquad \\textbf{(C)}\\ 82 \\qquad \\textbf{(D)}\\ 108 \\qquad \\textbf{(E)}\\ 113$",
+        "number"
+    ],
+    [
+        "The amount $2.5$ is split into two nonnegative real numbers uniformly at random,\nfor instance, into $2.143$ and $.357$, or into $\\sqrt{3}$ and $2.5-\\sqrt{3}$.\nThen each number is rounded to its nearest integer, for instance, $2$ and $0$ in the first case above,\n$2$ and $1$ in the second. What is the probability that the two integers sum to $3$? $\\textbf{(A)}\\ \\frac{1}{4} \\qquad \\textbf{(B)}\\ \\frac{2}{5} \\qquad \\textbf{(C)}\\ \\frac{1}{2} \\qquad \\textbf{(D)}\\ \\frac{3}{5}\\qquad \\textbf{(E)}\\ \\frac{3}{4}$",
+        "combinatorics"
+    ],
+    [
+        "Find the area of the region enclosed by the graph of $|x-60|+|y|=\\left|\\frac{x}{4}\\right|.$ ",
+        "geometry"
+    ],
+    [
+        "Find $(\\log_2 x)^2$ if $\\log_2 (\\log_8 x) = \\log_8 (\\log_2 x)$. ",
+        "number"
+    ],
+    [
+        "Let $m/n$, in lowest terms, be the probability that a randomly chosen positive divisor of $10^{99}$ is an integer multiple of $10^{88}$. Find $m + n$. ",
+        "number"
+    ],
+    [
+        "Suppose $n$ is a positive integer and $d$ is a single digit in base 10. Find $n$ if $\\frac{n}{810}=0.d25d25d25\\ldots$ ",
+        "number"
+    ],
+    [
+        "Find the last three digits of the product of the positive roots of\n$\\sqrt{1995}x^{\\log_{1995}x}=x^2$. ",
+        "number"
+    ],
+    [
+        "How many of the integers between 1 and 1000, inclusive, can be expressed as the difference of the squares of two nonnegative integers? ",
+        "combinatorics"
+    ],
+    [
+        "Point $B$ is in the exterior of the regular $n$ -sided polygon $A_1A_2\\cdots A_n$, and $A_1A_2B$ is an equilateral triangle. What is the largest value of $n$ for which $A_1$, $A_n$, and $B$ are consecutive vertices of a regular polygon? ",
+        "geometry"
+    ],
+    [
+        "The graph of $y^2 + 2xy + 40|x|= 400$ partitions the plane into several regions. What is the area of the bounded region? ",
+        "geometry"
+    ],
+    [
+        "Let $S$ be the sum of all numbers of the form $a/b,$ where $a$ and $b$ are relatively prime positive divisors of $1000.$ What is the greatest integer that does not exceed $S/10$? ",
+        "number"
+    ],
+    [
+        "For how many ordered pairs $(x,y)$ of integers is it true that $0 < x < y < 10^6$ and that the arithmetic mean of $x$ and $y$ is exactly $2$ more than the geometric mean of $x$ and $y$? ",
+        "combinatorics"
+    ],
+    [
+        "The members of a distinguished committee were choosing a president, and each member gave one vote to one of the 27 candidates. For each candidate, the exact percentage of votes the candidate got was smaller by at least 1 than the number of votes for that candidate. What was the smallest possible number of members of the committee? ",
+        "combinatorics"
+    ],
+    [
+        "For each integer $n\\geq 4$, let $a_n$ denote the base- $n$ number $0.\\overline{133}_n$. The product $a_4a_5\\cdots a_{99}$ can be expressed as $\\frac {m}{n!}$, where $m$ and $n$ are positive integers and $n$ is as small as possible. What is $m$? $\\text {(A)} 98 \\qquad \\text {(B)} 101 \\qquad \\text {(C)} 132\\qquad \\text {(D)} 798\\qquad \\text {(E)}962$",
+        "number"
+    ],
+    [
+        "The lengths of the sides of a triangle with positive area are $\\log_{10} 12$, $\\log_{10} 75$, and $\\log_{10} n$, where $n$ is a positive integer. Find the number of possible values for $n$. ",
+        "geometry"
+    ],
+    [
+        "When rolling a certain unfair six-sided die with faces numbered 1, 2, 3, 4, 5, and 6, the probability of obtaining face $F$ is greater than $1/6$, the probability of obtaining the face opposite is less than $1/6$, the probability of obtaining any one of the other four faces is $1/6$, and the sum of the numbers on opposite faces is 7. When two such dice are rolled, the probability of obtaining a sum of 7 is $47/288$. Given that the probability of obtaining face $F$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$ ",
+        "combinatorics"
+    ],
+    [
+        "Circles $\\mathcal{C}_1, \\mathcal{C}_2,$ and $\\mathcal{C}_3$ have their centers at (0,0), (12,0), and (24,0), and have radii 1, 2, and 4, respectively. Line $t_1$ is a common internal tangent to $\\mathcal{C}_1$ and $\\mathcal{C}_2$ and has a positive slope, and line $t_2$ is a common internal tangent to $\\mathcal{C}_2$ and $\\mathcal{C}_3$ and has a negative slope. Given that lines $t_1$ and $t_2$ intersect at $(x,y),$ and that $x=p-q\\sqrt{r},$ where $p, q,$ and $r$ are positive integers and $r$ is not divisible by the square of any prime, find $p+q+r.$ ",
+        "geometry"
+    ],
+    [
+        "Let $S$ be the set of all triangles $ABC$ which have property: $\\tan A,\\tan B,\\tan C$ are positive integers. Prove that all triangles in $S$ are similar. ",
+        "geometry"
+    ],
+    [
+        "A rectangle has area $A$ and perimeter $P$. The largest possible value of $\\tfrac A{P^2}$ can be expressed as $\\tfrac mn$, where $m$ and $n$ are relatively prime positive integers. Compute $m+n$. ",
+        "geometry"
+    ],
+    [
+        "How many triples of positive integers $a,b$ and $c$ are there with $a<b<c$ and $a+b+c=401$. ",
+        "combinatorics"
+    ],
+    [
+        "Let\n$N = \\sum_{k = 1}^{1000} k ( \\lceil \\log_{\\sqrt{2}} k \\rceil - \\lfloor \\log_{\\sqrt{2}} k \\rfloor )$ Find the remainder when $N$ is divided by 1000. ( $\\lfloor{k}\\rfloor$ is the greatest integer less than or equal to $k$, and $\\lceil{k}\\rceil$ is the least integer greater than or equal to $k$.) ",
+        "number"
+    ],
+    [
+        "Find the number of ordered triples $(a,b,c)$ where $a$, $b$, and $c$ are positive integers, $a$ is a factor of $b$, $a$ is a factor of $c$, and $a+b+c=100$. ",
+        "number"
+    ],
+    [
+        "A regular hexagon with center at the origin in the complex plane has opposite pairs of sides one unit apart. One pair of sides is parallel to the imaginary axis. Let $R$ be the region outside the hexagon, and let $S = \\left\\lbrace\\frac{1}{z}|z \\in R\\right\\rbrace$. Then the area of $S$ has the form $a\\pi + \\sqrt{b}$, where $a$ and $b$ are positive integers. Find $a + b$. ",
+        "geometry"
+    ],
+    [
+        "A block of cheese in the shape of a rectangular solid measures $10$ cm by $13$ cm by $14$ cm. Ten slices are cut from the cheese. Each slice has a width of $1$ cm and is cut parallel to one face of the cheese. The individual slices are not necessarily parallel to each other. What is the maximum possible volume in cubic cm of the remaining block of cheese after ten slices have been cut off? ",
+        "geometry"
+    ],
+    [
+        "A particle is located on the coordinate plane at $(5,0)$. Define a move for the particle as a counterclockwise rotation of $\\pi/4$ radians about the origin followed by a translation of $10$ units in the positive $x$ -direction. Given that the particle's position after $150$ moves is $(p,q)$, find the greatest integer less than or equal to $|p| + |q|$. ",
+        "geometry"
+    ],
+    [
+        "The volume of a certain rectangular solid is $216\\text{ cm}^3$, its total surface area is $288\\text{ cm}^2$, and its three dimensions are in\ngeometric progression. Find the sum of the lengths in cm of all the edges of this solid. ",
+        "geometry"
+    ],
+    [
+        "Find [the decimal form of] the largest prime divisor of $100111011_6$. ",
+        "number"
+    ],
+    [
+        "Let $S=\\left \\{1,2,3,\\ldots,n\\right \\}$. Determine the number of subsets $A$ of $S$ such that $A$ contains at least two\nelements and such that no two elements of $A$ differ by $1$ when (a) $n=10$ (b) $n=20$ (c) generalize for any $n$. ",
+        "combinatorics"
+    ],
+    [
+        "A polynomial $P(x)$ has a remainder of $4$ when divided by $x+2$ and a remainder of $14$ when divided\nby $x-3$. What is the remainder when $P(x)$ is divided by $(x+2)(x-3)$? ",
+        "number"
+    ],
+    [
+        "In the Queen\u2019s croquet, a game begins with the ball at the bottom\nwicket. All players hit the same ball. Each player hits the ball from\nthe place the previous player has left it. When the ball is hit from\nthe bottom wicket, it has a $50$ % chance of going to the top wicket\nand a $50$ % chance of staying at the bottom wicket. When hit from\nthe top wicket, it has a $50$ % chance of hitting the goal post and a\n50% chance of returning to the bottom wicket. (a) If Alice makes the first hit and alternates hits with the Queen, what is the probability that Alice\nis the first player to hit the goal post with the ball? (b) Suppose Alice, the King, and the Queen take turns hitting the ball, with Alice playing first.\nNow what is the probability that Alice is the first player to hit the goal post with the ball? ",
+        "combinatorics"
+    ],
+    [
+        "In the Queen\u2019s croquet, as described in Problem $8$, what is the probability that the ball hits the\ngoal post the $n$ th time the ball is hit? ",
+        "combinatorics"
+    ],
+    [
+        "$5^n$ is written on the blackboard. The sum of its digits is calculated. Then the sum of the\ndigits of the result is calculated and so on until we have a single digit. If $n = 2014$, what\nis this digit? ",
+        "number"
+    ],
+    [
+        "[asy] pair a1=(0,0),b1=(1,0),c1=(3,0),d1=(4,0),e1=(4.5,-.25),f1=(4.25,-2),g1=(3.75,-2.25),h1=(1.5,-2); pair i1=(.75,-3),j1=(1.25,-3),k1=(3.25,-3),l1=(4,-2.75); draw(a1--b1--c1--d1--e1--f1--d1--g1--f1,dot); draw(b1--h1--c1--g1--h1,dot); draw(a1--i1--j1--h1,dot); draw(j1--k1--l1--f1,dot); draw(k1--g1,dot); [/asy] A termite nest has the shape of an irregular polyhedron. The bottom face is a quadrilateral. The top face is another polygon.\nThe sides comprise $9$ triangles, $6$ quadrilaterals, and $1$ pentagon. The nest has $10$ vertices on its sides and bottom,\nnot counting the several around the top face. How many edges does the top face have? You may use Euler\u2019s polyhedral identity, which says that on a convex polyhedron the number of faces plus the number of vertices is two more than the number of edges.\n(A vertex is a corner point and an edge is a line segment along which two faces meet.) ",
+        "geometry"
+    ],
+    [
+        "(a) Give an example of a polyhedron whose faces can be colored in such a way that each\nface is either blue or gold, no two gold faces meet along an edge, and the total area of all\nthe blue faces is half the total area of all the gold faces. A blue face may meet another blue\nface along an edge, and any colors may meet at vertices. Describe your polyhedron and also\ndescribe how to assign colors to the faces. (b) Show that if the faces of a polyhedron are colored in such a way that each face is either blue\nor gold and no two gold faces meet along an edge, and if the polyhedron contains a sphere\ninside it that is tangent to each face, then the total area of all the blue faces is at least as large\nas the total area of all the gold faces. ",
+        "geometry"
+    ],
+    [
+        "Real numbers $x$ and $y$ are chosen independently and uniformly at random from the interval $(0,1)$. What is the probability that $\\lfloor\\log_2x\\rfloor=\\lfloor\\log_2y\\rfloor$? $\\textbf{(A)}\\ \\frac{1}{8}\\qquad\\textbf{(B)}\\ \\frac{1}{6}\\qquad\\textbf{(C)}\\ \\frac{1}{4}\\qquad\\textbf{(D)}\\ \\frac{1}{3}\\qquad\\textbf{(E)}\\ \\frac{1}{2}$",
+        "combinatorics"
+    ],
+    [
+        "The graph of $y=f(x)$, where $f(x)$ is a polynomial of degree $3$, contains points $A(2,4)$, $B(3,9)$, and $C(4,16)$. Lines $AB$, $AC$, and $BC$ intersect the graph again at points $D$, $E$, and $F$, respectively, and the sum of the $x$ -coordinates of $D$, $E$, and $F$ is 24. What is $f(0)$? $\\textbf{(A)}\\quad {-2} \\qquad \\qquad \\textbf{(B)}\\quad 0 \\qquad\\qquad \\textbf{(C)}\\quad 2 \\qquad\\qquad \\textbf{(D)}\\quad \\dfrac{24}5 \\qquad\\qquad\\textbf{(E)}\\quad 8$",
+        "geometry"
+    ],
+    [
+        "The solutions to the equation $(z+6)^8=81$ are connected in the complex plane to form a convex regular polygon, three of whose vertices are labeled $A,B,$ and $C$. What is the least possible area of $\\triangle ABC?$ $\\textbf{(A) } \\frac{1}{6}\\sqrt{6} \\qquad \\textbf{(B) } \\frac{3}{2}\\sqrt{2}-\\frac{3}{2} \\qquad \\textbf{(C) } 2\\sqrt3-3\\sqrt2 \\qquad \\textbf{(D) } \\frac{1}{2}\\sqrt{2} \\qquad \\textbf{(E) } \\sqrt 3-1$",
+        "geometry"
+    ],
+    [
+        "Suppose ABCD is a parallelogram with area $39\\sqrt{95}$ square units and $\\angle{DAC}$ is a right angle. If the lengths of all the sides of ABCD are integers, what is the perimeter of ABCD? ",
+        "geometry"
+    ],
+    [
+        "The value of $x$ that satisfies $\\log_{2^x} 3^{20} = \\log_{2^{x+3}} 3^{2020}$ can be written as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "number"
+    ],
+    [
+        "Let $\\mathcal{B}$ be the set of rectangular boxes with surface area $54$ and volume $23$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$. ",
+        "geometry"
+    ],
+    [
+        "Let $\\omega\\neq 1$ be a $13$ th root of unity. Find the remainder when\n\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\n\nis divided by $1000$. ",
+        "number"
+    ],
+    [
+        "Two points $A(x_1, y_1)$ and $B(x_2, y_2)$ are chosen on the graph of $f(x) = \\ln x$, with $0 < x_1 < x_2$. The points $C$ and $D$ trisect $\\overline{AB}$, with $AC < CB$. Through $C$ a horizontal line is drawn to cut the curve at $E(x_3, y_3)$. Find $x_3$ if $x_1 = 1$ and $x_2 = 1000$. ",
+        "geometry"
+    ],
+    [
+        "Find the largest prime divisor of $25^2+72^2$. ",
+        "number"
+    ],
+    [
+        "Let $S$ be the sum of the base $10$ logarithms of all the proper divisors (all divisors of a number excluding itself) of $1000000$. What is the integer nearest to $S$? Contents 1 Problem 2 Solution 1 2.1 Simplification 3 Solution 2 4 Solution 3 5 See also ",
+        "number"
+    ],
+    [
+        "Let $x$ be a real number selected uniformly at random between 100 and 200. If $\\lfloor {\\sqrt{x}} \\rfloor = 12$, find the probability that $\\lfloor {\\sqrt{100x}} \\rfloor = 120$. ( $\\lfloor {v} \\rfloor$ means the greatest integer less than or equal to $v$.) $\\text{(A)} \\ \\frac{2}{25} \\qquad \\text{(B)} \\ \\frac{241}{2500} \\qquad \\text{(C)} \\ \\frac{1}{10} \\qquad \\text{(D)} \\ \\frac{96}{625} \\qquad \\text{(E)} \\ 1$",
+        "combinatorics"
+    ],
+    [
+        "Virginia has a pair of fair 8 sided dice with faces numbered 1-8 on each die. Montana has a pair of fair 8 sided dice with faces numbered with positive integers in such a way that when her pair of dice is rolled, the probability of any particular sum occurring is the same as when Virginia rolls her dice. The largest number on any face of either of Montana's dice is 11. Find the sum of the numbers on the faces of Montana's die whose faces are all less than 11. ",
+        "combinatorics"
+    ],
+    [
+        "A real number $a$ is chosen randomly and uniformly from the interval $[-20, 18]$. The probability that the roots of the polynomial $x^4 + 2ax^3 + (2a - 2)x^2 + (-4a + 3)x - 2$ are all real can be written in the form $\\dfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$. ",
+        "combinatorics"
+    ]
+]

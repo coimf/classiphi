@@ -1,0 +1,266 @@
+[
+    [
+        "The real numbers $a_0, a_1, \\ldots, a_n, \\ldots$ satisfy the condition: $1 = a_{0} \\leq a_{1} \\leq \\cdots \\leq a_{n} \\leq \\cdots$. The numbers $b_{1}, b_{2}, \\ldots, b_n, \\ldots$ are defined by $b_n = \\sum_{k=1}^{n} \\left( 1 - \\frac{a_{k-1}}{a_{k}} \\right) \\frac{1}{\\sqrt{a_k}}$ (a) Prove that $0 \\leq b_n < 2$ for all $n$. (b) given $c$ with $0 \\leq c < 2$, prove that there exist numbers $a_0, a_1, \\ldots$ with the above properties such that $b_n > c$ for large enough $n$. ",
+        "algebra"
+    ],
+    [
+        "Find the set of all positive integers $n$ with the property that the set $\\{ n, n+1, n+2, n+3, n+4, n+5 \\}$ can be partitioned into two sets such that the product of the numbers in one set equals the product of the numbers in the other set. ",
+        "algebra"
+    ],
+    [
+        "The symbols $(a,b,\\ldots,g)$ and $[a,b,\\ldots, g]$ denote the greatest common divisor and least common multiple, respectively, of the positive integers $a,b,\\ldots, g$. For example, $(3,6,18)=3$ and $[6,15]=30$. Prove that $\\frac{[a,b,c]^2}{[a,b][b,c][c,a]}=\\frac{(a,b,c)^2}{(a,b)(b,c)(c,a)}$. ",
+        "algebra"
+    ],
+    [
+        "Let $\\{X_n\\}$ and $\\{Y_n\\}$ denote two sequences of integers defined as follows: $X_0=1$, $X_1=1$, $X_{n+1}=X_n+2X_{n-1}$ $(n=1,2,3,\\dots),$ $Y_0=1$, $Y_1=7$, $Y_{n+1}=2Y_n+3Y_{n-1}$ $(n=1,2,3,\\dots)$. Thus, the first few terms of the sequences are: $X:1, 1, 3, 5, 11, 21, \\dots$, $Y:1, 7, 17, 55, 161, 487, \\dots$. Prove that, except for the \"1\", there is no term which occurs in both sequences. ",
+        "algebra"
+    ],
+    [
+        "Show that the cube roots of three distinct prime numbers cannot be three terms (not necessarily consecutive) of an arithmetic progression. ",
+        "algebra"
+    ],
+    [
+        "(a) Prove that $[5x]+[5y]\\ge [3x+y]+[3y+x]$, where $x,y\\ge 0$ and $[u]$ denotes the greatest integer $\\le u$ (e.g., $[\\sqrt{2}]=1$ ). (b) Using (a) or otherwise, prove that $\\frac{(5m)!(5n)!}{m!n!(3m+n)!(3n+m)!}$ is integral for all positive integral $m$ and $n$. Note: A complete proof for this problem may require these results, and preferably also their proofs. If $[x] = a$, then $a \\le x < a + 1$. This is the alternate definition of $[x]$. If $a < b$, then $[a] \\le [b]$. This is easily proved by contradiction or consideration of the contrapositive. If $a$ is an integer, then $[x + a] = [x] + a$. This is proved from considering that $[x] + a \\le x + a < [x] + a + 1$. This is a known fact: the exponent of a prime $p$ in the prime factorization of $n!$ is $\\sum_{k=1}^\\infty \\left[ \\frac{n}{p^k} \\right]$. (Legendre's Formula) Lemma: For any pair of non-negative real numbers $x$ and $y$, the following holds:\n\n\\[[5x] + [5y] \\ge [x] + [y] + [3x + y] + [3y + x].\\]\n\nvcd We shall first prove the lemma statement for $0 \\le x, y < 1$. Then $[x] = [y] = 0$, and so we have to prove that\n\n\\[[5x] + [5y] \\ge [3x + y] + [3y + x].\\] Let $[5x] = a, [5y] = b$, for integers $a$ and $b$. Then $5x < a + 1 \\text{ and } 5y < b + 1$, and so $x < \\frac{a+1}{5}$ and $y < \\frac{b+1}{5}$. Define a new function, the ceiling function of x, to be the least integer greater than or equal to x. Also, define the trun-ceil function, $[[x]],$ to be the value of the ceiling function minus one. Thus, $[[a]] = a - 1$ if $a$ is an integer, and $[[a]] = [a]$ otherwise. It is not difficult to verify that if $a$ and $b$ are real numbers with $a < b$, then $[[a]] \\le [a] \\le [[b]]$. (The only new thing we have to consider here is the case where $b$ is integral, which is trivial.) Therefore,\n\n\n\\[[3x + y] + [3y + x] \\le \\left [ \\left [\\frac{3a+b+4}{5} \\right ] \\right] + \\left[\\left[\\frac{3b+a+4}{5} \\right]\\right] = S.\\] We shall prove that $S \\le a + b = T$ ; to do so, we list cases. Without loss of generality, let $a \\le b$. Because $x$ and $y$ are less than one, we have $a \\le b \\le 4.$ Then, we find, for all 15 cases: $a = 0, b = 0 \\rightarrow S = 0, T = 0.$ $a = 0, b = 1 \\rightarrow S = 1, T = 1.$ $a = 0, b = 2 \\rightarrow S = 2, T = 2.$ $a = 0, b = 3 \\rightarrow S = 3, T = 3.$ $a = 0, b = 4 \\rightarrow S = 4, T = 4.$ $a = 1, b = 1 \\rightarrow S = 2, T = 2.$ $a = 1, b = 2 \\rightarrow S = 3, T = 3.$ $a = 1, b = 3 \\rightarrow S = 3, T = 4.$ $a = 1, b = 4 \\rightarrow S = 5, T = 5.$ $a = 2, b = 2 \\rightarrow S = 4, T = 4.$ $a = 2, b = 3 \\rightarrow S = 4, T = 5.$ $a = 2, b = 4 \\rightarrow S = 5, T = 6.$ $a = 3, b = 3 \\rightarrow S = 6, T = 6.$ $a = 3, b = 4 \\rightarrow S = 6, T = 7.$ $a = 4, b = 4 \\rightarrow S = 6, T = 8.$ Thus, we have proved for all x and y in the range $[0, 1)$,\n\n\\[[5x] + [5y] = T \\ge S \\ge [3x + y] + [3y + x].\\] Now, we prove the lemma statement without restrictions on x and y. Let $x = [x] + \\{x\\}$, and $y = [y] + \\{y\\}$, where $\\{x\\}$, the fractional part of x, is defined to be $x - [x]$. Note that $\\{x\\} < 1$ as a result. Substituting gives the equivalent inequality \\[[5[x] + 5\\{x\\}] + [5[y] + 5\\{y\\}] \\ge [x] + [y] + [3[x] + 3\\{x\\} + [y] + \\{y\\}] + [3[y] + 3\\{y\\} + [x] + \\{x\\}].\\] But, because $[x] + a = [x + a]$ for any integer $a$, this is obtained from simplifications following the adding of $5[x] + 5[y]$ to both sides of \\[[5\\{x\\}] + [5\\{y\\}] \\ge [3\\{x\\} + \\{y\\}] + [3\\{y\\} + \\{x\\}],\\] which we have already proved (as $0 \\le \\{x\\}, \\{y\\} < 1$ ). Thus, the lemma is proved. Part (a) is a direct corollary of the lemma. For part (b), consider an arbitrary prime $p$. We have to prove the exponent of $p$ in $I = \\frac{(5m)!(5n)!}{m!n!(3m+n)!(3n+m)!}$ is non-negative, or equivalently that\n\n\\[\\sum_{k=1}^{\\infty} \\left( \\left[ \\frac{5m}{p^k} \\right] + \\left[ \\frac{5n}{p^k} \\right] \\right) \\ge \\sum_{k=1}^{\\infty} \\left( \\left[ \\frac{m}{p^k} \\right] + \\left[ \\frac{n}{p^k} \\right] + \\left[ \\frac{3m+n}{p^k} \\right] + \\left[ \\frac{3n+m}{p^k} \\right] \\right).\\] But, the left-hand side minus the right-hand side of this inequality is\n\n\\[\\sum_{k=1}^{\\infty} \\left( \\left[ \\frac{5m}{p^k} \\right] + \\left[ \\frac{5n}{p^k} \\right] - \\left[ \\frac{m}{p^k} \\right] - \\left[ \\frac{n}{p^k} \\right] - \\left[ \\frac{3m+n}{p^k} \\right] - \\left[ \\frac{3n+m}{p^k} \\right] \\right),\\]\n\nwhich is the sum of non-negative terms by the Lemma. Thus, the inequality is proved, and so, by considering all primes $p$, we deduce that the exponents of all primes in $I$ are non-negative. This proves the integrality of $I$ (i.e. $I$ is an integer). $\\blacksquare$ ",
+        "algebra"
+    ],
+    [
+        "Determine all integral solutions of $a^2+b^2+c^2=a^2b^2$. ",
+        "algebra"
+    ],
+    [
+        "An integer $n$ will be called good if we can write $n=a_1+a_2+\\cdots+a_k$, where $a_1,a_2, \\ldots, a_k$ are positive integers (not necessarily distinct) satisfying $\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_k}=1$. Given the information that the integers 33 through 73 are good, prove that every integer $\\ge 33$ is good. Is there an algorithm to deduce another good integer given a good integer? You might want to use the fact that $1 = \\frac{1}{2} + \\frac{1}{2}$. ",
+        "algebra"
+    ],
+    [
+        "Determine all non-negative integral solutions $(n_1,n_2,\\dots, n_{14})$ if any, apart from permutations, of the Diophantine Equation $n_1^4+n_2^4+\\cdots +n_{14}^4=1599$. ",
+        "algebra"
+    ],
+    [
+        "Determine the maximum value of $m^2 + n^2$, where $m$ and $n$ are integers satisfying $m, n \\in \\{ 1,2, \\ldots, 1981 \\}$ and $( n^2 - mn - m^2 )^2 = 1$. ",
+        "algebra"
+    ],
+    [
+        "(a) For which values of $n>2$ is there a set of $n$ consecutive positive integers such that the largest number in the set is a divisor of the least common multiple of the remaining $n-1$ numbers? (b) For which values of $n>2$ is there exactly one set having the stated property? ",
+        "algebra"
+    ],
+    [
+        "Prove that if $n$ is a positive integer such that the equation $x^3-3xy^2+y^3=n$ has a solution in integers $x,y$, then it has at least three such solutions. Show that the equation has no solutions in integers for $n=2891$. ",
+        "algebra"
+    ],
+    [
+        "Consider an open interval of length $1/n$ on the real number line, where $n$ is a positive integer. Prove that the number of irreducible fractions $p/q$, with $1\\le q\\le n$, contained in the given interval is at most $(n+1)/2$. ",
+        "algebra"
+    ],
+    [
+        "The geometric mean of any set of $m$ non-negative numbers is the $m$ -th root of their product. $\\quad (\\text{i})\\quad$ For which positive integers $n$ is there a finite set $S_n$ of $n$ distinct positive integers such that the geometric mean of any subset of $S_n$ is an integer? $\\quad (\\text{ii})\\quad$ Is there an infinite set $S$ of distinct positive integers such that the geometric mean of any finite subset of $S$ is an integer? ",
+        "algebra"
+    ],
+    [
+        "Determine whether or not there are any positive integral solutions of the simultaneous equations\n\n\n\\begin{align*} x_1^2 +x_2^2 +\\cdots +x_{1985}^2 & = y^3,\\\\ x_1^3 +x_2^3 +\\cdots +x_{1985}^3 & = z^2 \\end{align*}\n\n\nwith distinct integers $x_1,x_2,\\cdots,x_{1985}$. ",
+        "algebra"
+    ],
+    [
+        "What is the smallest integer $n$, greater than one, for which the root-mean-square of the first $n$ positive integers is an integer? $\\mathbf{Note.}$ The root-mean-square of $n$ numbers $a_1, a_2, \\cdots, a_n$ is defined to be\n\n\n\\[\\left[\\frac{a_1^2 + a_2^2 + \\cdots + a_n^2}n\\right]^{1/2}\\] ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be an integer greater than or equal to 2. Prove that if $k^2 + k + n$ is prime for all integers $k$ such that $0 \\leq k \\leq \\sqrt{n/3}$, then $k^2 + k + n$ is prime for all integers $k$ such that $0 \\leq k \\leq n - 2$. ",
+        "algebra"
+    ],
+    [
+        "Find all solutions to $(m^2+n)(m + n^2)= (m - n)^3$, where m and n are non-zero integers. ",
+        "algebra"
+    ],
+    [
+        "Suppose that necklace $\\, A \\,$ has 14 beads and necklace $\\, B \\,$ has\n19. Prove that for any odd integer $n \\geq 1$, there is a way to number\neach of the 33 beads with an integer from the sequence\n\n\n\\[\\{ n, n+1, n+2, \\dots, n+32 \\}\\]\n\n\nso that each integer is used once, and adjacent beads correspond to\nrelatively prime integers. (Here a \"necklace\" is viewed as a circle in\nwhich each bead is adjacent to two other beads.) ",
+        "combinatorics"
+    ],
+    [
+        "Show that, for any fixed integer $\\,n \\geq 1,\\,$ the sequence\n\n\n\\[2, \\; 2^2, \\; 2^{2^2}, \\; 2^{2^{2^2}}, \\ldots \\pmod{n}\\]\n\n\nis eventually constant. [The tower of exponents is defined by $a_1 = 2, \\; a_{i+1} = 2^{a_i}$. Also $a_i \\pmod{n}$ means the remainder which results from dividing $\\,a_i\\,$ by $\\,n$.] ",
+        "algebra"
+    ],
+    [
+        "Find all ordered pairs $(m,n)$ where $m$ and $n$ are positive integers such that $\\frac {n^3 + 1}{mn - 1}$ is an integer. \u4e0d\u7b49\u5f0f\u65b9\u6cd5\u6c42\u6574\u6570\u89e3\uff0csolution using in equality.\nhttps://youtu.be/fXMu1mFil0Y ",
+        "algebra"
+    ],
+    [
+        "Let $\\, k_1 < k_2 < k_3 <\\cdots\\,$, be positive integers, no two consecutive, and let $\\, s_m = k_1+k_2+\\cdots+k_m\\,$, for $\\, m = 1,2,3,\\ldots\\;\\;$. Prove that, for each positive integer $n$, the interval $\\, [s_n, s_{n+1})\\,$, contains at least one perfect square. ",
+        "algebra"
+    ],
+    [
+        "Let $\\, p \\,$ be an odd prime. The sequence $(a_n)_{n \\geq 0}$ is defined as follows: $\\, a_0 = 0,$ $a_1 = 1, \\, \\ldots, \\, a_{p-2} = p-2 \\,$ and, for all $\\, n \\geq p-1, \\,$ $\\, a_n \\,$ is the least positive integer that does not form an arithmetic sequence of length $\\, p \\,$ with any of the preceding terms. Prove that, for all $\\, n, \\,$ $\\, a_n \\,$ is the number obtained by writing $\\, n \\,$ in base $\\, p-1 \\,$ and reading the result in base $\\, p$. ",
+        "algebra"
+    ],
+    [
+        "Let $n_1$, $n_2$, $\\ldots$, $n_{1998}$ be positive integers such that\n\n\\[n_1^2 + n_2^2 + \\cdots + n_{1997}^2 = n_{1998}^2.\\]\n\nShow that at least two of the numbers are even. ",
+        "algebra"
+    ],
+    [
+        "Let $p_1,p_2,p_3,...$ be the prime numbers listed in increasing order, and let $x_0$ be a real number between $0$ and $1$. For positive integer $k$, define $x_{k}=\\begin{cases}0&\\text{ if }x_{k-1}=0\\\\ \\left\\{\\frac{p_{k}}{x_{k-1}}\\right\\}&\\text{ if }x_{k-1}\\ne0\\end{cases}$ where $\\{x\\}$ denotes the fractional part of $x$. (The fractional part of $x$ is given by $x-\\lfloor{x}\\rfloor$ where $\\lfloor{x}\\rfloor$ is the greatest integer less than or equal to $x$.) Find, with proof, all $x_0$ satisfying $0<x_0<1$ for which the sequence $x_0,x_1,x_2,...$ eventually becomes $0$. ",
+        "algebra"
+    ],
+    [
+        "Suppose that the set $\\{1,2,\\cdots, 1998\\}$ has been partitioned into disjoint pairs $\\{a_i,b_i\\}$ ( $1\\leq i\\leq 999$ ) so that for all $i$, $|a_i-b_i|$ equals $1$ or $6$. Prove that the sum\n\n\\[|a_1-b_1|+|a_2-b_2|+\\cdots +|a_{999}-b_{999}|\\]\n\nends in the digit $9$. ",
+        "algebra"
+    ],
+    [
+        "Prove that for each $n\\geq 2$, there is a set $S$ of $n$ integers such that $(a-b)^2$ divides $ab$ for every distinct $a,b\\in S$. ",
+        "algebra"
+    ],
+    [
+        "Let $p > 2$ be a prime and let $a,b,c,d$ be integers not divisible by $p$, such that\n\n\n\\[\\left\\{ \\dfrac{ra}{p} \\right\\} + \\left\\{ \\dfrac{rb}{p} \\right\\} + \\left\\{ \\dfrac{rc}{p} \\right\\} + \\left\\{ \\dfrac{rd}{p} \\right\\} = 2\\]\n\n\nfor any integer $r$ not divisible by $p$. Prove that at least two of the numbers $a+b$, $a+c$, $a+d$, $b+c$, $b+d$, $c+d$ are divisible by $p$.\n(Note: $\\{x\\} = x - \\lfloor x \\rfloor$ denotes the fractional part of $x$.) ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be a set of integers (not necessarily positive) such that (a) there exist $a,b \\in S$ with $\\gcd(a,b) = \\gcd(a - 2,b - 2) = 1$ ; (b) if $x$ and $y$ are elements of $S$ (possibly equal), then $x^2 - y$ also belongs to $S$. Prove that $S$ is the set of all integers. ",
+        "algebra"
+    ],
+    [
+        "Let $a, b$ be integers greater than 2. Prove that there exists a positive integer $k$ and a finite sequence $n_1, n_2, \\ldots, n_k$ of positive integers such that $n_1 = a$, $n_k = b$, and $n_in_{i+1}$ is divisible by $n_i + n_{i+1}$ for each $i$ ( $1 \\le i \\le k$ ). We may say that two integers $a$ and $b$ are connected (and write $a \\leftrightarrow b$ ) if there exists such a sequence of integers as described in the problem. For reference, we note that $\\leftrightarrow$ is an equivalence relation : it is reflexive ( $a \\leftrightarrow a$ ), symmetric ( $a \\leftrightarrow b$ implies $b \\leftrightarrow a$ ), and transitive ( $a \\leftrightarrow b \\leftrightarrow c$ implies $a \\leftrightarrow c$ ). ",
+        "algebra"
+    ],
+    [
+        "( Aleksander Ivanov, Bulgaria )\nDetermine all pairs of positive integers $(a,b)$ such that\n\n\n\\[\\frac{a^2}{2ab^2-b^3+1}\\]\n\n\nis a positive integer. ",
+        "algebra"
+    ],
+    [
+        "Given a $19 \\times 19$ matrix, where each element is valued $+1$ or $-1$. Let $b_i$ be the product of all elements at the $i^\\text{th}$ row, and $k_j$ be the product of all elements at the $j^\\text{th}$ column. Prove that: \\[b_1 + k_1 + b_2 + k_2 + \\cdots + b_{19} + k_{19} \\ne 0\\] ",
+        "algebra"
+    ],
+    [
+        "Let $k,m,n$ be positive integers such that $k > n > 1$ and the greatest common divisor of $k$ and $n$ is $1$. Prove that if $k-n$ divides $k^m - n^{m-1}$, then $k \\le 2n-1$. ",
+        "algebra"
+    ],
+    [
+        "( Titu Andreescu )\nProve that for every positive integer $n$ there exists an $n$ -digit number divisible by $5^n$ all of whose digits are odd. ",
+        "algebra"
+    ],
+    [
+        "( Kiran Kedlaya ) Suppose $a_1, \\dots, a_n$ are integers whose greatest common divisor is 1. Let $S$ be a set of integers with the following properties: (a) For $i = 1, \\dots, n$, $a_i \\in S$. (b) For $i,j = 1, \\dots, n$ (not necessarily distinct), $a_i - a_j \\in S$. (c) For any integers $x,y \\in S$, if $x + y \\in S$, then $x - y \\in S$. Prove that $S$ must be equal to the set of all integers. ",
+        "algebra"
+    ],
+    [
+        "Let's say that an ordered triple of positive integers $(a,b,c)$ is $n$ - powerful if $a \\le b \\le c$, $\\gcd(a,b,c) = 1$, and $a^n + b^n + c^n$ is divisible by $a+b+c$. For example, $(1,2,2)$ is 5-powerful. Determine all ordered triples (if any) which are $n$ -powerful for all $n \\ge 1$. Determine all ordered triples (if any) which are 2004-powerful and 2005-powerful, but not 2007-powerful. ",
+        "algebra"
+    ],
+    [
+        "Let $a_1,a_2,\\ldots$ be a sequence of integers with infinitely many positive and negative terms. Suppose that for every positive integer $n$ the numbers $a_1,a_2,\\ldots,a_n$ leave $n$ different remainders upon division by $n$. Prove that every integer occurs exactly once in the sequence $a_1,a_2,\\ldots$. ",
+        "algebra"
+    ],
+    [
+        "( R\u0103zvan Gelca ) Prove that the system\n\n\n\\begin{align*}x^6 + x^3 + x^3y + y &= 147^{157} \\\\ x^3 + x^3y + y^2 + y + z^9 &= 157^{147}\\end{align*}\n\n\nhas no solutions in integers $x$, $y$, and $z$. ",
+        "algebra"
+    ],
+    [
+        "( Dan Schwarz, Romania )\nLet $P(x)$ be a polynomial of degree $n>1$ with integer coefficients, and let $k$ be a positive integer. Consider the polynomial $Q(x) = P( P ( \\ldots P(P(x)) \\ldots ))$, where $P$ occurs $k$ times. Prove that there are at most $n$ integers $t$ such that $Q(t)=t$. ",
+        "algebra"
+    ],
+    [
+        "( Kiran Kedlaya ) Let $p$ be a prime number and let $s$ be an integer with $0 < s < p$. Prove that there exist integers $m$ and $n$ with $0 < m < n < p$ and $\\left\\{ \\frac{sm}{p} \\right\\} < \\left\\{ \\frac{sn}{p} \\right\\} < \\frac{s}{p}$ if and only if $s$ is not a divisor of $p-1$. Note: For $x$ a real number, let $\\lfloor x \\rfloor$ denote the greatest integer less than or equal to $x$, and let $\\{x\\} = x - \\lfloor x \\rfloor$ denote the fractional part of $x$. ",
+        "algebra"
+    ],
+    [
+        "( Titu Andreescu, Gabriel Dospinescu ) For integral $m$, let $p(m)$ be the greatest prime divisor of $m$. By convention, we set $p(\\pm 1)=1$ and $p(0)=\\infty$. Find all polynomials $f$ with integer coefficients such that the sequence $\\{ p(f(n^2))-2n) \\}_{n \\in \\mathbb{Z} \\ge 0}$ is bounded above. (In particular, this requires $f(n^2)\\neq 0$ for $n\\ge 0$.) ",
+        "algebra"
+    ],
+    [
+        "( Ricky Liu ) Find all positive integers $n$ such that there are $k\\ge 2$ positive rational numbers $a_1, a_2, \\ldots, a_k$ satisfying $a_1 + a_2 + \\cdots + a_k = a_1\\cdot a_2\\cdots a_k = n$. ",
+        "algebra"
+    ],
+    [
+        "( Zoran Sunik ) A mathematical frog jumps along the number line. The frog starts at 1, and jumps according to the following rule: if the frog is at integer $n$, then it can jump either to $n+1$ or to $n+2^{m_n+1}$ where $2^{m_n}$ is the largest power of 2 that is a factor of $n$. Show that if $k\\ge 2$ is a positive integer and $i$ is a nonnegative integer, then the minimum number of jumps needed to reach $2^i k$ is greater than the minimum number of jumps needed to reach $2^i$. ",
+        "algebra"
+    ],
+    [
+        "( Kevin Buzzard and Edward Crane, United Kingdom )\nLet $a$ and $b$ be positive integers. Show that if $4ab-1$ divides $(4a^2-1)^2$, then $a=b$. ",
+        "algebra"
+    ],
+    [
+        "Let $m$ and $n$ be two positive integers. If there are infinitely many integers $k$ such that $k^2+2kn+m^2$ is a perfect square, prove that $m=n$. ",
+        "algebra"
+    ],
+    [
+        "( Sam Vandervelde ) Let $n$ be a positive integer. Define a sequence by setting $a_1 = n$ and, for each $k>1$, letting $a_k$ be the unique integer in the range $0 \\le a_k \\le k-1$ for which $a_1 + a_2 + \\cdots + a_k$ is divisible by $k$. For instance, when $n=9$ the obtained sequence is $9, 1, 2, 0, 3, 3, 3, \\ldots$. Prove that for any $n$ the sequence $a_1, a_2, a_3, \\ldots$ eventually becomes constant. ",
+        "algebra"
+    ],
+    [
+        "( Titu Andreescu ) Prove that for each positive integer $n$, there are pairwise relatively prime integers $k_0, k_1 \\dotsc, k_n$, all strictly greater than 1, such that $k_0 k_1 \\dotsm k_n -1$ is the product of two consecutive integers. ",
+        "algebra"
+    ],
+    [
+        "( Kiran Kedlaya ) Three nonnegative real numbers $r_1$, $r_2$, $r_3$ are written on a blackboard. These numbers have the property that there exist integers $a_1$, $a_2$, $a_3$, not all zero, satisfying $a_1r_1 + a_2r_2 + a_3r_3 = 0$. We are permitted to perform the following operation: find two numbers $x$, $y$ on the blackboard with $x \\le y$, then erase $y$ and write $y - x$ in its place. Prove that after a finite number of such operations, we can end up with at least one $0$ on the blackboard. ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a positive integer. Determine the size of the largest subset of $\\{ - n, - n + 1, \\ldots, n - 1, n\\}$ which does not contain three elements $a, b, c$ (not necessarily distinct) satisfying $a + b + c = 0$. ",
+        "algebra"
+    ],
+    [
+        "Let $s_1, s_2, s_3, \\ldots$ be an infinite, nonconstant sequence of rational numbers, meaning it is not the case that $s_1 = s_2 = s_3 = \\cdots.$ Suppose that $t_1, t_2, t_3, \\ldots$ is also an infinite, nonconstant sequence of rational numbers with the property that $(s_i - s_j)(t_i - t_j)$ is an integer for all $i$ and $j$. Prove that there exists a rational number $r$ such that $(s_i - s_j)r$ and $(t_i - t_j)/r$ are integers for all $i$ and $j$. ",
+        "algebra"
+    ],
+    [
+        "Let $a_1, a_2, a_3, \\ldots$ be a sequence of positive real numbers, and $s$ be a positive integer, such that\n\n\n\\[a_n = \\max \\{ a_k + a_{n-k} \\mid 1 \\leq k \\leq n-1 \\} \\ \\textrm{ for all } \\ n > s.\\]\n\n\nProve there exist positive integers $\\ell \\leq s$ and $N$, such that\n\n\n\\[a_n = a_{\\ell} + a_{n - \\ell} \\ \\textrm{ for all } \\ n \\geq N.\\] ",
+        "algebra"
+    ],
+    [
+        "Let $n > 1$ be an integer. Find, with proof, all sequences\n$x_1, x_2, \\ldots, x_{n-1}$ of positive integers with the following\nthree properties: ",
+        "algebra"
+    ],
+    [
+        "A triangle is called a parabolic triangle if its vertices lie on a\nparabola $y = x^2$. Prove that for every nonnegative integer $n$, there\nis an odd number $m$ and a parabolic triangle with vertices at three\ndistinct points with integer coordinates with area $(2^nm)^2$. Before you read the solution, try using induction on n. (And don't step by one!) ",
+        "algebra"
+    ],
+    [
+        "Two permutations $a_1, a_2, \\ldots, a_{2010}$ and\n$b_1, b_2, \\ldots, b_{2010}$ of the numbers $1, 2, \\ldots, 2010$\nare said to intersect if $a_k = b_k$ for some value of $k$ in the\nrange $1 \\le k\\le 2010$. Show that there exist $1006$ permutations\nof the numbers $1, 2, \\ldots, 2010$ such that any other such\npermutation is guaranteed to intersect at least one of these $1006$\npermutations. ",
+        "combinatorics"
+    ],
+    [
+        "Let $q = \\dfrac{3p-5}{2}$ where $p$ is an odd prime, and let \\[S_q = \\frac{1}{2\\cdot 3 \\cdot 4} + \\frac{1}{5\\cdot 6 \\cdot 7} + \\cdots + \\frac{1}{q\\cdot (q+1) \\cdot (q+2)}.\\] Prove that if $\\dfrac{1}{p}-2S_q = \\dfrac{m}{n}$ for integers\n$m$ and $n$, then $m-n$ is divisible by $p$. ",
+        "algebra"
+    ],
+    [
+        "Given any set $A = \\{a_1, a_2, a_3, a_4\\}$ of four distinct positive integers, we denote the sum $a_1 +a_2 +a_3 +a_4$ by $s_A$. Let $n_A$ denote the number of pairs $(i, j)$ with $1 \\leq i < j \\leq 4$ for which $a_i +a_j$ divides $s_A$. Find all sets $A$ of four distinct positive integers which achieve the largest possible value of $n_A$. Author: Fernando Campos, Mexico ",
+        "algebra"
+    ],
+    [
+        "Determine all triples of positive integers $(a,b,c)$ such that each of the numbers\n\n\n\\[ab-c,\\; bc-a,\\; ca-b\\]\n\n\nis a power of 2. ( A power of 2 is an integer of the form $2^n$ where $n$ is a non-negative integer ). ",
+        "algebra"
+    ],
+    [
+        "A deck of $n > 1$ cards is given. A positive integer is written on each card. The deck has the property that the arithmetic mean of the numbers on each pair of cards is also the geometric mean of the numbers on some collection of one or more cards. For which $n$ does it follow that the numbers on the cards are all equal? ",
+        "combinatorics"
+    ],
+    [
+        "Let $n \\geq 100$ be an integer. Ivan writes the numbers $n, n+1, \\ldots, 2 n$ each on different cards. He then shuffles these $n+1$ cards, and divides them into two piles. Prove that at least one of the piles contains two cards such that the sum of their numbers is a perfect square. https://youtu.be/cI9p-Z4-Sc8 [Video contains solutions to all day 1 problems] https://youtu.be/0Vd4ZBEr3o4 https://www.youtube.com/watch?v=a3L9O7b1WYg [disclaimer: only a sketch of the solution] https://youtu.be/rnSRjcEfVCU ",
+        "algebra"
+    ],
+    [
+        "Given a prime number $p \\geq 5$, let $\\Omega=\\{1,2, \\ldots, p\\}$. For any $x, y \\in \\Omega$, define:\n\n\n\\[r(x, y)= \\begin{cases}y-x, & \\text { if } y \\geq x \\\\ y-x+p, & \\text { if } y<x\\end{cases}\\] For a non-empty subset $A$ of $\\Omega$, define:\n\n\n\\[f(A)=\\sum_{x \\in A} \\sum_{y \\in A}(r(x, y))^2\\] A subset $A$ of $\\Omega$ is called a \"good subset\" if $0<|A|<p$ and for any subset $B$ of $\\Omega$ with $|B|=|A|$, it holds that $f(B) \\geq f(A)$.\nFind the largest positive integer $L$ such that there exist $L$ pairwise distinct good subsets $A_1, A_2, \\ldots, A_L$ of $\\Omega$ satisfying $A_1 \\subseteq A_2 \\subseteq \\cdots \\subseteq A_L$ ",
+        "algebra"
+    ],
+    [
+        "For every natural number $n$, evaluate the sum\n\n\n\\[\\sum_{k = 0}^\\infty\\bigg[\\frac{n + 2^k}{2^{k + 1}}\\bigg] = \\Big[\\frac{n + 1}{2}\\Big] + \\Big[\\frac{n + 2}{4}\\Big] + \\cdots + \\bigg[\\frac{n + 2^k}{2^{k + 1}}\\bigg] + \\cdots\\]\n\n\n(The symbol $[x]$ denotes the greatest integer not exceeding $x$.) ",
+        "algebra"
+    ],
+    [
+        "Find the maximum possible number of three term arithmetic progressions in a monotone sequence of $n$ distinct reals. ",
+        "algebra"
+    ],
+    [
+        "$(\\text{a})$ Do there exist 14 consecutive positive integers each of which is divisible by one or more primes $p$ from the interval $2\\le p \\le 11$? $(\\text{b})$ Do there exist 21 consecutive positive integers each of which is divisible by one or more primes $p$ from the interval $2\\le p \\le 13$? ",
+        "algebra"
+    ],
+    [
+        "For an arbitrary positive integer $n$, define $p(n)$ as the product of the digits of $n$ (in decimal). Find all positive integers $n$ such that $11 p(n)=n^2-2005$. ",
+        "algebra"
+    ],
+    [
+        "A permutation of the set of positive integers $[n] = \\{1, 2, \\ldots, n\\}$ is a sequence $(a_1, a_2, \\ldots, a_n)$ such that each element of $[n]$ appears precisely one time as a term of the sequence. For example, $(3, 5, 1, 2, 4)$ is a permutation of $[5]$. Let $P(n)$ be the number of permutations of $[n]$ for which $ka_k$ is a perfect square for all $1\\leq k\\leq n$. Find with proof the smallest $n$ such that $P(n)$ is a multiple of $2010$. ",
+        "algebra"
+    ],
+    [
+        "Determine which integers $n > 1$ have the property that there exists an infinite sequence $a_1$, $a_2$, $a_3$, $\\dots$ of nonzero integers such that the equality\n\n\n\\[a_k + 2a_{2k} + \\dots + na_{nk} = 0\\]\n\n\nholds for every positive integer $k$. For $n$ equal to any odd prime $p$, the sequence $\\left\\{a_i = \\left(\\frac{1-n}{2}\\right)^{m_p\\left(i\\right)}\\right\\}$, where $p^{m_p\\left(i\\right)}$ is the greatest power of $p$ that divides $i$, gives a valid sequence. Therefore, the set of possible values for $n$ is at least the set of odd primes. ",
+        "algebra"
+    ]
+]

@@ -1,0 +1,402 @@
+[
+    [
+        "Convex polygons $P_1$ and $P_2$ are drawn in the same plane with $n_1$ and $n_2$ sides, respectively, $n_1\\le n_2$. If $P_1$ and $P_2$ do not have any line segment in common, then the maximum number of intersections of $P_1$ and $P_2$ is: $\\text{(A) } 2n_1\\quad \\text{(B) } 2n_2\\quad \\text{(C) } n_1n_2\\quad \\text{(D) } n_1+n_2\\quad \\text{(E) } \\text{none of these}$",
+        "geometry"
+    ],
+    [
+        "Suppose that $n$ people each know exactly one piece of information, and all $n$ pieces are different. Every time person $A$ phones person $B$, $A$ tells $B$ everything that $A$ knows, while $B$ tells $A$ nothing. What is the minimum number of phone calls between pairs of people needed for everyone to know everything? Prove your answer is a minimum. ",
+        "algebra"
+    ],
+    [
+        "For $\\{1, 2, 3, \\ldots, n\\}$ and each of its non-empty subsets a unique alternating sum is defined as follows. Arrange the numbers in the subset in decreasing order and then, beginning with the largest, alternately add and subtract successive numbers. For example, the alternating sum for $\\{1, 2, 3, 6,9\\}$ is $9-6+3-2+1=5$ and for $\\{5\\}$ it is simply $5$. Find the sum of all such alternating sums for $n=7$. ",
+        "algebra"
+    ],
+    [
+        "In a tournament each player played exactly one game against each of the other players. In each game the winner was awarded $1$ point, the loser got $0$ points, and each of the two players earned $\\frac{1}{2}$ point if the game was a tie. After the completion of the tournament, it was found that exactly half of the points earned by each player were earned against the ten players with the least number of points. (In particular, each of the ten lowest scoring players earned half of her/his points against the other nine of the ten). What was the total number of players in the tournament? ",
+        "algebra"
+    ],
+    [
+        "A given sequence $r_1, r_2, \\dots, r_n$ of distinct real numbers can be put in ascending order by means of one or more \"bubble passes\". A bubble pass through a given sequence consists of comparing the second term with the first term, and exchanging them if and only if the second term is smaller, then comparing the third term with the second term and exchanging them if and only if the third term is smaller, and so on in order, through comparing the last term, $r_n$, with its current predecessor and exchanging them if and only if the last term is smaller. The example below shows how the sequence 1, 9, 8, 7 is transformed into the sequence 1, 8, 7, 9 by one bubble pass. The numbers compared at each step are underlined. $\\underline{1 \\quad 9} \\quad 8 \\quad 7$ $1 \\quad {}\\underline{9 \\quad 8} \\quad 7$ $1 \\quad 8 \\quad \\underline{9 \\quad 7}$ $1 \\quad 8 \\quad 7 \\quad 9$ Suppose that $n = 40$, and that the terms of the initial sequence $r_1, r_2, \\dots, r_{40}$ are distinct from one another and are in random order. Let $p/q$, in lowest terms, be the probability that the number that begins as $r_{20}$ will end up, after one bubble pass, in the $30^{\\mbox{th}}$ place. Find $p + q$. ",
+        "algebra"
+    ],
+    [
+        "Let $[r,s]$ denote the least common multiple of positive integers $r$ and $s$. Find the number of ordered triples $(a,b,c)$ of positive integers for which $[a,b] = 1000$, $[b,c] = 2000$, and $[c,a] = 2000$. Contents 1 Problem 2 Solution 1 3 Solution 2 4 See also ",
+        "algebra"
+    ],
+    [
+        "At the end of a professional bowling tournament, the top 5 bowlers have a playoff.\nFirst #5 bowls #4. The loser receives $5$ th prize and the winner bowls #3 in another game.\nThe loser of this game receives $4$ th prize and the winner bowls #2.\nThe loser of this game receives $3$ rd prize and the winner bowls #1.\nThe winner of this game gets 1st prize and the loser gets 2nd prize.\nIn how many orders can bowlers #1 through #5 receive the prizes? $\\textbf{(A)}\\ 10\\qquad \\textbf{(B)}\\ 16\\qquad \\textbf{(C)}\\ 24\\qquad \\textbf{(D)}\\ 120\\qquad \\textbf{(E)}\\ \\text{none of these}$",
+        "algebra"
+    ],
+    [
+        "A convex polyhedron has for its faces 12 squares, 8 regular hexagons, and 6 regular octagons. At each vertex of the polyhedron one square, one hexagon, and one octagon meet. How many segments joining vertices of the polyhedron lie in the interior of the polyhedron rather than along an edge or a face? ",
+        "geometry"
+    ],
+    [
+        "What is the value of the sum $S=\\sum_{k=0}^{49}(-1)^k\\binom{99}{2k}=\\binom{99}{0}-\\binom{99}{2}+\\binom{99}{4}-\\cdots -\\binom{99}{98}?$ $\\textrm{(A)}\\ -2^{50}\\qquad\\textrm{(B)}\\ -2^{49}\\qquad\\textrm{(C)}\\ 0\\qquad\\textrm{(D)}\\ 2^{49}\\qquad\\textrm{(E)}\\ 2^{50}$",
+        "algebra"
+    ],
+    [
+        "In Pascal's Triangle, each entry is the sum of the two entries above it. The first few rows of the triangle are shown below. \\[\\begin{array}{c@{\\hspace{8em}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{4pt}}c@{\\hspace{2pt}} c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{3pt}}c@{\\hspace{6pt}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c} \\vspace{4pt} \\text{Row 0: } & & & & & & & 1 & & & & & & \\\\\\vspace{4pt} \\text{Row 1: } & & & & & & 1 & & 1 & & & & & \\\\\\vspace{4pt} \\text{Row 2: } & & & & & 1 & & 2 & & 1 & & & & \\\\\\vspace{4pt} \\text{Row 3: } & & & & 1 & & 3 & & 3 & & 1 & & & \\\\\\vspace{4pt} \\text{Row 4: } & & & 1 & & 4 & & 6 & & 4 & & 1 & & \\\\\\vspace{4pt} \\text{Row 5: } & & 1 & & 5 & &10& &10 & & 5 & & 1 & \\\\\\vspace{4pt} \\text{Row 6: } & 1 & & 6 & &15& &20& &15 & & 6 & & 1 \\end{array}\\]\n\n\nIn which row of Pascal's Triangle do three consecutive entries occur that are in the ratio $3\u00a0:4\u00a0:5$? ",
+        "algebra"
+    ],
+    [
+        "How many triangles with positive area are there whose vertices are points in the $xy$ -plane whose coordinates are integers $(x,y)$ satisfying $1\\le x\\le 4$ and $1\\le y\\le 4$? $\\text{(A) } 496\\quad \\text{(B) } 500\\quad \\text{(C) } 512\\quad \\text{(D) } 516\\quad \\text{(E) } 560$",
+        "geometry"
+    ],
+    [
+        "Ninety-four bricks, each measuring $4''\\times10''\\times19'',$ are to be stacked one on top of another to form a tower 94 bricks tall. Each brick can be oriented so it contributes $4''\\,$ or $10''\\,$ or $19''\\,$ to the total height of the tower. How many different tower heights can be achieved using all of the ninety-four bricks? ",
+        "algebra"
+    ],
+    [
+        "For certain ordered pairs $(a,b)\\,$ of real numbers, the system of equations $ax+by=1\\,$ $x^2+y^2=50\\,$ has at least one solution, and each solution is an ordered pair $(x,y)\\,$ of integers. How many such ordered pairs $(a,b)\\,$ are there? ",
+        "algebra"
+    ],
+    [
+        "Let $p_{}$ be the probability that, in the process of repeatedly flipping a fair coin, one will encounter a run of $5$ heads before one encounters a run of $2$ tails. Given that $p_{}$ can be written in the form $m/n$ where $m_{}$ and $n_{}$ are relatively prime positive integers, find $m+n$. Contents 1 Problem 2 Solution 2.1 Solution 1 2.2 Solution 2 2.3 Solution 3 3 Solution 4(fast) 4 Solution 5 5 Video solution 6 See also ",
+        "algebra"
+    ],
+    [
+        "For each permutation $a_1,a_2,a_3,\\cdots,a_{10}$ of the integers $1,2,3,\\cdots,10$, form the sum \\[|a_1-a_2|+|a_3-a_4|+|a_5-a_6|+|a_7-a_8|+|a_9-a_{10}|.\\] The average value of all such sums can be written in the form $\\dfrac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$. Contents 1 Problem 2 Solutions 2.1 Solution 1 2.2 Solution 2 2.3 Solution 3 2.4 Solution 4(Expected Value) 3 See also ",
+        "algebra"
+    ],
+    [
+        "A bored student walks down a hall that contains a row of closed lockers, numbered $1$ to $1024$. He opens the locker numbered 1, and then alternates between skipping and opening each locker thereafter. When he reaches the end of the hall, the student turns around and starts back. He opens the first closed locker he encounters, and then alternates between skipping and opening each closed locker thereafter. The student continues wandering back and forth in this manner until every locker is open. What is the number of the last locker he opens? ",
+        "algebra"
+    ],
+    [
+        "The nine horizontal and nine vertical lines on an $8\\times8$ checkerboard form $r$ rectangles, of which $s$ are squares. The number $s/r$ can be written in the form $m/n,$ where $m$ and $n$ are relatively prime positive integers. Find $m + n.$ ",
+        "algebra"
+    ],
+    [
+        "Define a domino to be an ordered pair of distinct positive integers. A proper sequence of dominos is a list of distinct dominos in which the first coordinate of each pair after the first equals the second coordinate of the immediately preceding pair, and in which $(i,j)$ and $(j,i)$ do not both appear for any $i$ and $j$. Let $D_{40}$ be the set of all dominos whose coordinates are no larger than 40. Find the length of the longest proper sequence of dominos that can be formed using the dominos of $D_{40}.$ ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be the number of ordered quadruples $(x_1,x_2,x_3,x_4)$ of positive odd integers that satisfy $\\sum_{i = 1}^4 x_i = 98.$ Find $\\frac n{100}.$ ",
+        "algebra"
+    ],
+    [
+        "Two mathematicians take a morning coffee break each day. They arrive at the cafeteria independently, at random times between 9 a.m. and 10 a.m., and stay for exactly $m$ minutes. The probability that either one arrives while the other is in the cafeteria is $40 \\%,$ and $m = a - b\\sqrt {c},$ where $a, b,$ and $c$ are positive integers, and $c$ is not divisible by the square of any prime. Find $a + b + c.$ Contents 1 Problem 2 Solution 2.1 Solution 1 2.2 Solution 2 2.3 Video Solution 3 See also ",
+        "algebra"
+    ],
+    [
+        "Given that $\\frac 1{2!17!}+\\frac 1{3!16!}+\\frac 1{4!15!}+\\frac 1{5!14!}+\\frac 1{6!13!}+\\frac 1{7!12!}+\\frac 1{8!11!}+\\frac 1{9!10!}=\\frac N{1!18!}$ find the greatest integer that is less than $\\frac N{100}$. ",
+        "algebra"
+    ],
+    [
+        "Each of the $2001$ students at a high school studies either Spanish or French, and some study both. The number who study Spanish is between $80$ percent and $85$ percent of the school population, and the number who study French is between $30$ percent and $40$ percent. Let $m$ be the smallest number of students who could study both languages, and let $M$ be the largest number of students who could study both languages. Find $M-m$. ",
+        "algebra"
+    ],
+    [
+        "A basketball player has a constant probability of $.4$ of making any given shot, independent of previous shots. Let $a_n$ be the ratio of shots made to shots attempted after $n$ shots. The probability that $a_{10} =.4$ and $a_n\\le.4$ for all $n$ such that $1\\le n\\le9$ is given to be $p^aq^br/\\left(s^c\\right)$ where $p$, $q$, $r$, and $s$ are primes, and $a$, $b$, and $c$ are positive integers. Find $\\left(p+q+r+s\\right)\\left(a+b+c\\right)$. ",
+        "algebra"
+    ],
+    [
+        "Let $N$ be the number of positive integers that are less than or equal to $2003$ and whose base- $2$ representation has more $1$ 's than $0$ 's. Find the remainder when $N$ is divided by $1000$. ",
+        "number"
+    ],
+    [
+        "A hall of a palace is in a shape of regular hexagon, where the sidelength is $6 \\text{ m}$. The floor of the hall is covered with an equilateral triangle-shaped tile with sidelength $50 \\text{ cm}$. Every tile is divided into $3$ congruent triangles (refer to the figure). Every triangle-region is colored with a certain color so that each tile has $3$ different colors. The King wants to ensure that no two tiles have the same color pattern. At least, how many colors are needed? [asy] pair C=(25,14.434); draw((0,0)--(50,0)--(25,43.301)--(0,0)); draw(C--(0,0)); draw(C--(50,0)); draw(C--(25,43.301)); [/asy] ",
+        "geometry"
+    ],
+    [
+        "A convex polyhedron $P$ has $26$ vertices, $60$ edges, and $36$ faces, $24$ of which are triangular and $12$ of which are quadrilaterals. A space diagonal is a line segment connecting two non-adjacent vertices that do not belong to the same face. How many space diagonals does $P$ have? ",
+        "geometry"
+    ],
+    [
+        "Define a regular $n$ -pointed star to be the union of $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ such that the points $P_1, P_2,\\ldots, P_n$ are coplanar and no three of them are collinear, each of the $n$ line segments intersects at least one of the other line segments at a point other than an endpoint, all of the angles at $P_1, P_2,\\ldots, P_n$ are congruent, all of the $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ are congruent, and the path $P_1P_2, P_2P_3,\\ldots, P_nP_1$ turns counterclockwise at an angle of less than 180 degrees at each vertex. There are no regular 3-pointed, 4-pointed, or 6-pointed stars. All regular 5-pointed stars are similar, but there are two non-similar regular 7-pointed stars. How many non-similar regular 1000-pointed stars are there? ",
+        "geometry"
+    ],
+    [
+        "How many positive integer divisors of $2004^{2004}$ are divisible by exactly 2004 positive integers? ",
+        "number"
+    ],
+    [
+        "Let $S$ be the set of points $(a,b)$ in the coordinate plane, where each of $a$ and $b$ may be $- 1$, $0$, or $1$. How many distinct lines pass through at least two members of $S$? $\\text {(A)}\\ 8 \\qquad \\text {(B)}\\ 20 \\qquad \\text {(C)}\\ 24 \\qquad \\text {(D)}\\ 27\\qquad \\text {(E)}\\ 36$",
+        "geometry"
+    ],
+    [
+        "Consider an equilateral triangle of side length $n$, which is divided into unit triangles, as shown. Let $f(n)$ be the number of paths from the triangle in the top row to the middle triangle in the bottom row, such that adjacent triangles in our path share a common edge and the path never travels up (from a lower row to a higher row) or revisits a triangle. An example of one such path is illustrated below for $n=5$. Determine the value of $f(2005)$. ",
+        "geometry"
+    ],
+    [
+        "A collection of 8 cubes consists of one cube with edge - length $k$ for each integer $k, 1 \\le k \\le 8.$ A tower is to be built using all 8 cubes according to the rules: Any cube may be the bottom cube in the tower. The cube immediately on top of a cube with edge-length $k$ must have edge-length at most $k+2.$ Let $T$ be the number of different towers than can be constructed. What is the remainder when $T$ is divided by 1000? ",
+        "algebra"
+    ],
+    [
+        "Let $N$ be the number of consecutive $0$ 's at the right end of the decimal representation of the product $1!2!3!4!\\cdots99!100!.$ Find the remainder when $N$ is divided by $1000$. ",
+        "number"
+    ],
+    [
+        "Let $\\mathcal{S}$ be the set of real numbers that can be represented as repeating decimals of the form $0.\\overline{abc}$ where $a, b, c$ are distinct digits. Find the sum of the elements of $\\mathcal{S}.$ ",
+        "algebra"
+    ],
+    [
+        "Let $(a_1,a_2,a_3,\\ldots,a_{12})$ be a permutation of $(1,2,3,\\ldots,12)$ for which $a_1>a_2>a_3>a_4>a_5>a_6 \\mathrm{\\ and \\ } a_6<a_7<a_8<a_9<a_{10}<a_{11}<a_{12}.$ An example of such a permutation is $(6,5,4,3,2,1,7,8,9,10,11,12).$ Find the number of such permutations. ",
+        "algebra"
+    ],
+    [
+        "There is an unlimited supply of congruent equilateral triangles made of colored paper. Each triangle is a solid color with the same color on both sides of the paper. A large equilateral triangle is constructed from four of these paper triangles. Two large triangles are considered distinguishable if it is not possible to place one on the other, using translations, rotations, and/or reflections, so that their corresponding small triangles are of the same color. Given that there are six different colors of triangles from which to choose, how many distinguishable large equilateral triangles may be formed? [asy] pair A,B; A=(0,0); B=(2,0); pair C=rotate(60,A)*B; pair D, E, F; D = (1,0); E=rotate(60,A)*D; F=rotate(60,C)*E; draw(C--A--B--cycle); draw(D--E--F--cycle); [/asy] ",
+        "geometry"
+    ],
+    [
+        "A triangular array of squares has one square in the first row, two in the second, and in general, $k$ squares in the $k$ th row for $1 \\leq k \\leq 11.$ With the exception of the bottom row, each square rests on two squares in the row immediately below (illustrated in the given diagram). In each square of the eleventh row, a $0$ or a $1$ is placed. Numbers are then placed into the other squares, with the entry for each square being the sum of the entries in the two squares below it. For how many initial distributions of $0$ 's and $1$ 's in the bottom row is the number in the top square a multiple of $3$? [asy] for (int i=0; i<12; ++i){ for (int j=0; j<i; ++j){ //dot((-j+i/2,-i)); draw((-j+i/2,-i)--(-j+i/2+1,-i)--(-j+i/2+1,-i+1)--(-j+i/2,-i+1)--cycle); } } [/asy] ",
+        "algebra"
+    ],
+    [
+        "One day Jason finishes his math homework early, and decides to take a jog through his neighborhood. While jogging, Jason trips over a leprechaun. After dusting himself off and apologizing to the odd little magical creature, Jason, thinking there is nothing unusual about the situation, starts jogging again. Immediately the leprechaun calls out, \"hey, stupid, this is your only chance to win gold from a leprechaun!\"\nJason, while not particularly greedy, recognizes the value of gold. Thinking about his limited college savings, Jason approaches the leprechaun and asks about the opportunity. The leprechaun hands Jason a fair coin and tells him to clop it as many times as it takes to flip a head. For each tail Jason flips, the leprechaun promises one gold coin.\nIf Jason flips a head right away, he wins nothing. If he first flips a tail, then a head, he wins one gold coin. If he's lucky and flips ten tails before the first head, he wins $\\textit{ten gold coins.}$ What is the expected number of gold coins Jason wins at this game? $\\textbf{(A) }0\\qquad \\textbf{(B) }\\dfrac1{10}\\qquad \\textbf{(C) }\\dfrac18\\qquad \\textbf{(D) }\\dfrac15\\qquad \\textbf{(E) }\\dfrac14\\qquad \\textbf{(F) }\\dfrac13\\qquad \\textbf{(G) }\\dfrac25\\qquad$$\\textbf{(H) }\\dfrac12\\qquad \\textbf{(I) }\\dfrac35\\qquad \\textbf{(J) }\\dfrac23\\qquad \\textbf{(K) }\\dfrac45\\qquad \\textbf{(L) }1\\qquad \\textbf{(M) }\\dfrac54\\qquad$$\\textbf{(N) }\\dfrac43\\qquad \\textbf{(O) }\\dfrac32\\qquad \\textbf{(P) }2\\qquad \\textbf{(Q) }3\\qquad \\textbf{(R) }4\\qquad \\textbf{(S) }2007$",
+        "algebra"
+    ],
+    [
+        "James writes down fifteen 1's in a row and randomly writes + or - between each pair of consecutive 1's.\nOne such example is\n\n\n\\[1+1+1-1-1+1-1+1-1+1-1-1-1+1+1.\\]\n\n\nWhat is the probability that the value of the expression James wrote down is $7$? $\\text{(A) }0\\qquad \\text{(B) }\\frac{6435 }{2^{14}}\\qquad \\text{(C) }\\frac{6435 }{2^{13}}\\qquad \\text{(D) }\\frac{429}{2^{12}}\\qquad \\text{(E) }\\frac{429}{2^{11}}\\qquad \\text{(F) }\\frac{429}{2^{10}}\\qquad \\text{(G) }\\frac{1}{15}\\qquad \\text{(H) }\\frac{1}{31}\\qquad$$\\text{(I) }\\frac{1}{30}\\qquad \\text{(J) }\\frac{1}{29}\\qquad \\text{(K) }\\frac{1001 }{2^{15}}\\qquad \\text{(L) }\\frac{1001 }{2^{14}}\\qquad \\text{(M) }\\frac{1001 }{2^{13}}\\qquad \\text{(N) }\\frac{1}{2^{7}}\\qquad \\text{(O) }\\frac{1}{2^{14}}\\qquad \\text{(P) }\\frac{1}{2^{15}}\\qquad$$\\text{(Q) }\\frac{2007}{2^{14}}\\qquad \\text{(R) }\\frac{2007}{2^{15}}\\qquad \\text{(S) }\\frac{2007}{2^{2007}}\\qquad \\text{(T) }\\frac{1}{2007}\\qquad \\text{(U) }\\frac{-2007}{2^{14}}\\qquad$",
+        "algebra"
+    ],
+    [
+        "Consider sequences that consist entirely of $A$ 's and $B$ 's and that have the property that every run of consecutive $A$ 's has even length, and every run of consecutive $B$ 's has odd length. Examples of such sequences are $AA$, $B$, and $AABAA$, while $BBAB$ is not such a sequence. How many such sequences have length 14? ",
+        "algebra"
+    ],
+    [
+        "The diagram below shows a $4\\times4$ rectangular array of points, each of which is $1$ unit away from its nearest neighbors. [asy] unitsize(0.25inch); defaultpen(linewidth(0.7)); int i, j; for(i = 0; i < 4; ++i) for(j = 0; j < 4; ++j) dot(((real)i, (real)j)); [/asy] Define a growing path to be a sequence of distinct points of the array with the property that the distance between consecutive points of the sequence is strictly increasing. Let $m$ be the maximum possible number of points in a growing path, and let $r$ be the number of growing paths consisting of exactly $m$ points. Find $mr$. ",
+        "algebra"
+    ],
+    [
+        "Done working on his sand castle design, Joshua sits down and starts rolling a $12$ -sided die he found when cleaning the storage shed. He rolls and rolls and rolls, and after $17$ rolls he finally rolls a $1$. Just $3$ rolls later he rolls the first 2 $\\textit{ after}$ that first roll of $1$. $11$ rolls later, Joshua rolls the first $3\\textit{ after}$ the first $2$ that he rolled $\\textit{after}$ the first $1$ that he rolled. His first $31$ rolls make the sequence $4,3,11,3,11,8,5,2,12,9,5,7,11,3,6,10,\\textbf{1},8,3,\\textbf{2},10,4,2,8,1,9,7,12,11,4,\\textbf{3}$.\nJoshua wonders how many times he should expect to roll the $12$ -sided die so that he can remove all but $12$ of the numbers from the entire sequence of rolls and (without changing the order of the sequence), be left with the sequence $1,2,3,4,5,6,7,8,9,10,11,12$. What is the expected value of the number of times Joshua must roll the die before he has such a sequence? (Assume Joshua starts from the beginning - do $\\textit{not}$ assume he starts by rolling the specific sequence of $31$ rolls above.) ",
+        "algebra"
+    ],
+    [
+        "Now Wendy wanders over and joins Dr. Lisi and her younger siblings. Thinking she knows everything there is about how to work with arithmetic series, she nearly turns right around to walk back home when Dr. Lisi poses a more challenging problem. \"Suppose I select two distinct terms at random from the $2008$ term sequence. What's the probability that their product is positive?\" If $a$ and $b$ are relatively prime positive integers such that $a/b$ is the probability that the product of the two terms is positive, find the value of $a+b$. Note: Dr. Lisi\u2019s sequence is $-1776, -1765, -1754 \\cdots$ ",
+        "algebra"
+    ],
+    [
+        "Consider the Harmonic Table\n\n\n\\[\\begin{array}{c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c}&&&1&&&\\\\&&\\tfrac12&&\\tfrac12&&\\\\&\\tfrac13&&\\tfrac16&&\\tfrac13&\\\\\\tfrac14&&\\tfrac1{12}&&\\tfrac1{12}&&\\tfrac14\\\\&&&\\vdots&&&\\end{array}\\] where $a_{n,1}=1/n$ and $a_{n,k+1}=a_{n-1,k}-a_{n,k}$. Find the remainder when the sum of the reciprocals of the $2007$ terms on the $2007^\\text{th}$ row gets divided by $2008$. ",
+        "algebra"
+    ],
+    [
+        "Just as the twins finish their masterpiece of symbol art, Wendy comes along. Wendy is impressed by the explanation Alexis and Joshua give her as to how they knew they drew every row exactly once. Wendy puts them both to the test. \"Suppose the two of you draw symbols as you have before, stars in pairs and boxes in threes.\" Wendy continues, \"Now, suppose that I draw circles with $X$ 's in the middle.\" Wendy shows them examples of such rows: \\[\\begin{array}{ccccccccccccccc}\\vspace{10pt}*&*&*&*&\\otimes&*&*&\\otimes&*&*&*&*&\\blacksquare&\\blacksquare&\\blacksquare\\\\\\vspace{10pt}\\blacksquare&\\blacksquare&\\blacksquare&*&*&*&*&\\otimes&*&*&\\otimes&*&*&*&*\\\\\\vspace{10pt}\\otimes&\\blacksquare&\\blacksquare&\\blacksquare&\\otimes&\\otimes&*&*&\\otimes&*&*&\\otimes&\\blacksquare&\\blacksquare&\\blacksquare\\end{array}\\] How many rows are drawn? ",
+        "algebra"
+    ],
+    [
+        "On the last afternoon of the Kubik family vacation, Michael puts down a copy of $\\textit{Mathematical Olympiad Challenges}$ and goes out to play tennis. Wendy notices the book and decides to see if there are a few problems in it that she can solve. She decides to focus her energy on one problem in particular: Given 69 distinct positive integers not exceeding 100, prove that one can choose four of them $a,b,c,d$ such that $a<b<c$ and $a+b+c=d$. Is this statement true for 68 numbers? After some time working on the problem, Wendy finally feels like she has a grip on the solution. When Michael returns, she explains her solutions to him. \"Well done!\" he tells her. \"Now, see if you can solve this generalization. Consider the set $S=\\{1,2,3,\\ldots,2007,2008\\}$. Find the smallest value of $t$ such that given any subset $T$ of $S$ where $|T|=t$, then there are necessarily distinct $a,b,c,d\\in T$ for which $a+b+c=d$.\" Find the answer to Michael's generalization. ",
+        "algebra"
+    ],
+    [
+        "With about six hours left on the van ride home from vacation, Wendy looks for something to do. She starts working on a project for the math team. There are sixteen students, including Wendy, who are about to be sophomores on the math team. Elected as a math team officer,\none of Wendy's jobs is to schedule groups of the sophomores to tutor geometry students after school on Tuesdays.\nThe way things have been done in the past, the same number of sophomores tutor every week, but the same group of\nstudents never works together. Wendy notices that there are even numbers of groups she could select whether she\nchooses $4$ or $5$ students at a time to tutor geometry each week: \\begin{align*}\\dbinom{16}4&=1820,\\\\\\dbinom{16}5&=4368.\\end{align*} Playing around a bit more, Wendy realizes that unless she chooses all or none of the students on the math team to\ntutor each week that the number of possible combinations of the sophomore math teamers is always even. This gives\n\\her an idea for a problem for the $2008$ Jupiter Falls High School Math Meet team test: How many of the 2009 numbers on Row 2008 of Pascal's Triangle are even? Wendy works the solution out correctly. What is her answer? ",
+        "algebra"
+    ],
+    [
+        "Feeling excited over her successful explorations into Pascal's Triangle, Wendy formulates a second problem to use during a future Jupiter Falls High School Math Meet: How many of the first 2010 rows of Pascal's Triangle (Rows 0 through 2009) have exactly 256 odd entries? What is the solution to Wendy's second problem? ",
+        "algebra"
+    ],
+    [
+        "A positive integer $n$ is a yo-yo if the absolute value of the difference between any two consecutive digits of $n$ is at least $7$. Compute the number of $8$ -digit yo-yos. ",
+        "algebra"
+    ],
+    [
+        "A variation of Pascal's triangle is constructed by writing the numbers $2$ and $3$ in the top row and writing each subsequent term as the sum of the two terms above it. Find the fifth term from the left in the thirteenth row.\n\n\n\\[\\begin{tabular}{ccccccccccc} & & & & & & & & & & \\\\ & & & & 2 & & 3 & & & & \\\\ & & & 2 & & 5 & & 3 & & & \\\\ & & 2 & & 7 & & 8 & & 3 & & \\\\ & 2 & & 9 & & 15 & & 11 & & 3 & \\\\ 2 & & 11 & & 24 & & 26 & & 14 & & 3 \\\\ \\end{tabular}\\] ",
+        "algebra"
+    ],
+    [
+        "John has a pile of $63$ blocks. On top of the pile is one block. Below this block are two smaller blocks. Below each of these two blocks are two even smaller blocks. Below each of these blocks are two still smaller blocks, and so on until the last row, which contains $32$ blocks. John removes blocks one at a time, removing only blocks that currently have no blocks on top of them. Find the number of ways (order matters) in which John can remove exactly seven blocks. ",
+        "algebra"
+    ],
+    [
+        "The Annual Interplanetary Mathematics Examination (AIME) is written by a committee of five Martians, five Venusians, and five Earthlings. At meetings, committee members sit at a round table with chairs numbered from $1$ to $15$ in clockwise order. Committee rules state that a Martian must occupy chair $1$ and an Earthling must occupy chair $15$, Furthermore, no Earthling can sit immediately to the left of a Martian, no Martian can sit immediately to the left of a Venusian, and no Venusian can sit immediately to the left of an Earthling. The number of possible seating arrangements for the committee is $N \\cdot (5!)^3$. Find $N$. ",
+        "algebra"
+    ],
+    [
+        "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$. Consider all possible positive differences of pairs of elements of $S$. Let $N$ be the sum of all of these differences. Find the remainder when $N$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "Define an ordered triple $(A, B, C)$ of sets to be minimally intersecting if $|A \\cap B| = |B \\cap C| = |C \\cap A| = 1$ and $A \\cap B \\cap C = \\emptyset$. For example, $(\\{1,2\\},\\{2,3\\},\\{1,3,4\\})$ is a minimally intersecting triple. Let $N$ be the number of minimally intersecting ordered triples of sets for which each set is a subset of $\\{1,2,3,4,5,6,7\\}$. Find the remainder when $N$ is divided by $1000$. Note : $|S|$ represents the number of elements in the set $S$. ",
+        "algebra"
+    ],
+    [
+        "Two quadrilaterals are considered the same if one can be obtained from the other by a rotation and a translation. How many different convex cyclic quadrilaterals are there with integer sides and perimeter equal to 32? $\\textbf{(A)}\\ 560 \\qquad \\textbf{(B)}\\ 564 \\qquad \\textbf{(C)}\\ 568 \\qquad \\textbf{(D)}\\ 1498 \\qquad \\textbf{(E)}\\ 2255$",
+        "geometry"
+    ],
+    [
+        "Mrs. Olson begins a journey at the intersection of Avenue $A$ and First Street in\nthe upper left on the attached map. She ends her journey at one of the Starbucks on\nAvenue $D$. There is a Starbucks on Avenue $D$ at every intersection from First Street\nthrough Sixth Street! If Mrs. Olson walks only East and South, how many different\npaths to a Starbucks on Avenue $D$ can she take? Note that Mrs. Olson may pass one\nStarbucks on her way to another Starbucks farther to the East. [asy] size(300,100); path R=((0,0)--(0,1)--(2,1)--(2,0)--cycle); for(int rw=0;rw<5;++rw){ for (int cl=0;cl<7;++cl){ filldraw(shift(3*cl,2*rw)*R,green);} } MP(\"Avenue \\: D\",(12,1+.5),E); MP(\"Avenue \\: C\",(12,3+.5),E); MP(\"Avenue \\: B\",(0,5+.5),E); MP(\"Avenue \\: A\",(0,7+.5),E); MP(90,\"1st\\: Street\",(3-.5,0),N); MP(90,\"2cnd\\: Street\",(6-.5,0),N); MP(90,\"3rd\\: Street\",(9-.5,0),N); MP(90,\"4th\\: Street\",(12-.5,4),N); MP(90,\"5th\\: Street\",(15-.5,4),N); MP(90,\"6th\\: Street\",(18-.5,4),N); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Treasure Chest. You have a long row of boxes. The 1st box contains no coin. The next\n$2$ boxes each contain $1$ coin. The next $4$ boxes each contain $2$ coins. The next $8$ boxes each\ncontain $3$ coins. And so on, so that there are $2^N$ boxes containing exactly $N$ coins. (a) If you combine the coins from all the boxes that contain $1, 2, 3$, or $4$ coins you get $98$\ncoins. How many coins do you get when you combine the coins from all the boxes that\ncontain $1, 2, 3,\\ldots,$ or $N$ coins? Give a closed formula in terms of $N$. That is, give a\nformula that does not use ellipsis $(\\ldots)$ or summation notation. (b) Combine the coins from the first $K$ boxes. What is the smallest value of $K$ for which\nthe total number of coins exceeds $20120$ \u00a0? (Remember to count the first box.) ",
+        "algebra"
+    ],
+    [
+        "A sequence of natural numbers is constructed by listing the first $4$, then skipping one, listing the next $5$, skipping $2$, listing $6$, skipping $3$, and on the $n$ th iteration, listing $n+3$ and skipping $n$. The sequence begins $1,2,3,4,6,7,8,9,10,13$. What is the $500,\\!000$ th number in the sequence? $\\textbf{(A)}\\ 996,\\!506\\qquad\\textbf{(B)}\\ 996,\\!507\\qquad\\textbf{(C)}\\ 996,\\!508\\qquad\\textbf{(D)}\\ 996,\\!509\\qquad\\textbf{(E)}\\ 996,\\!510$",
+        "algebra"
+    ],
+    [
+        "Draw $n$ rows of $2n$ equilateral triangles each, stacked on top of each other in a diamond shape, as\nshown below when $n = 3$. Set point $A$ as the southwest corner and point $B$ as the northeast corner.\nA step consists of moving from one point to an adjacent point along a drawn line segment, in one of\nthe four legal directions indicated. A path is a series of steps, starting at $A$ and ending at $B$, such\nthat no line segment is used twice. One path is drawn below. Prove that for every positive integer $n$,\nthe number of distinct paths is a perfect square. (Note: A perfect square is a number of the form $k^2$,\nwhere $k$ is an integer). [asy] size(200); path p1=polygon(3),p2=shift(sqrt(3)/2,1/2)*rotate(180)*polygon(3); for(int k=0;k<3;++k) {for (int j=0;j<3;++j) {draw(shift(sqrt(3)*(k+j/2),1.5*j)*p1,black+linewidth(.4)); draw(shift(sqrt(3)*(k+j/2),1.5*j)*p2,black+linewidth(.4));} } pair O=(-sqrt(3)/2,-1/2),E=(sqrt(3),0),NW=(-sqrt(3)/2,3/2),NE=(sqrt(3)/2,3/2),SE=(sqrt(3)/2,-3/2); D(O--(O+E)--(O+E+NE)--(O+2E+NE)--(O+2E+NE+SE)--(O+2E+2NE+SE)--(O+2E+2NE+SE+NW)--(O+3E+2NE+SE+NW)--(O+3E+3NE+SE+NW),black+linewidth(2)); MP(\"A\",O,SW); MP(\"B\",(O+3E+3NE+SE+NW),NE); draw(shift(10,0)*p1,black+linewidth(.4)); draw(shift(10,sqrt(3))*p1,black+linewidth(.4)); draw(shift(12.5,0)*p1,black+linewidth(.4)); draw(shift(12.5,sqrt(3))*p1,black+linewidth(.4)); MP(\"Legal Steps\",(11.4,4.2)); draw((10-sqrt(3)/2,-1/2)--(10,1.5-1/2),arrow=Arrow()); draw((12.5-sqrt(3)/2,-1/2)--(12.5+sqrt(3)/2,-1/2),arrow=Arrow()); draw((10,sqrt(3)+1)--(10+sqrt(3)/2,sqrt(3)-1/2),arrow=Arrow()); draw((12.5+sqrt(3)/2,sqrt(3)-1/2)--(12.5,sqrt(3)+1),arrow=Arrow()); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of all ordered triple of integers $(a_1,a_2,a_3)$ with $1 \\le a_1,a_2,a_3 \\le 10$. Each ordered triple in $S$ generates a sequence according to the rule $a_n=a_{n-1}\\cdot | a_{n-2}-a_{n-3} |$ for all $n\\ge 4$. Find the number of such sequences for which $a_n=0$ for some $n$. ",
+        "algebra"
+    ],
+    [
+        "Call a permutation $a_1, a_2, \\ldots, a_n$ of the integers $1, 2, \\ldots, n$ quasi-increasing if $a_k \\leq a_{k+1} + 2$ for each $1 \\leq k \\leq n-1$. For example, 53421 and 14253 are quasi-increasing permutations of the integers $1, 2, 3, 4, 5$, but 45123 is not. Find the number of quasi-increasing permutations of the integers $1, 2, \\ldots, 7$. ",
+        "algebra"
+    ],
+    [
+        "$\\begin{tabular}[t]{|c|c|c|c|}\\hline & & & \\\\\\hline & & & \\\\\\hline \\end{tabular}$ (a) You want to arrange $8$ biologists of $8$ different heights in two rows for a photograph.\nEach row must have $4$ biologists. Height must increase from left to right in each row.\nEach person in back must be taller than the person directly in front of him. How many different arrangements are possible? $\\begin{tabular}[t]{|c|c|c|c|c|c|}\\hline & & & & & \\\\\\hline & & & & & \\\\\\hline \\end{tabular}$ (b) You arrange $12$ biologists of $12$ different heights in two rows of $6$, with the same conditions on height as in part (a).\nHow many different arrangements are possible? Remember to justify your answers. (c) You arrange $2n$ biologists of $2n$ different heights in two rows of $n$, with the same conditions on height as in part (a).\nGive a formula in terms of $n$ for the number of possible arrangements. ",
+        "algebra"
+    ],
+    [
+        "[asy] pair A=dir(90),B=dir(210),C=dir(330),O=(0,0); draw(circle(O,1),black); draw(O--A--B--O--B--C--O--C--A,dot); [/asy] Starting at the node in the center of the diagram, an orb spider moves along its web. It is permissible for the spider to backtrack as often as it likes,\nin either direction, on segments it has previously traveled. On each move, the spider moves along one of the segments (curved or straight)\nto some adjacent node that is different from the node that it currently occupies. (a) How many different five-move paths start at the center node and end at the center node? (b) How many different seven-move paths start at the center node and end at the center node? ",
+        "algebra"
+    ],
+    [
+        "Ada and Otto are engaged in a battle of wits. In front of them is a \ufb01gure with six dots, and nine sticks are placed between pairs of dots as shown below. The dots are labeled $A, B, C, D, E, F$. Ada begins the game by placing a pebble on the dot of her choice. Then, starting with Ada and alternating turns, each player picks a stick adjacent to the pebble, moves the pebble to the dot at the other end of the stick, and then removes the stick from the \ufb01gure. The game ends when there are no sticks adjacent to the pebble. The player who moves last wins. A sample game is described below. If both players play optimally, who will win? [asy] pair A=(1,0),B=(1/2,sqrt(3)/2),C=(-1/2,sqrt(3)/2),D=(-1,0),E=(-1/2,-sqrt(3)/2),E=(-1/2,-sqrt(3)/2),F=(1/2,-sqrt(3)/2); draw(A--B--C--D--E--F--A,dot); draw(A--C--E--A,dot); MP(\"A\",A,(1,0));MP(\"B\",B,NE);MP(\"C\",C,NW);MP(\"D\",D,W);MP(\"E\",E,SW);MP(\"F\",F,SE); [/asy] Sample Game 1. Ada places the pebble at B. 2. Ada removes the stick BC, placing the pebble at C. 3. Otto removes the stick CD, placing the pebble at D. 4. Ada removes the stick DE, placing the pebble at E. 5. Otto removes the stick EA, placing the pebble at A. 6. Ada removes the stick AB and wins. ",
+        "algebra"
+    ],
+    [
+        "How many distinct plane wallpaper patterns can be created by cloning the chessboard arrangements described in Question 9? Each periodic wallpaper pattern is generated by this method: starting with a chessboard arrangement from Question 9 (the\nmaster tile), use copies of that tile to fill the plane seamlessly, placing the copies edge-to-edge and corner-to-corner. Note that\nthe resulting wallpaper pattern repeats with period 8, horizontally and vertically. When the tiling is done, the chessboard edges and corners vanish, leaving only an infinite periodic pattern of black and white pawns visible on the wallpaper. Regard two of the infinite wallpaper patterns as the same if and only if there is a plane translation that slides one wallpaper pattern onto an exact copy of the other one. You may slide vertically, horizontally, or a combination of both, any number of squares. (Rotations and reflections are not allowed, just translations.)\nNote that the wallpaper pattern depicted above can be generated by many different master tiles (by regarding\nany square 8 \u00d7 8 portion of the wallpaper as the master tile chessboard). The challenge is to account for\nsuch duplication. Remember that each master tile has exactly four pawns of each color.\nYou may give your answer as an expression using factorials and/or combinations (binomial coefficients).\nYou are not asked to compute the numeric answer. ",
+        "algebra"
+    ],
+    [
+        "How many triangles with positive area have all their vertices at points $(i,j)$ in the coordinate plane, where $i$ and $j$ are integers between $1$ and $5$, inclusive? $\\textbf{(A)}\\ 2128 \\qquad\\textbf{(B)}\\ 2148 \\qquad\\textbf{(C)}\\ 2160 \\qquad\\textbf{(D)}\\ 2200 \\qquad\\textbf{(E)}\\ 2300$",
+        "geometry"
+    ],
+    [
+        "A square is drawn in the Cartesian coordinate plane with vertices at $(2, 2)$, $(-2, 2)$, $(-2, -2)$, $(2, -2)$. A particle starts at $(0,0)$. Every second it moves with equal probability to one of the eight lattice points (points with integer coordinates) closest to its current position, independently of its previous moves. In other words, the probability is $1/8$ that the particle will move from $(x, y)$ to each of $(x, y + 1)$, $(x + 1, y + 1)$, $(x + 1, y)$, $(x + 1, y - 1)$, $(x, y - 1)$, $(x - 1, y - 1)$, $(x - 1, y)$, or $(x - 1, y + 1)$. The particle will eventually hit the square for the first time, either at one of the 4 corners of the square or at one of the 12 lattice points in the interior of one of the sides of the square. The probability that it will hit at a corner rather than at an interior point of a side is $m/n$, where $m$ and $n$ are relatively prime positive integers. What is $m + n$? $\\textbf{(A) } 4 \\qquad\\textbf{(B) } 5 \\qquad\\textbf{(C) } 7 \\qquad\\textbf{(D) } 15 \\qquad\\textbf{(E) } 39$",
+        "algebra"
+    ],
+    [
+        "(a) Find a substitution code on the seven letters A, B, C, D, E, F, and G\nthat has the property that if you apply it twice in a row (that is, encrypt the encryption), the\nmessage ABCDEFG becomes ECBFAGD. Describe your answer by giving the message that\nresults when encryption is applied once to the message ABCDEFG. (b) Find another such code, if there is one. ",
+        "algebra"
+    ],
+    [
+        "Find a formula for\n$\\sum_{k=0}^{\\lfloor \\frac{n}{4} \\rfloor } \\binom{n}{4k}$ for any natural number $n$. ",
+        "number"
+    ],
+    [
+        "Find the number of functions $f(x)$ from $\\{1, 2, 3, 4, 5\\}$ to $\\{1, 2, 3, 4, 5\\}$ that satisfy $f(f(x)) = f(f(f(x)))$ for all $x$ in $\\{1, 2, 3, 4, 5\\}$. ",
+        "algebra"
+    ],
+    [
+        "A frog is positioned at the origin of the coordinate plane. From the point $(x, y)$, the frog can jump to any of the points $(x + 1, y)$, $(x + 2, y)$, $(x, y + 1)$, or $(x, y + 2)$. Find the number of distinct sequences of jumps in which the frog begins at $(0, 0)$ and ends at $(4, 4)$. ",
+        "algebra"
+    ],
+    [
+        "A scanning code consists of a $7 \\times 7$ grid of squares, with some of its squares colored black and the rest colored white. There must be at least one square of each color in this grid of $49$ squares. A scanning code is called $\\textit{symmetric}$ if its look does not change when the entire square is rotated by a multiple of $90 ^{\\circ}$ counterclockwise around its center, nor when it is reflected across a line joining opposite corners or a line joining midpoints of opposite sides. What is the total number of possible symmetric scanning codes? $\\textbf{(A)} \\text{ 510} \\qquad \\textbf{(B)} \\text{ 1022} \\qquad \\textbf{(C)} \\text{ 8190} \\qquad \\textbf{(D)} \\text{ 8192} \\qquad \\textbf{(E)} \\text{ 65,534}$",
+        "algebra"
+    ],
+    [
+        "Consider polynomials $P(x)$ of degree at most $3$, each of whose coefficients is an element of $\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. How many such polynomials satisfy $P(-1) = -9$? $\\textbf{(A) } 110 \\qquad \\textbf{(B) } 143 \\qquad \\textbf{(C) } 165 \\qquad \\textbf{(D) } 220 \\qquad \\textbf{(E) } 286$",
+        "algebra"
+    ],
+    [
+        "The Seripians have seen the error of their ways and\nissued new pit-coins in 2-pit and 3-pit denominations,\ncontaining 2 and 3 serigrams of gold. One of the new\ncoins is in the shape of a domino (two adjoining squares) and the other two are in the shape of\ntriominoes (three adjoining squares), shown above. To celebrate the new coins, the Seripians\nhave announced a contest. Seripian students can win fame and glory and 100 of each of the\nnew Seripian pit-coins by successfully completing quests (a)-(d) below.\nCall a tiling by pit-coins prime if there is no vertical\nline that splits the tiling into tilings of two smaller\nshapes without cutting across any of the coins. The\n2x5 tiling above on the left is prime and the 2x5 tiling on the right is not prime.\nDefine P(n) to be the number of distinct prime tilings\nof a horizontal 2xn grid. For example, P(4) = 6, and\nthe six distinct prime 2x4 tilings are shown at left.\nDefine Q(n) to be the number of distinct prime tilings of the two 2xn grids with one unit\ncorner square missing at the right end. Q(3) = 4 and\nthe four prime tilings are shown to the left. We wish\nyou success on the Seripian Quests. Show your work. (a) Determine P(6). (b) Determine formulas for P(n) and Q(n) in terms of Q(n 1), Q(n 2), and/or Q(n 3)\nthat are valid for n 4. (c) Determine a formula for P(n) that does not use Q. You may use P(n 1), P(n 2),\nP(n 3),.... Specify how large n must be for your formula to work. (d) Determine explicitly P(11) and P(13). ",
+        "algebra"
+    ],
+    [
+        "Call a set of integers Grassilian if each of its elements is at least as large as the number of\nelements in the set. For example, the three-element set $\\{2, 48, 100\\}$ is not Grassilian, but the\nsix-element set $\\{6, 10, 11, 20, 33, 39\\}$ is Grassilian. Let $G(n)$ be the number of Grassilian subsets of $\\{1, 2, 3,..., n\\}$. (By definition, the empty set is a subset of every set and is Grassilian.) (a) Find $G(3)$, $G(4)$, and $G(5)$. (b) Find a recursion formula for $G(n + 1)$. That is, find a formula that expresses $G(n + 1)$ in\nterms of $G(n), G(n - 1),\\dots$ (c) Give an explanation that shows that the formula you give is correct. ",
+        "algebra"
+    ],
+    [
+        "A soccer team has $22$ available players. A fixed set of $11$ players starts the game, while the other $11$ are available as substitutes. During the game, the coach may make as many as $3$ substitutions, where any one of the $11$ players in the game is replaced by one of the substitutes. No player removed from the game may reenter the game, although a substitute entering the game may be replaced later. No two substitutions can happen at the same time. The players involved and the order of the substitutions matter. Let $n$ be the number of ways the coach can make substitutions during the game (including the possibility of making no substitutions). Find the remainder when $n$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "While watching a show, Ayako, Billy, Carlos, Dahlia, Ehuang, and Frank sat in that order in a row of six chairs. During the break, they went to the kitchen for a snack. When they came back, they sat on those six chairs in such a way that if two of them sat next to each other before the break, then they did not sit next to each other after the break. Find the number of possible seating orders they could have chosen after the break. There are $2^{5}-1$ intersections that we must consider if we are to perform a PIE bash on this problem. Since we don't really want to think that hard, and bashing does not take that long for this problem, we can write down half of all permutations that satisfy the conditions presented in the problem in \"lexicographically next\" order to keep track easily. We do this for all cases such that the first \"person\" is $A-C$, and multiply by two, since the number of working permutations with $D-F$ as the first person is the same as if it were $A-C$, hence, after doing such a bash, we get $45\\times2=90$ permutations that result in no consecutive letters being adjacent to each other.\n~afatperson ",
+        "algebra"
+    ],
+    [
+        "A choir director must select a group of singers from among his $6$ tenors and $8$ basses. The only requirements are that the difference between the number of tenors and basses must be a multiple of $4$, and the group must have at least one singer. Let $N$ be the number of different groups that could be selected. What is the remainder when $N$ is divided by $100$? $\\textbf{(A) } 47\\qquad\\textbf{(B) } 48\\qquad\\textbf{(C) } 83\\qquad\\textbf{(D) } 95\\qquad\\textbf{(E) } 96\\qquad$",
+        "algebra"
+    ],
+    [
+        "Arjun and Beth play a game in which they take turns removing one brick or two adjacent bricks from one \"wall\" among a set of several walls of bricks, with gaps possibly creating new walls. The walls are one brick tall. For example, a set of walls of sizes $4$ and $2$ can be changed into any of the following by one move: $(3,2),(2,1,2),(4),(4,1),(2,2),$ or $(1,1,2).$ [asy] unitsize(4mm); real[] boxes = {0,1,2,3,5,6,13,14,15,17,18,21,22,24,26,27,30,31,32,33}; for(real i:boxes){ draw(box((i,0),(i+1,3))); } draw((8,1.5)--(12,1.5),Arrow()); defaultpen(fontsize(20pt)); label(\",\",(20,0)); label(\",\",(29,0)); label(\",...\",(35.5,0)); [/asy] Arjun plays first, and the player who removes the last brick wins. For which starting configuration is there a strategy that guarantees a win for Beth? $\\textbf{(A) }(6,1,1) \\qquad \\textbf{(B) }(6,2,1) \\qquad \\textbf{(C) }(6,2,2)\\qquad \\textbf{(D) }(6,3,1) \\qquad \\textbf{(E) }(6,3,2)$",
+        "algebra"
+    ],
+    [
+        "For any finite set $X$, let $| X |$ denote the number of elements in $X$. Define\n\n\n\\[S_n = \\sum | A \\cap B |,\\]\n\n\nwhere the sum is taken over all ordered pairs $(A, B)$ such that $A$ and $B$ are subsets of $\\left\\{ 1, 2, 3, \\cdots, n \\right\\}$ with $|A| = |B|$.\nFor example, $S_2 = 4$ because the sum is taken over the pairs of subsets\n\n\n\\[(A, B) \\in \\left\\{ (\\emptyset, \\emptyset), ( \\{1\\}, \\{1\\} ), ( \\{1\\}, \\{2\\} ), ( \\{2\\}, \\{1\\} ), ( \\{2\\}, \\{2\\} ), ( \\{1, 2\\}, \\{1, 2\\} ) \\right\\},\\]\n\n\ngiving $S_2 = 0 + 1 + 0 + 0 + 1 + 2 = 4$.\nLet $\\frac{S_{2022}}{S_{2021}} = \\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find the remainder when $p + q$ is divided by\n1000. ",
+        "algebra"
+    ],
+    [
+        "Find the number of ordered pairs of integers $(a, b)$ such that the sequence\n\n\\[3, 4, 5, a, b, 30, 40, 50\\]\n\nis strictly increasing and no set of four (not necessarily consecutive) terms forms an arithmetic progression. ",
+        "algebra"
+    ],
+    [
+        "There is a polynomial $P(x)$ with integer coefficients such that\n\n\\[P(x)=\\frac{(x^{2310}-1)^6}{(x^{105}-1)(x^{70}-1)(x^{42}-1)(x^{30}-1)}\\]\n\nholds for every $0<x<1.$ Find the coefficient of $x^{2022}$ in $P(x)$. ",
+        "algebra"
+    ],
+    [
+        "Let $\\ell_A$ and $\\ell_B$ be two distinct parallel lines. For positive integers $m$ and $n$, distinct points $A_1, A_2, \\allowbreak A_3, \\allowbreak \\ldots, \\allowbreak A_m$ lie on $\\ell_A$, and distinct points $B_1, B_2, B_3, \\ldots, B_n$ lie on $\\ell_B$. Additionally, when segments $\\overline{A_iB_j}$ are drawn for all $i=1,2,3,\\ldots, m$ and $j=1,\\allowbreak 2,\\allowbreak 3, \\ldots, \\allowbreak n$, no point strictly between $\\ell_A$ and $\\ell_B$ lies on more than 2 of the segments. Find the number of bounded regions into which this figure divides the plane when $m=7$ and $n=5$. The figure shows that there are 8 regions when $m=3$ and $n=2$.\n\n\n[asy] import geometry; size(10cm); draw((-2,0)--(13,0)); draw((0,4)--(10,4)); label(\"$\\ell_A$\",(-2,0),W); label(\"$\\ell_B$\",(0,4),W); point A1=(0,0),A2=(5,0),A3=(11,0),B1=(2,4),B2=(8,4),I1=extension(B1,A2,A1,B2),I2=extension(B1,A3,A1,B2),I3=extension(B1,A3,A2,B2); draw(B1--A1--B2); draw(B1--A2--B2); draw(B1--A3--B2); label(\"$A_1$\",A1,S); label(\"$A_2$\",A2,S); label(\"$A_3$\",A3,S); label(\"$B_1$\",B1,N); label(\"$B_2$\",B2,N); label(\"1\",centroid(A1,B1,I1)); label(\"2\",centroid(B1,I1,I3)); label(\"3\",centroid(B1,B2,I3)); label(\"4\",centroid(A1,A2,I1)); label(\"5\",(A2+I1+I2+I3)/4); label(\"6\",centroid(B2,I2,I3)); label(\"7\",centroid(A2,A3,I2)); label(\"8\",centroid(A3,B2,I2)); dot(A1); dot(A2); dot(A3); dot(B1); dot(B2); [/asy] ",
+        "algebra"
+    ],
+    [
+        "The following analog clock has two hands that can move independently of each other.\n\n\n[asy] unitsize(2cm); draw(unitcircle,black+linewidth(2)); for (int i = 0; i < 12; ++i) { draw(0.9*dir(30*i)--dir(30*i)); } for (int i = 0; i < 4; ++i) { draw(0.85*dir(90*i)--dir(90*i),black+linewidth(2)); } for (int i = 1; i < 13; ++i) { label(\"\\small\" + (string) i, dir(90 - i * 30) * 0.75); } draw((0,0)--0.6*dir(90),black+linewidth(2),Arrow(TeXHead,2bp)); draw((0,0)--0.4*dir(90),black+linewidth(2),Arrow(TeXHead,2bp)); [/asy]\n\n\nInitially, both hands point to the number $12$. The clock performs a sequence of hand movements so that on each movement, one of the two hands moves clockwise to the next number on the clock face while the other hand does not move. Let $N$ be the number of sequences of $144$ hand movements such that during the sequence, every possible positioning of the hands appears exactly once, and at the end of the $144$ movements, the hands have returned to their initial position. Find the remainder when $N$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "Let $N$ be the number of ways to place the integers $1$ through $12$ in the $12$ cells of a $2 \\times 6$ grid so that for any two cells sharing a side, the difference between the numbers in those cells is not divisible by $3.$ One way to do this is shown below. Find the number of positive integer divisors of $N.$\n\n\\[\\begin{array}{|c|c|c|c|c|c|} \\hline \\,1\\, & \\,3\\, & \\,5\\, & \\,7\\, & \\,9\\, & 11 \\\\ \\hline \\,2\\, & \\,4\\, & \\,6\\, & \\,8\\, & 10 & 12 \\\\ \\hline \\end{array}\\] ",
+        "algebra"
+    ],
+    [
+        "Let $K$ be the number of sequences $A_1$, $A_2$, $\\dots$, $A_n$ such that $n$ is a positive integer less than or equal to $10$, each $A_i$ is a subset of $\\{1, 2, 3, \\dots, 10\\}$, and $A_{i-1}$ is a subset of $A_i$ for each $i$ between $2$ and $n$, inclusive. For example, $\\{\\}$, $\\{5, 7\\}$, $\\{2, 5, 7\\}$, $\\{2, 5, 7\\}$, $\\{2, 5, 6, 7, 9\\}$ is one such sequence, with $n = 5$.What is the remainder when $K$ is divided by $10$? $\\textbf{(A) } 1 \\qquad \\textbf{(B) } 3 \\qquad \\textbf{(C) } 5 \\qquad \\textbf{(D) } 7 \\qquad \\textbf{(E) } 9$",
+        "algebra"
+    ],
+    [
+        "Find the number of rectangles that can be formed inside a fixed regular dodecagon ( $12$ -gon) where each side of the rectangle lies on either a side or a diagonal of the dodecagon. The diagram below shows three of those rectangles. [asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy] ",
+        "geometry"
+    ],
+    [
+        "Find the number of ways to place a digit in each cell of a 2x3 grid so that the sum of the two numbers formed by reading left to right is $999$, and the sum of the three numbers formed by reading top to bottom is $99$. The grid below is an example of such an arrangement because $8+991=999$ and $9+9+81=99$. \\[\\begin{array}{|c|c|c|} \\hline 0 & 0 & 8 \\\\ \\hline 9 & 9 & 1 \\\\ \\hline \\end{array}\\] ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be a subset of $\\{1, 2, 3, \\dots, 2024\\}$ such that the following two conditions hold: If $x$ and $y$ are distinct elements of $S$, then $|x-y| > 2.$ If $x$ and $y$ are distinct odd elements of $S$, then $|x-y| > 6.$ What is the maximum possible number of elements in $S$? $\\textbf{(A) }436 \\qquad \\textbf{(B) }506 \\qquad \\textbf{(C) }608 \\qquad \\textbf{(D) }654 \\qquad \\textbf{(E) }675$",
+        "algebra"
+    ],
+    [
+        "Find the last three digits of the number of 7-tuples of positive integers $(a_1, a_2, a_3, a_4, a_5, a_6, a_7)$ such that $a_1 \\, | \\, a_2 \\, | \\, a_3 \\, | \\, a_4 \\, | \\, a_5 \\, | \\, a_6 \\, | \\, a_7 \\, | \\, 6468$, that is, $a_1$ divides $a_2$, $a_2$ divides $a_3$, $a_3$ divides $a_4$, $a_4$ divides $a_5$, $a_5$ divides $a_6$, $a_6$ divides $a_7$, and $a_7$ divides $6468$. ",
+        "number"
+    ],
+    [
+        "A paperboy delivers newspapers to 10 houses along Main Street. Wishing to save effort, he doesn't always deliver to every house, but to avoid being fired he never misses three consecutive houses. Compute the number of ways the paperboy could deliver papers in this manner. ",
+        "algebra"
+    ],
+    [
+        "Let $N$ denote the number of permutations of the $15$ -character string $AAAABBBBBCCCCCC$ such that Find the remainder when $N$ is divided by $1000$. ",
+        "number"
+    ],
+    [
+        "Let $N$ denote the number of $7$ digit positive integers have the property that their digits are in increasing order. Determine the remainder obtained when $N$ is divided by $1000$. (Repeated digits are allowed.) ",
+        "number"
+    ],
+    [
+        "Albert starts to make a list, in increasing order, of the positive integers that have a first digit of 1. He writes $1, 10, 11, 12, \\ldots$ but by the 1,000th digit he (finally) realizes that the list would contain an infinite number of elements. Find the three-digit number formed by the last three digits he wrote (the 998th, 999th, and 1000th digits, in that order). ",
+        "algebra"
+    ],
+    [
+        "Compute the remainder when ${2007 \\choose 0} + {2007 \\choose 3} + \\cdots + {2007 \\choose 2007}$ is divided by 1000. ",
+        "number"
+    ],
+    [
+        "The number of increasing sequences of positive integers $a_1 \\le a_2 \\le a_3 \\le \\cdots \\le a_{10} \\le 2007$ such that $a_i-i$ is even for $1\\le i \\le 10$ can be expressed as ${m \\choose n}$ for some positive integers $m > n$. Compute the remainder when $m$ is divided by 1000. ",
+        "algebra"
+    ],
+    [
+        "What is the largest $2$ -digit prime factor of the integer $n = {200\\choose 100}$? ",
+        "number"
+    ],
+    [
+        "Eight congruent equilateral triangles, each of a different color, are used to construct a regular octahedron. How many distinguishable ways are there to construct the octahedron? (Two colored octahedrons are distinguishable if neither can be rotated to look just like the other.) [asy] import three; import math; unitsize(1.5cm); currentprojection=orthographic(2,0.2,1); triple A=(0,0,1); triple B=(sqrt(2)/2,sqrt(2)/2,0); triple C=(sqrt(2)/2,-sqrt(2)/2,0); triple D=(-sqrt(2)/2,-sqrt(2)/2,0); triple E=(-sqrt(2)/2,sqrt(2)/2,0); triple F=(0,0,-1); draw(A--B--E--cycle); draw(A--C--D--cycle); draw(F--C--B--cycle); draw(F--D--E--cycle,dotted+linewidth(0.7)); [/asy] $\\textbf {(A)}\\ 210 \\qquad \\textbf {(B)}\\ 560 \\qquad \\textbf {(C)}\\ 840 \\qquad \\textbf {(D)}\\ 1260 \\qquad \\textbf {(E)}\\ 1680$",
+        "algebra"
+    ],
+    [
+        "Jane is 25 years old. Dick is older than Jane. In $n$ years, where $n$ is a positive integer, Dick's age and Jane's age will both be two-digit numbers and will have the property that Jane's age is obtained by interchanging the digits of Dick's age. Let $d$ be Dick's present age. How many ordered pairs of positive integers $(d,n)$ are possible? ",
+        "algebra"
+    ],
+    [
+        "Let $\\mathcal{S}$ be the set $\\lbrace1,2,3,\\ldots,10\\rbrace$. Let $n$ be the number of sets of two non-empty disjoint subsets of $\\mathcal{S}$. (Disjoint sets are defined as sets that have no common elements.) Find the remainder obtained when $n$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "Let $a_1 < a_2 < a_3$ be three positive integers in the interval $[1,14]$ satisfying $a_2-a_1\\ge3$ and $a_3-a_2\\ge3$. How many di\ufb00erent choices of $(a_1,a_2,a_3)$ exist? ",
+        "algebra"
+    ]
+]

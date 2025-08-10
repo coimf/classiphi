@@ -1,0 +1,718 @@
+[
+    [
+        "Prove that the fraction $\\frac{21n+4}{14n+3}$ is irreducible for every natural number $n$. ",
+        "algebra"
+    ],
+    [
+        "You are given a sequence of $58$ terms; each term has the form $P+n$ where $P$ stands for the product $2 \\times 3 \\times 5 \\times\\ldots \\times 61$\nof all prime numbers less than or equal to $61$, and $n$ takes, successively, the values $2, 3, 4,\\ldots, 59$.\nLet $N$ be the number of primes appearing in this sequence. Then $N$ is: $\\textbf{(A)}\\ 0\\qquad \\textbf{(B)}\\ 16\\qquad \\textbf{(C)}\\ 17\\qquad \\textbf{(D)}\\ 57\\qquad \\textbf{(E)}\\ 58$",
+        "algebra"
+    ],
+    [
+        "The number of solutions of $2^{2x}-3^{2y}=55$, in which $x$ and $y$ are integers, is: \\[\\textbf{(A)} \\ 0 \\qquad\\textbf{(B)} \\ 1 \\qquad \\textbf{(C)} \\ 2 \\qquad\\textbf{(D)} \\ 3\\qquad \\textbf{(E)} \\ \\text{More than three, but finite}\\]",
+        "algebra"
+    ],
+    [
+        "If $2^a+2^b=3^c+3^d$, the number of integers $a,b,c,d$ which can possibly be negative, is, at most: $\\textbf{(A)}\\ 4 \\qquad \\textbf{(B)}\\ 3 \\qquad \\textbf{(C)}\\ 2 \\qquad \\textbf{(D)}\\ 1 \\qquad \\textbf{(E)}\\ 0$",
+        "algebra"
+    ],
+    [
+        "For any integer $n>1$, the number of prime numbers greater than $n!+1$ and less than $n!+n$ is: $\\text{(A) } 0\\quad\\qquad \\text{(B) } 1\\quad\\\\ \\text{(C) } \\frac{n}{2} \\text{ for n even, } \\frac{n+1}{2} \\text{ for n odd}\\quad\\\\ \\text{(D) } n-1\\quad \\text{(E) } n$",
+        "algebra"
+    ],
+    [
+        "Show that there are no integers $a,b,c$ for which $a^2+b^2-8c=6$. ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a five digit number (whose first digit is non-zero) and let $m$ be the four digit number formed from n by removing its middle digit. Determine all $n$ such that $n/m$ is an integer. ",
+        "algebra"
+    ],
+    [
+        "The number of sets of two or more consecutive positive integers whose sum is 100 is $\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 3 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ 5$",
+        "combinatorics"
+    ],
+    [
+        "Determine the greatest number, who is the product of some positive integers, and the sum of these numbers is $1976.$ ",
+        "algebra"
+    ],
+    [
+        "Mary told John her score on the American High School Mathematics Examination (AHSME), which was over $80$. From this, John was able to determine the number of problems Mary solved correctly. If Mary's score had been any lower, but still over $80$, John could not have determined this. What was Mary's score? (Recall that the AHSME consists of $30$ multiple choice problems and that one's score, $s$, is computed by the formula $s=30+4c-w$, where $c$ is the number of correct answers and $w$ is the number of wrong answers. (Students are not penalized for problems left unanswered.) ",
+        "algebra"
+    ],
+    [
+        "A function $f$ is defined for all real numbers and satisfies $f(2+x)=f(2-x)$ and $f(7+x)=f(7-x)$ for all $x$. If $x=0$ is a root for $f(x)=0$, what is the least number of roots $f(x)=0$ must have in the interval $-1000\\leq x \\leq 1000$? ",
+        "algebra"
+    ],
+    [
+        "How many of the first 1000 positive integers can be expressed in the form $\\lfloor 2x \\rfloor + \\lfloor 4x \\rfloor + \\lfloor 6x \\rfloor + \\lfloor 8x \\rfloor$, where $x$ is a real number, and $\\lfloor z \\rfloor$ denotes the greatest integer less than or equal to $z$? Contents 1 Problem 2 Solution 1 3 Solution 2 3.1 Solution 2 Shortcut 3.2 Solution 2 Bigger Shortcut (Close to Solution 6) 4 Solution 3 5 Solution 4 6 Solution 5 7 Solution 6 8 Solution 7 9 See also ",
+        "algebra"
+    ],
+    [
+        "Assume that $a$, $b$, $c$, and $d$ are positive integers such that $a^5 = b^4$, $c^3 = d^2$, and $c - a = 19$. Determine $d - b$. ",
+        "algebra"
+    ],
+    [
+        "Let N = $69^{5} + 5\\cdot69^{4} + 10\\cdot69^{3} + 10\\cdot69^{2} + 5\\cdot69 + 1$. How many positive integers are factors of $N$? $\\textbf{(A)}\\ 3\\qquad \\textbf{(B)}\\ 5\\qquad \\textbf{(C)}\\ 69\\qquad \\textbf{(D)}\\ 125\\qquad \\textbf{(E)}\\ 216$",
+        "algebra"
+    ],
+    [
+        "What is the largest positive integer $n$ for which $n^3+100$ is divisible by $n+10$? https://youtu.be/zfChnbMGLVQ?t=1458 ~ pi_is_3.14 https://youtu.be/TA_Ug1-qBCU ~ momeme ",
+        "algebra"
+    ],
+    [
+        "The increasing sequence $1,3,4,9,10,12,13\\cdots$ consists of all those positive integers which are powers of 3 or sums of distinct powers of 3. Find the $100^{\\mbox{th}}$ term of this sequence. ",
+        "algebra"
+    ],
+    [
+        "Let $m$ be the smallest integer whose cube root is of the form $n+r$, where $n$ is a positive integer and $r$ is a positive real number less than $1/1000$. Find $n$. ",
+        "algebra"
+    ],
+    [
+        "Find $3x^2 y^2$ if $x$ and $y$ are integers such that $y^2 + 3x^2 y^2 = 30x^2 + 517$. ",
+        "algebra"
+    ],
+    [
+        "What is the largest positive integer $n$ for which there is a unique integer $k$ such that $\\frac{8}{15} < \\frac{n}{n + k} < \\frac{7}{13}$? ",
+        "algebra"
+    ],
+    [
+        "A sample of 121 integers is given, each between 1 and 1000 inclusive, with repetitions allowed. The sample has a unique mode (most frequent value). Let $D$ be the difference between the mode and the arithmetic mean of the sample. What is the largest possible value of $\\lfloor D\\rfloor$? (For real $x$, $\\lfloor x\\rfloor$ is the greatest integer less than or equal to $x$.) ",
+        "combinatorics"
+    ],
+    [
+        "Let $S$ be a subset of $\\{1,2,3,\\ldots,1989\\}$ such that no two members of $S$ differ by $4$ or $7$. What is the largest number of elements $S$ can have? ",
+        "combinatorics"
+    ],
+    [
+        "One of Euler's conjectures was disproved in the 1960s by three American mathematicians when they showed there was a positive integer such that\n\n\\[133^5+110^5+84^5+27^5=n^{5}.\\]\n\nFind the value of $n$. ",
+        "algebra"
+    ],
+    [
+        "A subset of the integers $1,2,\\cdots,100$ has the property that none of its members is 3 times another. What is the largest number of members such a subset can have? $\\text{(A) } 50\\quad \\text{(B) } 66\\quad \\text{(C) } 67\\quad \\text{(D) } 76\\quad \\text{(E) } 78$",
+        "combinatorics"
+    ],
+    [
+        "Let $T = \\{9^k\u00a0: k ~ \\mbox{is an integer}, 0 \\le k \\le 4000\\}$. Given that $9^{4000}_{}$ has 3817 digits and that its first (leftmost) digit is 9, how many elements of $T_{}^{}$ have 9 as their leftmost digit? ",
+        "combinatorics"
+    ],
+    [
+        "An $n$ -digit positive integer is cute if its $n$ digits are an arrangement of the set $\\{1,2,...,n\\}$ and its first\n$k$ digits form an integer that is divisible by $k$, for $k = 1,2,...,n$. For example, $321$ is a cute $3$ -digit integer because $1$ divides $3$, $2$ divides $32$, and $3$ divides $321$. How many cute $6$ -digit integers are there? $\\text{(A) } 0\\quad \\text{(B) } 1\\quad \\text{(C) } 2\\quad \\text{(D) } 3\\quad \\text{(E) } 4$",
+        "combinatorics"
+    ],
+    [
+        "Suppose $r^{}_{}$ is a real number for which $\\left\\lfloor r + \\frac{19}{100} \\right\\rfloor + \\left\\lfloor r + \\frac{20}{100} \\right\\rfloor + \\left\\lfloor r + \\frac{21}{100} \\right\\rfloor + \\cdots + \\left\\lfloor r + \\frac{91}{100} \\right\\rfloor = 546.$ Find $\\lfloor 100r \\rfloor$. (For real $x^{}_{}$, $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x^{}_{}$.) THIS SOLUTION IS INCORRECT, PLEASE CORRECT IT IF YOU HAVE TIME!\n~Arcticturn ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be a subset of $\\{1,2,3,...,50\\}$ such that no pair of distinct elements in $S$ has a sum divisible by $7$. What is the maximum number of elements in $S$? $\\text{(A) } 6\\quad \\text{(B) } 7\\quad \\text{(C) } 14\\quad \\text{(D) } 22\\quad \\text{(E) } 23$",
+        "combinatorics"
+    ],
+    [
+        "In Pascal's Triangle, each entry is the sum of the two entries above it. The first few rows of the triangle are shown below. \\[\\begin{array}{c@{\\hspace{8em}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{4pt}}c@{\\hspace{2pt}} c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{3pt}}c@{\\hspace{6pt}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c} \\vspace{4pt} \\text{Row 0: } & & & & & & & 1 & & & & & & \\\\\\vspace{4pt} \\text{Row 1: } & & & & & & 1 & & 1 & & & & & \\\\\\vspace{4pt} \\text{Row 2: } & & & & & 1 & & 2 & & 1 & & & & \\\\\\vspace{4pt} \\text{Row 3: } & & & & 1 & & 3 & & 3 & & 1 & & & \\\\\\vspace{4pt} \\text{Row 4: } & & & 1 & & 4 & & 6 & & 4 & & 1 & & \\\\\\vspace{4pt} \\text{Row 5: } & & 1 & & 5 & &10& &10 & & 5 & & 1 & \\\\\\vspace{4pt} \\text{Row 6: } & 1 & & 6 & &15& &20& &15 & & 6 & & 1 \\end{array}\\]\n\n\nIn which row of Pascal's Triangle do three consecutive entries occur that are in the ratio $3\u00a0:4\u00a0:5$? ",
+        "algebra"
+    ],
+    [
+        "Two thousand points are given on a circle. Label one of the points $1$. From this point, count $2$ points in the clockwise direction and label this point $2$. From the point labeled $2$, count $3$ points in the clockwise direction and label this point $3$. (See figure.) Continue this process until the labels $1,2,3\\dots,1993\\,$ are all used. Some of the points on the circle will have more than one label and some points will not have a label. What is the smallest integer that labels the same point as $1993$? ",
+        "algebra"
+    ],
+    [
+        "In triangle $ABC,\\,$ angle $C$ is a right angle and the altitude from $C\\,$ meets $\\overline{AB}\\,$ at $D.\\,$ The lengths of the sides of $\\triangle ABC\\,$ are integers, $BD=29^3,\\,$ and $\\cos B=m/n\\,$, where $m\\,$ and $n\\,$ are relatively prime positive integers. Find $m+n.\\,$ ",
+        "geometry"
+    ],
+    [
+        "A right rectangular prism $P_{}$ (i.e., a rectangular parallelpiped) has sides of integral length $a, b, c,$ with $a\\le b\\le c.$ A plane parallel to one of the faces of $P_{}$ cuts $P_{}$ into two prisms, one of which is similar to $P_{},$ and both of which have nonzero volume. Given that $b=1995,$ for how many ordered triples $(a, b, c)$ does such a plane exist? ",
+        "geometry"
+    ],
+    [
+        "For how many ordered pairs of positive integers $(x,y),$ with $y<x\\le 100,$ are both $\\frac xy$ and $\\frac{x+1}{y+1}$ integers? ",
+        "combinatorics"
+    ],
+    [
+        "The harmonic mean of two positive integers is the reciprocal of the arithmetic mean of their reciprocals. For how many ordered pairs of positive integers $(x,y)$ with $x<y$ is the harmonic mean of $x$ and $y$ equal to $6^{20}$? ",
+        "algebra"
+    ],
+    [
+        "How many of the integers between 1 and 1000, inclusive, can be expressed as the difference of the squares of two nonnegative integers? ",
+        "combinatorics"
+    ],
+    [
+        "Sarah intended to multiply a two-digit number and a three-digit number, but she left out the multiplication sign and simply placed the two-digit number to the left of the three-digit number, thereby forming a five-digit number. This number is exactly nine times the product Sarah should have obtained. What is the sum of the two-digit number and the three-digit number? ",
+        "algebra"
+    ],
+    [
+        "The number $r$ can be expressed as a four-place decimal $0.abcd,$ where $a, b, c,$ and $d$ represent digits, any of which could be zero. It is desired to approximate $r$ by a fraction whose numerator is 1 or 2 and whose denominator is an integer. The closest such fraction to $r$ is $\\frac 27.$ What is the number of possible values for $r$? ",
+        "algebra"
+    ],
+    [
+        "Find the two $10$ -digit numbers which become nine times as large if the order of the digits is reversed. ",
+        "combinatorics"
+    ],
+    [
+        "Except for the first two terms, each term of the sequence $1000, x, 1000 - x,\\ldots$ is obtained by subtracting the preceding term from the one before that. The last term of the sequence is the first negative term encounted. What positive integer $x$ produces a sequence of maximum length? Contents 1 Problem 2 Solution 2.1 Solution 1 2.2 Solution 2 3 See also ",
+        "algebra"
+    ],
+    [
+        "Find the sum of all positive integers $n$ for which $n^2-19n+99$ is a perfect square. ",
+        "algebra"
+    ],
+    [
+        "Each of two boxes contains both black and white marbles, and the total number of marbles in the two boxes is $25.$ One marble is taken out of each box randomly. The probability that both marbles are black is $27/50,$ and the probability that both marbles are white is $m/n,$ where $m$ and $n$ are relatively prime positive integers. What is $m + n$? ",
+        "combinatorics"
+    ],
+    [
+        "The coordinates of the vertices of isosceles trapezoid $ABCD$ are all integers, with $A=(20,100)$ and $D=(21,107)$. The trapezoid has no horizontal or vertical sides, and $\\overline{AB}$ and $\\overline{CD}$ are the only parallel sides. The sum of the absolute values of all possible slopes for $\\overline{AB}$ is $m/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "geometry"
+    ],
+    [
+        "A point whose coordinates are both integers is called a lattice point. How many lattice points lie on the hyperbola $x^2 - y^2 = 2000^2$? ",
+        "geometry"
+    ],
+    [
+        "At a tennis tournament there were $2n$ boys and $n$ girls participating. Every player played every other player. The boys won $\\frac 75$ times as many matches as the girls. It is knowns that there were no draws. Find $n$. ",
+        "algebra"
+    ],
+    [
+        "In a rectangular array of points, with 5 rows and $N$ columns, the points are numbered consecutively from left to right beginning with the top row. Thus the top row is numbered 1 through $N,$ the second row is numbered $N + 1$ through $2N,$ and so forth. Five points, $P_1, P_2, P_3, P_4,$ and $P_5,$ are selected so that each $P_i$ is in row $i.$ Let $x_i$ be the number associated with $P_i.$ Now renumber the array consecutively from top to bottom, beginning with the first column. Let $y_i$ be the number associated with $P_i$ after the renumbering. It is found that $x_1 = y_2,$ $x_2 = y_1,$ $x_3 = y_4,$ $x_4 = y_5,$ and $x_5 = y_3.$ Find the smallest possible value of $N.$ ",
+        "combinatorics"
+    ],
+    [
+        "A set $\\mathcal{S}$ of distinct positive integers has the following property: for every integer $x$ in $\\mathcal{S},$ the arithmetic mean of the set of values obtained by deleting $x$ from $\\mathcal{S}$ is an integer. Given that 1 belongs to $\\mathcal{S}$ and that 2002 is the largest element of $\\mathcal{S},$ what is the greatest number of elements that $\\mathcal{S}$ can have? ",
+        "algebra"
+    ],
+    [
+        "Given that\n\n\\begin{eqnarray*}&(1)& x\\text{ and }y\\text{ are both integers between 100 and 999, inclusive;}\\qquad \\qquad \\qquad \\qquad \\qquad \\\\ &(2)& y\\text{ is the number formed by reversing the digits of }x\\text{; and}\\\\ &(3)& z=|x-y|. \\end{eqnarray*} How many distinct values of $z$ are possible? ",
+        "algebra"
+    ],
+    [
+        "Show that $n^4 - n^2$ is divisible o by $12$ for any integers $n > 1$. ",
+        "algebra"
+    ],
+    [
+        "Find all prime number $p$ such that $4p^2 + 1$ and $6p^2 + 1$ are also prime. ",
+        "algebra"
+    ],
+    [
+        "Prove that $a^9 - a$ is divisible by $6$ for every integers $a$. ",
+        "algebra"
+    ],
+    [
+        "Given a triangle $ABC$ with $C$ as the right angle, and the sidelengths of the triangle are integers. Determine the possible side lengths of the triangle if the product of the legs of the right triangle equals to three times the perimeter of the triangle. ",
+        "geometry"
+    ],
+    [
+        "Let $n$ be a positive integer. A number $A$ consists of $2n$ digits, each of which is 4; and a number $B$ consists of $n$ digits, each of which is 8. Prove that $A+2B+4$ is a perfect square. ",
+        "algebra"
+    ],
+    [
+        "Find all positive integers $n$ such that $21$ divides $2^{2^n}+2^n+1$. ",
+        "algebra"
+    ],
+    [
+        "Define a regular $n$ -pointed star to be the union of $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ such that the points $P_1, P_2,\\ldots, P_n$ are coplanar and no three of them are collinear, each of the $n$ line segments intersects at least one of the other line segments at a point other than an endpoint, all of the angles at $P_1, P_2,\\ldots, P_n$ are congruent, all of the $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ are congruent, and the path $P_1P_2, P_2P_3,\\ldots, P_nP_1$ turns counterclockwise at an angle of less than 180 degrees at each vertex. There are no regular 3-pointed, 4-pointed, or 6-pointed stars. All regular 5-pointed stars are similar, but there are two non-similar regular 7-pointed stars. How many non-similar regular 1000-pointed stars are there? ",
+        "geometry"
+    ],
+    [
+        "Let $S$ be the set of integers between $1$ and $2^{40}$ whose binary expansions have exactly two $1$ 's. If a number is chosen at random from $S,$ the probability that it is divisible by $9$ is $p/q,$ where $p$ and $q$ are relatively prime positive integers. Find $p+q.$ ",
+        "combinatorics"
+    ],
+    [
+        "A solid rectangular block is formed by gluing together $N$ congruent 1-cm cubes face to face. When the block is viewed so that three of its faces are visible, exactly $231$ of the 1-cm cubes cannot be seen. Find the smallest possible value of $N.$ ",
+        "geometry"
+    ],
+    [
+        "Three clever monkeys divide a pile of bananas. The first monkey takes some bananas from the pile, keeps three-fourths of them, and divides the rest equally between the other two. The second monkey takes some bananas from the pile, keeps one-fourth of them, and divides the rest equally between the other two. The third monkey takes the remaining bananas from the pile, keeps one-twelfth of them, and divides the rest equally between the other two. Given that each monkey receives a whole number of bananas whenever the bananas are divided, and the numbers of bananas the first, second, and third monkeys have at the end of the process are in the ratio $3: 2: 1,$ what is the least possible total for the number of bananas? ",
+        "algebra"
+    ],
+    [
+        "In how many ways can we change the sign $\\ast$ with $+$ or $-$, such that the following equation is true? \\[1 \\ast 2 \\ast 3 \\ast 4 \\ast 5 \\ast 6 \\ast 7 \\ast 8 \\ast 9 \\ast 10 = 29\\] ",
+        "combinatorics"
+    ],
+    [
+        "A quadratic equation $x^2 + ax + b + 1 = 0$ with integers $a$ and $b$ has roots which are positive integers. Prove that $a^2 + b^2$ is not a prime. ",
+        "algebra"
+    ],
+    [
+        "Do there exist positive integers $m$ and $n$ such that:\n\n\n\\[3n^2+3n+7=m^3\\] ",
+        "algebra"
+    ],
+    [
+        "One writes 268 numbers around a circle, such that the sum of 20 consecutive numbers is always equal to 75. The number 3, 4 and 9 are written in positions 17, 83 and 144 respectively. Find the number in position 210. ",
+        "combinatorics"
+    ],
+    [
+        "Each of the digits $1$, $3$, $7$ and $9$ occurs at least once in the decimal representation of some positive integers. Prove that one can permute the digits of this integer such that the resulting integer is divisible by $7$. ",
+        "combinatorics"
+    ],
+    [
+        "For positive integers $n,$ let $\\tau (n)$ denote the number of positive integer divisors of $n,$ including 1 and $n.$ For example, $\\tau (1)=1$ and $\\tau(6) =4.$ Define $S(n)$ by $S(n)=\\tau(1)+ \\tau(2) + \\cdots + \\tau(n).$ Let $a$ denote the number of positive integers $n \\leq 2005$ with $S(n)$ odd, and let $b$ denote the number of positive integers $n \\leq 2005$ with $S(n)$ even. Find $|a-b|.$ Contents 1 Problem 2 Solution 1 3 Solution 2 4 Solution 3 5 Solution 4 6 See also ",
+        "algebra"
+    ],
+    [
+        "For how many ordered pairs of digits $(A,B)$ is $2AB8$ a multiple of $12$? ",
+        "combinatorics"
+    ],
+    [
+        "Find the number of ordered pairs of integers $(x,y)$ which satisfy $x^2+4xy+y^2=21$. ",
+        "algebra"
+    ],
+    [
+        "Find all positive integers $x,y$ satisfying the equation\n\n\\[9(x^2+y^2+1) + 2(3xy+2) = 2005.\\] ",
+        "algebra"
+    ],
+    [
+        "For each even positive integer $x$, let $g(x)$ denote the greatest power of 2 that divides $x.$ For example, $g(20)=4$ and $g(16)=16.$ For each positive integer $n,$ let $S_n=\\sum_{k=1}^{2^{n-1}}g(2k).$ Find the greatest integer $n$ less than 1000 such that $S_n$ is a perfect square. ",
+        "algebra"
+    ],
+    [
+        "Let $\\mathcal{S}$ be the set of real numbers that can be represented as repeating decimals of the form $0.\\overline{abc}$ where $a, b, c$ are distinct digits. Find the sum of the elements of $\\mathcal{S}.$ ",
+        "algebra"
+    ],
+    [
+        "The sequence $a_1, a_2, \\ldots$ is geometric with $a_1=a$ and common ratio $r,$ where $a$ and $r$ are positive integers. Given that $\\log_8 a_1+\\log_8 a_2+\\cdots+\\log_8 a_{12} = 2006,$ find the number of possible ordered pairs $(a,r).$ ",
+        "algebra"
+    ],
+    [
+        "How many integers $N$ less than $1000$ can be written as the sum of $j$ consecutive positive odd integers from exactly 5 values of $j\\ge 1$? ",
+        "combinatorics"
+    ],
+    [
+        "Let $a,b,c$ be positive integers. If $30|a+b+c$, prove that $30|a^5+b^5+c^5$. ",
+        "algebra"
+    ],
+    [
+        "Every phone number in an area consists of eight digits and starts with digit $8$. Mr Edy, who has just moved to the area, apply for a new phone number. What is the chance that Mr. Edy gets a phone number which consists of at most five different digits? ",
+        "combinatorics"
+    ],
+    [
+        "Let $a,b,c$ be real numbers such that $ab,bc,ca$ are rational numbers. Prove that there are integers $x,y,z$, not all of them are $0$, such that $ax+by+cz=0$. ",
+        "algebra"
+    ],
+    [
+        "As $n$ ranges over the integers, the expression $n^4 - 898n^2 + 1$ evaluates to just one prime number. Find this prime. ",
+        "algebra"
+    ],
+    [
+        "For each positive integer $p$, let $b(p)$ denote the unique positive integer $k$ such that $|k-\\sqrt{p}| < \\frac{1}{2}$. For example, $b(6) = 2$ and $b(23) = 5$. If $S = \\sum_{p=1}^{2007} b(p),$ find the remainder when $S$ is divided by 1000. ",
+        "algebra"
+    ],
+    [
+        "An integer is called parity-monotonic if its decimal representation $a_{1}a_{2}a_{3}\\cdots a_{k}$ satisfies $a_{i}<a_{i+1}$ if $a_{i}$ is odd, and $a_{i}>a_{i+1}$ if $a_{i}$ is even. How many four-digit parity-monotonic integers are there? ",
+        "algebra"
+    ],
+    [
+        "Find the number of distinct integers in the list \\[\\left\\lfloor \\dfrac{1^2}{2007}\\right\\rfloor, \\left\\lfloor \\dfrac{2^2}{2007}\\right\\rfloor, \\left\\lfloor \\dfrac{3^2}{2007}\\right\\rfloor, \\left\\lfloor \\dfrac{4^2}{2007}\\right\\rfloor, \\cdots, \\left\\lfloor \\dfrac{2007^2}{2007}\\right\\rfloor,\\] where $\\lfloor x \\rfloor$ represents the greatest integer less than or equal to $x$. ",
+        "algebra"
+    ],
+    [
+        "For every positive integer $n$, $b(n)$ denote the number of positive divisors of $n$ and $p(n)$ denote the sum of all positive divisors of $n$. For example, $b(14)=4$ and $p(14)=24$. Let $k$ be a positive integer greater than $1$. (a) Prove that there are infinitely many positive integers $n$ which satisfy $b(n)=k^2-k+1$. (b) Prove that there are finitely many positive integers $n$ which satisfy $p(n)=k^2-k+1$. ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the sum of all $x$ such that $1\\leq x\\leq 99$ and $\\{x^2\\}=\\{x\\}^2$. Compute $\\lfloor S\\rfloor$. ",
+        "algebra"
+    ],
+    [
+        "The sequence of digits $123456789101112131415161718192021\\ldots$ is obtained by writing the positive integers in order. If the $10^{nth}$ digit in this sequence occurs in the part of the sequence in which the m-digit numbers are placed, define $f(n)$ to be $m$. For example, $f(2) = 2$ because the $100^{\\text{th}}$ digit enters the sequence in the placement of the two-digit integer $55$. Find the value of $f(2007)$. ",
+        "algebra"
+    ],
+    [
+        "Bored of working on her computational linguistics thesis, Erin enters some three-digit integers into a spreadsheet, then manipulates the cells a bit until her spreadsheet calculates each of the following one hundred $9$ -digit integers: \\begin{align*}700\\cdot 712\\,\\cdot\\, &718+320,\\\\701\\cdot 713\\,\\cdot\\, &719+320,\\\\ 702\\cdot 714\\,\\cdot\\, &720+320,\\\\&\\vdots\\\\798\\cdot 810\\,\\cdot\\, &816+320,\\\\799\\cdot 811\\,\\cdot\\, &817+320.\\end{align*} She notes that two of them have exactly $8$ positive divisors each. Find the common prime divisor of those two integers. ",
+        "algebra"
+    ],
+    [
+        "A positive integer $n$ between $1$ and $N=2007^{2007}$ inclusive is selected at random. If $a$ and $b$ are natural numbers such that $a/b$ is the probability that $N$ and $n^3-36n$ are relatively prime, find the value of $a+b$. ",
+        "combinatorics"
+    ],
+    [
+        "The sum of the digits of an integer is equal to the sum of the digits of three times that integer. Prove that the integer is a multiple of 9. ",
+        "algebra"
+    ],
+    [
+        "(a) Demonstrate that every odd number $2n+1$ can be expressed as a difference of two squares. (b) Demonstrate which even numbers can be expressed as a difference of two squares. ",
+        "algebra"
+    ],
+    [
+        "On a long straight stretch of one-way single-lane highway, cars all travel at the same speed and all obey the safety rule: the distance from the back of the car ahead to the front of the car behind is exactly one car length for each 15 kilometers per hour of speed or fraction thereof (Thus the front of a car traveling 52 kilometers per hour will be four car lengths behind the back of the car in front of it.) A photoelectric eye by the side of the road counts the number of cars that pass in one hour. Assuming that each car is 4 meters long and that the cars can travel at any speed, let $M$ be the maximum whole number of cars that can pass the photoelectric eye in one hour. Find the quotient when $M$ is divided by $10$. ",
+        "algebra"
+    ],
+    [
+        "Ed and Sue bike at equal and constant rates. Similarly, they jog at equal and constant rates, and they swim at equal and constant rates. Ed covers $74$ kilometers after biking for $2$ hours, jogging for $3$ hours, and swimming for $4$ hours, while Sue covers $91$ kilometers after jogging for $2$ hours, swimming for $3$ hours, and biking for $4$ hours. Their biking, jogging, and swimming rates are all whole numbers of kilometers per hour. Find the sum of the squares of Ed's biking, jogging, and swimming rates. ",
+        "algebra"
+    ],
+    [
+        "Let $S_i$ be the set of all integers $n$ such that $100i\\leq n < 100(i + 1)$. For example, $S_4$ is the set ${400,401,402,\\ldots,499}$. How many of the sets $S_0, S_1, S_2, \\ldots, S_{999}$ do not contain a perfect square? ",
+        "algebra"
+    ],
+    [
+        "Ten identical crates each of dimensions $3\\mathrm{ft}\\times 4\\mathrm{ft}\\times 6\\mathrm{ft}$. The first crate is placed flat on the floor. Each of the remaining nine crates is placed, in turn, flat on top of the previous crate, and the orientation of each crate is chosen at random. Let $\\frac {m}{n}$ be the probability that the stack of crates is exactly $41\\mathrm{ft}$ tall, where $m$ and $n$ are relatively prime positive integers. Find $m$. ",
+        "combinatorics"
+    ],
+    [
+        "A block of cheese in the shape of a rectangular solid measures $10$ cm by $13$ cm by $14$ cm. Ten slices are cut from the cheese. Each slice has a width of $1$ cm and is cut parallel to one face of the cheese. The individual slices are not necessarily parallel to each other. What is the maximum possible volume in cubic cm of the remaining block of cheese after ten slices have been cut off? ",
+        "geometry"
+    ],
+    [
+        "There exist $r$ unique nonnegative integers $n_1 > n_2 > \\cdots > n_r$ and $r$ unique integers $a_k$ ( $1\\le k\\le r$ ) with each $a_k$ either $1$ or $- 1$ such that\n\n\n\\[a_13^{n_1} + a_23^{n_2} + \\cdots + a_r3^{n_r} = 2008.\\]\n\n\nFind $n_1 + n_2 + \\cdots + n_r$. ",
+        "algebra"
+    ],
+    [
+        "Let $m,n > 1$ are integers which satisfy $n|4^m - 1$ and $2^m|n - 1$. Is it a must that $n = 2^{m} + 1$? ",
+        "algebra"
+    ],
+    [
+        "One night, over dinner Jerry poses a challenge to his younger children: \"Suppose we travel $50$ miles per hour while heading to our final vacation destination...\"\nHannah teases her husband, \"You would drive that slowly\" Jerry smirks at Hannah, then starts over, \"So that we get a good view of all the beautiful landscape your mother likes to photograph from the passenger's seat, we\ntravel at a constant rate of $50$ miles per hour on the way to the beach. However, on the way back we travel at a faster constant rate along the exact same route.\nIf our faster return rate is an integer number of miles per hour, and our average speed for the whole round trip is also an integer number of\nmiles per hour, what must be our speed during the return trip?\"\nMichael pipes up, \"How about $4950$ miles per hour?!\"\nWendy smiles, \"For the sake of your other children, please don't let Michael drive.\"\nJerry adds, \"How about we assume that we never ever drive more than $100$ miles per hour. Michael and Wendy, let Josh and Alexis try this one.\"\nJoshua ignores the problem in favor of the huge pile of mashed potatoes on his plate.\nBut Alexis scribbles some work on her napkin and declares the correct answer. What answer did Alexis find? ",
+        "algebra"
+    ],
+    [
+        "A repunit is a natural number whose digits are all $1$. For instance, \\[1,11,111,1111, \\ldots\\] are the four smallest repunits. How many digits are there in the smallest repunit that is\ndivisible by $97$? ",
+        "combinatorics"
+    ],
+    [
+        "Consider the Harmonic Table\n\n\n\\[\\begin{array}{c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c@{\\hspace{15pt}}c}&&&1&&&\\\\&&\\tfrac12&&\\tfrac12&&\\\\&\\tfrac13&&\\tfrac16&&\\tfrac13&\\\\\\tfrac14&&\\tfrac1{12}&&\\tfrac1{12}&&\\tfrac14\\\\&&&\\vdots&&&\\end{array}\\] where $a_{n,1}=1/n$ and $a_{n,k+1}=a_{n-1,k}-a_{n,k}$. Find the remainder when the sum of the reciprocals of the $2007$ terms on the $2007^\\text{th}$ row gets divided by $2008$. ",
+        "algebra"
+    ],
+    [
+        "Find the units digits in the decimal expansion of $\\left(2008+\\sqrt{4032000}\\right)^{2000}+\\left(2008+\\sqrt{4032000}\\right)^{2001}+\\left(2008+\\sqrt{4032000}\\right)^{2002}+\\cdots$ $+\\left(2008+\\sqrt{4032000}\\right)^{2007}+\\left(2008+\\sqrt{4032000}\\right)^{2008}$ ",
+        "algebra"
+    ],
+    [
+        "Let $u_n$ be the $n^\\text{th}$ term of the sequence \\[1,\\,\\,\\,\\,\\,\\,2,\\,\\,\\,\\,\\,\\,5,\\,\\,\\,\\,\\,\\,6,\\,\\,\\,\\,\\,\\,9,\\,\\,\\,\\,\\,\\,12,\\,\\,\\,\\,\\,\\,13,\\,\\,\\,\\,\\,\\,16,\\,\\,\\,\\,\\,\\,19,\\,\\,\\,\\,\\,\\,22,\\,\\,\\,\\,\\,\\,23,\\ldots,\\] where the first term is the smallest positive integer that is $1$ more than a multiple of $3$, the next two terms are the next two smallest positive integers that are each\ntwo more than a multiple of $3$, the next three terms are the next three smallest positive integers that are each three more than a multiple of $3$, the next four terms\nare the next four smallest positive integers that are each four more than a multiple of $3$, and so on: \\[\\underbrace{1}_{1\\text{ term}},\\,\\,\\,\\,\\,\\,\\underbrace{2,\\,\\,\\,\\,\\,\\,5}_{2\\text{ terms}},\\,\\,\\,\\,\\,\\,\\underbrace{6,\\,\\,\\,\\,\\,\\,9,\\,\\,\\,\\,\\,\\,12}_{3\\text{ terms}},\\,\\,\\,\\,\\,\\,\\underbrace{13,\\,\\,\\,\\,\\,\\,16,\\,\\,\\,\\,\\,\\,19,\\,\\,\\,\\,\\,\\,22}_{4\\text{ terms}},\\,\\,\\,\\,\\,\\,\\underbrace{23,\\ldots}_{5\\text{ terms}},\\,\\,\\,\\,\\,\\,\\ldots.\\] Determine $u_{2008}$. ",
+        "algebra"
+    ],
+    [
+        "In the sequence in the previous problem, how many of $u_1,u_2,u_3,\\ldots, u_{2008}$ are pentagonal numbers? Note: The sequence is $1,2,5,6,9,12 \\cdots,$ where the first term is 1, the next 2 terms are congruent to 2 modulo 3, the next 3 terms are congruent to 3 modulo 3, and so on. ",
+        "algebra"
+    ],
+    [
+        "One day Joshua and Alexis find their sister Wendy's copy of the 2007 iTest. They decide to see if they can work any of the problems and are proud to find that indeed they are able to work some of them, but their middle school math team experience is still not enough to help with the harder problems. Alexis comes across a problem she really likes, partly because she has never worked one like it before: What is the smallest positive integer $k$ such that the number $\\binom{2k}k$ ends in two zeroes? Joshua is the kind of mathematical explorer who likes to alter problems, make them harder, or generalize them. So, he proposes the following problem to his sister Alexis: What is the smallest positive integer $k$ such that the number $\\binom{2k}k$ ends in two zeroes when expressed in base 12? Alexis solves the problem correctly. What is her answer (expressed in base $10$ )? ",
+        "algebra"
+    ],
+    [
+        "Let $p(x) = x^{2008} + x^{2007} + x^{2006} + \\cdots + x + 1,$ and let $r(x)$ be the polynomial remainder when $p(x)$ is divided by $x^4+x^3+2x^2+x+1$. Find\nthe remainder when $|r(2008)|$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "Find the greatest natural number $n$ such that $n\\leq 2008$ and $(1^2+2^2+3^2+\\cdots + n^2)\\left[(n+1)^2+(n+2)^2+(n+3)^2+\\cdots + (2n)^2\\right]$ is a perfect square. ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the sum of all integers $b$ for which the polynomial $x^2+bx+2008b$ can be factored over the integers. Compute $|S|$. ",
+        "algebra"
+    ],
+    [
+        "Let $f(x)$ equal the number of zeroes to the right of the rightmost non-zero digit in the decimal form of $x!$, and let $n = \\frac {5^{2008} + 2}{3}$. Given that $f(n)$ can be written as $\\frac {5^{a} - b}{c}$, where $b$ and $c$ are relatively prime positive integers, $b$ is less than $10^5$, and $c$ is less than $10^2$, find $a + b + c$. ",
+        "algebra"
+    ],
+    [
+        "Call a $3$ -digit number geometric if it has $3$ distinct digits which, when read from left to right, form a geometric sequence. Find the difference between the largest and smallest geometric numbers. ",
+        "algebra"
+    ],
+    [
+        "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$. Consider all possible positive differences of pairs of elements of $S$. Let $N$ be the sum of all of these differences. Find the remainder when $N$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "A group of children held a grape-eating contest. When the contest was over, the winner had eaten $n$ grapes, and the child in $k$ -th place had eaten $n+2-2k$ grapes. The total number of grapes eaten in the contest was $2009$. Find the smallest possible value of $n$. ",
+        "algebra"
+    ],
+    [
+        "Define $n!!$ to be $n(n-2)(n-4)\\cdots 3\\cdot 1$ for $n$ odd and $n(n-2)(n-4)\\cdots 4\\cdot 2$ for $n$ even. When $\\sum_{i=1}^{2009} \\frac{(2i-1)!!}{(2i)!!}$ is expressed as a fraction in lowest terms, its denominator is $2^ab$ with $b$ odd. Find $\\dfrac{ab}{10}$. ",
+        "algebra"
+    ],
+    [
+        "Find all positive integers $n\\in\\{1,2,3,\\ldots,2009\\}$ such that\n\n\n\\[4n^6 + n^3 + 5\\]\n\n\nis divisible by $7$. ",
+        "algebra"
+    ],
+    [
+        "Let $N$ be the number of ways to write $2010$ in the form $2010 = a_3 \\cdot 10^3 + a_2 \\cdot 10^2 + a_1 \\cdot 10 + a_0$, where the $a_i$ 's are integers, and $0 \\le a_i \\le 99$. An example of such a representation is $1\\cdot 10^3 + 3\\cdot 10^2 + 67\\cdot 10^1 + 40\\cdot 10^0$. Find $N$. ",
+        "algebra"
+    ],
+    [
+        "Let $m \\ge 3$ be an integer and let $S = \\{3,4,5,\\ldots,m\\}$. Find the smallest value of $m$ such that for every partition of $S$ into two subsets, at least one of the subsets contains integers $a$, $b$, and $c$ (not necessarily distinct) such that $ab = c$. Note : a partition of $S$ is a pair of sets $A$, $B$ such that $A \\cap B = \\emptyset$, $A \\cup B = S$. ",
+        "algebra"
+    ],
+    [
+        "Let $K$ be the product of all factors $(b-a)$ (not necessarily distinct) where $a$ and $b$ are integers satisfying $1\\le a < b \\le 20$. Find the greatest positive integer $n$ such that $2^n$ divides $K$. ",
+        "algebra"
+    ],
+    [
+        "The number obtained from the last two nonzero digits of $90!$ is equal to $n$. What is $n$? $\\textbf{(A)}\\ 12 \\qquad \\textbf{(B)}\\ 32 \\qquad \\textbf{(C)}\\ 48 \\qquad \\textbf{(D)}\\ 52 \\qquad \\textbf{(E)}\\ 68$Let $P$ be the result of dividing $90!$ by tens such that $P$ is not divisible by $10$. We want to consider $P \\mod 100$. But because $100$ is not prime, and because $P$ is obviously divisible by $4$ (if in doubt, look at the answer choices), we only need to consider $P \\mod 25$.However, $25$ is a very particular number. $1 \\cdot 2 \\cdot 3 \\cdot 4 \\equiv -1 \\text{ }(\\text{mod }25)$, and so is $6 \\cdot 7 \\cdot 8 \\cdot 9$. How can we group terms to take advantage of this fact?There might be a problem when you cancel out the $10$ s from $90!$. One method is to cancel out a factor of $2$ from an existing number along with a factor of $5$. But this might prove cumbersome, as the grouping method will not be as effective. Instead, take advantage of inverses in modular arithmetic. Just leave the negative powers of $2$ in a \"storage base,\" and take care of the other terms first. Then, use Fermat's Little Theorem to solve for the power of $2$.Video Solution: https://youtu.be/30CamkkifHM?t=766",
+        "algebra"
+    ],
+    [
+        "Find all primes $p$ such that there exist positive integers $x,y$ that satisfy $x(y^2-p)+y(x^2-p)=5p$. ",
+        "algebra"
+    ],
+    [
+        "Let $n\\ge 3$ be an integer, and let $a_2,a_3,\\ldots,a_n$ be positive real numbers such that $a_{2}a_{3}\\cdots a_{n}=1$. Prove that\n\n\n\\[(1 + a_2)^2 (1 + a_3)^3 \\dotsm (1 + a_n)^n > n^n.\\] ",
+        "algebra"
+    ],
+    [
+        "Given positive integers $m$ and $n$. Let $P$ and $Q$ be two collections of $m \\times n$ numbers of $0$ and $1$, arranged in $m$ rows and $n$ columns. An example of such collections for $m=3$ and $n=4$ is\n\n\n\\[\\left[ \\begin{array}{cccc} 1 & 1 & 1 & 0 \\\\ 1 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right].\\]\n\n\nLet those two collections satisfy the following properties:\n(i) On each row of $P$, from left to right, the numbers are non-increasing,\n(ii) On each column of $Q$, from top to bottom, the numbers are non-increasing,\n(iii) The sum of numbers on the row in $P$ equals to the same row in $Q$,\n(iv) The sum of numbers on the column in $P$ equals to the same column in $Q$.\nShow that the number on row $i$ and column $j$ of $P$ equals to the number on row $i$ and column $j$ of $Q$ for $i=1,2,\\dots,m$ and $j=1,2,\\dots,n$. ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a positive integer. Show that the equation\n\n\\[\\sqrt{x}+\\sqrt{y}=\\sqrt{n}\\]\n\nhave solution of pairs of positive integers $(x,y)$ if and only if $n$ is divisible by some perfect square greater than $1$. ",
+        "algebra"
+    ],
+    [
+        "a) What is the largest integer $n$ for which $n^3+1631$ is divisible by $n+11$ \u00a0? (b) For how many positive integer values of $n$ is $n^3+1631$ divisible by $n+11$? ",
+        "algebra"
+    ],
+    [
+        "How many $5$ -digit positive integers have the property that the product of their digits is $600$? ",
+        "combinatorics"
+    ],
+    [
+        "Bernardo chooses a three-digit positive integer $N$ and writes both its base-5 and base-6 representations on a blackboard. Later LeRoy sees the two numbers Bernardo has written. Treating the two numbers as base-10 integers, he adds them to obtain an integer $S$. For example, if $N = 749$, Bernardo writes the numbers $10,\\!444$ and $3,\\!245$, and LeRoy obtains the sum $S = 13,\\!689$. For how many choices of $N$ are the two rightmost digits of $S$, in order, the same as those of $2N$? $\\textbf{(A)}\\ 5 \\qquad\\textbf{(B)}\\ 10 \\qquad\\textbf{(C)}\\ 15 \\qquad\\textbf{(D)}\\ 20 \\qquad\\textbf{(E)}\\ 25$",
+        "algebra"
+    ],
+    [
+        "In a $4 \\times 6$ grid, all edges and diagonals are drawn (see attachment). Determine the number of parallelograms in the grid that uses only the line segments drawn and none of its four angles are right. [asy] draw((0,0)--(6,0)--(6,4)--(0,4)--(0,0)); for (int i=1; i<6; ++i) { draw((i,0)--(i,4)); } for (int i=1; i<4; ++i) { draw((0,i)--(6,i)); } draw((0,1)--(1,0)); draw((0,2)--(2,0)); draw((0,3)--(3,0)); draw((0,4)--(4,0)); draw((1,4)--(5,0)); draw((2,4)--(6,0)); draw((3,4)--(6,1)); draw((4,4)--(6,2)); draw((5,4)--(6,3)); draw((0,3)--(1,4)); draw((0,2)--(2,4)); draw((0,1)--(3,4)); draw((0,0)--(4,4)); draw((1,0)--(5,4)); draw((2,0)--(6,4)); draw((3,0)--(6,3)); draw((4,0)--(6,2)); draw((5,0)--(6,1)); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Suppose $p > 3$ is a prime number and\n\n\n\\[S = \\sum_{2 \\le i < j < k \\le p-1} ijk\\]\n\n\nProve that $S+1$ is divisible by $p$. ",
+        "algebra"
+    ],
+    [
+        "A positive integer $n$ is called \"strong\" if there exists a positive integer $x$ such that $x^{nx} + 1$ is divisible by $2^n$. a. Prove that $2013$ is strong. b. If $m$ is strong, determine the smallest $y$ (in terms of $m$ ) such that $y^{my} + 1$ is divisible by $2^m$. ",
+        "algebra"
+    ],
+    [
+        "The repeating decimals $0.abab\\overline{ab}$ and $0.abcabc\\overline{abc}$ satisfy \\[0.abab\\overline{ab}+0.abcabc\\overline{abc}=\\frac{33}{37},\\] where $a$, $b$, and $c$ are (not necessarily distinct) digits. Find the three digit number $abc$. ",
+        "algebra"
+    ],
+    [
+        "Joel is playing with ordered lists of integers in the following way. He starts out with an ordered list\nof nonnegative integers. Then, he counts the number of $0$ \u2019s, $1$ \u2019s, $2$ \u2019s, and so on in the list, writing\nthe counts out as a new list. He stops counting when he has counted everything in the previous list.\nThen he takes the second list and applies the same process to get a third list. He repeats this process\nindefinitely. For example, he could start out with the ordered list $(0, 0, 0, 2)$. He counts three $0$ \u2019s, zero $1$ \u2019s, and one\n$2$, and then stops counting, so the second list is $(3, 0, 1)$ In the second list, he counts one $0$, one $1$,\nzero $2$ \u2019s, and one $3$, so the third list is $(1, 1, 0, 1)$. Then he counts one $0$ and three $1$ \u2019s, so the fourth list\nis $(1, 3)$. Here are the first few lists he writes down:\n$(0,0, 0, 2) \\longrightarrow (3, 0,1) \\longrightarrow (1, 1, 0, 1) \\longrightarrow (1, 3) \\longrightarrow \\cdots$\nIf instead he started with $(0, 0)$, he would write down:\n$(0, 0) \\longrightarrow (2) \\longrightarrow (0, 0, 1) \\longrightarrow (2, 1) \\longrightarrow \\cdots$\nIf Joel starts out with an arbitrary list of nonnegative integers and then continues this process, there\nare certain lists $(m, n)$ of length two that he might end up writing an infinite number of times. Find\nall such pairs $(m, n)$. ",
+        "algebra"
+    ],
+    [
+        "The zeroes of the function $f(x)=x^2-ax+2a$ are integers. What is the sum of the possible values of $a?$ $\\textbf{(A)}\\ 7\\qquad\\textbf{(B)}\\ 8\\qquad\\textbf{(C)}\\ 16\\qquad\\textbf{(D)}\\ 17\\qquad\\textbf{(E)}\\ 18$",
+        "algebra"
+    ],
+    [
+        "How many ordered pairs $(n,m)$ of positive integers satisfying $m < n \\le 50$ have the property that their product $mn$ is less than $2015$? ",
+        "combinatorics"
+    ],
+    [
+        "Let $f(x)=\\sum_{k=2}^{10}(\\lfloor kx \\rfloor -k \\lfloor x \\rfloor)$, where $\\lfloor r \\rfloor$ denotes the greatest integer less than or equal to $r$. How many distinct values does $f(x)$ assume for $x \\ge 0$? $\\textbf{(A)}\\ 32\\qquad\\textbf{(B)}\\ 36\\qquad\\textbf{(C)}\\ 45\\qquad\\textbf{(D)}\\ 46\\qquad\\textbf{(E)}\\ \\text{infinitely many}$",
+        "algebra"
+    ],
+    [
+        "For a certain positive integer $n$ less than $1000$, the decimal equivalent of $\\frac{1}{n}$ is $0.\\overline{abcdef}$, a repeating decimal of period of $6$, and the decimal equivalent of $\\frac{1}{n+6}$ is $0.\\overline{wxyz}$, a repeating decimal of period $4$. In which interval does $n$ lie? $\\textbf{(A)}\\ [1,200]\\qquad\\textbf{(B)}\\ [201,400]\\qquad\\textbf{(C)}\\ [401,600]\\qquad\\textbf{(D)}\\ [601,800]\\qquad\\textbf{(E)}\\ [801,999]$",
+        "algebra"
+    ],
+    [
+        "Let $a_0,a_1,a_2,\\ldots$ be a sequence of integers (positive, negative, or zero) such that for all nonnegative integers $n$ and $k$, $a_{n+k}^2-(2k + 1)a_{n}a_{n+k} + (k^2 + k)a_n^2 = k^2-k$. Find all possible sequences $(a_n)$. ",
+        "algebra"
+    ],
+    [
+        "Find all positive integer pairs $(u,m)$ such that $u + m^2$ is divisible by $um-1$. ",
+        "algebra"
+    ],
+    [
+        "How many positive integers less than 100 are divisible by exactly two of the\nnumbers 2, 3, 4, 5, 6, 7, 8, 9? For example, 75 is such a number: it is divisible by 3 and by 5, but\nis not divisible by any of the others on the list. (If you show the integers you find, then you\nmay be assigned partial credit if you have accurately found most of them, even if you do not\nfind all of them.) ",
+        "algebra"
+    ],
+    [
+        "Let $S(n)$ equal the sum of the digits of positive integer $n$. For example, $S(1507) = 13$. For a particular positive integer $n$, $S(n) = 1274$. Which of the following could be the value of $S(n+1)$? $\\textbf{(A)}\\ 1 \\qquad\\textbf{(B)}\\ 3\\qquad\\textbf{(C)}\\ 12\\qquad\\textbf{(D)}\\ 1239\\qquad\\textbf{(E)}\\ 1265$",
+        "algebra"
+    ],
+    [
+        "Determine all the sets of six consecutive positive integers such that the product of some two of them, added to the product of some other two of them is equal to the product of the remaining two numbers. ",
+        "algebra"
+    ],
+    [
+        "Find an infinite sequence of integers $a_1, a_2, a_3, \\ldots$ that has all of\nthese properties: (1) $a_n = c + dn$ with c and d the same for all $n = 1, 2, 3, \\ldots$ (2) $c$ and $d$ are positive integers, and (3) no number in the sequence is the $r^{th}$ power of any integer, for any power $r = 2, 3, 4, \\ldots$ Reminder: Justify answers. In particular, for maximum credit, make it clear in your presentation\nthat your sequence possesses the third property. ",
+        "algebra"
+    ],
+    [
+        "(a) How many different factorizations are there of $4096$ (which is $2^{12}$ )\nin which each factor is either a square or a cube (or both) of an integer and\neach factor is greater than one?\nRegard $4 \\times 4 \\times 4 \\times 8 \\times 8$ and $4 \\times 8 \\times 4 \\times 8 \\times 4$ as the same factorization: the order in which the factors are written does not matter.\nRegard the number itself, $4096$, as one of the factorizations. (b) How many different factorizations are there of $46,656$ as a product of factors in which each\nfactor is either a square or a cube (or both) of an integer and each factor is greater than one? As\nbefore, the order in which the factors is written does not matter, and the number itself counts\nas a factorization. Note that $46,656$ = $2^6 \\times 3^6$. ",
+        "algebra"
+    ],
+    [
+        "What is the greatest integer less than or equal to\n\n\\[\\frac{3^{100}+2^{100}}{3^{96}+2^{96}}?\\] $\\textbf{(A) }80\\qquad \\textbf{(B) }81 \\qquad \\textbf{(C) }96 \\qquad \\textbf{(D) }97 \\qquad \\textbf{(E) }625\\qquad$",
+        "algebra"
+    ],
+    [
+        "How many nonnegative integers can be written in the form\n\n\\[a_7\\cdot3^7+a_6\\cdot3^6+a_5\\cdot3^5+a_4\\cdot3^4+a_3\\cdot3^3+a_2\\cdot3^2+a_1\\cdot3^1+a_0\\cdot3^0,\\]\n\n\nwhere $a_i\\in \\{-1,0,1\\}$ for $0\\le i \\le 7$? $\\textbf{(A) } 512 \\qquad \\textbf{(B) } 729 \\qquad \\textbf{(C) } 1094 \\qquad \\textbf{(D) } 3281 \\qquad \\textbf{(E) } 59,048$",
+        "algebra"
+    ],
+    [
+        "For a positive integer $n$ and nonzero digits $a$, $b$, and $c$, let $A_n$ be the $n$ -digit integer each of whose digits is equal to $a$ ; let $B_n$ be the $n$ -digit integer each of whose digits is equal to $b$, and let $C_n$ be the $2n$ -digit (not $n$ -digit) integer each of whose digits is equal to $c$. What is the greatest possible value of $a + b + c$ for which there are at least two values of $n$ such that $C_n - B_n = A_n^2$? $\\textbf{(A) } 12 \\qquad \\textbf{(B) } 14 \\qquad \\textbf{(C) } 16 \\qquad \\textbf{(D) } 18 \\qquad \\textbf{(E) } 20$",
+        "algebra"
+    ],
+    [
+        "Let $p$ and $q$ be positive integers such that\n\n\\[\\frac{5}{9} < \\frac{p}{q} < \\frac{4}{7}\\]\n\nand $q$ is as small as possible. What is $q-p$? $\\textbf{(A) } 7 \\qquad \\textbf{(B) } 11 \\qquad \\textbf{(C) } 13 \\qquad \\textbf{(D) } 17 \\qquad \\textbf{(E) } 19$",
+        "algebra"
+    ],
+    [
+        "(a) Find an integer $n > 1$ for which $1 + 2 + \\ldots + n^2$ is a perfect square.\n(b) Show that there are infinitely many integers $n > 1$ that have the property that\n$1 + 2 + \\ldots + n^2$ is a perfect square, and determine at least three more examples of such $n$.\nHint: There is one approach that uses the result of a previous problem on this contest. ",
+        "algebra"
+    ],
+    [
+        "Consider the integer\n\n\\[N = 9 + 99 + 999 + 9999 + \\cdots + \\underbrace{99\\ldots 99}_\\text{321 digits}.\\]\n\nFind the sum of the digits of $N$. ",
+        "algebra"
+    ],
+    [
+        "There are positive integers $x$ and $y$ that satisfy the system of equations\n\\begin{align*}\n\\log_{10} x + 2 \\log_{10} (\\text{gcd}(x,y)) &= 60\\\\\n\\log_{10} y + 2 \\log_{10} (\\text{lcm}(x,y)) &= 570.\n\\end{align*}\nLet $m$ be the number of (not necessarily distinct) prime factors in the prime factorization of $x$, and let $n$ be the number of (not necessarily distinct) prime factors in the prime factorization of $y$. Find $3m+2n$. ",
+        "algebra"
+    ],
+    [
+        "There is a unique angle $\\theta$ between $0^{\\circ}$ and $90^{\\circ}$ such that for nonnegative integers $n$, the value of $\\tan{\\left(2^{n}\\theta\\right)}$ is positive when $n$ is a multiple of $3$, and negative otherwise. The degree measure of $\\theta$ is $\\tfrac{p}{q}$, where $p$ and $q$ are relatively prime integers. Find $p+q$. ",
+        "algebra"
+    ],
+    [
+        "Find the sum of all positive integers $n$ such that, given an unlimited supply of stamps of denominations $5,n,$ and $n+1$ cents, $91$ cents is the greatest postage that cannot be formed. ",
+        "algebra"
+    ],
+    [
+        "Call a positive integer $n$ $k$ - pretty if $n$ has exactly $k$ positive divisors and $n$ is divisible by $k$. For example, $18$ is $6$ -pretty. Let $S$ be the sum of positive integers less than $2019$ that are $20$ -pretty. Find $\\tfrac{S}{20}$. ",
+        "algebra"
+    ],
+    [
+        "How many positive integers $n$ satisfy\n\n\\[\\dfrac{n+1000}{70} = \\lfloor \\sqrt{n} \\rfloor?\\]\n\n(Recall that $\\lfloor x\\rfloor$ is the greatest integer not exceeding $x$.) $\\textbf{(A) } 2 \\qquad\\textbf{(B) } 4 \\qquad\\textbf{(C) } 6 \\qquad\\textbf{(D) } 30 \\qquad\\textbf{(E) } 32$",
+        "algebra"
+    ],
+    [
+        "A positive integer $n$ is said to be $k$ -consecutive if it can be written as the sum of $k$ consecutive positive integers. Find the number of positive integers less than $1000$ that are either $9$ -consecutive or $11$ -consecutive (or both), but not $10$ -consecutive. ",
+        "algebra"
+    ],
+    [
+        "Consider the sequence $(a_k)_{k\\ge 1}$ of positive rational numbers defined by $a_1 = \\frac{2020}{2021}$ and for $k\\ge 1$, if $a_k = \\frac{m}{n}$ for relatively prime positive integers $m$ and $n$, then \\[a_{k+1} = \\frac{m + 18}{n+19}.\\]\n\nDetermine the sum of all positive integers $j$ such that the rational number $a_j$ can be written in the form $\\frac{t}{t+1}$ for some positive integer $t$. ",
+        "algebra"
+    ],
+    [
+        "Let $d(n)$ denote the number of positive integers that divide $n$, including $1$ and $n$. For example, $d(1)=1,d(2)=2,$ and $d(12)=6$. (This function is known as the divisor function.) Let\n\n\\[f(n)=\\frac{d(n)}{\\sqrt [3]n}.\\]\n\nThere is a unique positive integer $N$ such that $f(N)>f(n)$ for all positive integers $n\\ne N$. What is the sum of the digits of $N?$ $\\textbf{(A) }5 \\qquad \\textbf{(B) }6 \\qquad \\textbf{(C) }7 \\qquad \\textbf{(D) }8\\qquad \\textbf{(E) }9$",
+        "algebra"
+    ],
+    [
+        "For $n$ a positive integer, let $R(n)$ be the sum of the remainders when $n$ is divided by $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, and $10$. For example, $R(15) = 1+0+3+0+3+1+7+6+5=26$. How many two-digit positive integers $n$ satisfy $R(n) = R(n+1)\\,?$ $\\textbf{(A) }0\\qquad\\textbf{(B) }1\\qquad\\textbf{(C) }2\\qquad\\textbf{(D) }3\\qquad\\textbf{(E) }4$",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of all rational numbers that can be expressed as a repeating decimal in the form $0.\\overline{abcd},$ where at least one of the digits $a,$ $b,$ $c,$ or $d$ is nonzero. Let $N$ be the number of distinct numerators obtained when numbers in $S$ are written as fractions in lowest terms. For example, both $4$ and $410$ are counted among the distinct numerators for numbers in $S$ because $0.\\overline{3636} = \\frac{4}{11}$ and $0.\\overline{1230} = \\frac{410}{3333}.$ Find the remainder when $N$ is divided by $1000.$ ",
+        "algebra"
+    ],
+    [
+        "Given $\\triangle ABC$ and a point $P$ on one of its sides, call line $\\ell$ the $\\textit{splitting line}$ of $\\triangle ABC$ through $P$ if $\\ell$ passes through $P$ and divides $\\triangle ABC$ into two polygons of equal perimeter. Let $\\triangle ABC$ be a triangle where $BC = 219$ and $AB$ and $AC$ are positive integers. Let $M$ and $N$ be the midpoints of $\\overline{AB}$ and $\\overline{AC},$ respectively, and suppose that the splitting lines of $\\triangle ABC$ through $M$ and $N$ intersect at $30^\\circ.$ Find the perimeter of $\\triangle ABC.$ Consider the splitting line through $M$. Extend $D$ on ray $BC$ such that $CD=CA$. Then the splitting line bisects segment $BD$, so in particular it is the midline of triangle $ABD$ and thus it is parallel to $AD$. But since triangle $ACD$ is isosceles, we can easily see $AD$ is parallel to the angle bisector of $C$, so the splitting line is also parallel to this bisector, and similar for the splitting line through $N$. Some simple angle chasing reveals the condition is now equivalent to $\\angle A=120^\\circ$. - MortemEtInteritum Let $PM$ and $QN$ be the splitting lines. Reflect $B$ across $Q$ to be $B'$ and $C$ across $P$ to be $C'$. Take $S_B$ and $S_C$, which are spiral similarity centers on the other side of $BC$ as $A$ such that $\\triangle S_BB'C \\sim \\triangle S_BBA$ and $\\triangle S_CC'B \\sim \\triangle S_CCA$. This gets that because $\\angle S_BCB = \\angle S_BCB' = \\angle S_BAB$ and $\\angle S_CBC = \\angle S_CBC' = \\angle S_CAC$, then $S_B$ and $S_C$ are on $\\triangle ABC$ 's circumcircle. Now, we know that $\\triangle S_BBB' \\sim \\triangle S_BAC$ and $\\triangle S_CCC' \\sim \\triangle S_CAB$ so because $BA=B'C$ and $CA=C'B$, then $S_BB=SBB'$ and $S_CC=S_CC'$ and $S_BQ \\perp BC$ and $S_CP \\perp BC$. We also notice that because $Q$ and $N$ correspond on $\\triangle S_BBB'$ and $\\triangle S_BAC$, and because $P$ and $M$ correspond on $\\triangle S_CCC'$ and $\\triangle S_CAB$, then the angle formed by $NQ$ and $BA$ is equal to the angle formed by $B'C$ and $NQ$ which is equal to $\\angle BS_BQ = \\angle QS_BB'$. Thus, $\\angle CBA=2\\angle CQN$. Similarly, $\\angle BCA = 2\\angle QPM$ and so $\\angle CBA + \\angle BCA = 2\\angle PQN + 2\\angle QPM = 60^{\\circ}$ and $\\angle A = 120^{\\circ}$. - kevinmathz We now need to solve $a^2+ab+b^2 = 3^2\\cdot 73^2$. A quick $(\\bmod 9)$ check gives that $3\\mid a$ and $3\\mid b$. Thus, it's equivalent to solve $x^2+xy+y^2 = 73^2$. Let $\\omega$ be one root of $\\omega^2+\\omega+1=0$. Then, recall that $\\mathbb Z[\\omega]$ is the ring of integers of $\\mathbb Q[\\sqrt{-3}]$ and is a unique factorization domain. Notice that $N(x-y\\omega) = (x-y\\omega)(x-y\\omega^2) = x^2+xy+y^2$. Therefore, it suffices to find an element of $\\mathbb Z[\\omega]$ with the norm $73^2$. To do so, we factor $73$ in $\\mathbb Z[\\omega]$. Since it's $1\\pmod 3$, it must split. A quick inspection gives $73 = (8-\\omega)(8-\\omega^2)$. Thus, $N(8-\\omega) = 73$, so\n\n\n\\begin{align*} 73^2 &= N((8-\\omega)^2) \\\\ &= N(64 - 16\\omega + \\omega^2) \\\\ &= N(64 - 16\\omega + (-1-\\omega)) \\\\ &= N(63 - 17\\omega), \\end{align*}\n\n\ngiving the solution $x=63$ and $y=17$, yielding $a=189$ and $b=51$, so the sum is $\\boxed{459}$. Since $8-\\omega$ and $8-\\omega^2$ are primes in $\\mathbb Z[\\omega]$, the solution must divide $73^2$. One can then easily check that this is the unique solution. - MarkBcc168 Denote $BC = a$, $CA = b$, $AB = c$. Let the splitting line of $\\triangle ABC$ through $M$ (resp. $N$ ) crosses $\\triangle ABC$ at another point $X$ (resp. $Y$ ). WLOG, we assume $c \\leq b$. $\\textbf{Case 1}$ : $a \\leq c \\leq b$. We extend segment $AB$ to $D$, such that $BD = a$.\nWe extend segment $AC$ to $E$, such that $CE = a$. In this case, $X$ is the midpoint of $AE$, and $Y$ is the midpoint of $AD$. Because $M$ and $X$ are the midpoints of $AB$ and $AE$, respectively, $MX \\parallel BE$.\nBecause $N$ and $Y$ are the midpoints of $AC$ and $AD$, respectively, $NY \\parallel CD$. Because $CB = CE$, $\\angle CBE =\\angle CEB = \\frac{\\angle ACB}{2}$.\nBecause $BC = BD$, $\\angle BCD = \\angle BDC = \\frac{\\angle ABC}{2}$. Let $BE$ and $CD$ intersect at $O$.\nBecause $MX \\parallel BE$ and $NY \\parallel CD$, the angle formed between lines $MX$ and $NY$ is congruent to $\\angle BOD$. Hence, $\\angle BOD = 30^\\circ$ or $150^\\circ$. We have\n\n\n\\begin{align*} \\angle BOD & = \\angle CBE + \\angle BCD \\\\ & = \\frac{\\angle ACB}{2} + \\frac{\\angle ABC}{2} \\\\ & = 90^\\circ - \\frac{\\angle A}{2}. \\end{align*} Hence, we must have $\\angle BOD = 30^\\circ$, not $150^\\circ$.\nHence, $\\angle A = 120^\\circ$. This implies $a > b$ and $a >c$. This contradicts the condition specified for this case. Therefore, this case is infeasible. $\\textbf{Case 2}$ : $c \\leq a \\leq b$. We extend segment $CB$ to $D$, such that $BD = c$.\nWe extend segment $AC$ to $E$, such that $CE = a$. In this case, $X$ is the midpoint of $AE$, and $Y$ is the midpoint of $CD$. Because $M$ and $X$ are the midpoints of $AB$ and $AE$, respectively, $MX \\parallel BE$.\nBecause $N$ and $Y$ are the midpoints of $AC$ and $CD$, respectively, $NY \\parallel AD$. Because $CB = CE$, $\\angle CBE =\\angle CEB = \\frac{\\angle ACB}{2}$.\nBecause $BA = BD$, $\\angle BAD = \\angle BDA = \\frac{\\angle ABC}{2}$. Let $O$ be a point of $AC$, such that $BO \\parallel AD$.\nHence, $\\angle OBC = \\angle BDA = \\frac{B}{2}$. Because $MX \\parallel BE$ and $NY \\parallel AD$ and $AD \\parallel BO$, the angle formed between lines $MX$ and $NY$ is congruent to $\\angle OBE$. Hence, $\\angle OBE = 30^\\circ$ or $150^\\circ$. We have\n\n\n\\begin{align*} \\angle OBE & = \\angle OBC + \\angle CBE \\\\ & = \\frac{\\angle ABC}{2} + \\frac{\\angle ACB}{2} \\\\ & = 90^\\circ - \\frac{\\angle A}{2}. \\end{align*} Hence, we must have $\\angle OBE = 30^\\circ$, not $150^\\circ$.\nHence, $\\angle A = 120^\\circ$. This implies $a > b$ and $a >c$. This contradicts the condition specified for this case. Therefore, this case is infeasible. $\\textbf{Case 3}$ : $c \\leq b \\leq a$. We extend segment $CB$ to $D$, such that $BD = c$.\nWe extend segment $BC$ to $E$, such that $CE = b$. In this case, $X$ is the midpoint of $BE$, and $Y$ is the midpoint of $CD$. Because $M$ and $X$ are the midpoints of $AB$ and $BE$, respectively, $MX \\parallel AE$.\nBecause $N$ and $Y$ are the midpoints of $AC$ and $CD$, respectively, $NY \\parallel AD$. Because $CA = CE$, $\\angle CAE =\\angle CEB = \\frac{\\angle ACB}{2}$.\nBecause $BA = BD$, $\\angle BAD = \\angle BDA = \\frac{\\angle ABC}{2}$. Because $MX \\parallel AE$ and $NY \\parallel AD$, the angle formed between lines $MX$ and $NY$ is congruent to $\\angle DAE$. Hence, $\\angle DAE = 30^\\circ$ or $150^\\circ$. We have\n\n\n\\begin{align*} \\angle DAE & = \\angle BAD + \\angle CAE + \\angle BAC \\\\ & = \\frac{\\angle ABC}{2} + \\frac{\\angle ACB}{2} + \\angle BAC \\\\ & = 90^\\circ + \\frac{\\angle BAC}{2}. \\end{align*} Hence, we must have $\\angle OBE = 150^\\circ$, not $30^\\circ$.\nHence, $\\angle BAC = 120^\\circ$. In $\\triangle ABC$, by applying the law of cosines, we have\n\n\n\\begin{align*} a^2 & = b^2 + c^2 - 2bc \\cos \\angle BAC\\\\ & = b^2 + c^2 - 2bc \\cos 120^\\circ \\\\ & = b^2 + c^2 + bc. \\end{align*} Because $a = 219$, we have\n\n\n\\[ b^2 + c^2 + bc = 219^2. \\] Now, we find integer solution(s) of this equation with $c \\leq b$. Multiplying this equation by 4, we get\n\n\n\\[ \\left( 2 c + b \\right)^2 + 3 b^2 = 438^2. \\hspace{1cm} (1) \\] Denote $d = 2 c + b$. Because $c \\leq b$, $b < d \\leq 3 b$. Because $438^2 - 3 b^2 \\equiv 0 \\pmod{3}$, $d^2 \\equiv 0 \\pmod{3}$.\nThus, $d \\equiv 0 \\pmod{3}$.\nThis implies $d^2 \\equiv 0 \\pmod{9}$. We also have $438^2 \\equiv 0 \\pmod{9}$.\nHence, $3 b^2 \\equiv 0 \\pmod{9}$.\nThis implies $b \\equiv 0 \\pmod{3}$. Denote $b = 3 p$ and $d = 3 q$. Hence, $p < q \\leq 3 p$.\nHence, Equation (1) can be written as\n\n\n\\[ q^2 + 3 p^2 = 146^2. \\hspace{1cm} (2) \\] Now, we solve this equation. First, we find an upper bound of $q$. We have $q^2 + 3 p^2 \\geq q^2 + 3 \\left( \\frac{q}{3} \\right)^2 = \\frac{4 q^2}{3}$.\nHence, $\\frac{4 q^2}{3} \\leq 146^2$.\nHence, $q \\leq 73 \\sqrt{3} < 73 \\cdot 1.8 = 131.4$.\nBecause $q$ is an integer, we must have $q \\leq 131$. Second, we find a lower bound of $q$. We have $q^2 + 3 p^2 < q^2 + 3 q^2 = 4 q^2$.\nHence, $4 q^2 > 146^2$.\nHence, $q > 73$.\nBecause $q$ is an integer, we must have $q \\geq 74$. Now, we find the integer solutions of $p$ and $q$ that satisfy Equation (2) with $74 \\leq q \\leq 131$. First, modulo 9,\n\n\n\\begin{align*} q^2 & \\equiv 146^2 - 3 p^2 \\\\ & \\equiv 4 - 3 \\cdot ( 0 \\mbox{ or } 1 ) \\\\ & \\equiv 4 \\mbox{ or } 1. \\end{align*} Hence $q \\equiv \\pm 1, \\pm 2 \\pmod{9}$. Second, modulo 5,\n\n\n\\begin{align*} q^2 & \\equiv 146^2 - 3 p^2 \\\\ & \\equiv 1 + 2 p^2 \\\\ & \\equiv 1 + 2 \\cdot ( 0 \\mbox{ or } 1 \\mbox{ or } -1 ) \\\\ & \\equiv 1 \\mbox{ or } 3 \\mbox{ or } - 1. \\end{align*} Because $q^2 \\equiv 0 \\mbox{ or } 1 \\mbox{ or } - 1$, we must have $q^2 \\equiv 1 \\mbox{ or } - 1$.\nHence, $5 \\nmid q$. Third, modulo 7,\n\n\n\\begin{align*} q^2 & \\equiv 146^2 - 3 p^2 \\\\ & \\equiv 1 - 3 \\cdot ( 0 \\mbox{ or } 1 \\mbox{ or } 5 \\mbox{ or } 2 ) \\\\ & \\equiv 1 \\mbox{ or } 2 \\mbox{ or } 3 \\mbox{ or } 5. \\end{align*} Because $q^2 \\equiv 0 \\mbox{ or } 1 \\mbox{ or } 2 \\mbox{ or } 4 \\pmod{ 7 }$, we must have $q^2 \\equiv 1 \\mbox{ or } 2 \\pmod{7}$.\nHence, $q \\equiv 1, 3, 4, 6 \\pmod{7}$. Given all conditions above, the possible $q$ are 74, 83, 88, 92, 97, 101, 106, 109, 116, 118, 127. By testing all these numbers, we find that the only solution is $q = 97$.\nThis implies $p = 63$. Hence, $b = 3p = 189$ and $d = 3q = 291$.\nHence, $c = \\frac{d - b}{2} = 51$. Therefore, the perimeter of $\\triangle ABC$ is $b + c + a = 189 + 51 + 219 = \\boxed{\\textbf{(459) }}$. ~Steven Chen (www.professorchenedu.com) We wish to solve the Diophantine equation $a^2+ab+b^2=3^2 \\cdot 73^2$. It can be shown that $3|a$ and $3|b$, so we make the substitution $a=3x$ and $b=3y$ to obtain $x^2+xy+y^2=73^2$ as our new equation to solve for. Notice that $r^2+r+1=(r-\\omega)(r-{\\omega}^2)$, where $\\omega=e^{i\\frac{2\\pi}{3}}$. Thus,\n\n\n\\[x^2+xy+y^2 = y^2((x/y)^2+(x/y)+1) = y^2 (\\frac{x}{y}-\\omega)(\\frac{x}{y}-{\\omega}^2) = (x-y\\omega)(x-y{\\omega}^2).\\] Note that $8^2+1^2+8 \\cdot 1=73$. Thus, $(8-\\omega)(8-{\\omega}^2)=73$. Squaring both sides yields\n\n\n\\begin{align} (8-\\omega)^2(8-{\\omega}^2)^2&=73^2\\\\ (63-17\\omega)(63-17{\\omega}^2)&=73^2. \\end{align}\n\n\nThus, by $(2)$, $(63, 17)$ is a solution to $x^2+xy+y^2=73^2$. This implies that $a=189$ and $b=51$, so our final answer is $189+51+219=\\boxed{459}$. ~ Leo.Euler We look at upper and middle diagrams and get $\\angle BAC = 120^\\circ$. Next we use only the lower Diagram. Let $I$ be incenter $\\triangle ABC$, E be midpoint of biggest arc $\\overset{\\Large\\frown} {BC}.$\nThen bisector $AI$ cross circumcircle $\\triangle ABC$ at point $E$. Quadrilateral $ABEC$ is cyclic, so\n\n\n\\[\\angle BEC = 180^\\circ - \\angle ABC = 60^\\circ \\implies BE = CE = IE = BC.\\]\n\n\n\n\\[AE \\cdot BC = AB \\cdot CE + AC \\cdot BE \\implies AE = AB + AC\\]\n\n$\\implies AI +EI = AB + AC, \\hspace{10mm} AI = AB+ AC \u2013 BC$ is integer.\n\n\n\\[AI = \\frac {2AB \\cdot AC \\cdot cos \\angle CAI}{AB+AC + BC} = \\frac {AB \\cdot AC}{AB+AC + BC} =\\]\n\n\n\n\\[= AB + AC \u2013 BC \\implies AC^2 + AB^2 + AB \\cdot AC = BC^2.\\]\n\n\nA quick $(\\mod9)$ check gives that $3\\mid AC$ and $3\\mid AB$.\n\n\n\\[AI \\le A_0I_0 = EA_0 \u2013 EI_0 = \\frac{2 BC}{\\sqrt{3}} \u2013 BC = \\frac {2 - \\sqrt{3}}{\\sqrt{3}} BC = 33.88.\\]\n\n\nDenote $a= \\frac {BC}{3}= 73, b = \\frac {AC}{3}, c = \\frac {AB}{3}, l = \\frac {AI}{3} \\le 11.$ We have equations in integers\n$\\frac{bc}{a+b+c} = b + c \u2013 a = l \\le 11.$ The solution $(b > c)$ is\n\n\n\\[b = \\frac{a + l +\\sqrt{a^2 \u2013 6al \u2013 3l^2}}{2}, c = \\frac{a + l -\\sqrt{a^2 \u2013 6al \u2013 3l^2}}{2}.\\]\n\n\nSuppose, $a^2 \u2013 6al \u2013 3l^2 = (a \u2013 3l \u2013 t)^2 \\implies \\frac {12l^2}{t} + t + 6l= 2a = 146.$ Now we check all possible $t = {2,3,4,6,12, ml}.$ Case $t = 2 \\implies 6l^2 + 6l = 146 \u2013 2 \\implies l^2 + l = 24 \\implies \\O$ Case $t = 3 \\implies 4l^2 + 6l = 146 \u2013 3 = 143\\implies \\O.$ Case $t = 4 \\implies 3l^2 + 6l = 146 \u2013 4 =142 \\implies \\O.$ Case $t = 6 \\implies 2l^2 + 6l = 146 \u2013 6 = 140 \\implies l = 7, b = 63, c = 17.$ Case $t = 12 \\implies l^2 + 6l = 146 \u2013 12 = 134 \\implies \\O.$ Case $t = ml \\implies \\frac{12l}{m} + 6l + ml = 146 \\implies \\frac{12}{m} + 6 + m = \\frac{73 \\cdot 2}{l}\\implies \\O.$ vladimir.shelomovskii@gmail.com, vvsss Let the 2 splitting lines crossing $N$ and $M$ cross $BC$ at $G$ and $H$. Extend $AB$ and $NG$ so that the two lines intersect at $E$ and extend $AC$ and $MH$ so that the two lines intersect at $F$. Let $a$, $b$, $c$ be the corresponding side lengths for $\\angle A$, $\\angle B$, $\\angle C$. According to the question, $MH$ and $NG$ creates two sections of $\\triangle ABC$ of equal perimeter, we could list out the equations: $BG+C=a-BG$ $CH+b=a-BH$ $BG+GH+CH=a$ This results in: $BG=\\frac{a-c}{2}$ $CH=\\frac{a-b}{2}$ $GH=\\frac{b+c}{2}$ Now, we can apply the Menelaus Theorem to $\\triangle ABC$.\nLet $BE = x$ :\n\n\n\\[\\frac{BE}{AE}\\cdot\\frac{AN}{CN}\\cdot\\frac{CG}{BG} = 1\\]\n\n\n\n\\[\\frac{x}{x+c}\\cdot1\\cdot\\frac{\\frac{a+c}{2}}{\\frac{a-c}{2}} = 1\\]\n\n\n\n\\[\\frac{x}{x+c}\\cdot\\frac{a+c}{a-c} = 1\\]\n\n\n\n\\[\\frac{x+c}{x}=\\frac{a+c}{a-c}\\]\n\n\n\n\\[\\frac{c}{x}=\\frac{2c}{a-c}\\]\n\n\n\n\\[BE=x=\\frac{a-c}{2}=BG\\]\n\n\nSimilarly, $CF=CH$. Therefore, $\\angle BGE = \\angle E$ and $\\angle CHF = \\angle F$. Because the splitting lines of $\\triangle ABC$ through $M$ and $N$ intersect at $30^\\circ$, $\\angle NOF$ = $30^\\circ$. $\\angle BGE+\\angle CHF=\\angle BGE+\\angle CHF=\\angle NOF=30^\\circ$. We conclude that $\\angle A=360^\\circ-\\angle E-\\angle F-\\angle EOF(reflex)=360^\\circ-30^\\circ-210^\\circ=120^\\circ$ Apply the Law of Cosines on $\\triangle ABC$ $c^2+a^2-2ac\\cos 120^\\circ=219^2$ $a^2+c^2+ac=219^2=47961$ To find the final answer, you would only need to solve this equation, which steps could be found in previous solutions. ~cassphe ",
+        "geometry"
+    ],
+    [
+        "There is a polynomial $P(x)$ with integer coefficients such that\n\n\\[P(x)=\\frac{(x^{2310}-1)^6}{(x^{105}-1)(x^{70}-1)(x^{42}-1)(x^{30}-1)}\\]\n\nholds for every $0<x<1.$ Find the coefficient of $x^{2022}$ in $P(x)$. ",
+        "algebra"
+    ],
+    [
+        "For positive integers $a$, $b$, and $c$ with $a < b < c$, consider collections of postage stamps in denominations $a$, $b$, and $c$ cents that contain at least one stamp of each denomination. If there exists such a collection that contains sub-collections worth every whole number of cents up to $1000$ cents, let $f(a, b, c)$ be the minimum number of stamps in such a collection. Find the sum of the three least values of $c$ such that $f(a, b, c) = 97$ for some choice of $a$ and $b$. ",
+        "algebra"
+    ],
+    [
+        "Find the number of positive integers $n \\le 600$ whose value can be uniquely determined when the values of $\\left\\lfloor \\frac n4\\right\\rfloor$, $\\left\\lfloor\\frac n5\\right\\rfloor$, and $\\left\\lfloor\\frac n6\\right\\rfloor$ are given, where $\\lfloor x \\rfloor$ denotes the greatest integer less than or equal to the real number $x$. ",
+        "algebra"
+    ],
+    [
+        "Let $h_n$ and $k_n$ be the unique relatively prime positive integers such that\n\n\\[\\frac{1}{1}+\\frac{1}{2}+\\frac{1}{3}+\\cdots+\\frac{1}{n}=\\frac{h_n}{k_n}.\\]\n\nLet $L_n$ denote the least common multiple of the numbers $1, 2, 3, \\ldots, n$. For how many integers with $1\\le{n}\\le{22}$ is $k_n<L_n$? $\\textbf{(A) }0 \\qquad\\textbf{(B) }3 \\qquad\\textbf{(C) }7 \\qquad\\textbf{(D) }8\\qquad\\textbf{(E) }10$",
+        "algebra"
+    ],
+    [
+        "A circle with integer radius $r$ is centered at $(r, r)$. Distinct line segments of length $c_i$ connect points $(0, a_i)$ to $(b_i, 0)$ for $1 \\le i \\le 14$ and are tangent to the circle, where $a_i$, $b_i$, and $c_i$ are all positive integers and $c_1 \\le c_2 \\le \\cdots \\le c_{14}$. What is the ratio $\\frac{c_{14}}{c_1}$ for the least possible value of $r$? $\\textbf{(A)} ~\\frac{21}{5} \\qquad\\textbf{(B)} ~\\frac{85}{13} \\qquad\\textbf{(C)} ~7 \\qquad\\textbf{(D)} ~\\frac{39}{5} \\qquad\\textbf{(E)} ~17$",
+        "geometry"
+    ],
+    [
+        "There exists a unique positive integer $a$ for which the sum\n\n\\[U=\\sum_{n=1}^{2023}\\left\\lfloor\\dfrac{n^{2}-na}{5}\\right\\rfloor\\]\n\nis an integer strictly between $-1000$ and $1000$. For that unique $a$, find $a+U$. (Note that $\\lfloor x\\rfloor$ denotes the greatest integer that is less than or equal to $x$.) Define $\\left\\{ x \\right\\} = x - \\left\\lfloor x \\right\\rfloor$. First, we bound $U$. We establish an upper bound of $U$. We have\n\n\n\\begin{align*} U & \\leq \\sum_{n=1}^{2023} \\frac{n^2 - na}{5} \\\\ & = \\frac{1}{5} \\sum_{n=1}^{2023} n^2 - \\frac{a}{5} \\sum_{n=1}^{2023} n \\\\ & = \\frac{1012 \\cdot 2023}{5} \\left( 1349 - a \\right) \\\\ & \\triangleq UB. \\end{align*} We establish a lower bound of $U$. We have\n\n\n\\begin{align*} U & = \\sum_{n=1}^{2023} \\left( \\frac{n^2 - na}{5} - \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\right) \\\\ & = \\sum_{n=1}^{2023} \\frac{n^2 - na}{5} - \\sum_{n=1}^{2023} \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\\\ & = UB - \\sum_{n=1}^{2023} \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\\\ & \\geq UB - \\sum_{n=1}^{2023} \\mathbf 1 \\left\\{ \\frac{n^2 - na}{5} \\notin \\Bbb Z \\right\\}. \\end{align*} We notice that if $5 | n$, then $\\frac{n^2 - na}{5} \\in \\Bbb Z$.\nThus,\n\n\n\\begin{align*} U & \\geq UB - \\sum_{n=1}^{2023} \\mathbf 1 \\left\\{ \\frac{n^2 - na}{5} \\notin \\Bbb Z \\right\\} \\\\ & \\geq UB - \\sum_{n=1}^{2023} \\mathbf 1 \\left\\{ 5 \\nmid n \\right\\} \\\\ & = UB - \\left( 2023 - \\left\\lfloor \\frac{2023}{5} \\right\\rfloor \\right) \\\\ & = UB - 1619 \\\\ & \\triangleq LB. \\end{align*} Because $U \\in \\left[ - 1000, 1000 \\right]$ and $UB - LB = 1619 < \\left( 1000 - \\left( - 1000 \\right) \\right)$, we must have either $UB \\in \\left[ - 1000, 1000 \\right]$ or $LB \\in \\left[ - 1000, 1000 \\right]$. For $UB \\in \\left[ - 1000, 1000 \\right]$, we get a unique $a = 1349$.\nFor $LB \\in \\left[ - 1000, 1000 \\right]$, there is no feasible $a$. Therefore, $a = 1349$. Thus $UB = 0$. Next, we compute $U$. Let $n = 5 q + r$, where $r = {\\rm Rem} \\ \\left( n, 5 \\right)$. We have\n\n\n\\begin{align*} \\left\\{ \\frac{n^2 - na}{5} \\right\\} & = \\left\\{ \\frac{\\left( 5 q + r \\right)^2 - \\left( 5 q + r \\right)\\left( 1350 - 1 \\right)}{5} \\right\\} \\\\ & = \\left\\{ 5 q^2 + 2 q r - \\left( 5 q + r \\right) 270 + q + \\frac{r^2 + r}{5} \\right\\} \\\\ & = \\left\\{\\frac{r^2 + r}{5} \\right\\} \\\\ & = \\left\\{ \\begin{array}{ll} 0 & \\mbox{ if } r = 0, 4 \\\\ \\frac{2}{5} & \\mbox{ if } r = 1, 3 \\\\ \\frac{1}{5} & \\mbox{ if } r = 2 \\end{array} \\right.. \\end{align*} Therefore,\n\n\n\\begin{align*} U & = \\sum_{n=1}^{2023} \\left( \\frac{n^2 - na}{5} - \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\right) \\\\ & = UB - \\sum_{n=1}^{2023} \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\\\ & = - \\sum_{n=1}^{2023} \\left\\{ \\frac{n^2 - na}{5} \\right\\} \\\\ & = - \\sum_{q=0}^{404} \\sum_{r=0}^4 \\left\\{\\frac{r^2 + r}{5} \\right\\} + \\left\\{ \\frac{0^2 - 0 \\cdot a}{5} \\right\\} + \\left\\{ \\frac{2024^2 - 2024a}{5} \\right\\} \\\\ & = - \\sum_{q=0}^{404} \\left( 0 + 0 + \\frac{2}{5} + \\frac{2}{5} + \\frac{1}{5} \\right) + 0 + 0 \\\\ & = - 405. \\end{align*} Therefore, $a + U = 1349 - 405 = \\boxed{\\textbf{944}}$. ~Steven Chen (Professor Chen Education Palace, www.professorchenedu.com) ~minor edits by KevinChen_Yay ",
+        "algebra"
+    ],
+    [
+        "Find the largest prime number $p<1000$ for which there exists a complex number $z$ satisfying the real and imaginary part of $z$ are both integers; $|z|=\\sqrt{p},$ and there exists a triangle whose three side lengths are $p,$ the real part of $z^{3},$ and the imaginary part of $z^{3}.$ ",
+        "algebra"
+    ],
+    [
+        "The sum of all positive integers $m$ such that $\\frac{13!}{m}$ is a perfect square can be written as $2^a3^b5^c7^d11^e13^f,$ where $a,b,c,d,e,$ and $f$ are positive integers. Find $a+b+c+d+e+f.$ https://www.youtube.com/watch?v=EqLTyGanr4s&t=136s ",
+        "algebra"
+    ],
+    [
+        "Let $A$ be an acute angle such that $\\tan A = 2 \\cos A.$ Find the number of positive integers $n$ less than or equal to $1000$ such that $\\sec^n A + \\tan^n A$ is a positive integer whose units digit is $9.$ ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of all positive rational numbers $r$ such that when the two numbers $r$ and $55r$ are written as fractions in lowest terms, the sum of the numerator and denominator of one fraction is the same as the sum of the numerator and denominator of the other fraction. The sum of all the elements of $S$ can be expressed in the form $\\frac{p}{q},$ where $p$ and $q$ are relatively prime positive integers. Find $p+q.$ ",
+        "algebra"
+    ],
+    [
+        "Flora the frog starts at 0 on the number line and makes a sequence of jumps to the right. In any one jump, independent of previous jumps, Flora leaps a positive integer distance $m$ with probability $\\frac{1}{2^m}$. What is the probability that Flora will eventually land at 10? $\\textbf{(A)}~\\frac{5}{512}\\qquad\\textbf{(B)}~\\frac{45}{1024}\\qquad\\textbf{(C)}~\\frac{127}{1024}\\qquad\\textbf{(D)}~\\frac{511}{1024}\\qquad\\textbf{(E)}~\\frac{1}{2}$",
+        "combinatorics"
+    ],
+    [
+        "Let $f$ be the unique function defined on the positive integers such that\n\n\\[\\sum_{d\\mid n}d\\cdot f\\left(\\frac{n}{d}\\right)=1\\]\n\nfor all positive integers $n$. What is $f(2023)$? $\\textbf{(A)}~-1536\\qquad\\textbf{(B)}~96\\qquad\\textbf{(C)}~108\\qquad\\textbf{(D)}~116\\qquad\\textbf{(E)}~144$",
+        "algebra"
+    ],
+    [
+        "Let \\(b\\ge 2\\) be an integer. Call a positive integer \\(n\\) \\(b\\text-\\textit{eautiful}\\) if it has exactly two digits when expressed in base \\(b\\) and these two digits sum to \\(\\sqrt n\\). For example, \\(81\\) is \\(13\\text-\\textit{eautiful}\\) because \\(81 = \\underline{6} \\ \\underline{3}_{13} \\) and \\(6 + 3 = \\sqrt{81}\\). Find the least integer \\(b\\ge 2\\) for which there are more than ten \\(b\\text-\\textit{eautiful}\\) integers. ",
+        "algebra"
+    ],
+    [
+        "If $x$ is an odd number, then find the largest integer that always divides the expression\n\n\n\\[(10x+2)(10x+6)(5x+5)\\] ",
+        "algebra"
+    ],
+    [
+        "The positive integers $x_1, x_2,..., x_7$ satisfy $x_6 = 144$ and $x_{n+3} = x_{n+2}(x_{n+1}+x_n)$ for $n = 1, 2, 3, 4$. Find the last three digits of $x_7$. ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of integers $n > 1$ for which $\\tfrac1n = 0.d_1d_2d_3d_4\\ldots$, an infinite decimal that has the property that $d_i = d_{i+12}$ for all positive integers $i$. Given that $9901$ is prime, how many positive integers are in $S$? (The $d_i$ are digits.) ",
+        "algebra"
+    ],
+    [
+        "Let\n\n\\[(1+x^3)\\left(1+2x^{3^2}\\right)\\cdots \\left(1+kx^{3^k}\\right) \\cdots \\left(1+1997x^{3^{1997}}\\right) = 1+a_1 x^{k_1} + a_2 x^{k_2} + \\cdots + a_m x^{k_m}\\]\n\nwhere $a_i \\ne 0$ and $k_1 < k_2 < \\cdots < k_m$. Determine the remainder obtained when $a_{1997}$ is divided by $1000$. ",
+        "algebra"
+    ],
+    [
+        "Let $[r,s]$ denote the least common multiple of positive integers $r$ and $s$. Find the number of ordered triples $(a,b,c)$ of positive integers for which $[a,b] = 1000$, $[b,c] = 2000$, and $[c,a] = 2000$. Contents 1 Problem 2 Solution 1 3 Solution 2 4 See also ",
+        "algebra"
+    ],
+    [
+        "Let $S^{}_{}$ be the set of all rational numbers $r^{}_{}$, $0^{}_{}<r<1$, that have a repeating decimal expansion in the form $0.abcabcabc\\ldots=0.\\overline{abc}$, where the digits $a^{}_{}$, $b^{}_{}$, and $c^{}_{}$ are not necessarily distinct. To write the elements of $S^{}_{}$ as fractions in lowest terms, how many different numerators are required? ",
+        "algebra"
+    ],
+    [
+        "For how many pairs of consecutive integers in $\\{1000,1001,1002,\\ldots,2000\\}$ is no carrying required when the two integers are added? ",
+        "combinatorics"
+    ],
+    [
+        "Let $ABCD$ and $BCFG$ be two faces of a cube with $AB=12$. A beam of light emanates from vertex $A$ and reflects off face $BCFG$ at point $P$, which is 7 units from $\\overline{BG}$ and 5 units from $\\overline{BC}$. The beam continues to be reflected off the faces of the cube. The length of the light path from the time it leaves point $A$ until it next reaches a vertex of the cube is given by $m\\sqrt{n}$, where $m$ and $n$ are integers and $n$ is not divisible by the square of any prime. Find $m+n$. ",
+        "geometry"
+    ],
+    [
+        "It is known that, for all positive integers $k$, $1^2+2^2+3^2+\\ldots+k^{2}=\\frac{k(k+1)(2k+1)}6$. Find the smallest positive integer $k$ such that $1^2+2^2+3^2+\\ldots+k^2$ is a multiple of $200$. ",
+        "algebra"
+    ],
+    [
+        "Nine of the following ten numbers: $4,5,6,7,8,12,13,16,18,19$ are going to be filled into empty spaces in the $3 \\times 5$ table shown below. After all spaces are filled, the sum of the numbers on each row will be the same. And so with the sum of the numbers on each column, will also be the same. Determine all possible fillings. $\\begin{array} {|c|c|c|} \\cline{1-3} 10 & & \\\\ \\cline{1-3} & & 9 \\\\ \\cline{1-3} & 3 & \\\\ \\cline{1-3} 11 & & 17 \\\\ \\cline{1-3} & 20 & \\\\ \\cline{1-3} \\end{array}$ ",
+        "algebra"
+    ],
+    [
+        "The product $N$ of three positive integers is $6$ times their sum, and one of the integers is the sum of the other two. Find the sum of all possible values of $N$. ",
+        "algebra"
+    ],
+    [
+        "Consider a string of $n$ $7$ 's, $7777\\cdots77,$ into which $+$ signs are inserted to produce an arithmetic expression. For example, $7+77+777+7+7=875$ could be obtained from eight $7$ 's in this way. For how many values of $n$ is it possible to insert $+$ signs so that the resulting expression has value $7000$? ",
+        "algebra"
+    ],
+    [
+        "A triangular array of numbers has a first row consisting of the odd integers $1,3,5,\\ldots,99$ in increasing order. Each row below the first has one fewer entry than the row above it, and the bottom row has a single entry. Each entry in any row after the top row equals the sum of the two entries diagonally above it in the row immediately above it. How many entries in the array are multiples of $67$? ",
+        "combinatorics"
+    ],
+    [
+        "Find the largest integer $n$ satisfying the following conditions: ",
+        "algebra"
+    ],
+    [
+        "For any real $x$, let $\\lfloor x\\rfloor$ be the largest integer that is not more than $x$. Given a sequence of positive integers $a_1,a_2,a_3,\\ldots$ such that $a_1>1$ and\n\n\n\\[\\left\\lfloor\\frac{a_1+1}{a_2}\\right\\rfloor=\\left\\lfloor\\frac{a_2+1}{a_3}\\right\\rfloor=\\left\\lfloor\\frac{a_3+1}{a_4}\\right\\rfloor=\\cdots\\]\n\n\nProve that\n\n\n\\[\\left\\lfloor\\frac{a_n+1}{a_{n+1}}\\right\\rfloor\\leq1\\]\n\n\nholds for every positive integer $n$. ",
+        "algebra"
+    ],
+    [
+        "Last year, Isabella took 7 math tests and received 7 different scores, each an integer between 91 and 100, inclusive. After each test she noticed that the average of her test scores was an integer. Her score on the seventh test was 95. What was her score on the sixth test? $\\textbf{(A)}\\ 92\\qquad\\textbf{(B)}\\ 94\\qquad\\textbf{(C)}\\ 96\\qquad\\textbf{(D)}\\ 98\\qquad\\textbf{(E)}\\ 100$",
+        "algebra"
+    ]
+]

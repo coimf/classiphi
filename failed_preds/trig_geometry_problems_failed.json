@@ -1,0 +1,138 @@
+[
+    [
+        "If $\\theta$ is an acute angle and $\\sin \\frac12 \\theta = \\sqrt{\\frac{x-1}{2x}}$, then $\\tan \\theta$ equals $\\textbf{(A)}\\ x \\qquad \\textbf{(B)}\\ \\frac1{x} \\qquad \\textbf{(C)}\\ \\frac{\\sqrt{x-1}}{x+1} \\qquad \\textbf{(D)}\\ \\frac{\\sqrt{x^2-1}}{x} \\qquad \\textbf{(E)}\\ \\sqrt{x^2-1}$",
+        "algebra"
+    ],
+    [
+        "If $\\sin(x) =3 \\cos(x)$ then what is $\\sin(x) \\cdot \\cos(x)$? $\\textbf{(A)}\\ \\frac{1}{6}\\qquad \\textbf{(B)}\\ \\frac{1}{5}\\qquad \\textbf{(C)}\\ \\frac{2}{9}\\qquad \\textbf{(D)}\\ \\frac{1}{4}\\qquad \\textbf{(E)}\\ \\frac{3}{10}$",
+        "algebra"
+    ],
+    [
+        "$\\cot 10+\\tan 5=$ $\\mathrm{(A) \\csc 5 } \\qquad \\mathrm{(B) \\csc 10 } \\qquad \\mathrm{(C) \\sec 5 } \\qquad \\mathrm{(D) \\sec 10 } \\qquad \\mathrm{(E) \\sin 15 }$",
+        "algebra"
+    ],
+    [
+        "The number of $x$ -intercepts on the graph of $y=\\sin(1/x)$ in the interval $(0.0001,0.001)$ is closest to $\\mathrm{(A)}\\ 2900 \\qquad\\mathrm{(B)}\\ 3000 \\qquad\\mathrm{(C)}\\ 3100 \\qquad\\mathrm{(D)}\\ 3200 \\qquad\\mathrm{(E)}\\ 3300$",
+        "algebra"
+    ],
+    [
+        "If $\\sum_{n = 0}^{\\infty}{\\cos^{2n}}\\theta = 5$, what is the value of $\\cos{2\\theta}$? $\\text {(A)} \\frac15 \\qquad \\text {(B)} \\frac25 \\qquad \\text {(C)} \\frac {\\sqrt5}{5}\\qquad \\text {(D)} \\frac35 \\qquad \\text {(E)}\\frac45$",
+        "algebra"
+    ],
+    [
+        "Let $\\sin(2x) = \\frac{1}{7}$. Find the numerical value of $\\sin(x)\\sin(x)\\sin(x)\\sin(x) + \\cos(x)\\cos(x)\\cos(x)\\cos(x)$. $\\text{(A) }\\frac{2305}{2401}\\qquad \\text{(B) }\\frac{4610}{2401}\\qquad \\text{(C) }\\frac{2400}{2401}\\qquad \\text{(D) }\\frac{6915}{2401}\\qquad \\text{(E) }\\frac{1}{2401}\\qquad \\text{(F) }0\\qquad$$\\text{(G) }\\frac{195}{196}\\qquad \\text{(H) }\\frac{195}{98}\\qquad \\text{(I) }\\frac{97}{98}\\qquad \\text{(J) }\\frac{1}{49}\\qquad \\text{(K) }\\frac{2}{49}\\qquad \\text{(L) }\\frac{48}{49}\\qquad$$\\text{(M) }\\frac{96}{49}\\qquad \\text{(N) }\\pi\\qquad \\text{(O) }\\text{none of the above}\\qquad \\text{(P) }1\\qquad \\text{(Q) }2\\qquad$",
+        "algebra"
+    ],
+    [
+        "If $\\sin(x) = -\\frac{5}{13}$ and $x$ is in the third quadrant, what is the absolute value of $\\cos(\\frac{x}{2})$? $\\mathrm{(A)}\\,\\frac{\\sqrt{3}}{3}\\quad\\mathrm{(B)}\\,\\frac{2\\sqrt{3}}{3}\\quad\\mathrm{(C)}\\,\\frac{6}{13}\\quad\\mathrm{(D)}\\,\\frac{5}{13}\\quad\\mathrm{(E)}\\,-\\frac{5}{13} \\\\ \\quad\\mathrm{(F)}\\,\\frac{\\sqrt{26}}{26}\\quad\\mathrm{(G)}\\,-\\frac{\\sqrt{26}}{26}\\quad\\mathrm{(H)}\\,\\frac{\\sqrt{2}}{2}\\quad\\mathrm{(I)}\\,\\text{none of the above}$",
+        "algebra"
+    ],
+    [
+        "Suppose that $\\sin a + \\sin b = \\sqrt{\\frac{5}{3}}$ and $\\cos a + \\cos b = 1$. What is $\\cos (a - b)$? $\\mathrm{(A)}\\ \\sqrt{\\frac{5}{3}} - 1\\qquad \\mathrm{(B)}\\ \\frac 13\\qquad \\mathrm{(C)}\\ \\frac 12\\qquad \\mathrm{(D)}\\ \\frac 23\\qquad \\mathrm{(E)}\\ 1$",
+        "algebra"
+    ],
+    [
+        "For each integer $n>1$, let $F(n)$ be the number of solutions to the equation $\\sin{x}=\\sin{(nx)}$ on the interval $[0,\\pi]$. What is $\\sum_{n=2}^{2007} F(n)$? $\\mathrm{(A)}\\ 2014524\\qquad\\mathrm{(B)}\\ 2015028\\qquad\\mathrm{(C)}\\ 2015033\\qquad\\mathrm{(D)}\\ 2016532\\qquad\\mathrm{(E)}\\ 2017033$",
+        "algebra"
+    ],
+    [
+        "If $x$ and $y$ are acute angles such that $x+y=\\frac{\\pi}{4}$ and $\\tan{y}=\\frac{1}{6}$, find the value of $\\tan{x}$. $\\text{(A) }\\frac{37\\sqrt{2}-18}{71}\\qquad \\text{(B) }\\frac{35\\sqrt{2}-6}{71}\\qquad \\text{(C) }\\frac{35\\sqrt{3}+12}{33}\\qquad \\text{(D) }\\frac{37\\sqrt{3}+24}{33}\\qquad$$\\text{(E) }1\\qquad \\text{(F) }\\frac{5}{7}\\qquad \\text{(G) }\\frac{3}{7}\\qquad \\text{(H) }6\\qquad$$\\text{(I) }\\frac{1}{6}\\qquad \\text{(J) }\\frac{1}{2}\\qquad \\text{(K) }\\frac{6}{7}\\qquad \\text{(L) }\\frac{4}{7}\\qquad \\text{(M) }\\sqrt{3}\\qquad$$\\text{(N) }\\frac{\\sqrt{3}}{3}\\qquad \\text{(O) }\\frac{5}{6}\\qquad \\text{(P) }\\frac{2}{3}\\qquad \\text{(Q) }\\frac{1}{2007}\\qquad$",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the sum of all $x$ in the interval $[0,2\\pi)$ that satisfy $\\tan^2 x - 2\\tan x\\sin x=0$. Compute $\\lfloor10S\\rfloor$. ",
+        "algebra"
+    ],
+    [
+        "The first two terms of a sequence are $a_1 = 1$ and $a_2 = \\frac {1}{\\sqrt3}$. For $n\\ge1$, \\[a_{n + 2} = \\frac {a_n + a_{n + 1}}{1 - a_na_{n + 1}}.\\] What is $|a_{2009}|$? $\\textbf{(A)}\\ 0\\qquad \\textbf{(B)}\\ 2 - \\sqrt3\\qquad \\textbf{(C)}\\ \\frac {1}{\\sqrt3}\\qquad \\textbf{(D)}\\ 1\\qquad \\textbf{(E)}\\ 2 + \\sqrt3$",
+        "algebra"
+    ],
+    [
+        "The functions $\\sin(x)$ and $\\cos(x)$ are periodic with least period $2\\pi$. What is the least period of the function $\\cos(\\sin(x))$? $\\textbf{(A)}\\ \\frac{\\pi}{2}\\qquad\\textbf{(B)}\\ \\pi\\qquad\\textbf{(C)}\\ 2\\pi \\qquad\\textbf{(D)}\\ 4\\pi \\qquad\\textbf{(E)}$ The function is not periodic.",
+        "algebra"
+    ],
+    [
+        "How many solutions does the equation $\\tan(2x)=\\cos(\\tfrac{x}{2})$ have on the interval $[0,2\\pi]?$ $\\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 2\\qquad\\textbf{(C)}\\ 3\\qquad\\textbf{(D)}\\ 4\\qquad\\textbf{(E)}\\ 5$",
+        "algebra"
+    ],
+    [
+        "Find the minimum value of $\\frac{9x^2\\sin^2 x + 4}{x\\sin x}$ for $0 < x < \\pi$. ",
+        "algebra"
+    ],
+    [
+        "The equation $z^6+z^3+1=0$ has complex roots with argument $\\theta$ between $90^\\circ$ and $180^\\circ$ in the complex plane. Determine the degree measure of $\\theta$. ",
+        "algebra"
+    ],
+    [
+        "Suppose that $\\sec x+\\tan x=\\frac{22}7$ and that $\\csc x+\\cot x=\\frac mn,$ where $\\frac mn$ is in lowest terms. Find $m+n^{}_{}.$ ",
+        "algebra"
+    ],
+    [
+        "Given that $(1+\\sin t)(1+\\cos t)=5/4$ and where $k, m,$ and $n_{}$ are positive integers with $m_{}$ and $n_{}$ relatively prime, find $k+m+n.$ ",
+        "algebra"
+    ],
+    [
+        "Find the smallest positive integer solution to $\\tan{19x^{\\circ}}=\\dfrac{\\cos{96^{\\circ}}+\\sin{96^{\\circ}}}{\\cos{96^{\\circ}}-\\sin{96^{\\circ}}}$. ",
+        "algebra"
+    ],
+    [
+        "Let $x=\\frac{\\sum\\limits_{n=1}^{44} \\cos n^\\circ}{\\sum\\limits_{n=1}^{44} \\sin n^\\circ}$. What is the greatest integer that does not exceed $100x$? Contents 1 Problem 2 Solution 1 3 Solution 2 4 Solution 3 5 Solution 4 6 Solution 5 7 Solution 6 8 Solution 7 9 Solution 8 (Integral Calculus, not rigorous) 10 Solution 9 (Telescoping) 11 See also ",
+        "algebra"
+    ],
+    [
+        "Given that $A_k = \\frac {k(k - 1)}2\\cos\\frac {k(k - 1)\\pi}2,$ find $|A_{19} + A_{20} + \\cdots + A_{98}|.$ ",
+        "algebra"
+    ],
+    [
+        "Given that $\\sum_{k=1}^{35}\\sin 5k=\\tan \\frac mn,$ where angles are measured in degrees, and $m_{}$ and $n_{}$ are relatively prime positive integers that satisfy $\\frac mn<90,$ find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "Find the least positive integer $n$ such that $\\frac 1{\\sin 45^\\circ\\sin 46^\\circ}+\\frac 1{\\sin 47^\\circ\\sin 48^\\circ}+\\cdots+\\frac 1{\\sin 133^\\circ\\sin 134^\\circ}=\\frac 1{\\sin n^\\circ}.$ ",
+        "algebra"
+    ],
+    [
+        "While finding the sine of a certain angle, an absent-minded professor failed to notice that his calculator was not in the correct angular mode. He was lucky to get the right answer. The two least positive real values of $x$ for which the sine of $x$ degrees is the same as the sine of $x$ radians are $\\frac{m\\pi}{n-\\pi}$ and $\\frac{p\\pi}{q+\\pi}$, where $m$, $n$, $p$, and $q$ are positive integers. Find $m+n+p+q$. ",
+        "algebra"
+    ],
+    [
+        "An angle $x$ is chosen at random from the interval $0^\\circ < x < 90^\\circ.$ Let $p$ be the probability that the numbers $\\sin^2 x, \\cos^2 x,$ and $\\sin x \\cos x$ are not the lengths of the sides of a triangle. Given that $p = d/n,$ where $d$ is the number of degrees in $\\text{arctan}$ $m$ and $m$ and $n$ are positive integers with $m + n < 1000,$ find $m + n.$ ",
+        "combinatorics"
+    ],
+    [
+        "Given that $\\log_{10} \\sin x + \\log_{10} \\cos x = -1$ and that $\\log_{10} (\\sin x + \\cos x) = \\frac{1}{2} (\\log_{10} n - 1),$ find $n.$ ",
+        "algebra"
+    ],
+    [
+        "Find the sum of the values of $x$ such that $\\cos^3 3x+ \\cos^3 5x = 8 \\cos^3 4x \\cos^3 x$, where $x$ is measured in degrees and $100< x< 200.$ ",
+        "algebra"
+    ],
+    [
+        "Find the positive integer $n$ such that \\[\\arctan\\frac {1}{3} + \\arctan\\frac {1}{4} + \\arctan\\frac {1}{5} + \\arctan\\frac {1}{n} = \\frac {\\pi}{4}.\\] ",
+        "algebra"
+    ],
+    [
+        "Suppose $a$ is a real number such that the equation\n\n\\[a\\cdot(\\sin{x}+\\sin{(2x)}) = \\sin{(3x)}\\]\n\n\nhas more than one solution in the interval $(0, \\pi)$. The set of all such $a$ that can be written\nin the form\n\n\\[(p,q) \\cup (q,r),\\]\n\n\nwhere $p, q,$ and $r$ are real numbers with $p < q< r$. What is $p+q+r$? $\\textbf{(A) } {-}4 \\qquad \\textbf{(B) } {-}1 \\qquad \\textbf{(C) } 0 \\qquad \\textbf{(D) } 1 \\qquad \\textbf{(E) } 4$",
+        "algebra"
+    ],
+    [
+        "The sum\n\n\n\\[\\sum_{x=2}^{44} 2\\sin{x}\\sin{1}[1 + \\sec (x-1) \\sec (x+1)]\\]\n\n\ncan be written in the form $\\sum_{n=1}^{4} (-1)^n \\frac{\\Phi(\\theta_n)}{\\Psi(\\theta_n)}$, where $\\Phi,\\, \\Psi$ are trigonometric functions and $\\theta_1,\\, \\theta_2, \\, \\theta_3, \\, \\theta_4$ are degrees $\\in [0,45]$. Find $\\theta_1 + \\theta_2 + \\theta_3 + \\theta_4$. ",
+        "algebra"
+    ],
+    [
+        "The minimum value of the function $\\displaystyle f(x) = \\frac{\\sin (x)}{\\sqrt{1 - \\cos^2 (x)}} + \\frac{\\cos(x)}{\\sqrt{1 - \\sin^2 (x) }} + \\frac{\\tan(x)}{\\sqrt{\\sec^2 (x) - 1}} + \\frac{\\cot (x)}{\\sqrt{\\csc^2 (x) - 1}}$ as $x$ varies over all numbers in the largest possible domain of $f$, is $\\mathrm{(A) \\ }-4 \\qquad \\mathrm{(B) \\ }-2 \\qquad \\mathrm{(C) \\ }0 \\qquad \\mathrm{(D) \\ }2 \\qquad \\mathrm{(E) \\ }4$",
+        "algebra"
+    ],
+    [
+        "Let $x$ be a real number such that $\\sec x - \\tan x = 2$. Then $\\sec x + \\tan x =$ $\\textbf{(A)}\\ 0.1 \\qquad \\textbf{(B)}\\ 0.2 \\qquad \\textbf{(C)}\\ 0.3 \\qquad \\textbf{(D)}\\ 0.4 \\qquad \\textbf{(E)}\\ 0.5$",
+        "algebra"
+    ],
+    [
+        "An object moves $8$ cm in a straight line from $A$ to $B$, turns at an angle $\\alpha$, measured in radians and chosen at random from the interval $(0,\\pi)$, and moves $5$ cm in a straight line to $C$. What is the probability that $AC < 7$? $\\mathrm{(A)}\\ \\frac{1}{6} \\qquad\\mathrm{(B)}\\ \\frac{1}{5} \\qquad\\mathrm{(C)}\\ \\frac{1}{4} \\qquad\\mathrm{(D)}\\ \\frac{1}{3} \\qquad\\mathrm{(E)}\\ \\frac{1}{2}$",
+        "combinatorics"
+    ],
+    [
+        "Let a and b be the two possible values of $\\tan\\theta$ given that $\\sin\\theta + \\cos\\theta = \\dfrac{193}{137}$. If $a+b=m/n$, where $m$ and $n$ are relatively prime positive integers, compute $m+n$. ",
+        "algebra"
+    ]
+]

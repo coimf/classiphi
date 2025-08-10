@@ -1,0 +1,67 @@
+{
+  "inter_algebra_problems.json": {
+    "num_correct": 405,
+    "num_total": 461,
+    "accuracy": 0.8785249457700651
+  },
+  "inter_combinatorics_problems.json": {
+    "num_correct": 119,
+    "num_total": 219,
+    "accuracy": 0.54337899543379
+  },
+  "inter_geometry_problems.json": {
+    "num_correct": 330,
+    "num_total": 372,
+    "accuracy": 0.8870967741935484
+  },
+  "inter_number_theory_problems.json": {
+    "num_correct": 77,
+    "num_total": 256,
+    "accuracy": 0.30078125
+  },
+  "intro_algebra_problems.json": {
+    "num_correct": 835,
+    "num_total": 965,
+    "accuracy": 0.8652849740932642
+  },
+  "intro_combinatorics_problems.json": {
+    "num_correct": 111,
+    "num_total": 175,
+    "accuracy": 0.6342857142857142
+  },
+  "intro_geometry_problems.json": {
+    "num_correct": 495,
+    "num_total": 570,
+    "accuracy": 0.868421052631579
+  },
+  "intro_number_theory_problems.json": {
+    "num_correct": 77,
+    "num_total": 225,
+    "accuracy": 0.3422222222222222
+  },
+  "olympiad_algebra_problems.json": {
+    "num_correct": 86,
+    "num_total": 87,
+    "accuracy": 0.9885057471264368
+  },
+  "olympiad_combinatorics_problems.json": {
+    "num_correct": 30,
+    "num_total": 70,
+    "accuracy": 0.42857142857142855
+  },
+  "olympiad_geometry_problems.json": {
+    "num_correct": 121,
+    "num_total": 145,
+    "accuracy": 0.8344827586206897
+  },
+  "olympiad_number_theory_problems.json": {
+    "num_correct": 14,
+    "num_total": 80,
+    "accuracy": 0.175
+  },
+  "trig_geometry_problems.json": {
+    "num_correct": 12,
+    "num_total": 46,
+    "accuracy": 0.2608695652173913
+  }
+}

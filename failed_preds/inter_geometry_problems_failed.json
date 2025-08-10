@@ -1,0 +1,170 @@
+[
+    [
+        "Any five points are taken inside or on a square with side length $1$. Let a be the smallest possible number with the\nproperty that it is always possible to select one pair of points from these five such that the distance between them\nis equal to or less than $a$. Then $a$ is: $\\textbf{(A)}\\ \\sqrt{3}/3\\qquad \\textbf{(B)}\\ \\sqrt{2}/2\\qquad \\textbf{(C)}\\ 2\\sqrt{2}/3\\qquad \\textbf{(D)}\\ 1 \\qquad \\textbf{(E)}\\ \\sqrt{2}$",
+        "algebra"
+    ],
+    [
+        "A foreman noticed an inspector checking a $3$ \"-hole with a $2$ \"-plug and a $1$ \"-plug and suggested that two more gauges\nbe inserted to be sure that the fit was snug. If the new gauges are alike, then the diameter, $d$, of each, to the nearest hundredth of an inch, is: $\\textbf{(A)}\\.87 \\qquad \\textbf{(B) }\\.86 \\qquad \\textbf{(C) }\\.83 \\qquad \\textbf{(D) }\\.75 \\qquad \\textbf{(E) }\\.71$",
+        "algebra"
+    ],
+    [
+        "Five points $O,A,B,C,D$ are taken in order on a straight line with distances $OA = a$, $OB = b$, $OC = c$, and $OD = d$. $P$ is a point on the line between $B$ and $C$ and such that $AP: PD = BP: PC$. Then $OP$ equals: $\\textbf{(A)} \\frac {b^2 - bc}{a - b + c - d} \\qquad \\textbf{(B)} \\frac {ac - bd}{a - b + c - d} \\\\ \\textbf{(C)} - \\frac {bd + ac}{a - b + c - d} \\qquad \\textbf{(D)} \\frac {bc + ad}{a + b + c + d} \\qquad \\textbf{(E)} \\frac {ac - bd}{a + b + c + d}$",
+        "algebra"
+    ],
+    [
+        "Let $O$ be an interior point of triangle $ABC$, and let $s_1=OA+OB+OC$. If $s_2=AB+BC+CA$, then $\\text{(A) for every triangle } s_2>2s_1,s_1 \\le s_2 \\\\ \\text{(B) for every triangle } s_2>2s_1,s_1 < s_2 \\\\ \\text{(C) for every triangle } s_1> \\tfrac{1}{2}s_2,s_1 < s_2 \\\\ \\text{(D) for every triangle } s_2\\ge 2s_1,s_1 \\le s_2 \\\\ \\text{(E) neither (A) nor (B) nor (C) nor (D) applies to every triangle}$",
+        "algebra"
+    ],
+    [
+        "[asy] draw((0,0)--(10,20*sqrt(3)/2)--(20,0)--cycle,black+linewidth(.75)); draw((20,0)--(20,12)--(32,12)--(32,0)--cycle,black+linewidth(.75)); draw((32,0)--(37,10*sqrt(3)/2)--(42,0)--cycle,black+linewidth(.75)); MP(\"I\",(10,0),N);MP(\"II\",(26,0),N);MP(\"III\",(37,0),N); MP(\"A\",(0,0),S);MP(\"B\",(20,0),S);MP(\"C\",(32,0),S);MP(\"D\",(42,0),S); [/asy] In this diagram, not drawn to scale, Figures $I$ and $III$ are equilateral triangular regions with respective areas of $32\\sqrt{3}$ and $8\\sqrt{3}$ square inches. Figure $II$ is a square region with area $32$ square inches. Let the length of segment $AD$ be decreased by $12\\tfrac{1}{2}$ \u00a0% of itself, while the lengths of $AB$ and $CD$ remain unchanged. The percent decrease in the area of the square is: $\\text{(A)}\\ 12\\tfrac{1}{2}\\qquad\\text{(B)}\\ 25\\qquad\\text{(C)}\\ 50\\qquad\\text{(D)}\\ 75\\qquad\\text{(E)}\\ 87\\tfrac{1}{2}$",
+        "algebra"
+    ],
+    [
+        "$A$ and $B$ move uniformly along two straight paths intersecting at right angles in point $O$. When $A$ is at $O$, $B$ is $500$ yards short of $O$. In two minutes they are equidistant from $O$, and in $8$ minutes more they are again equidistant from $O$. Then the ratio of $A$ 's speed to $B$ 's speed is: $\\text{(A) } 4:5\\quad \\text{(B) } 5:6\\quad \\text{(C) } 2:3\\quad \\text{(D) } 5:8\\quad \\text{(E) } 1:2$",
+        "algebra"
+    ],
+    [
+        "A park is in the shape of a regular hexagon $2$ km on a side. Starting at a corner,\nAlice walks along the perimeter of the park for a distance of $5$ km.\nHow many kilometers is she from her starting point? $\\textbf{(A)}\\ \\sqrt{13}\\qquad \\textbf{(B)}\\ \\sqrt{14}\\qquad \\textbf{(C)}\\ \\sqrt{15}\\qquad \\textbf{(D)}\\ \\sqrt{16}\\qquad \\textbf{(E)}\\ \\sqrt{17}$",
+        "algebra"
+    ],
+    [
+        "A cube of cheese $C=\\{(x, y, z)| 0 \\le x, y, z \\le 1\\}$ is cut along the planes $x=y, y=z$ and $z=x$. How many pieces are there?\n(No cheese is moved until all three cuts are made.) $\\textbf{(A)}\\ 5 \\qquad \\textbf{(B)}\\ 6 \\qquad \\textbf{(C)}\\ 7 \\qquad \\textbf{(D)}\\ 8 \\qquad \\textbf{(E)}\\ 9$",
+        "algebra"
+    ],
+    [
+        "Two skaters, Allie and Billie, are at points $A$ and $B$, respectively, on a flat, frozen lake. The distance between $A$ and $B$ is $100$ meters. Allie leaves $A$ and skates at a speed of $8$ meters per second on a straight line that makes a $60^\\circ$ angle with $AB$. At the same time Allie leaves $A$, Billie leaves $B$ at a speed of $7$ meters per second and follows the straight path that produces the earliest possible meeting of the two skaters, given their speeds. How many meters does Allie skate before meeting Billie? [asy] pointpen=black; pathpen=black+linewidth(0.7); pair A=(0,0),B=(10,0),C=6*expi(pi/3); D(B--A); D(A--C,EndArrow); MP(\"A\",A,SW);MP(\"B\",B,SE);MP(\"60^{\\circ}\",A+(0.3,0),NE);MP(\"100\",(A+B)/2); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Let $P_1^{}$ be a regular $r~\\mbox{gon}$ and $P_2^{}$ be a regular $s~\\mbox{gon}$ $(r\\geq s\\geq 3)$ such that each interior angle of $P_1^{}$ is $\\frac{59}{58}$ as large as each interior angle of $P_2^{}$. What's the largest possible value of $s_{}^{}$? ",
+        "algebra"
+    ],
+    [
+        "Twelve congruent disks are placed on a circle $C^{}_{}$ of radius 1 in such a way that the twelve disks cover $C^{}_{}$, no two of the disks overlap, and so that each of the twelve disks is tangent to its two neighbors. The resulting arrangement of disks is shown in the figure below. The sum of the areas of the twelve disks can be written in the from $\\pi(a-b\\sqrt{c})$, where $a,b,c^{}_{}$ are positive integers and $c^{}_{}$ is not divisible by the square of any prime. Find $a+b+c^{}_{}$. [asy] unitsize(100); draw(Circle((0,0),1)); dot((0,0)); draw((0,0)--(1,0)); label(\"$1$\", (0.5,0), S); for (int i=0; i<12; ++i) { dot((cos(i*pi/6), sin(i*pi/6))); } for (int a=1; a<24; a+=2) { dot(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12))); draw(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12))--((1/cos(pi/12))*cos((a+2)*pi/12), (1/cos(pi/12))*sin((a+2)*pi/12))); draw(Circle(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12)), tan(pi/12))); }[/asy] _Diagram by 1-1 is 3_ ",
+        "algebra"
+    ],
+    [
+        "Consider the region $A$ in the complex plane that consists of all points $z$ such that both $\\frac{z}{40}$ and $\\frac{40}{\\overline{z}}$ have real and imaginary parts between $0$ and $1$, inclusive. What is the integer that is nearest the area of $A$? ",
+        "algebra"
+    ],
+    [
+        "Lines $l_1^{}$ and $l_2^{}$ both pass through the origin and make first-quadrant angles of $\\frac{\\pi}{70}$ and $\\frac{\\pi}{54}$ radians, respectively, with the positive x-axis. For any line $l^{}_{}$, the transformation $R(l)^{}_{}$ produces another line as follows: $l^{}_{}$ is reflected in $l_1^{}$, and the resulting line is reflected in $l_2^{}$. Let $R^{(1)}(l)=R(l)^{}_{}$ and $R^{(n)}(l)^{}_{}=R\\left(R^{(n-1)}(l)\\right)$. Given that $l^{}_{}$ is the line $y=\\frac{19}{92}x^{}_{}$, find the smallest positive integer $m^{}_{}$ for which $R^{(m)}(l)=l^{}_{}$. ",
+        "algebra"
+    ],
+    [
+        "A fenced, rectangular field measures $24$ meters by $52$ meters. An agricultural researcher has 1994 meters of fence that can be used for internal fencing to partition the field into congruent, square test plots. The entire field must be partitioned, and the sides of the squares must be parallel to the edges of the field. What is the largest number of square test plots into which the field can be partitioned using all or some of the 1994 meters of fence? ",
+        "algebra"
+    ],
+    [
+        "A car travels due east at $\\frac 23$ mile per minute on a long, straight road. At the same time, a circular storm, whose radius is $51$ miles, moves southeast at $\\frac 12\\sqrt{2}$ mile per minute. At time $t=0$, the center of the storm is $110$ miles due north of the car. At time $t=t_1$ minutes, the car enters the storm circle, and at time $t=t_2$ minutes, the car leaves the storm circle. Find $\\frac 12(t_1+t_2)$. ",
+        "algebra"
+    ],
+    [
+        "A tetrahedron with four equilateral triangular faces has a sphere inscribed within it and a sphere circumscribed about it. For each of the four faces, there is a sphere tangent externally to the face at its center and to the circumscribed sphere. A point $P$ is selected at random inside the circumscribed sphere. The probability that $P$ lies inside one of the five small spheres is closest to $\\mathrm{(A) \\ }0 \\qquad \\mathrm{(B) \\ }0.1 \\qquad \\mathrm{(C) \\ }0.2 \\qquad \\mathrm{(D) \\ }0.3 \\qquad \\mathrm{(E) \\ }0.4$",
+        "combinatorics"
+    ],
+    [
+        "Let $\\mathcal{T}$ be the set of ordered triples $(x,y,z)$ of nonnegative real numbers that lie in the plane $x+y+z=1.$ Let us say that $(x,y,z)$ supports $(a,b,c)$ when exactly two of the following are true: $x\\ge a, y\\ge b, z\\ge c.$ Let $\\mathcal{S}$ consist of those triples in $\\mathcal{T}$ that support $\\left(\\frac 12,\\frac 13,\\frac 16\\right).$ The area of $\\mathcal{S}$ divided by the area of $\\mathcal{T}$ is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers. Find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a_{}$ and $b_{}$ are positive numbers. This function has the property that the image of each point in the complex plane is equidistant from that point and the origin. Given that $|a+bi|=8$ and that $b^2=m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers, find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "In the middle of a vast prairie, a firetruck is stationed at the intersection of two perpendicular straight highways. The truck travels at $50$ miles per hour along the highways and at $14$ miles per hour across the prairie. Consider the set of points that can be reached by the firetruck within six minutes. The area of this region is $m/n$ square miles, where $m$ and $n$ are relatively prime positive integers. Find $m + n$. ",
+        "algebra"
+    ],
+    [
+        "Given that $O$ is a regular octahedron, that $C$ is the cube whose vertices are the centers of the faces of $O,$ and that the ratio of the volume of $O$ to that of $C$ is $\\frac mn,$ where $m$ and $n$ are relatively prime integers, find $m+n.$ Contents 1 Problem 2 Solutions 2.1 Solution 1 2.2 Solution 2 3 See also [asy] import three; currentprojection = perspective(4,-15,4); defaultpen(linewidth(0.7)); draw(box((-1,-1,-1),(1,1,1))); draw((-3,0,0)--(0,0,3)--(0,-3,0)--(-3,0,0)--(0,0,-3)--(0,-3,0)--(3,0,0)--(0,0,-3)--(0,3,0)--(0,0,3)--(3,0,0)--(0,3,0)--(-3,0,0)); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Let $w_1$ and $w_2$ denote the circles $x^2+y^2+10x-24y-87=0$ and $x^2 +y^2-10x-24y+153=0,$ respectively. Let $m$ be the smallest positive value of $a$ for which the line $y=ax$ contains the center of a circle that is externally tangent to $w_2$ and internally tangent to $w_1.$ Given that $m^2=\\frac pq,$ where $p$ and $q$ are relatively prime integers, find $p+q.$ ",
+        "algebra"
+    ],
+    [
+        "Given that $x, y,$ and $z$ are real numbers that satisfy:\n\n\n\\begin{align*} x &= \\sqrt{y^2-\\frac{1}{16}}+\\sqrt{z^2-\\frac{1}{16}}, \\\\ y &= \\sqrt{z^2-\\frac{1}{25}}+\\sqrt{x^2-\\frac{1}{25}}, \\\\ z &= \\sqrt{x^2 - \\frac 1{36}}+\\sqrt{y^2-\\frac 1{36}}, \\end{align*}\n\n\nand that $x+y+z = \\frac{m}{\\sqrt{n}},$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime, find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "Circles with centers $(2,4)$ and $(14,9)$ have radii $4$ and $9$, respectively. The equation of a common external tangent to the circles can be written in the form $y=mx+b$ with $m>0$. What is $b$?\n\n\n[asy] size(150); defaultpen(linewidth(0.7)+fontsize(8)); draw(circle((2,4),4));draw(circle((14,9),9)); draw((0,-2)--(0,20));draw((-6,0)--(25,0)); draw((2,4)--(2,4)+4*expi(pi*4.5/11)); draw((14,9)--(14,9)+9*expi(pi*6/7)); label(\"4\",(2,4)+2*expi(pi*4.5/11),(-1,0)); label(\"9\",(14,9)+4.5*expi(pi*6/7),(1,1)); label(\"(2,4)\",(2,4),(0.5,-1.5));label(\"(14,9)\",(14,9),(1,-1)); draw((-4,120*-4/119+912/119)--(11,120*11/119+912/119)); dot((2,4)^^(14,9)); [/asy] $\\mathrm{(A) \\ } \\frac{908}{119}\\qquad \\mathrm{(B) \\ } \\frac{909}{119}\\qquad \\mathrm{(C) \\ } \\frac{130}{17}\\qquad \\mathrm{(D) \\ } \\frac{911}{119}\\qquad \\mathrm{(E) \\ } \\frac{912}{119}$",
+        "algebra"
+    ],
+    [
+        "Call the figure below a \" $4$ -tableau\" shape. Determine the number of rectangles of all sizes contained within this shape.\nNote that a square is considered a rectangle, and a $2\\times 1$ rectangle is considered different from a $1\\times 2$.\nExpress your answer as a binomial coefficient and explain the significance of your expression. Generalize, with proof, to an \" $n$ -tableau\" shape. [asy] for(int j=0;j<5;++j){ draw((0,j)--(min(j+1,4),j),black); draw((j,max(0,j-1))--(j,4),black); } filldraw((2,2)--(2,3)--(1,3)--(1,2)--cycle,blue); filldraw((2,2)--(3,2)--(3,3)--(2,3)--cycle,blue); [/asy] ",
+        "algebra"
+    ],
+    [
+        "During a movie shoot, a stuntman jumps out of a plane and parachutes to safety within a $100$ foot by $100$ foot square field, which is entirely surrounded by a wooden fence. There is a flag pole in the middle of the square field. Assuming the stuntman is equally likely to land on any point in the field, the probability that he lands closer to the fence than to the flag pole can be written in simplest terms as $\\dfrac{a-b\\sqrt c}d$, where all four variables are positive integers, $c$ is a multple of no perfect square greater than $1$, a is coprime with $d$, and $b$ is coprime with $d$. Find the value of $a+b+c+d$. ",
+        "algebra"
+    ],
+    [
+        "In order to earn her vacation spending money, Alexis helped her mother remove weeds from the garden. When she was done, she came into the house to put away her gardening gloves and change into clean clothes. On her way to her room she notices Joshua with his face to the floor in the family room, looking pretty silly. \"Josh, did you know you lose IQ points for sniffing the carpet?\" \"Shut up. I'm not sniffing the carpet. I'm doing something.\" \"Sure, if sniffing the carpet counts as doing something.\" At this point Alexis stands over her twin brother grinning, trying to see how silly she can make him feel. Joshua climbs to his feet and stands on his toes to make himself a half inch taller than his sister, who is ordinarily a half inch taller than Joshua. \"I'm measuring something. I'm designing something.\" Alexis stands on her toes too, reminding her brother that she is still taller than he. \"When you're done, can you design me a dress?\" \"Very funny.\" Joshua walks to the table and points to some drawings. \"I'm designing the sand castle I want to build at the beach. Everything needs to be measured out so that I can build something awesome.\" \"And this requires sniffing carpet?\" inquires Alexis, who is just a little intrigued by her brother's project. \"I was imagining where to put the base of a spiral staircase. Everything needs to be measured out correctly. See, the castle walls will be in the shape of a rectangle, like this room. The center of the staircase will be $9$ inches from one of the corners, $15$ inches from another, 16 inches from another, and some whole number of inches from the furthest corner.\" Joshua shoots Alexis a wry smile. The twins liked to challenge each other, and Alexis knew she had to find the distance from the center of the staircase to the fourth corner of the castle on her own, or face Joshua's pestering, which might last for hours or days. Find the distance from the center of the staircase to the furthest corner of the rectangular castle, assuming all four of the distances to the corners are described as distances on the same plane (the ground). ",
+        "algebra"
+    ],
+    [
+        "As the Kubiks head homeward, away from the beach in the family van, Jerry decides to take a different route away from the beach than the one they took to get there. The route involves lots of twists and turns, prompting Hannah to wonder aloud if Jerry's \"shortcut\" will save any time at all. Michael offers up a problem as an analogy to his father's meandering: \"Suppose dad drives around, making right-angled turns after $\\textit{every}$ mile. What is the farthest he could get us from our starting point after driving us $500$ miles assuming that he makes exactly $300$ right turns?\" \"Sounds almost like an energy efficiency problem,\" notes Hannah only half jokingly. Hannah is always encouraging her children to think along these lines. Let $d$ be the answer to Michael's problem. Compute $\\lfloor d\\rfloor$. ",
+        "algebra"
+    ],
+    [
+        "Let $\\mathcal{R}$ be the region consisting of the set of points in the coordinate plane that satisfy both $|8 - x| + y \\le 10$ and $3y - x \\ge 15$. When $\\mathcal{R}$ is revolved around the line whose equation is $3y - x = 15$, the volume of the resulting solid is $\\frac {m\\pi}{n\\sqrt {p}}$, where $m$, $n$, and $p$ are positive integers, $m$ and $n$ are relatively prime, and $p$ is not divisible by the square of any prime. Find $m + n + p$. ",
+        "algebra"
+    ],
+    [
+        "What is the minimum value of $f(x)=\\left|x-1\\right| + \\left|2x-1\\right| + \\left|3x-1\\right| + \\cdots + \\left|119x - 1 \\right|$? $\\textbf{(A)}\\ 49 \\qquad \\textbf{(B)}\\ 50 \\qquad \\textbf{(C)}\\ 51 \\qquad \\textbf{(D)}\\ 52 \\qquad \\textbf{(E)}\\ 53$",
+        "algebra"
+    ],
+    [
+        "A rectangular box has width $12$ ",
+        "algebra"
+    ],
+    [
+        "Suppose that $f$ is a mapping of the plane into itself such that the vertices of every\nequilateral triangle of side one are mapped onto the vertices of a congruent triangle.\nShow that the map $f$ is distance preserving, i.e., $d(p, q) = d(f(p), f(q))$ for all points\n$p$ and $q$ in the plane, where $d(x, y)$ denotes the distance between the points $x$ and $y$ in\nthe plane. In other words, if any two points that are one unit apart are mapped to points\nthat are one unit apart, then any two points are mapped to two points that are the same\ndistance as their pre-images. ",
+        "algebra"
+    ],
+    [
+        "With all angles measured in degrees, the product $\\prod_{k=1}^{45} \\csc^2(2k-1)^\\circ=m^n$, where $m$ and $n$ are integers greater than 1. Find $m+n$. ",
+        "algebra"
+    ],
+    [
+        "For each integer $n \\ge 2$, let $A(n)$ be the area of the region in the coordinate plane defined by the inequalities $1\\le x \\le n$ and $0\\le y \\le x \\left\\lfloor \\sqrt x \\right\\rfloor$, where $\\left\\lfloor \\sqrt x \\right\\rfloor$ is the greatest integer not exceeding $\\sqrt x$. Find the number of values of $n$ with $2\\le n \\le 1000$ for which $A(n)$ is an integer. ",
+        "algebra"
+    ],
+    [
+        "Consider a triangulation (mesh) of a polygonal domain like the one in the \ufb01gure below. (a) Given the vertices of a triangle, devise a strategy for determining if a given point is inside that triangle. (b) Will your strategy work for polygons with more than three sides? (c) After implementing your strategy in an optimally e\ufb03cient computer code you \ufb01nd that the search for a problem with $100$ triangles, on average, takes $10$ seconds. You re\ufb01ne the triangulation by subdividing each of the triangles into smaller triangles by placing a new vertex at the center of gravity of each triangle. On average, how long will it take to \ufb01nd a point in the new mesh? ",
+        "algebra"
+    ],
+    [
+        "Point $D$ lies on side $\\overline{BC}$ of $\\triangle ABC$ so that $\\overline{AD}$ bisects $\\angle BAC.$ The perpendicular bisector of $\\overline{AD}$ intersects the bisectors of $\\angle ABC$ and $\\angle ACB$ in points $E$ and $F,$ respectively. Given that $AB=4,BC=5,$ and $CA=6,$ the area of $\\triangle AEF$ can be written as $\\tfrac{m\\sqrt{n}}p,$ where $m$ and $p$ are relatively prime positive integers, and $n$ is a positive integer not divisible by the square of any prime. Find $m+n+p.$ [asy] /* Geogebra to Asymptote conversion, documentation at artofproblemsolving.com/Wiki go to User:Azjps/geogebra */ import graph; size(18cm); real labelscalefactor = 0.5; /* changes label-to-point distance */ pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps); /* default pen style */ pen dotstyle = black; /* point style */ real xmin = -10.645016481888238, xmax = 5.4445786933235505, ymin = 0.7766255516825293, ymax = 9.897545413994122; /* image dimensions */ pen wrwrwr = rgb(0.3803921568627451,0.3803921568627451,0.3803921568627451); pen rvwvcq = rgb(0.8235294117647059,0.0396078431372549,0.07529411764705882); draw((-6.837129089839387,8.163360372429347)--(-6.8268938290378,5.895596632024835)--(-4.33118398380513,6.851781504978754)--cycle, linewidth(2) + rvwvcq); draw((-6.837129089839387,8.163360372429347)--(-8.31920210577661,4.188003838050227)--(-3.319253031309944,4.210570466954303)--cycle, linewidth(2) + rvwvcq); /* draw figures */ draw((-6.837129089839387,8.163360372429347)--(-7.3192122908832715,4.192517163831042), linewidth(2) + wrwrwr); draw((-7.3192122908832715,4.192517163831042)--(-2.319263216416622,4.2150837927351175), linewidth(2) + wrwrwr); draw((-2.319263216416622,4.2150837927351175)--(-6.837129089839387,8.163360372429347), linewidth(2) + wrwrwr); draw((xmin, -2.6100704119306224*xmin-9.68202796751058)--(xmax, -2.6100704119306224*xmax-9.68202796751058), linewidth(2) + wrwrwr); /* line */ draw((xmin, 0.3831314264278095*xmin + 8.511194202815297)--(xmax, 0.3831314264278095*xmax + 8.511194202815297), linewidth(2) + wrwrwr); /* line */ draw(circle((-6.8268938290378,5.895596632024835), 2.267786838055365), linewidth(2) + wrwrwr); draw(circle((-4.33118398380513,6.851781504978754), 2.828427124746193), linewidth(2) + wrwrwr); draw((xmin, 0.004513371749987873*xmin + 4.225551489816879)--(xmax, 0.004513371749987873*xmax + 4.225551489816879), linewidth(2) + wrwrwr); /* line */ draw((-7.3192122908832715,4.192517163831042)--(-4.33118398380513,6.851781504978754), linewidth(2) + wrwrwr); draw((-6.8268938290378,5.895596632024835)--(-2.319263216416622,4.2150837927351175), linewidth(2) + wrwrwr); draw((-6.837129089839387,8.163360372429347)--(-8.31920210577661,4.188003838050227), linewidth(2) + wrwrwr); draw((xmin, 0.004513371749987873*xmin + 8.19421887771445)--(xmax, 0.004513371749987873*xmax + 8.19421887771445), linewidth(2) + wrwrwr); /* line */ draw((-3.837159645159393,8.176900349771794)--(-8.31920210577661,4.188003838050227), linewidth(2) + wrwrwr); draw((-3.837159645159393,8.176900349771794)--(-5.3192326610966125,4.2015438153926725), linewidth(2) + wrwrwr); draw((-6.837129089839387,8.163360372429347)--(-6.8268938290378,5.895596632024835), linewidth(2) + rvwvcq); draw((-6.8268938290378,5.895596632024835)--(-4.33118398380513,6.851781504978754), linewidth(2) + rvwvcq); draw((-4.33118398380513,6.851781504978754)--(-6.837129089839387,8.163360372429347), linewidth(2) + rvwvcq); draw((-6.837129089839387,8.163360372429347)--(-8.31920210577661,4.188003838050227), linewidth(2) + rvwvcq); draw((-8.31920210577661,4.188003838050227)--(-3.319253031309944,4.210570466954303), linewidth(2) + rvwvcq); draw((-3.319253031309944,4.210570466954303)--(-6.837129089839387,8.163360372429347), linewidth(2) + rvwvcq); /* dots and labels */ dot((-6.837129089839387,8.163360372429347),dotstyle); label(\"$A$\", (-6.8002301023571095,8.267690318323321), NE * labelscalefactor); dot((-7.3192122908832715,4.192517163831042),dotstyle); label(\"$B$\", (-7.2808283997985,4.29753046989445), NE * labelscalefactor); dot((-2.319263216416622,4.2150837927351175),linewidth(4pt) + dotstyle); label(\"$C$\", (-2.276337432963145,4.29753046989445), NE * labelscalefactor); dot((-5.3192326610966125,4.2015438153926725),linewidth(4pt) + dotstyle); label(\"$D$\", (-5.274852897434433,4.287082680819637), NE * labelscalefactor); dot((-6.8268938290378,5.895596632024835),linewidth(4pt) + dotstyle); label(\"$F$\", (-6.789782313282296,5.979624510939313), NE * labelscalefactor); dot((-4.33118398380513,6.851781504978754),linewidth(4pt) + dotstyle); label(\"$E$\", (-4.292760724402025,6.93037331674728), NE * labelscalefactor); dot((-8.31920210577661,4.188003838050227),linewidth(4pt) + dotstyle); label(\"$G$\", (-8.273368361905721,4.276634891744824), NE * labelscalefactor); dot((-3.319253031309944,4.210570466954303),linewidth(4pt) + dotstyle); label(\"$H$\", (-3.2793251841451787,4.29753046989445), NE * labelscalefactor); dot((-3.837159645159393,8.176900349771794),linewidth(4pt) + dotstyle); label(\"$I$\", (-3.7912668488110084,8.257242529248508), NE * labelscalefactor); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); /* end of picture */ [/asy] ",
+        "algebra"
+    ],
+    [
+        "Let $P$ be a point chosen uniformly at random in the interior of the unit square with vertices at $(0,0), (1,0), (1,1)$, and $(0,1)$. The probability that the slope of the line determined by $P$ and the point $\\left(\\frac58, \\frac38 \\right)$ is greater than or equal to $\\frac12$ can be written as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "combinatorics"
+    ],
+    [
+        "Let $S$ be the set of positive integers $k$ such that the two parabolas\n\n\\[y=x^2-k~~\\text{and}~~x=2(y-20)^2-k\\]\n\nintersect in four distinct points, and these four points lie on a circle with radius at most $21$. Find the sum of the least element of $S$ and the greatest element of $S$. Graph in Desmos: https://www.desmos.com/calculator/37hsgxbygj ~MRENTHUSIASM ",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of lattice points in the coordinate plane, both of whose coordinates are integers between $1$ and $30,$ inclusive. Exactly $300$ points in $S$ lie on or below a line with equation $y=mx.$ The possible values of $m$ lie in an interval of length $\\frac ab,$ where $a$ and $b$ are relatively prime positive integers. What is $a+b?$ $\\textbf{(A)} ~31 \\qquad \\textbf{(B)} ~47 \\qquad \\textbf{(C)} ~62\\qquad \\textbf{(D)} ~72 \\qquad \\textbf{(E)} ~85$",
+        "algebra"
+    ],
+    [
+        "Let $c$ be a real number, and let $z_1$ and $z_2$ be the two complex numbers satisfying the equation\n$z^2 - cz + 10 = 0$. Points $z_1$, $z_2$, $\\frac{1}{z_1}$, and $\\frac{1}{z_2}$ are the vertices of (convex) quadrilateral $\\mathcal{Q}$ in the complex plane. When the area of $\\mathcal{Q}$ obtains its maximum possible value, $c$ is closest to which of the following? $\\textbf{(A) }4.5 \\qquad\\textbf{(B) }5 \\qquad\\textbf{(C) }5.5 \\qquad\\textbf{(D) }6\\qquad\\textbf{(E) }6.5$",
+        "algebra"
+    ],
+    [
+        "Consider the L-shaped region formed by three unit squares joined at their sides, as shown below. Two points $A$ and $B$ are chosen independently and uniformly at random from inside the region. The probability that the midpoint of $\\overline{AB}$ also lies inside this L-shaped region can be expressed as $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$\n\n[asy] unitsize(2cm); draw((0,0)--(2,0)--(2,1)--(1,1)--(1,2)--(0,2)--cycle); draw((0,1)--(1,1)--(1,0),dashed); [/asy] https://youtube.com/watch?v=0UViBt-LYTo&t=0s ",
+        "combinatorics"
+    ],
+    [
+        "Let \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\), and \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) be points in the coordinate plane. Let \\(\\mathcal{F}\\) be the family of segments \\(\\overline{PQ}\\) of unit length lying in the first quadrant with \\(P\\) on the \\(x\\)-axis and \\(Q\\) on the \\(y\\)-axis. There is a unique point \\(C\\) on \\(\\overline{AB}\\), distinct from \\(A\\) and \\(B\\), that does not belong to any segment from \\(\\mathcal{F}\\) other than \\(\\overline{AB}\\). Then \\(OC^2=\\tfrac{p}{q}\\), where \\(p\\) and \\(q\\) are relatively prime positive integers. Find \\(p+q\\). ",
+        "algebra"
+    ],
+    [
+        "Wendy takes Honors Biology at school, a smallish class with only fourteen students (including Wendy) who sit around a circular table. Wendy\u2019s friends Lucy, Starling, and Erin are also in that class. Last Monday none of the fourteen students were absent from class. Before the teacher arrived, Lucy and Starling stretched out a blue piece of yarn between them. Then Wendy and Erin stretched out a red piece of yarn between them at about the same height so that the yarns would intersect if possible. If all possible positions of the students around the table are equally likely, let $m/n$ be the probability that the yarns intersect, where $m$ and $n$ are relatively prime positive integers. Compute $m + n$. ",
+        "algebra"
+    ]
+]

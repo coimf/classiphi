@@ -1,0 +1,594 @@
+[
+    [
+        "The largest number by which the expression $n^3 - n$ is divisible for all possible integral values of $n$, is: $\\textbf{(A)}\\ 2 \\qquad\\textbf{(B)}\\ 3 \\qquad\\textbf{(C)}\\ 4 \\qquad\\textbf{(D)}\\ 5 \\qquad\\textbf{(E)}\\ 6$",
+        "algebra"
+    ],
+    [
+        "The number $695$ is to be written with a factorial base of numeration, that is, $695=a_1+a_2\\times2!+a_3\\times3!+ \\ldots a_n \\times n!$\nwhere $a_1, a_2, a_3... a_n$ are integers such that $0 \\le a_k \\le k,$ and $n!$ means $n(n-1)(n-2)...2 \\times 1$. Find $a_4$ $\\textbf{(A)}\\ 0\\qquad \\textbf{(B)}\\ 1\\qquad \\textbf{(C)}\\ 2\\qquad \\textbf{(D)}\\ 3\\qquad \\textbf{(E)}\\ 4$",
+        "algebra"
+    ],
+    [
+        "Let the set consisting of the squares of the positive integers be called $u$ ; thus $u$ is the set $1, 4, 9, 16 \\ldots$.\nIf a certain operation on one or more members of the set always yields a member of the set,\nwe say that the set is closed under that operation. Then $u$ is closed under: $\\textbf{(A)}\\ \\text{Addition}\\qquad \\textbf{(B)}\\ \\text{Multiplication} \\qquad \\textbf{(C)}\\ \\text{Division} \\qquad\\\\ \\textbf{(D)}\\ \\text{Extraction of a positive integral root}\\qquad \\textbf{(E)}\\ \\text{None of these}$",
+        "algebra"
+    ],
+    [
+        "The number of solutions in positive integers of $2x+3y=763$ is: $\\textbf{(A)}\\ 255 \\qquad \\textbf{(B)}\\ 254\\qquad \\textbf{(C)}\\ 128 \\qquad \\textbf{(D)}\\ 127 \\qquad \\textbf{(E)}\\ 0$",
+        "algebra"
+    ],
+    [
+        "The lengths of the sides of a triangle are integers, and its area is also an integer.\nOne side is $21$ and the perimeter is $48$. The shortest side is: $\\textbf{(A)}\\ 8 \\qquad \\textbf{(B)}\\ 10\\qquad \\textbf{(C)}\\ 12 \\qquad \\textbf{(D)}\\ 14 \\qquad \\textbf{(E)}\\ 16$",
+        "geometry"
+    ],
+    [
+        "The smallest positive integer $x$ for which $1260x=N^3$, where $N$ is an integer, is: $\\textbf{(A)}\\ 1050 \\qquad \\textbf{(B)}\\ 1260 \\qquad \\textbf{(C)}\\ 1260^2 \\qquad \\textbf{(D)}\\ 7350 \\qquad \\textbf{(E)}\\ 44100$",
+        "algebra"
+    ],
+    [
+        "Let $f(x)=x^2+3x+2$ and let $S$ be the set of integers $\\{0, 1, 2, \\dots, 25 \\}$.\nThe number of members $s$ of $S$ such that $f(s)$ has remainder zero when divided by $6$ is: $\\textbf{(A)}\\ 25\\qquad \\textbf{(B)}\\ 22\\qquad \\textbf{(C)}\\ 21\\qquad \\textbf{(D)}\\ 18 \\qquad \\textbf{(E)}\\ 17$",
+        "algebra"
+    ],
+    [
+        "When a positive integer $x$ is divided by a positive integer $y$, the quotient is $u$ and the remainder is $v$, where $u$ and $v$ are integers.\nWhat is the remainder when $x+2uy$ is divided by $y$? $\\textbf{(A)}\\ 0 \\qquad \\textbf{(B)}\\ 2u \\qquad \\textbf{(C)}\\ 3u \\qquad \\textbf{(D)}\\ v \\qquad \\textbf{(E)}\\ 2v$",
+        "algebra"
+    ],
+    [
+        "Let $m$ be a positive integer and let the lines $13x+11y=700$ and $y=mx-1$ intersect in a point whose coordinates are integers. Then m can be: $\\text{(A) 4 only} \\quad \\text{(B) 5 only} \\quad \\text{(C) 6 only} \\quad \\text{(D) 7 only} \\\\ \\text{(E) one of the integers 4,5,6,7 and one other positive integer}$",
+        "algebra"
+    ],
+    [
+        "For natural numbers, when $P$ is divided by $D$, the quotient is $Q$ and the remainder is $R$. When $Q$ is divided by $D'$, the quotient is $Q'$ and the remainder is $R'$. Then, when $P$ is divided by $DD'$, the remainder is: $\\textbf{(A)}\\ R+R'D\\qquad \\textbf{(B)}\\ R'+RD\\qquad \\textbf{(C)}\\ RR'\\qquad \\textbf{(D)}\\ R\\qquad \\textbf{(E)}\\ R'$",
+        "algebra"
+    ],
+    [
+        "For every odd number $p>1$ we have: $\\textbf{(A)}\\ (p-1)^{\\frac{1}{2}(p-1)}-1 \\; \\text{is divisible by} \\; p-2\\qquad \\textbf{(B)}\\ (p-1)^{\\frac{1}{2}(p-1)}+1 \\; \\text{is divisible by} \\; p\\\\ \\textbf{(C)}\\ (p-1)^{\\frac{1}{2}(p-1)} \\; \\text{is divisible by} \\; p\\qquad \\textbf{(D)}\\ (p-1)^{\\frac{1}{2}(p-1)}+1 \\; \\text{is divisible by} \\; p+1\\\\ \\textbf{(E)}\\ (p-1)^{\\frac{1}{2}(p-1)}-1 \\; \\text{is divisible by} \\; p-1$",
+        "algebra"
+    ],
+    [
+        "For each integer $N>1$, there is a mathematical system in which two or more positive integers are defined\nto be congruent if they leave the same non-negative remainder when divided by $N.$ If $69,90$, and $125$ are\ncongruent in one such system, then in that same system, $81$ is congruent to $\\textbf{(A) }3\\qquad \\textbf{(B) }4\\qquad \\textbf{(C) }5\\qquad \\textbf{(D) }7\\qquad \\textbf{(E) }8$",
+        "algebra"
+    ],
+    [
+        "Define $n_a!$ for $n$ and $a$ positive to be \\[n_a\u00a0! = n (n-a)(n-2a)(n-3a)...(n-ka)\\] where $k$ is the greatest integer for which $n>ka$. Then the quotient $72_8!/18_2!$ is equal to $\\textbf{(A)}\\ 4^5 \\qquad \\textbf{(B)}\\ 4^6 \\qquad \\textbf{(C)}\\ 4^8 \\qquad \\textbf{(D)}\\ 4^9 \\qquad \\textbf{(E)}\\ 4^{12}$",
+        "algebra"
+    ],
+    [
+        "The integers greater than one are arranged in five columns as follows: \\[\\begin{tabular}{c c c c c}\\ & 2 & 3 & 4 & 5\\\\ 9 & 8 & 7 & 6 &\\ \\\\ \\ & 10 & 11 & 12 & 13\\\\ 17 & 16 & 15 & 14 &\\ \\\\ \\ &. &. &. &.\\\\ \\end{tabular}\\] (Four consecutive integers appear in each row; in the first, third and other odd numbered rows, the integers appear in the last four columns and increase from left to right; in the second, fourth and other even numbered rows, the integers appear in the first four columns and increase from right to left.) In which column will the number $1,000$ fall? $\\mathrm{(A)\\ } \\text{first} \\qquad \\mathrm{(B) \\ }\\text{second} \\qquad \\mathrm{(C) \\ } \\text{third} \\qquad \\mathrm{(D) \\ } \\text{fourth} \\qquad \\mathrm{(E) \\ }\\text{fifth}$",
+        "algebra"
+    ],
+    [
+        "In a certain year, January had exactly four Tuesdays and four Saturdays. On what day did January $1$ fall that year? $\\text{(A)}\\ \\text{Monday} \\qquad \\text{(B)}\\ \\text{Tuesday} \\qquad \\text{(C)}\\ \\text{Wednesday} \\qquad \\text{(D)}\\ \\text{Friday} \\qquad \\text{(E)}\\ \\text{Saturday}$",
+        "algebra"
+    ],
+    [
+        "In a magic triangle, each of the six whole numbers $10-15$ is placed in one of the circles so that the sum, $S$, of the three numbers on each side of the triangle is the same. The largest possible value for $S$ is [asy] draw(circle((0,0),1)); draw(dir(60)--6*dir(60)); draw(circle(7*dir(60),1)); draw(8*dir(60)--13*dir(60)); draw(circle(14*dir(60),1)); draw((1,0)--(6,0)); draw(circle((7,0),1)); draw((8,0)--(13,0)); draw(circle((14,0),1)); draw(circle((10.5,6.0621778264910705273460621952706),1)); draw((13.5,0.86602540378443864676372317075294)--(11,5.1961524227066318805823390245176)); draw((10,6.9282032302755091741097853660235)--(7.5,11.258330249197702407928401219788)); [/asy] $\\text{(A)}\\ 36 \\qquad \\text{(B)}\\ 37 \\qquad \\text{(C)}\\ 38 \\qquad \\text{(D)}\\ 39 \\qquad \\text{(E)}\\ 40$",
+        "algebra"
+    ],
+    [
+        "Let $\\text{o}$ be an odd whole number and let $\\text{n}$ be any whole number. Which of the following statements about the whole number $(\\text{o}^2+\\text{no})$ is always true? $\\text{(A)}\\ \\text{it is always odd} \\qquad \\text{(B)}\\ \\text{it is always even}$ $\\text{(C)}\\ \\text{it is even only if n is even} \\qquad \\text{(D)}\\ \\text{it is odd only if n is odd}$ $\\text{(E)}\\ \\text{it is odd only if n is even}$ ",
+        "algebra"
+    ],
+    [
+        "A contest began at noon one day and ended $1000$ minutes later. At what time did the contest end? $\\text{(A)}\\ \\text{10:00 p.m.} \\qquad \\text{(B)}\\ \\text{midnight} \\qquad \\text{(C)}\\ \\text{2:30 a.m.} \\qquad \\text{(D)}\\ \\text{4:40 a.m.} \\qquad \\text{(E)}\\ \\text{6:40 a.m.}$",
+        "algebra"
+    ],
+    [
+        "In the product shown, $\\text{B}$ is a digit. The value of $\\text{B}$ is \\[\\begin{array}{rr} &\\text{B}2 \\\\ \\times& 7\\text{B} \\\\ \\hline &6396 \\\\ \\end{array}\\] $\\text{(A)}\\ 3 \\qquad \\text{(B)}\\ 5 \\qquad \\text{(C)}\\ 6 \\qquad \\text{(D)}\\ 7 \\qquad \\text{(E)}\\ 8$",
+        "algebra"
+    ],
+    [
+        "When finding the sum $\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{6}+\\frac{1}{7}$, the least common denominator used is $\\text{(A)}\\ 120 \\qquad \\text{(B)}\\ 210 \\qquad \\text{(C)}\\ 420 \\qquad \\text{(D)}\\ 840 \\qquad \\text{(E)}\\ 5040$",
+        "algebra"
+    ],
+    [
+        "Each integer $1$ through $9$ is written on a separate slip of paper and all nine slips are put into a hat.\nJack picks one of these slips at random and puts it back. Then Jill picks a slip at random.\nWhich digit is most likely to be the units digit of the sum of Jack's integer and Jill's integer? $\\textbf{(A)}\\ 0\\qquad \\textbf{(B)}\\ 1\\qquad \\textbf{(C)}\\ 8\\qquad \\textbf{(D)}\\ 9\\qquad \\textbf{(E)}\\ \\text{each digit is equally likely}$",
+        "combinatorics"
+    ],
+    [
+        "Chris' birthday is on a Thursday this year. What day of the week will it be $60$ days after her birthday? $\\text{(A)}\\ \\text{Monday} \\qquad \\text{(B)}\\ \\text{Wednesday} \\qquad \\text{(C)}\\ \\text{Thursday} \\qquad \\text{(D)}\\ \\text{Friday} \\qquad \\text{(E)}\\ \\text{Saturday}$",
+        "algebra"
+    ],
+    [
+        "A lattice point is a point in the plane with integer coordinates. How many lattice points are on the line segment whose endpoints are $(3,17)$ and $(48,281)$? (Include both endpoints of the segment in your count.) $\\textbf{(A)}\\ 2\\qquad\\textbf{(B)}\\ 4\\qquad\\textbf{(C)}\\ 6\\qquad\\textbf{(D)}\\ 16\\qquad\\textbf{(E)}\\ 46$",
+        "geometry"
+    ],
+    [
+        "In how many ways can $47$ be written as the sum of two primes? $\\text{(A)}\\ 0 \\qquad \\text{(B)}\\ 1 \\qquad \\text{(C)}\\ 2 \\qquad \\text{(D)}\\ 3 \\qquad \\text{(E)}\\ \\text{more than 3}$",
+        "combinatorics"
+    ],
+    [
+        "The letters $\\text{A}$, $\\text{J}$, $\\text{H}$, $\\text{S}$, $\\text{M}$, $\\text{E}$ and the digits $1$, $9$, $8$, $9$ are \"cycled\" separately as follows and put together in a numbered list: \\[\\begin{tabular}[t]{lccc} & & AJHSME & 1989 \\\\ & & & \\\\ 1. & & JHSMEA & 9891 \\\\ 2. & & HSMEAJ & 8919 \\\\ 3. & & SMEAJH & 9198 \\\\ & &........ & \\end{tabular}\\] What is the number of the line on which $\\text{AJHSME 1989}$ will appear for the first time? $\\text{(A)}\\ 6 \\qquad \\text{(B)}\\ 10 \\qquad \\text{(C)}\\ 12 \\qquad \\text{(D)}\\ 18 \\qquad \\text{(E)}\\ 24$",
+        "algebra"
+    ],
+    [
+        "Every time these two wheels are spun, two numbers are selected by the pointers. What is the probability that the sum of the two selected numbers is even? $\\text{(A)}\\ \\frac{1}{6} \\qquad \\text{(B)}\\ \\frac{3}{7} \\qquad \\text{(C)}\\ \\frac{1}{2} \\qquad \\text{(D)}\\ \\frac{2}{3} \\qquad \\text{(E)}\\ \\frac{5}{7}$[asy] unitsize(36); draw(circle((-3,0),1)); draw(circle((0,0),1)); draw((0,0)--dir(30)); draw((0,0)--(0,-1)); draw((0,0)--dir(150)); draw((-2.293,.707)--(-3.707,-.707)); draw((-2.293,-.707)--(-3.707,.707)); fill((-2.9,1)--(-2.65,1.25)--(-2.65,1.6)--(-3.35,1.6)--(-3.35,1.25)--(-3.1,1)--cycle,black); fill((.1,1)--(.35,1.25)--(.35,1.6)--(-.35,1.6)--(-.35,1.25)--(-.1,1)--cycle,black); label(\"$5$\",(-3,.2),N); label(\"$3$\",(-3.2,0),W); label(\"$4$\",(-3,-.2),S); label(\"$8$\",(-2.8,0),E); label(\"$6$\",(0,.2),N); label(\"$9$\",(-.2,.1),SW); label(\"$7$\",(.2,.1),SE); [/asy]",
+        "combinatorics"
+    ],
+    [
+        "Several students are seated at a large circular table. They pass around a bag containing $100$ pieces of candy. Each person receives the bag, takes one piece of candy and then passes the bag to the next person. If Chris takes the first and last piece of candy, then the number of students at the table could be $\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 11 \\qquad \\text{(C)}\\ 19 \\qquad \\text{(D)}\\ 20 \\qquad \\text{(E)}\\ 25$",
+        "combinatorics"
+    ],
+    [
+        "How many zeros are at the end of the product\n\n\n\\[25\\times 25\\times 25\\times 25\\times 25\\times 25\\times 25\\times 8\\times 8\\times 8?\\] $\\text{(A)}\\ 3 \\qquad \\text{(B)}\\ 6 \\qquad \\text{(C)}\\ 9 \\qquad \\text{(D)}\\ 10 \\qquad \\text{(E)}\\ 12$",
+        "algebra"
+    ],
+    [
+        "A \"domino\" is made up of two small squares:\n\n\n[asy] unitsize(12); fill((0,0)--(1,0)--(1,1)--(0,1)--cycle,black); draw((1,1)--(2,1)--(2,0)--(1,0)); [/asy]\n\n\nWhich of the \"checkerboards\" illustrated below CANNOT be covered exactly and completely by a whole number of non-overlapping dominoes? [asy] unitsize(12); fill((0,0)--(1,0)--(1,1)--(0,1)--cycle,black); fill((1,1)--(1,2)--(2,2)--(2,1)--cycle,black); fill((2,0)--(3,0)--(3,1)--(2,1)--cycle,black); fill((3,1)--(4,1)--(4,2)--(3,2)--cycle,black); fill((0,2)--(1,2)--(1,3)--(0,3)--cycle,black); fill((2,2)--(2,3)--(3,3)--(3,2)--cycle,black); draw((0,0)--(0,3)--(4,3)--(4,0)--cycle); draw((6,0)--(11,0)--(11,3)--(6,3)--cycle); fill((6,0)--(7,0)--(7,1)--(6,1)--cycle,black); fill((8,0)--(9,0)--(9,1)--(8,1)--cycle,black); fill((10,0)--(11,0)--(11,1)--(10,1)--cycle,black); fill((7,1)--(7,2)--(8,2)--(8,1)--cycle,black); fill((9,1)--(9,2)--(10,2)--(10,1)--cycle,black); fill((6,2)--(6,3)--(7,3)--(7,2)--cycle,black); fill((8,2)--(8,3)--(9,3)--(9,2)--cycle,black); fill((10,2)--(10,3)--(11,3)--(11,2)--cycle,black); draw((13,-1)--(13,3)--(17,3)--(17,-1)--cycle); fill((13,3)--(14,3)--(14,2)--(13,2)--cycle,black); fill((15,3)--(16,3)--(16,2)--(15,2)--cycle,black); fill((14,2)--(15,2)--(15,1)--(14,1)--cycle,black); fill((16,2)--(17,2)--(17,1)--(16,1)--cycle,black); fill((13,1)--(14,1)--(14,0)--(13,0)--cycle,black); fill((15,1)--(16,1)--(16,0)--(15,0)--cycle,black); fill((14,0)--(15,0)--(15,-1)--(14,-1)--cycle,black); fill((16,0)--(17,0)--(17,-1)--(16,-1)--cycle,black); draw((19,3)--(24,3)--(24,-1)--(19,-1)--cycle,black); fill((19,3)--(20,3)--(20,2)--(19,2)--cycle,black); fill((21,3)--(22,3)--(22,2)--(21,2)--cycle,black); fill((23,3)--(24,3)--(24,2)--(23,2)--cycle,black); fill((20,2)--(21,2)--(21,1)--(20,1)--cycle,black); fill((22,2)--(23,2)--(23,1)--(22,1)--cycle,black); fill((19,1)--(20,1)--(20,0)--(19,0)--cycle,black); fill((21,1)--(22,1)--(22,0)--(21,0)--cycle,black); fill((23,1)--(24,1)--(24,0)--(23,0)--cycle,black); fill((20,0)--(21,0)--(21,-1)--(20,-1)--cycle,black); fill((22,0)--(23,0)--(23,-1)--(22,-1)--cycle,black); draw((26,3)--(29,3)--(29,-3)--(26,-3)--cycle); fill((26,3)--(27,3)--(27,2)--(26,2)--cycle,black); fill((28,3)--(29,3)--(29,2)--(28,2)--cycle,black); fill((27,2)--(28,2)--(28,1)--(27,1)--cycle,black); fill((26,1)--(27,1)--(27,0)--(26,0)--cycle,black); fill((28,1)--(29,1)--(29,0)--(28,0)--cycle,black); fill((27,0)--(28,0)--(28,-1)--(27,-1)--cycle,black); fill((26,-1)--(27,-1)--(27,-2)--(26,-2)--cycle,black); fill((28,-1)--(29,-1)--(29,-2)--(28,-2)--cycle,black); fill((27,-2)--(28,-2)--(28,-3)--(27,-3)--cycle,black); [/asy] $\\text{(A)}\\ 3\\times 4 \\qquad \\text{(B)}\\ 3\\times 5 \\qquad \\text{(C)}\\ 4\\times 4 \\qquad \\text{(D)}\\ 4\\times 5 \\qquad \\text{(E)}\\ 6\\times 3$",
+        "algebra"
+    ],
+    [
+        "If $a,b$ and $c$ are positive integers and $a$ and $b$ are odd, then $3^a+(b-1)^2c$ is $\\text{(A) odd for all choices of c} \\quad \\text{(B) even for all choices of c} \\quad\\\\ \\text{(C) odd if c is even; even if c is odd} \\quad\\\\ \\text{(D) odd if c is odd; even if c is even} \\quad\\\\ \\text{(E) odd if c is not a multiple of 3; even if c is a multiple of 3}$",
+        "algebra"
+    ],
+    [
+        "Five points on a circle are numbered 1,2,3,4, and 5 in clockwise order. A bug jumps in a clockwise direction from one point to another around the circle; if it is on an odd-numbered point, it moves one point, and if it is on an even-numbered point, it moves two points. If the bug begins on point 5, after 1995 jumps it will be on point $\\mathrm{(A) \\ 1 } \\qquad \\mathrm{(B) \\ 2 } \\qquad \\mathrm{(C) \\ 3 } \\qquad \\mathrm{(D) \\ 4 } \\qquad \\mathrm{(E) \\ 5 }$",
+        "combinatorics"
+    ],
+    [
+        "Consider the triangular array of numbers with 0,1,2,3,... along the sides and interior numbers obtained by adding the two adjacent numbers in the previous row. Rows 1 through 6 are shown. \\[\\begin{tabular}{ccccccccccc} & & & & & 0 & & & & & \\\\ & & & & 1 & & 1 & & & & \\\\ & & & 2 & & 2 & & 2 & & & \\\\ & & 3 & & 4 & & 4 & & 3 & & \\\\ & 4 & & 7 & & 8 & & 7 & & 4 & \\\\ 5 & & 11 & & 15 & & 15 & & 11 & & 5 \\end{tabular}\\] Let $f(n)$ denote the sum of the numbers in row $n$. What is the remainder when $f(100)$ is divided by 100? $\\mathrm{(A) \\ 12 } \\qquad \\mathrm{(B) \\ 30 } \\qquad \\mathrm{(C) \\ 50 } \\qquad \\mathrm{(D) \\ 62 } \\qquad \\mathrm{(E) \\ 74 }$",
+        "algebra"
+    ],
+    [
+        "Among the integers $1, 2,\\dots, 1997$, what is the maximum number of integers that can be selected such that the sum of any two selected numbers is not a multiple of $7$? ",
+        "combinatorics"
+    ],
+    [
+        "Consider all triangles $ABC$ satisfying in the following conditions: $AB = AC$, $D$ is a point on $\\overline{AC}$ for which $\\overline{BD} \\perp \\overline{AC}$, $AC$ and $CD$ are integers, and $BD^{2} = 57$. Among all such triangles, the smallest possible value of $AC$ is [asy] pair A,B,C,D; A=(5,12); B=origin; C=(10,0); D=(8.52071005917,3.55029585799); draw(A--B--C--cycle); draw(B--D); label(\"$A$\",A,N); label(\"$B$\",B,SW); label(\"$C$\",C,SE); label(\"$D$\",D,NE); [/asy] $\\textrm{(A)} \\ 9 \\qquad \\textrm{(B)} \\ 10 \\qquad \\textrm{(C)} \\ 11 \\qquad \\textrm{(D)} \\ 12 \\qquad \\textrm{(E)} \\ 13$",
+        "geometry"
+    ],
+    [
+        "There are unique integers $a_{2},a_{3},a_{4},a_{5},a_{6},a_{7}$ such that \\[\\frac {5}{7} = \\frac {a_{2}}{2!} + \\frac {a_{3}}{3!} + \\frac {a_{4}}{4!} + \\frac {a_{5}}{5!} + \\frac {a_{6}}{6!} + \\frac {a_{7}}{7!}\\] where $0\\leq a_{i} < i$ for $i = 2,3,\\ldots,7$. Find $a_{2} + a_{3} + a_{4} + a_{5} + a_{6} + a_{7}$. $\\textrm{(A)} \\ 8 \\qquad \\textrm{(B)} \\ 9 \\qquad \\textrm{(C)} \\ 10 \\qquad \\textrm{(D)} \\ 11 \\qquad \\textrm{(E)} \\ 12$",
+        "algebra"
+    ],
+    [
+        "Boris has an incredible coin-changing machine. When he puts in a quarter, it returns five nickels; when he puts in a nickel, it returns five pennies; and when he puts in a penny, it returns five quarters. Boris starts with just one penny. Which of the following amounts could Boris have after using the machine repeatedly? $\\textbf{(A)} $3.63 \\qquad \\textbf{(B)} $5.13 \\qquad \\textbf{(C)}$6.30 \\qquad \\textbf{(D)} $7.45 \\qquad \\textbf{(E)} $9.07$",
+        "algebra"
+    ],
+    [
+        "At Olympic High School, $\\frac{2}{5}$ of the freshmen and $\\frac{4}{5}$ of the sophomores took the AMC-10. Given that the number of freshmen and sophomore contestants was the same, which of the following must be true? $\\textbf{(A)}$ There are five times as many sophomores as freshmen. $\\textbf{(B)}$ There are twice as many sophomores as freshmen. $\\textbf{(C)}$ There are as many freshmen as sophomores. $\\textbf{(D)}$ There are twice as many freshmen as sophomores. $\\textbf{(E)}$ There are five times as many freshmen as sophomores. ",
+        "algebra"
+    ],
+    [
+        "In the year $2001$, the United States will host the International Mathematical Olympiad. Let $I,M,$ and $O$ be distinct positive integers such that the product $I \\cdot M \\cdot O = 2001$. What is the largest possible value of the sum $I + M + O$? $\\textbf{(A)}\\ 23 \\qquad \\textbf{(B)}\\ 55 \\qquad \\textbf{(C)}\\ 99 \\qquad \\textbf{(D)}\\ 111 \\qquad \\textbf{(E)}\\ 671$",
+        "algebra"
+    ],
+    [
+        "One morning each member of Angela's family drank an 8-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? $\\text {(A)}\\ 3 \\qquad \\text {(B)}\\ 4 \\qquad \\text {(C)}\\ 5 \\qquad \\text {(D)}\\ 6 \\qquad \\text {(E)}\\ 7$",
+        "algebra"
+    ],
+    [
+        "A checkerboard of $13$ rows and $17$ columns has a number written in each square, beginning in the upper left corner, so that the first row is numbered $1,2,\\ldots,17$, the second row $18,19,\\ldots,34$, and so on down the board. If the board is renumbered so that the left column, top to bottom, is $1,2,\\ldots,13,$, the second column $14,15,\\ldots,26$ and so on across the board, some squares have the same numbers in both numbering systems. Find the sum of the numbers in these squares (under either system). $\\text {(A)}\\ 222 \\qquad \\text {(B)}\\ 333\\qquad \\text {(C)}\\ 444 \\qquad \\text {(D)}\\ 555 \\qquad \\text {(E)}\\ 666$",
+        "combinatorics"
+    ],
+    [
+        "In year $N$, the $300^{\\text{th}}$ day of the year is a Tuesday. In year $N+1$, the $200^{\\text{th}}$ day is also a Tuesday. On what day of the week did the $100$ th day of year $N-1$ occur? $\\text {(A)}\\ \\text{Thursday} \\qquad \\text {(B)}\\ \\text{Friday}\\qquad \\text {(C)}\\ \\text{Saturday}\\qquad \\text {(D)}\\ \\text{Sunday}\\qquad \\text {(E)}\\ \\text{Monday}$",
+        "algebra"
+    ],
+    [
+        "Professor Gamble buys a lottery ticket, which requires that he pick six different integers from $1$ through $46$, inclusive. He chooses his numbers so that the sum of the base-ten logarithms of his six numbers is an integer. It so happens that the integers on the winning ticket have the same property\u2014 the sum of the base-ten logarithms is an integer. What is the probability that Professor Gamble holds the winning ticket? $\\textbf {(A)}\\ 1/5 \\qquad \\textbf {(B)}\\ 1/4 \\qquad \\textbf {(C)}\\ 1/3 \\qquad \\textbf {(D)}\\ 1/2 \\qquad \\textbf {(E)}\\ 1$",
+        "combinatorics"
+    ],
+    [
+        "Two different prime numbers between $4$ and $18$ are chosen. When their sum is subtracted from their product, which of the following numbers could be obtained? $\\textbf{(A)}\\ 22 \\qquad\\textbf{(B)}\\ 60 \\qquad\\textbf{(C)}\\ 119 \\qquad\\textbf{(D)}\\ 180 \\qquad\\textbf{(E)}\\ 231$",
+        "combinatorics"
+    ],
+    [
+        "The ratio $\\frac{10^{2000}+10^{2002}}{10^{2001}+10^{2001}}$ is closest to which of the following numbers? $\\textbf{(A)}\\ 0.1 \\qquad \\textbf{(B)}\\ 0.2 \\qquad \\textbf{(C)}\\ 1 \\qquad \\textbf{(D)}\\ 5 \\qquad \\textbf{(E)}\\ 10$",
+        "algebra"
+    ],
+    [
+        "The ratio $\\frac{2^{2001}\\cdot3^{2003}}{6^{2002}}$ is: $\\mathrm{(A) \\ } 1/6\\qquad \\mathrm{(B) \\ } 1/3\\qquad \\mathrm{(C) \\ } 1/2\\qquad \\mathrm{(D) \\ } 2/3\\qquad \\mathrm{(E) \\ } 3/2\\qquad$",
+        "algebra"
+    ],
+    [
+        "For how many integers $n$ is $\\dfrac n{20-n}$ the square of an integer? $\\mathrm{(A)}\\ 1 \\qquad\\mathrm{(B)}\\ 2 \\qquad\\mathrm{(C)}\\ 3 \\qquad\\mathrm{(D)}\\ 4 \\qquad\\mathrm{(E)}\\ 10$",
+        "algebra"
+    ],
+    [
+        "How many four-digit numbers $N$ have the property that the three-digit number obtained by removing the leftmost digit is one ninth of $N$? $\\mathrm{(A)}\\ 4 \\qquad\\mathrm{(B)}\\ 5 \\qquad\\mathrm{(C)}\\ 6 \\qquad\\mathrm{(D)}\\ 7 \\qquad\\mathrm{(E)}\\ 8$",
+        "combinatorics"
+    ],
+    [
+        "For how many positive integers $n$ is $n^2 - 3n + 2$ a prime number? $\\mathrm{(A)}\\ \\text{none} \\qquad\\mathrm{(B)}\\ \\text{one} \\qquad\\mathrm{(C)}\\ \\text{two} \\qquad\\mathrm{(D)}\\ \\text{more\\ than\\ two,\\ but\\ finitely\\ many} \\qquad\\mathrm{(E)}\\ \\text{infinitely\\ many}$",
+        "algebra"
+    ],
+    [
+        "Given that $\\frac{((3!)!)!}{3!} = k \\cdot n!,$ where $k$ and $n$ are positive integers and $n$ is as large as possible, find $k + n.$ ",
+        "algebra"
+    ],
+    [
+        "What is the probability that an integer in the set $\\{1,2,3,...,100\\}$ is divisible by $2$ and not divisible by $3$? $\\mathrm{(A) \\ } \\frac{1}{6}\\qquad \\mathrm{(B) \\ } \\frac{33}{100}\\qquad \\mathrm{(C) \\ } \\frac{17}{50}\\qquad \\mathrm{(D) \\ } \\frac{1}{2}\\qquad \\mathrm{(E) \\ } \\frac{18}{25}$",
+        "combinatorics"
+    ],
+    [
+        "There are $100$ players in a single tennis tournament. The tournament is single elimination, meaning that a player who loses a match is eliminated. In the first round, the strongest $28$ players are given a bye, and the remaining $72$ players are paired off to play. After each round, the remaining players play in the next round. The match continues until only one player remains unbeaten. The total number of matches played is $\\qquad\\textbf{(A) } \\text{a prime number}$ $\\qquad\\textbf{(B) } \\text{divisible by 2}$ $\\qquad\\textbf{(C) } \\text{divisible by 5}$ $\\qquad\\textbf{(D) } \\text{divisible by 7}$ $\\qquad\\textbf{(E) } \\text{divisible by 11}$ ",
+        "algebra"
+    ],
+    [
+        "Sally has five red cards numbered $1$ through $5$ and four blue cards numbered $3$ through $6$. She stacks the cards so that the colors alternate and so that the number on each red card divides evenly into the number on each neighboring blue card. What is the sum of the numbers on the middle three cards? $\\mathrm{(A) \\ } 8\\qquad \\mathrm{(B) \\ } 9\\qquad \\mathrm{(C) \\ } 10\\qquad \\mathrm{(D) \\ } 11\\qquad \\mathrm{(E) \\ } 12$",
+        "combinatorics"
+    ],
+    [
+        "What is the probability that a randomly drawn positive factor of $60$ is less than $7$? $\\mathrm{(A) \\ } \\frac{1}{10}\\qquad \\mathrm{(B) \\ } \\frac{1}{6}\\qquad \\mathrm{(C) \\ } \\frac{1}{4}\\qquad \\mathrm{(D) \\ } \\frac{1}{3}\\qquad \\mathrm{(E) \\ } \\frac{1}{2}$",
+        "combinatorics"
+    ],
+    [
+        "Is $4\\sqrt{4-2\\sqrt{3}}+\\sqrt{97-56\\sqrt{3}}$ an integer? ",
+        "algebra"
+    ],
+    [
+        "For each positive integer $k$, let $S_k$ denote the increasing arithmetic sequence of integers whose first term is $1$ and whose common difference is $k$. For example, $S_3$ is the sequence $1,4,7,10,\\ldots.$ For how many values of $k$ does $S_k$ contain the term $2005$? ",
+        "algebra"
+    ],
+    [
+        "How many positive integers $n$ satisfy the following condition: \\[\\left(130n\\right)^{50} > n^{100} > 2^{200} \\ \\text{?}\\] $\\textbf{(A) } 0\\qquad \\textbf{(B) } 7\\qquad \\textbf{(C) } 12\\qquad \\textbf{(D) } 65\\qquad \\textbf{(E) } 125$",
+        "algebra"
+    ],
+    [
+        "How many three-digit numbers satisfy the property that the middle digit is the average of the first and the last digits? $\\textbf{(A) } 41\\qquad \\textbf{(B) } 42\\qquad \\textbf{(C) } 43\\qquad \\textbf{(D) } 44\\qquad \\textbf{(E) } 45$",
+        "combinatorics"
+    ],
+    [
+        "The sum of the digits of a two-digit number is subtracted from the number. The units digit of the result is $6$. How many two-digit numbers have this property? $\\textbf{(A) } 5\\qquad \\textbf{(B) } 7\\qquad \\textbf{(C) } 9\\qquad \\textbf{(D) } 10\\qquad \\textbf{(E) } 19$",
+        "algebra"
+    ],
+    [
+        "For each pair of real numbers $a \\neq b$, define the operation $\\star$ as \\[(a \\star b) = \\frac{a+b}{a-b}.\\] What is the value of $((1 \\star 2) \\star 3)$? $\\textbf{(A) } -\\frac{2}{3}\\qquad \\textbf{(B) } -\\frac{1}{5}\\qquad \\textbf{(C) } 0\\qquad \\textbf{(D) } \\frac{1}{2}\\qquad \\textbf{(E) } \\text{This value is not defined.}$",
+        "algebra"
+    ],
+    [
+        "For how many positive integers $n$ does $1+2+\\dotsb+n$ evenly divide $6n$? $\\textbf{(A) } 3\\qquad \\textbf{(B) } 5\\qquad \\textbf{(C) } 7\\qquad \\textbf{(D) } 9\\qquad \\textbf{(E) } 11$",
+        "algebra"
+    ],
+    [
+        "Let $S$ be the set of the $2005$ smallest positive multiples of $4$, and let $T$ be the set of the $2005$ smallest positive multiples of $6$. How many elements are common to $S$ and $T$? $\\textbf{(A) } 166\\qquad \\textbf{(B) } 333\\qquad \\textbf{(C) } 500\\qquad \\textbf{(D) } 668\\qquad \\textbf{(E) } 1001$",
+        "algebra"
+    ],
+    [
+        "Let $x$ and $y$ be two-digit integers such that $y$ is obtained by reversing the digits\nof $x$. The integers $x$ and $y$ satisfy $x^2 - y^2 = m^2$ for some positive integer $m$.\nWhat is $x + y + m$? $\\textbf{(A) } 88 \\qquad \\textbf{(B) } 112 \\qquad \\textbf{(C) } 116 \\qquad \\textbf{(D) } 144 \\qquad \\textbf{(E) } 154$",
+        "algebra"
+    ],
+    [
+        "Six distinct positive integers are randomly chosen between $1$ and $2006$, inclusive. What is the probability that some pair of these integers has a difference that is a multiple of $5$? $\\textbf{(A) } \\frac{1}{2}\\qquad\\textbf{(B) } \\frac{3}{5}\\qquad\\textbf{(C) } \\frac{2}{3}\\qquad\\textbf{(D) } \\frac{4}{5}\\qquad\\textbf{(E) } 1\\qquad$",
+        "combinatorics"
+    ],
+    [
+        "Leap Day, February $29$, $2004$, occurred on a Sunday. On what day of the week will Leap Day, February $29$, $2020$, occur? $\\textbf{(A) } \\textrm{Tuesday} \\qquad \\textbf{(B) } \\textrm{Wednesday} \\qquad \\textbf{(C) } \\textrm{Thursday} \\qquad \\textbf{(D) } \\textrm{Friday} \\qquad \\textbf{(E) } \\textrm{Saturday}$",
+        "algebra"
+    ],
+    [
+        "Elmo makes $N$ sandwiches for a fundraiser. For each sandwich he uses $B$ globs of peanut butter at $4\\cent$ per glob and $J$ blobs of jam at $5\\cent$ per blob. The cost of the peanut butter and jam to make all the sandwiches is $$ 2.53$. Assume that $B$, $J$, and $N$ are positive integers with $N>1$. What is the cost of the jam Elmo uses to make the sandwiches? $\\mathrm{(A) \\ } $ 1.05\\qquad \\mathrm{(B) \\ } $ 1.25\\qquad \\mathrm{(C) \\ } $ 1.45\\qquad \\mathrm{(D) \\ } $ 1.65\\qquad \\mathrm{(E) \\ } $ 1.85$",
+        "algebra"
+    ],
+    [
+        "Mr. Jones has eight children of different ages. On a family trip his oldest child, who is 9, spots a license plate with a 4-digit number in which each of two digits appears two times. \"Look, daddy!\" she exclaims. \"That number is evenly divisible by the age of each of us kids!\" \"That's right,\" replies Mr. Jones, \"and the last two digits just happen to be my age.\" Which of the following is not the age of one of Mr. Jones's children? $\\mathrm{(A) \\ } 4\\qquad \\mathrm{(B) \\ } 5\\qquad \\mathrm{(C) \\ } 6\\qquad \\mathrm{(D) \\ } 7\\qquad \\mathrm{(E) \\ } 8$",
+        "algebra"
+    ],
+    [
+        "Two farmers agree that pigs are worth $300$ dollars and that goats are worth $210$ dollars. When one farmer owes the other money, he pays the debt in pigs or goats, with \"change\" received in the form of goats or pigs as necessary. (For example, a $390$ dollar debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way? $\\textbf{(A) } 5\\qquad \\textbf{(B) } 10\\qquad \\textbf{(C) } 30\\qquad \\textbf{(D) } 90\\qquad \\textbf{(E) } 210$",
+        "algebra"
+    ],
+    [
+        "A digital watch displays hours and minutes with AM and PM. What is the largest possible sum of the digits in the display? $\\textbf{(A)}\\ 17\\qquad\\textbf{(B)}\\ 19\\qquad\\textbf{(C)}\\ 21\\qquad\\textbf{(D)}\\ 22\\qquad\\textbf{(E)}\\ 23$",
+        "algebra"
+    ],
+    [
+        "Oscar buys $13$ pencils and $3$ erasers for $1.00$. A pencil costs more than an eraser, and both items cost a whole number of cents. What is the total cost, in cents, of one pencil and one eraser? $\\mathrm{(A)}\\ 10\\qquad\\mathrm{(B)}\\ 12\\qquad\\mathrm{(C)}\\ 15\\qquad\\mathrm{(D)}\\ 18\\qquad\\mathrm{(E)}\\ 20$",
+        "algebra"
+    ],
+    [
+        "Suppose that $x, y, z$ are three distinct prime numbers such that $x + y + z = 49$. Find the maximum possible value for the product $xyz$. $\\text{(A) } 615 \\quad \\text{(B) } 1295 \\quad \\text{(C) } 2387 \\quad \\text{(D) } 1772 \\quad \\text{(E) } 715 \\quad \\text{(F) } 442 \\quad \\text{(G) } 1479 \\quad \\\\ \\text{(H) } 2639 \\quad \\text{(I) } 3059 \\quad \\text{(J) } 3821 \\quad \\text{(K) } 3145 \\quad \\text{(L) } 1715 \\quad \\text{(M) } \\text{none of the above} \\quad$",
+        "algebra"
+    ],
+    [
+        "Find $x$, where $x$ is the smallest positive integer such that $2^x$ leaves a remainder of $1$ when divided by $5$, $7$, and $31$. $\\text{(A) } 15 \\quad \\text{(B) } 20 \\quad \\text{(C) } 25 \\quad \\text{(D) } 30 \\quad \\text{(E) } 28 \\quad \\text{(F) } 32 \\quad \\text{(G) } 64 \\quad \\\\ \\text{(H) } 128 \\quad \\text{(I) } 45 \\quad \\text{(J) } 50 \\quad \\text{(K) } 60 \\quad \\text{(L) } 70 \\quad \\text{(M) } 80 \\quad \\text{(N) } \\text{none of the above}\\quad$",
+        "algebra"
+    ],
+    [
+        "Let $I, T, E, S$ be distinct positive integers such that the product $ITEST = 2006$. What is the largest possible value of the sum $I + T + E + S + T + 2006$? $\\mathrm{(A)}\\, 2086\\quad\\mathrm{(B)}\\, 4012\\quad\\mathrm{(C)}\\, 2144$ ",
+        "algebra"
+    ],
+    [
+        "Find all positive integers $n$ such that $n^3-12n^2+40n-29$ is a prime number. For each of your values of $n$ compute\nthis cubic polynomial showing that it is, in fact, a prime. ",
+        "algebra"
+    ],
+    [
+        "How many ordered pairs $(m,n)$ of positive integers, with $m \\ge n$, have the property that their squares differ by $96$? $\\text{(A)}\\ 3 \\qquad \\text{(B)}\\ 4 \\qquad \\text{(C)}\\ 6 \\qquad \\text{(D)}\\ 9 \\qquad \\text{(E)}\\ 12$",
+        "combinatorics"
+    ],
+    [
+        "A finite sequence of three-digit integers has the property that the tens and units digits of each term are, respectively, the hundreds and tens digits of the next term, and the tens and units digits of the last term are, respectively, the hundreds and tens digits of the first term. For example, such a sequence might begin with the terms 247, 475, and 756 and end with the term 824. Let $S$ be the sum of all the terms in the sequence. What is the largest prime factor that always divides $S$? $\\mathrm{(A)}\\ 3\\qquad \\mathrm{(B)}\\ 7\\qquad \\mathrm{(C)}\\ 13\\qquad \\mathrm{(D)}\\ 37\\qquad \\mathrm{(E)}\\ 43$",
+        "algebra"
+    ],
+    [
+        "Integers $a, b, c,$ and $d$, not necessarily distinct, are chosen independently and at random from 0 to 2007, inclusive. What is the probability that $ad-bc$ is even? $\\mathrm{(A)}\\ \\frac 38\\qquad \\mathrm{(B)}\\ \\frac 7{16}\\qquad \\mathrm{(C)}\\ \\frac 12\\qquad \\mathrm{(D)}\\ \\frac 9{16}\\qquad \\mathrm{(E)}\\ \\frac 58$",
+        "combinatorics"
+    ],
+    [
+        "For each positive integer $n$, let $S(n)$ denote the sum of the digits of $n.$ For how many values of $n$ is $n + S(n) + S(S(n)) = 2007?$ $\\mathrm{(A)}\\ 1 \\qquad \\mathrm{(B)}\\ 2 \\qquad \\mathrm{(C)}\\ 3 \\qquad \\mathrm{(D)}\\ 4 \\qquad \\mathrm{(E)}\\ 5$",
+        "algebra"
+    ],
+    [
+        "We consider the sequence of real numbers $\\displaystyle a_1,a_2,a_3\\ldots$, such that $a_1=0$, $a_2=1$ and $\\displaystyle a_n=a_{n-1}-a_{n-2}$, $\\forall n \\in \\{3,4,5,6\\ldots\\}$. The value of the term $\\displaystyle a_{138}$ is $\\mathrm{(A) \\ } 0\\qquad \\mathrm{(B) \\ } -1\\qquad \\mathrm{(C) \\ } 1\\qquad \\mathrm{(D) \\ } 2\\qquad \\mathrm{(E) \\ } -2$",
+        "algebra"
+    ],
+    [
+        "A twin prime pair is a set of two primes $(p, q)$ such that $q$ is $2$ greater than $p$. What is the arithmetic mean of the two primes in the smallest twin prime pair? ",
+        "algebra"
+    ],
+    [
+        "What is the smallest positive integer $k$ such that the number ${{2k}\\choose k}$ ends in two zeros? $\\text{(A) } 3 \\quad \\text{(B) } 4 \\quad \\text{(C) } 5 \\quad \\text{(D) } 6 \\quad \\text{(E) } 7 \\quad \\text{(F) } 8 \\quad \\text{(G) } 9 \\quad \\text{(H) } 10 \\quad \\text{(I) } 11 \\quad \\text{(J) } 12 \\quad \\text{(K) } 13 \\quad \\text{(L) } 14 \\quad \\text{(M) } 2007\\quad$",
+        "algebra"
+    ],
+    [
+        "While working with some data for the Iowa City Hospital, James got up to get a drink of water. When he returned, his computer displayed the \u201cblue screen of death\u201d (it had crashed). While rebooting his computer, James remembered that he was nearly done with his calculations since the last time he saved his data. He also kicked himself for not saving before he got up from his desk. He had computed three positive integers $a, b$, and $c$, and recalled that their product is $24$, but he didn\u2019t remember the values of the three integers themselves. What he really needed was their sum. He knows that the sum is an even two-digit integer less than $25$ with fewer than $6$ divisors. Help James by computing $a+b+c$. ",
+        "algebra"
+    ],
+    [
+        "When a rectangle frames a parabola such that a side of the rectangle is parallel to the parabola's axis of symmetry, the parabola divides the rectangle into regions whose areas are in the ratio $2$ to $1$. How many integer values of k are there such that $0<k\\leq 2007$ and the area between the parabola $y=k-x^2$ and the $x$ -axis is an integer? [asy] import graph; size(300); defaultpen(linewidth(0.8)+fontsize(10)); real k=1.5; real endp=sqrt(k); real f(real x) { return k-x^2; } path parabola=graph(f,-endp,endp)--cycle; filldraw(parabola, lightgray); draw((endp,0)--(endp,k)--(-endp,k)--(-endp,0)); label(\"Region I\", (0,2*k/5)); label(\"Box II\", (51/64*endp,13/16*k)); label(\"area(I) = $\\frac23$\\,area(II)\",(5/3*endp,k/2));[/asy] ",
+        "algebra"
+    ],
+    [
+        "Find the units digit of the sum \\[\\sum_{i=1}^{100}(i!)^{2}\\] $\\mathrm{(A)}\\,0\\quad\\mathrm{(B)}\\,1\\quad\\mathrm{(C)}\\,3\\quad\\mathrm{(D)}\\,5\\quad\\mathrm{(E)}\\,7\\quad\\mathrm{(F)}\\,9$",
+        "algebra"
+    ],
+    [
+        "In preparation for the family's upcoming vacation, Tony puts together five bags of jelly beans, one bag for each day of the trip, with an equal number of jelly beans in each bag.\nTony then pours all the jelly beans out of the five bags and begins making patterns with them. One of the patterns that he makes has one jelly bean in a top row, three jelly\nbeans in the next row, five jelly beans in the row after that, and so on: \\[\\begin{array}{ccccccccc}&&&&*&&&&\\\\&&&*&*&*&&&\\\\&&*&*&*&*&*&&\\\\&*&*&*&*&*&*&*&\\\\ *&*&*&*&*&*&*&*&*\\\\&&&&\\vdots&&&&\\end{array}\\] Continuing in this way, Tony finishes a row with none left over. For instance, if Tony had exactly $25$ jelly beans, he could finish the fifth row above with no jelly beans left over. However, when Tony finishes, there are between $10$ and $20$ rows. Tony then scoops all the jelly beans and puts them all back into the five bags so that each bag once again contains the same number. How many jelly beans are in each bag? (Assume that no jelly bean gets put inside more than one bag.) ",
+        "algebra"
+    ],
+    [
+        "How many four-digit multiples of $8$ are greater than $2008$? ",
+        "combinatorics"
+    ],
+    [
+        "Let $A$ be the set of positive integers that are the product of two consecutive integers. Let $B$ be the set of positive integers that are the product of three consecutive integers. Find the sum of the two smallest elements of $A \\cap B$. ",
+        "algebra"
+    ],
+    [
+        "A cube has edges of length $120$ cm. The cube gets chopped up into some number of smaller cubes, all of equal size, such that each edge of one of the smaller cubes has an integer length. One of those smaller cubes is then chopped up into some number of even smaller cubes, all of equal size. If the edge length of one of those even smaller cubes is $n$ cm, where $n$ is an integer, find the number of possible values of $n$. ",
+        "geometry"
+    ],
+    [
+        "The difference between two prime numbers is $11$. Find their sum. ",
+        "algebra"
+    ],
+    [
+        "Alexis imagines a $2008 \\times 2008$ grid of integers arranged sequentially in the following way: \\[\\begin{array}{r@{\\hspace{20pt}}r@{\\hspace{20pt}}r@{\\hspace{20pt}}r@{\\hspace{20pt}}r}1,&2,&3,&\\ldots,&2008\\\\2009,&2010,&2011,&\\ldots,&4016\\\\4017,&4018,&4019,&\\ldots,&6024\\\\\\vdots&&&&\\vdots\\\\2008^2-2008+1,&2008^2-2008+2,&2008^2-2008+3,&\\ldots,&2008^2\\end{array}\\] She picks one number from each row so that no two numbers she picks are in the same column. She them proceeds to add them together and finds that $S$ is the sum. Next, she picks $2008$ of the numbers that are distinct from the $2008$ she picked the first time. Again she picks exactly one number from each row and column, and again the sum of all $2008$ numbers is $S$. Find the remainder when $S$ is divided by $2008$. ",
+        "algebra"
+    ],
+    [
+        "Joshua likes to play with numbers and patterns. Joshua's favorite number is $6$ because it is the units digit of his birth year, $1996$.\nPart of the reason Joshua likes the number 6 so much is that the powers of $6$ all have the same units digit as they grow from $6^1$ :\n\n\n\\begin{align*}6^1&=6,\\\\6^2&=36,\\\\6^3&=216,\\\\6^4&=1296,\\\\6^5&=7776,\\\\6^6&=46656,\\\\\\vdots\\end{align*}\n\n\nHowever, not all units digits remain constant when exponentiated in this way. One day Joshua asks Michael if there are\nsimple patterns for the units digits when each one-digit integer is exponentiated in the manner above. Michael responds,\n\"You tell me!\" Joshua gives a disappointed look, but then Michael suggests that Joshua play around with some numbers\nand see what he can discover. \"See if you can find the units digit of $2008^{2008}$,\" Michael challenges. After a little while,\nJoshua finds an answer which Michael confirms is correct. What is Joshua's correct answer (the units digit of $2008^{2008}$ )? ",
+        "algebra"
+    ],
+    [
+        "(a) Let $Q_n=1^n+2^n$. For how many $n$ between $1$ and $100$ inclusive is $Q_n$ a multiple of $5$? (b) For how many $n$ between $1$ and $100$ inclusive is $R_n=1^n+2^n+3^n+4^n$ a multiple of 5? ",
+        "algebra"
+    ],
+    [
+        "An army of ants is organizing a march to the Obama inauguration. If they form columns of $10$ ants\nthere are $8$ left over. If they form columns of $7, 11$ or $13$ ants there are $2$ left over. What is the\nsmallest number of ants that could be in the army? ",
+        "algebra"
+    ],
+    [
+        "Maya lists all the positive divisors of $2010^2$. She then randomly selects two distinct divisors from this list. Let $p$ be the probability that exactly one of the selected divisors is a perfect square. The probability $p$ can be expressed in the form $\\frac {m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$. ",
+        "combinatorics"
+    ],
+    [
+        "The solution of the equation $7^{x+7} = 8^x$ can be expressed in the form $x = \\log_b 7^7$. What is $b$? $\\textbf{(A)}\\ \\frac{7}{15} \\qquad \\textbf{(B)}\\ \\frac{7}{8} \\qquad \\textbf{(C)}\\ \\frac{8}{7} \\qquad \\textbf{(D)}\\ \\frac{15}{8} \\qquad \\textbf{(E)}\\ \\frac{15}{7}$",
+        "algebra"
+    ],
+    [
+        "In the equation below, $A$ and $B$ are consecutive positive integers, and $A$, $B$, and $A+B$ represent number bases:\n\n\\[132_A+43_B=69_{A+B}.\\]\n\n\nWhat is $A+B$? $\\textbf{(A)}\\ 9\\qquad\\textbf{(B)}\\ 11\\qquad\\textbf{(C)}\\ 13\\qquad\\textbf{(D)}\\ 15\\qquad\\textbf{(E)}\\ 17$",
+        "algebra"
+    ],
+    [
+        "Two non-decreasing sequences of nonnegative integers have different first terms. Each sequence has the property that each term beginning with the third is the sum of the previous two terms, and the seventh term of each sequence is $N$. What is the smallest possible value of $N$? $\\textbf{(A)}\\ 55 \\qquad \\textbf{(B)}\\ 89 \\qquad \\textbf{(C)}\\ 104 \\qquad \\textbf{(D)}\\ 144 \\qquad \\textbf{(E)}\\ 273$",
+        "algebra"
+    ],
+    [
+        "The number $2013$ is expressed in the form $2013 = \\frac {a_1!a_2!...a_m!}{b_1!b_2!...b_n!}$, where $a_1 \\ge a_2 \\ge \\cdots \\ge a_m$ and $b_1 \\ge b_2 \\ge \\cdots \\ge b_n$ are positive integers and $a_1 + b_1$ is as small as possible. What is $|a_1 - b_1|$? $\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 3 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ 5$",
+        "algebra"
+    ],
+    [
+        "Which of the following numbers is a perfect square? $\\textbf{(A)}\\ \\dfrac{14!15!}2\\qquad\\textbf{(B)}\\ \\dfrac{15!16!}2\\qquad\\textbf{(C)}\\ \\dfrac{16!17!}2\\qquad\\textbf{(D)}\\ \\dfrac{17!18!}2\\qquad\\textbf{(E)}\\ \\dfrac{18!19!}2$",
+        "algebra"
+    ],
+    [
+        "The Duchess had a child on May 1st every two years until she had five children. This year the\nyoungest is $1$ and the ages of the children are $1, 3, 5, 7$, and $9$. Alice notices that the sum of the ages\nis a perfect square: $1 + 3 + 5 + 7 + 9 = 25$. How old will the youngest be the next time the sum of\nthe ages of the five children is a perfect square, and what is that perfect square? ",
+        "algebra"
+    ],
+    [
+        "For positive integer $n$, let $s(n)$ denote the sum of the digits of $n$. Find the smallest positive integer satisfying $s(n) = s(n+864) = 20$. ",
+        "algebra"
+    ],
+    [
+        "A baseball league consists of two four-team divisions. Each team plays every other team in its division $N$ games. Each team plays every team in the other division $M$ games with $N>2M$ and $M>4$. Each team plays a $76$ game schedule. How many games does a team play within its own division? $\\textbf{(A) } 36 \\qquad \\textbf{(B) } 48 \\qquad \\textbf{(C) } 54 \\qquad \\textbf{(D) } 60 \\qquad \\textbf{(E) } 72$",
+        "algebra"
+    ],
+    [
+        "The sum of three consecutive integers is $54$. What is the smallest of the three integers? ",
+        "algebra"
+    ],
+    [
+        "In how many ways can $345$ be written as the sum of an increasing sequence of two or more consecutive positive integers? $\\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 3\\qquad\\textbf{(C)}\\ 5\\qquad\\textbf{(D)}\\ 6\\qquad\\textbf{(E)}\\ 7$",
+        "combinatorics"
+    ],
+    [
+        "Define a sequence recursively by $F_{0}=0,~F_{1}=1,$ and $F_{n}=$ the remainder when $F_{n-1}+F_{n-2}$ is divided by $3,$ for all $n\\geq 2.$ Thus the sequence starts $0,1,1,2,0,2,\\ldots$ What is $F_{2017}+F_{2018}+F_{2019}+F_{2020}+F_{2021}+F_{2022}+F_{2023}+F_{2024}?$ $\\textbf{(A)}\\ 6\\qquad\\textbf{(B)}\\ 7\\qquad\\textbf{(C)}\\ 8\\qquad\\textbf{(D)}\\ 9\\qquad\\textbf{(E)}\\ 10$",
+        "algebra"
+    ],
+    [
+        "There are $10$ horses, named Horse $1$, Horse $2$,..., Horse $10$. They get their names from how many minutes it takes them to run one lap around a circular race track: Horse $k$ runs one lap in exactly $k$ minutes. At time $0$ all the horses are together at the starting point on the track. The horses start running in the same direction, and they keep running around the circular track at their constant speeds. The least time $S > 0$, in minutes, at which all $10$ horses will again simultaneously be at the starting point is $S=2520$. Let $T > 0$ be the least time, in minutes, such that at least $5$ of the horses are again at the starting point. What is the sum of the digits of $T?$ $\\textbf{(A) }2 \\qquad \\textbf{(B) }3 \\qquad \\textbf{(C) }4 \\qquad \\textbf{(D) }5 \\qquad \\textbf{(E) }6$",
+        "algebra"
+    ],
+    [
+        "Mrs. Sanders has three grandchildren, who call her regularly. One calls her every three days, one calls her every four days, and one calls her every five days. All three called her on December 31, 2016. On how many days during the next year did she not receive a phone call from any of her grandchildren? $\\textbf{(A) }78\\qquad\\textbf{(B) }80\\qquad\\textbf{(C) }144\\qquad\\textbf{(D) }146\\qquad\\textbf{(E) }152$",
+        "algebra"
+    ],
+    [
+        "Malcolm wants to visit Isabella after school today and knows the street where she lives but doesn't know her house number. She tells him, \"My house number has two digits, and exactly three of the following four statements about it are true.\" (1) It is prime. (2) It is even. (3) It is divisible by 7. (4) One of its digits is 9. This information allows Malcolm to determine Isabella's house number. What is its units digit? $\\textbf{(A) }4\\qquad\\textbf{(B) }6\\qquad\\textbf{(C) }7\\qquad\\textbf{(D) }8\\qquad\\textbf{(E) }9$",
+        "algebra"
+    ],
+    [
+        "Find the largest 9 digit integer in which no two digits are the same and the\nsum of each pair of adjacent digits is prime. That is, the sum of the first two digits is prime,\nthe sum of the second and third digits is prime, the sum of the third and fourth digits is prime,\nand so on. ",
+        "algebra"
+    ],
+    [
+        "Suppose $A, R, S$, and $T$ all denote distinct digits from $1$ to $9$. If $\\sqrt{STARS} = SAT$, what are $A, R, S$, and $T$? ",
+        "combinatorics"
+    ],
+    [
+        "Let $S$ be a set of $6$ integers taken from $\\{1,2,\\dots,12\\}$ with the property that if $a$ and $b$ are elements of $S$ with $a<b$, then $b$ is not a multiple of $a$. What is the least possible value of an element in $S$? $\\textbf{(A)}\\ 2\\qquad\\textbf{(B)}\\ 3\\qquad\\textbf{(C)}\\ 4\\qquad\\textbf{(D)}\\ 5\\qquad\\textbf{(E)}\\ 7$",
+        "algebra"
+    ],
+    [
+        "A number $m$ is randomly selected from the set $\\{11,13,15,17,19\\}$, and a number $n$ is randomly selected from $\\{1999,2000,2001,\\ldots,2018\\}$. What is the probability that $m^n$ has a units digit of $1$? $\\textbf{(A) } \\frac{1}{5} \\qquad \\textbf{(B) } \\frac{1}{4} \\qquad \\textbf{(C) } \\frac{3}{10} \\qquad \\textbf{(D) } \\frac{7}{20} \\qquad \\textbf{(E) } \\frac{2}{5}$",
+        "combinatorics"
+    ],
+    [
+        "For how many (not necessarily positive) integer values of $n$ is the value of $4000\\cdot \\left(\\tfrac{2}{5}\\right)^n$ an integer? $\\textbf{(A) }3 \\qquad \\textbf{(B) }4 \\qquad \\textbf{(C) }6 \\qquad \\textbf{(D) }8 \\qquad \\textbf{(E) }9 \\qquad$",
+        "algebra"
+    ],
+    [
+        "Joey and Chloe and their daughter Zoe all have the same birthday. Joey is $1$ year older than Chloe, and Zoe is exactly $1$ year old today. Today is the first of the $9$ birthdays on which Chloe's age will be an integral multiple of Zoe's age. What will be the sum of the two digits of Joey's age the next time his age is a multiple of Zoe's age? $\\textbf{(A) }7 \\qquad \\textbf{(B) }8 \\qquad \\textbf{(C) }9 \\qquad \\textbf{(D) }10 \\qquad \\textbf{(E) }11 \\qquad$",
+        "algebra"
+    ],
+    [
+        "How many odd positive $3$ -digit integers are divisible by $3$ but do not contain the digit $3$? $\\textbf{(A) } 96 \\qquad \\textbf{(B) } 97 \\qquad \\textbf{(C) } 98 \\qquad \\textbf{(D) } 102 \\qquad \\textbf{(E) } 120$",
+        "combinatorics"
+    ],
+    [
+        "How many perfect cubes lie between $2^8+1$ and $2^{18}+1$, inclusive? $\\textbf{(A) }4\\qquad\\textbf{(B) }9\\qquad\\textbf{(C) }10\\qquad\\textbf{(D) }57\\qquad \\textbf{(E) }58$",
+        "algebra"
+    ],
+    [
+        "Students Arn, Bob, Cyd, Dan, Eve, and Fon are arranged in that order in a circle. They start counting: Arn first, then Bob, and so forth. When the number contains a 7 as a digit (such as 47) or is a multiple of 7 that person leaves the circle and the counting continues. Who is the last one present in the circle? $\\textbf{(A) } \\text{Arn}\\qquad\\textbf{(B) }\\text{Bob}\\qquad\\textbf{(C) }\\text{Cyd}\\qquad\\textbf{(D) }\\text{Dan}\\qquad \\textbf{(E) }\\text{Eve}\\qquad$",
+        "combinatorics"
+    ],
+    [
+        "A printer used 1890 digits to number all the pages in the Seripian Puzzle Book. How many pages are in the book? (For example, to number the pages in a book with twelve pages, the printer would use fifteen digits.) ",
+        "algebra"
+    ],
+    [
+        "Determine all positive integers $a$ such that $a < 100$ and $a^3 + 23$ is divisible by $24$. ",
+        "algebra"
+    ],
+    [
+        "A palindrome is a number that has the same value when read from left to right or from right to left. (For example, 12321 is a palindrome.) Let $N$ be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of $N$? $\\textbf{(A) }2\\qquad\\textbf{(B) }3\\qquad\\textbf{(C) }4\\qquad\\textbf{(D) }5\\qquad\\textbf{(E) }6$",
+        "algebra"
+    ],
+    [
+        "Isabella has $6$ coupons that can be redeemed for free ice cream cones at Pete's Sweet Treats. In order to make the coupons last, she decides that she will redeem one every $10$ days until she has used them all. She knows that Pete's is closed on Sundays, but as she circles the $6$ dates on her calendar, she realizes that no circled date falls on a Sunday. On what day of the week does Isabella redeem her first coupon? $\\textbf{(A) }\\text{Monday}\\qquad\\textbf{(B) }\\text{Tuesday}\\qquad\\textbf{(C) }\\text{Wednesday}\\qquad\\textbf{(D) }\\text{Thursday}\\qquad\\textbf{(E) }\\text{Friday}$",
+        "algebra"
+    ],
+    [
+        "When a positive integer $N$ is fed into a machine, the output is a number calculated according to the rule shown below. [asy] size(300); defaultpen(linewidth(0.8)+fontsize(13)); real r = 0.05; draw((0.9,0)--(3.5,0),EndArrow(size=7)); filldraw((4,2.5)--(7,2.5)--(7,-2.5)--(4,-2.5)--cycle,gray(0.65)); fill(circle((5.5,1.25),0.8),white); fill(circle((5.5,1.25),0.5),gray(0.65)); fill((4.3,-r)--(6.7,-r)--(6.7,-1-r)--(4.3,-1-r)--cycle,white); fill((4.3,-1.25+r)--(6.7,-1.25+r)--(6.7,-2.25+r)--(4.3,-2.25+r)--cycle,white); fill((4.6,-0.25-r)--(6.4,-0.25-r)--(6.4,-0.75-r)--(4.6,-0.75-r)--cycle,gray(0.65)); fill((4.6,-1.5+r)--(6.4,-1.5+r)--(6.4,-2+r)--(4.6,-2+r)--cycle,gray(0.65)); label(\"$N$\",(0.45,0)); draw((7.5,1.25)--(11.25,1.25),EndArrow(size=7)); draw((7.5,-1.25)--(11.25,-1.25),EndArrow(size=7)); label(\"if $N$ is even\",(9.25,1.25),N); label(\"if $N$ is odd\",(9.25,-1.25),N); label(\"$\\frac N2$\",(12,1.25)); label(\"$3N+1$\",(12.6,-1.25)); [/asy]\n\n\nFor example, starting with an input of $N=7,$ the machine will output $3 \\cdot 7 +1 = 22.$ Then if the output is repeatedly inserted into the machine five more times, the final output is $26.$\n\n\\[7 \\to 22 \\to 11 \\to 34 \\to 17 \\to 52 \\to 26\\]\n\nWhen the same $6$ -step process is applied to a different starting value of $N,$ the final output is $1.$ What is the sum of all such integers $N?$\n\n\\[N \\to \\rule{0.5cm}{0.15mm} \\to \\rule{0.5cm}{0.15mm} \\to \\rule{0.5cm}{0.15mm} \\to \\rule{0.5cm}{0.15mm} \\to \\rule{0.5cm}{0.15mm} \\to 1\\]\n\n$\\textbf{(A) }73 \\qquad \\textbf{(B) }74 \\qquad \\textbf{(C) }75 \\qquad \\textbf{(D) }82 \\qquad \\textbf{(E) }83$",
+        "algebra"
+    ],
+    [
+        "Find the number of positive integers less than $1000$ that can be expressed as the difference of two integral powers of $2.$ ",
+        "algebra"
+    ],
+    [
+        "It is known that every positive integer can be represented as the sum of at most $4$ squares. What is the sum of the $2$ smallest integers which cannot be represented as the sum of fewer than $4$ squares? $\\textbf{(A) } 22\\qquad\\textbf{(B) } 23\\qquad\\textbf{(C) } 24\\qquad\\textbf{(D) } 25\\qquad\\textbf{(E) } 26\\qquad$",
+        "algebra"
+    ],
+    [
+        "Adults made up $\\frac5{12}$ of the crowd of people at a concert. After a bus carrying $50$ more people arrived, adults made up $\\frac{11}{25}$ of the people at the concert. Find the minimum number of adults who could have been at the concert after the bus arrived. ",
+        "algebra"
+    ],
+    [
+        "How many positive integers can fill the blank in the sentence below? \u201cOne positive integer is _____ more than twice another, and the sum of the two numbers is $28$.\u201d $\\textbf{(A) } 6 \\qquad \\textbf{(B) } 7 \\qquad \\textbf{(C) } 8 \\qquad \\textbf{(D) } 9 \\qquad \\textbf{(E) } 10$",
+        "combinatorics"
+    ],
+    [
+        "If $n$ is an even positive integer, the $\\emph{double factorial}$ notation $n!!$ represents the product of all the even integers from $2$ to $n$. For example, $8!! = 2 \\cdot 4 \\cdot 6 \\cdot 8$. What is the units digit of the following sum?\n\n\\[2!! + 4!! + 6!! + \\cdots + 2018!! + 2020!! + 2022!!\\] $\\textbf{(A) } 0\\qquad\\textbf{(B) } 2\\qquad\\textbf{(C) } 4\\qquad\\textbf{(D) } 6\\qquad\\textbf{(E) } 8$",
+        "algebra"
+    ],
+    [
+        "When three positive integers $a$, $b$, and $c$ are multiplied together, their product is $100$. Suppose $a < b < c$. In how many ways can the numbers be chosen? $\\textbf{(A) } 0 \\qquad \\textbf{(B) } 1\\qquad\\textbf{(C) } 2\\qquad\\textbf{(D) } 3\\qquad\\textbf{(E) } 4$",
+        "combinatorics"
+    ],
+    [
+        "The letters $\\text{P}, \\text{Q},$ and $\\text{R}$ are entered into a $20\\times20$ table according to the pattern shown below. How many $\\text{P}$ s, $\\text{Q}$ s, and $\\text{R}$ s will appear in the completed table?\n\n\n[asy] /* Made by MRENTHUSIASM, Edited by Kante314 */ usepackage(\"mathdots\"); size(5cm); draw((0,0)--(6,0),linewidth(1.5)+mediumgray); draw((0,1)--(6,1),linewidth(1.5)+mediumgray); draw((0,2)--(6,2),linewidth(1.5)+mediumgray); draw((0,3)--(6,3),linewidth(1.5)+mediumgray); draw((0,4)--(6,4),linewidth(1.5)+mediumgray); draw((0,5)--(6,5),linewidth(1.5)+mediumgray); draw((0,0)--(0,6),linewidth(1.5)+mediumgray); draw((1,0)--(1,6),linewidth(1.5)+mediumgray); draw((2,0)--(2,6),linewidth(1.5)+mediumgray); draw((3,0)--(3,6),linewidth(1.5)+mediumgray); draw((4,0)--(4,6),linewidth(1.5)+mediumgray); draw((5,0)--(5,6),linewidth(1.5)+mediumgray); label(scale(.9)*\"\\textsf{P}\", (.5,.5)); label(scale(.9)*\"\\textsf{Q}\", (.5,1.5)); label(scale(.9)*\"\\textsf{R}\", (.5,2.5)); label(scale(.9)*\"\\textsf{P}\", (.5,3.5)); label(scale(.9)*\"\\textsf{Q}\", (.5,4.5)); label(\"$\\vdots$\", (.5,5.6)); label(scale(.9)*\"\\textsf{Q}\", (1.5,.5)); label(scale(.9)*\"\\textsf{R}\", (1.5,1.5)); label(scale(.9)*\"\\textsf{P}\", (1.5,2.5)); label(scale(.9)*\"\\textsf{Q}\", (1.5,3.5)); label(scale(.9)*\"\\textsf{R}\", (1.5,4.5)); label(\"$\\vdots$\", (1.5,5.6)); label(scale(.9)*\"\\textsf{R}\", (2.5,.5)); label(scale(.9)*\"\\textsf{P}\", (2.5,1.5)); label(scale(.9)*\"\\textsf{Q}\", (2.5,2.5)); label(scale(.9)*\"\\textsf{R}\", (2.5,3.5)); label(scale(.9)*\"\\textsf{P}\", (2.5,4.5)); label(\"$\\vdots$\", (2.5,5.6)); label(scale(.9)*\"\\textsf{P}\", (3.5,.5)); label(scale(.9)*\"\\textsf{Q}\", (3.5,1.5)); label(scale(.9)*\"\\textsf{R}\", (3.5,2.5)); label(scale(.9)*\"\\textsf{P}\", (3.5,3.5)); label(scale(.9)*\"\\textsf{Q}\", (3.5,4.5)); label(\"$\\vdots$\", (3.5,5.6)); label(scale(.9)*\"\\textsf{Q}\", (4.5,.5)); label(scale(.9)*\"\\textsf{R}\", (4.5,1.5)); label(scale(.9)*\"\\textsf{P}\", (4.5,2.5)); label(scale(.9)*\"\\textsf{Q}\", (4.5,3.5)); label(scale(.9)*\"\\textsf{R}\", (4.5,4.5)); label(\"$\\vdots$\", (4.5,5.6)); label(scale(.9)*\"$\\dots$\", (5.5,.5)); label(scale(.9)*\"$\\dots$\", (5.5,1.5)); label(scale(.9)*\"$\\dots$\", (5.5,2.5)); label(scale(.9)*\"$\\dots$\", (5.5,3.5)); label(scale(.9)*\"$\\dots$\", (5.5,4.5)); label(scale(.9)*\"$\\iddots$\", (5.5,5.6)); [/asy]\n\n$\\textbf{(A)}~132\\text{ Ps, }134\\text{ Qs, }134\\text{ Rs}$ $\\textbf{(B)}~133\\text{ Ps, }133\\text{ Qs, }134\\text{ Rs}$ $\\textbf{(C)}~133\\text{ Ps, }134\\text{ Qs, }133\\text{ Rs}$ $\\textbf{(D)}~134\\text{ Ps, }132\\text{ Qs, }134\\text{ Rs}$ $\\textbf{(E)}~134\\text{ Ps, }133\\text{ Qs, }133\\text{ Rs}$ ",
+        "algebra"
+    ],
+    [
+        "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump $5$ pads to the right or $3$ pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located $2023$ pads to the right of her starting position? $\\textbf{(A) } 405 \\qquad \\textbf{(B) } 407 \\qquad \\textbf{(C) } 409 \\qquad \\textbf{(D) } 411 \\qquad \\textbf{(E) } 413$",
+        "algebra"
+    ],
+    [
+        "Two integers are inserted into the list $3, 3, 8, 11, 28$ to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers? $\\textbf{(A) } 56 \\qquad \\textbf{(B) } 57 \\qquad \\textbf{(C) } 58 \\qquad \\textbf{(D) } 60 \\qquad \\textbf{(E) } 61$",
+        "algebra"
+    ],
+    [
+        "Alina writes the numbers $1, 2, \\dots, 9$ on separate cards, one number per card. She wishes to divide the cards into $3$ groups of $3$ cards so that the sum of the numbers in each group will be the same. In how many ways can this be done? $\\textbf{(A) } 0 \\qquad \\textbf{(B) } 1 \\qquad \\textbf{(C) } 2 \\qquad \\textbf{(D) } 3 \\qquad \\textbf{(E) } 4$",
+        "combinatorics"
+    ],
+    [
+        "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term is $4000$. What is the first term? $\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 4 \\qquad \\textbf{(D)}\\ 5 \\qquad \\textbf{(E)}\\ 10$",
+        "algebra"
+    ],
+    [
+        "Fifteen integers $a_1, a_2, a_3, \\dots, a_{15}$ are arranged in order on a number line. The integers are equally spaced and have the property that\n\n\n\\[1 \\le a_1 \\le 10, \\thickspace 13 \\le a_2 \\le 20, \\thickspace \\text{ and } \\thickspace 241 \\le a_{15}\\le 250.\\]\n\n\nWhat is the sum of digits of $a_{14}?$ $\\textbf{(A)}\\ 8 \\qquad \\textbf{(B)}\\ 9 \\qquad \\textbf{(C)}\\ 10 \\qquad \\textbf{(D)}\\ 11 \\qquad \\textbf{(E)}\\ 12$",
+        "algebra"
+    ],
+    [
+        "The digits $2,0,2,$ and $3$ are placed in the expression below, one digit per box. What is the maximum possible value of the expression? [asy] // Diagram by TheMathGuyd. I can compress this later size(5cm); real w=2.2; pair O,I,J; O=(0,0);I=(1,0);J=(0,1); path bsqb = O--I; path bsqr = I--I+J; path bsqt = I+J--J; path bsql = J--O; path lsqb = shift((1.2,0.75))*scale(0.5)*bsqb; path lsqr = shift((1.2,0.75))*scale(0.5)*bsqr; path lsqt = shift((1.2,0.75))*scale(0.5)*bsqt; path lsql = shift((1.2,0.75))*scale(0.5)*bsql; draw(bsqb,dashed); draw(bsqr,dashed); draw(bsqt,dashed); draw(bsql,dashed); draw(lsqb,dashed); draw(lsqr,dashed); draw(lsqt,dashed); draw(lsql,dashed); label(scale(3)*\"$\\times$\",(w,1/3)); draw(shift(1.3w,0)*bsqb,dashed); draw(shift(1.3w,0)*bsqr,dashed); draw(shift(1.3w,0)*bsqt,dashed); draw(shift(1.3w,0)*bsql,dashed); draw(shift(1.3w,0)*lsqb,dashed); draw(shift(1.3w,0)*lsqr,dashed); draw(shift(1.3w,0)*lsqt,dashed); draw(shift(1.3w,0)*lsql,dashed); [/asy] $\\textbf{(A) }0 \\qquad \\textbf{(B) }8 \\qquad \\textbf{(C) }9 \\qquad \\textbf{(D) }16 \\qquad \\textbf{(E) }18$",
+        "algebra"
+    ],
+    [
+        "Each of the even numbers $2, 4, 6, \\ldots, 50$ is divided by $7$. The remainders are recorded. Which histogram displays the number of times each remainder occurs?\n\n\n[asy] /*By Reda_mandymath*/ unitsize(15); void histogram(pair p, string _str, int[] n) { /* p is shift transformation, _str is choice string, n[] is the array of number of remainders, _pen is the pen style of block, a is the width of block, b is the width of gap _scale is the font scale of labels*/ pen _pen; real a = 0.8; real b = 0.3; real _scale = 0.8; draw(shift(p) * ((0, 0) -- (9, 0) -- (9, 5) -- (0, 5) -- cycle)); label(scale(_scale) * rotate(90) * \"Count\", (-0.4, 2.5)+p); label(scale(_scale) * \"Remainder\", (4.5, -1)+p); for (int i = 0; i <= 6; ++i) { if (n[i] == 3) { _pen = mediumgray; } else { _pen = heavygray; } fill(shift(p) * ((a*(i+1) + b*i, 0) -- (a*(i+1) + b*i, n[i]) -- (a*(i+2) + b*i, n[i]) -- (a*(i+2) + b*i, 0) -- cycle), _pen); label(scale(_scale) * string(i), shift(p) * (a*(i+1.5) + b*i, 0), S); label(scale(_scale) * string(n[i]), shift(p) * (a*(i+1.5) + b*i, n[i]), N); } label(_str, shift(p) * (-0.4, 6)); } histogram((0, 0), \"$\\textbf{(A)}$\", new int[] {3, 4, 4, 3, 4, 3, 4}); histogram((12, 0), \"$\\textbf{(B)}$\", new int[] {3, 4, 4, 4, 3, 3, 4}); histogram((24, 0), \"$\\textbf{(C)}$\", new int[] {3, 4, 4, 4, 4, 3, 3}); histogram((0, -8), \"$\\textbf{(D)}$\", new int[] {4, 3, 4, 3, 4, 3, 4}); histogram((12, -8), \"$\\textbf{(E)}$\", new int[] {4, 4, 3, 4, 3, 4, 3}); [/asy] ",
+        "algebra"
+    ],
+    [
+        "Five distinct integers from $1$ to $10$ are chosen, and five distinct integers from $11$ to $20$ are chosen. No two numbers differ by exactly $10$. What is the sum of the ten chosen numbers? $\\textbf{(A)}\\ 95 \\qquad \\textbf{(B)}\\ 100 \\qquad \\textbf{(C)}\\ 105 \\qquad \\textbf{(D)}\\ 110 \\qquad \\textbf{(E)}\\ 115$",
+        "combinatorics"
+    ],
+    [
+        "The table below shows the ancient Egyptian hieroglyphs that were used to represent different numbers. For example, the number $32$ was represented by the hieroglyphs $\\cap \\cap \\cap ||$. What number is represented by the following combination of hieroglyphs? $\\textbf{(A)}\\ 1,423 \\qquad \\textbf{(B)}\\ 10,423 \\qquad \\textbf{(C)}\\ 14,023 \\qquad \\textbf{(D)}\\ 14,203 \\qquad \\textbf{(E)}\\ 14,230$",
+        "algebra"
+    ],
+    [
+        "How many four-digit numbers have all three of the following properties? (I) The tens and ones digit are both 9. (II) The number is 1 less than a perfect square. (III) The number is the product of exactly two prime numbers. $\\textbf{(A)}\\ 0 \\qquad \\textbf{(B)}\\ 1 \\qquad \\textbf{(C)}\\ 2 \\qquad \\textbf{(D)}\\ 3 \\qquad \\textbf{(E)}\\ 4$",
+        "combinatorics"
+    ],
+    [
+        "Buffalo Shuffle-o is a card game in which all the cards are distributed evenly among all players at the start of the game. When Annika and $3$ of her friends play Buffalo Shuffle-o, each player is dealt $15$ cards. Suppose $2$ more friends join the next game. How many cards will be dealt to each player? $\\textbf{(A)}\\ 8 \\qquad \\textbf{(B)}\\ 9 \\qquad \\textbf{(C)}\\ 10 \\qquad \\textbf{(D)}\\ 11 \\qquad \\textbf{(E)}\\ 12$",
+        "combinatorics"
+    ],
+    [
+        "Sekou writes the numbers $15, 16, 17, 18, 19.$ After he erases one of his numbers, the sum of the remaining four numbers is a multiple of $4.$ Which number did he erase? $\\textbf{(A)}\\ 15\\qquad \\textbf{(B)}\\ 16\\qquad \\textbf{(C)}\\ 17\\qquad \\textbf{(D)}\\ 18\\qquad \\textbf{(E)}\\ 19$",
+        "algebra"
+    ],
+    [
+        "On the most recent exam on Prof. Xochi's class, $5$ students earned a score of at least $95\\%$, $13$ students earned a score of at least $90\\%$, $27$ students earned a score of at least $85\\%$, $50$ students earned a score of at least $80\\%$, How many students earned a score of at least $80\\%$ and less than $90\\%$? $\\textbf{(A)}\\ 8\\qquad \\textbf{(B)}\\ 14\\qquad \\textbf{(C)}\\ 22\\qquad \\textbf{(D)}\\ 37\\qquad \\textbf{(E)}\\ 45$",
+        "algebra"
+    ],
+    [
+        "A positive integer is called a dragon if it can be written as the sum of four positive integers $a,b,c,$ and $d$ such that $a+4=b-4=4c=d/4.$ Find the smallest dragon. ",
+        "algebra"
+    ],
+    [
+        "Using the digits 1, 2, 3, 4, 5, 6, 7, and 9, form 4 two-digit prime numbers, using each digit only once. What is the sum of the 4 prime numbers? $\\text{(A)}\\ 150 \\qquad \\text{(B)}\\ 160 \\qquad \\text{(C)}\\ 170 \\qquad \\text{(D)}\\ 180 \\qquad \\text{(E)}\\ 190$",
+        "algebra"
+    ],
+    [
+        "How many positive cubes divide $3! \\cdot 5! \\cdot 7!$? $\\textbf{(A) } 2\\qquad \\textbf{(B) } 3\\qquad \\textbf{(C) } 4\\qquad \\textbf{(D) } 5\\qquad \\textbf{(E) } 6$",
+        "combinatorics"
+    ],
+    [
+        "Suppose that $m$ and $n$ are positive integers such that $75m = n^{3}$. What is the minimum possible value of $m + n$? $\\text{(A)}\\ 15 \\qquad \\text{(B)}\\ 30 \\qquad \\text{(C)}\\ 50 \\qquad \\text{(D)}\\ 60 \\qquad \\text{(E)}\\ 5700$",
+        "algebra"
+    ],
+    [
+        "Find the number of lattice points that the line $19x+20y = 1909$ passes through in Quadrant I. ",
+        "geometry"
+    ],
+    [
+        "Four numbers are written in a row. The average of the first two is $21,$ the average of the middle two is $26,$ and the average of the last two is $30.$ What is the average of the first and last of the numbers? $\\textbf{(A) } 24 \\qquad \\textbf{(B) } 25 \\qquad \\textbf{(C) } 26 \\qquad \\textbf{(D) } 27 \\qquad \\textbf{(E) } 28$",
+        "combinatorics"
+    ],
+    [
+        "In the state of Coinland, coins have values $6,10,$ and $15$ cents. Suppose $x$ is the value in cents of the most expensive item in Coinland that cannot be purchased using these coins with exact change. What is the sum of the digits of $x?$ $\\textbf{(A) }8\\qquad\\textbf{(B) }10\\qquad\\textbf{(C) }7\\qquad\\textbf{(D) }11\\qquad\\textbf{(E) }9$",
+        "algebra"
+    ]
+]
