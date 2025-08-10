@@ -89,7 +89,7 @@ def main():
         with open(f"accuracies/{models[model_id]}_{test_sets[test_set_id]}.json", 'w') as f:
             json.dump(accuracies, f, indent=4)
 
-    with open(f"scraped_data/problems/{test_sets[test_set_id]}", 'r') as f:
+    with open(f"scraped_data/problems/{test_sets[test_set_id].removesuffix('.json')}", 'r') as f:
         test_data = json.load(f)
 
     problems = [f"{data['problem']} {data['answer_choices'] if 'frq' not in data['answer_choices'] else ''}" for data in test_data.values()]
