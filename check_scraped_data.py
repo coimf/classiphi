@@ -17,7 +17,7 @@ def main() -> None:
     max_chars = float('-inf')
     min_tokens = float('inf')
     max_tokens = float('-inf')
-    tokenizer = BertTokenizer.from_pretrained('models/topic_classifier_9900_epoch3_0805_23-10-17')
+    tokenizer = BertTokenizer.from_pretrained('models/topic_classifier_10000_epoch3_0815_00-15-27')
 
     problem_files = os.listdir("scraped_data/problems")
     problem_files = sorted(problem_files, key=extract_topic)
@@ -25,30 +25,31 @@ def main() -> None:
     suspicious_problems = {}
 
     for file in problem_files:
-        with open(f"scraped_data/problems/{file}", "r") as f:
-            if not file.endswith(".json"):
-                continue
-            data = json.load(f)
-            num_problems = len(data)
-            print(f"{file:<40} {num_problems:>5} problems")
-            total_problems += num_problems
+        if any(t in file for t in ['amc8', 'amc10', 'amc12', 'aime']):
+            with open(f"scraped_data/problems/{file}", "r") as f:
+                if not file.endswith(".json"):
+                    continue
+                data = json.load(f)
+                num_problems = len(data)
+                print(f"{file:<40} {num_problems:>5} problems")
+                total_problems += num_problems
 
-            for id, problem_data in data.items():
-                problem_text = problem_data['problem'] + problem_data['answer_choices']
-                char_len = len(problem_text)
-                tokens = tokenizer.tokenize(problem_text)
-                token_len = len(tokens)
+                for id, problem_data in data.items():
+                    problem_text = problem_data['problem'] + problem_data['answer_choices']
+                    char_len = len(problem_text)
+                    tokens = tokenizer.tokenize(problem_text)
+                    token_len = len(tokens)
 
-                if token_len <= 18:
-                    suspicious_problems[id] = problem_data
+                    if token_len <= 18:
+                        suspicious_problems[id] = problem_data
 
-                total_chars += char_len
-                total_tokens += token_len
+                    total_chars += char_len
+                    total_tokens += token_len
 
-                min_chars = min(min_chars, char_len)
-                max_chars = max(max_chars, char_len)
-                min_tokens = min(min_tokens, token_len)
-                max_tokens = max(max_tokens, token_len)
+                    min_chars = min(min_chars, char_len)
+                    max_chars = max(max_chars, char_len)
+                    min_tokens = min(min_tokens, token_len)
+                    max_tokens = max(max_tokens, token_len)
 
     total_ticks = 0
     problem_files = os.listdir("scraped_data/ticks")

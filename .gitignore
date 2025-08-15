@@ -32,3 +32,6 @@ history.json
 !.gitignore
 !.streamlit
 *secret*
+*problem_labels*
+*response_schema.json
+sys_prompt.txt

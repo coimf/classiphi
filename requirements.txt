@@ -8,3 +8,9 @@ watchdog
 beautifulsoup4
 tqdm
 requests
+datasets
+browser_cookie3
+lmstudio
+groq
+google-genai
+cerebras_cloud_sdk
