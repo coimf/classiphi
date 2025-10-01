@@ -1,6 +1,5 @@
 import json
 import os
-import pandas as pd
 
 all = []
 tests = ["amc8", "amc10", "amc12", "aime"]

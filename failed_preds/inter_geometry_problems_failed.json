@@ -16,6 +16,14 @@
         "algebra"
     ],
     [
+        "[asy] draw(circle((0,0),10),black+linewidth(1)); MP(\"O\", (0,0), S);MP(\"A\", (-10,0), W);MP(\"B\", (10,0), E);MP(\"C\", (10,10), E);MP(\"D\", (6,8), N); MP(\"a\", (-5,0), S);MP(\"E\", (-6,3), N); dot((0,0));dot((-6,2)); draw((-10,0)--(10,0),black+linewidth(1)); draw((-10,0)--(10,10),black+linewidth(1)); draw((-10,-12)--(-10,12),black+linewidth(1)); draw((10,-12)--(10,12),black+linewidth(1)); [/asy] In this figure $AB$ is a diameter of a circle, centered at $O$, with radius $a$. A chord $AD$ is drawn and extended to meet the tangent to the circle at $B$ in point $C$. Point $E$ is taken on $AC$ so the $AE=DC$. Denoting the distances of $E$ from the tangent through $A$ and from the diameter $AB$ by $x$ and $y$, respectively, we can deduce the relation: $\\text{(A) } y^2=\\frac{x^3}{2a-x} \\quad \\text{(B) } y^2=\\frac{x^3}{2a+x} \\quad \\text{(C) } y^4=\\frac{x^2}{2a-x} \\\\ \\text{(D) } x^2=\\frac{y^2}{2a-x} \\quad \\text{(E) } x^2=\\frac{y^2}{2a+x}$",
+        "algebra"
+    ],
+    [
+        "Points $D$, $E$, $F$ are taken respectively on sides $AB$, $BC$, and $CA$ of triangle $ABC$ so that $AD:DB=BE:CE=CF:FA=1:n$. The ratio of the area of triangle $DEF$ to that of triangle $ABC$ is: $\\textbf{(A)}\\ \\frac{n^2-n+1}{(n+1)^2}\\qquad \\textbf{(B)}\\ \\frac{1}{(n+1)^2}\\qquad \\textbf{(C)}\\ \\frac{2n^2}{(n+1)^2}\\qquad \\textbf{(D)}\\ \\frac{n^2}{(n+1)^2}\\qquad \\textbf{(E)}\\ \\frac{n(n-1)}{n+1}$",
+        "algebra"
+    ],
+    [
         "[asy] draw((0,0)--(10,20*sqrt(3)/2)--(20,0)--cycle,black+linewidth(.75)); draw((20,0)--(20,12)--(32,12)--(32,0)--cycle,black+linewidth(.75)); draw((32,0)--(37,10*sqrt(3)/2)--(42,0)--cycle,black+linewidth(.75)); MP(\"I\",(10,0),N);MP(\"II\",(26,0),N);MP(\"III\",(37,0),N); MP(\"A\",(0,0),S);MP(\"B\",(20,0),S);MP(\"C\",(32,0),S);MP(\"D\",(42,0),S); [/asy] In this diagram, not drawn to scale, Figures $I$ and $III$ are equilateral triangular regions with respective areas of $32\\sqrt{3}$ and $8\\sqrt{3}$ square inches. Figure $II$ is a square region with area $32$ square inches. Let the length of segment $AD$ be decreased by $12\\tfrac{1}{2}$ \u00a0% of itself, while the lengths of $AB$ and $CD$ remain unchanged. The percent decrease in the area of the square is: $\\text{(A)}\\ 12\\tfrac{1}{2}\\qquad\\text{(B)}\\ 25\\qquad\\text{(C)}\\ 50\\qquad\\text{(D)}\\ 75\\qquad\\text{(E)}\\ 87\\tfrac{1}{2}$",
         "algebra"
     ],
@@ -24,11 +32,11 @@
         "algebra"
     ],
     [
-        "A park is in the shape of a regular hexagon $2$ km on a side. Starting at a corner,\nAlice walks along the perimeter of the park for a distance of $5$ km.\nHow many kilometers is she from her starting point? $\\textbf{(A)}\\ \\sqrt{13}\\qquad \\textbf{(B)}\\ \\sqrt{14}\\qquad \\textbf{(C)}\\ \\sqrt{15}\\qquad \\textbf{(D)}\\ \\sqrt{16}\\qquad \\textbf{(E)}\\ \\sqrt{17}$",
+        "[asy] draw((0,0)--(2,2)--(5/2,1/2)--(2,0)--cycle,dot); MP(\"A\",(0,0),W);MP(\"B\",(2,2),N);MP(\"C\",(5/2,1/2),SE);MP(\"D\",(2,0),S); MP(\"a\",(1,0),N);MP(\"b\",(17/8,1/8),N); [/asy] In the accompanying figure, segments $AB$ and $CD$ are parallel, the measure of angle $D$ is twice that of angle $B$, and the measures of segments $AD$ and $CD$ are $a$ and $b$ respectively. Then the measure of $AB$ is equal to $\\text{(A) } \\tfrac{1}{2}a+2b\\quad \\text{(B) } \\tfrac{3}{2}b+\\tfrac{3}{4}a\\quad \\text{(C) } 2a-b\\quad \\text{(D) } 4b-\\tfrac{1}{2}a\\quad \\text{(E) } a+b$",
         "algebra"
     ],
     [
-        "A cube of cheese $C=\\{(x, y, z)| 0 \\le x, y, z \\le 1\\}$ is cut along the planes $x=y, y=z$ and $z=x$. How many pieces are there?\n(No cheese is moved until all three cuts are made.) $\\textbf{(A)}\\ 5 \\qquad \\textbf{(B)}\\ 6 \\qquad \\textbf{(C)}\\ 7 \\qquad \\textbf{(D)}\\ 8 \\qquad \\textbf{(E)}\\ 9$",
+        "In the configuration below, $\\theta$ is measured in radians, $C$ is the center of the circle,\n$BCD$ and $ACE$ are line segments and $AB$ is tangent to the circle at $A$. [asy] defaultpen(fontsize(10pt)+linewidth(.8pt)); pair A=(0,-1), E=(0,1), C=(0,0), D=dir(10), F=dir(190), B=(-1/sin(10*pi/180))*dir(10); fill(Arc((0,0),1,10,90)--C--D--cycle,mediumgray); fill(Arc((0,0),1,190,270)--B--F--cycle,mediumgray); draw(unitcircle); draw(A--B--D^^A--E); label(\"$A$\",A,S); label(\"$B$\",B,W); label(\"$C$\",C,SE); label(\"$\\theta$\",C,SW); label(\"$D$\",D,NE); label(\"$E$\",E,N); [/asy] A necessary and sufficient condition for the equality of the two shaded areas, given $0 < \\theta < \\frac{\\pi}{2}$, is $\\textbf{(A)}\\ \\tan \\theta = \\theta\\qquad \\textbf{(B)}\\ \\tan \\theta = 2\\theta\\qquad \\textbf{(C)}\\ \\tan\\theta = 4\\theta\\qquad \\textbf{(D)}\\ \\tan 2\\theta =\\theta\\qquad\\\\ \\textbf{(E)}\\ \\tan\\frac{\\theta}{2}=\\theta$",
         "algebra"
     ],
     [
@@ -37,6 +45,10 @@
     ],
     [
         "Let $P_1^{}$ be a regular $r~\\mbox{gon}$ and $P_2^{}$ be a regular $s~\\mbox{gon}$ $(r\\geq s\\geq 3)$ such that each interior angle of $P_1^{}$ is $\\frac{59}{58}$ as large as each interior angle of $P_2^{}$. What's the largest possible value of $s_{}^{}$? ",
+        "algebra"
+    ],
+    [
+        "[asy] draw((0,0)--(0,3)--(4,0)--cycle,dot); draw((4,0)--(7,0)--(7,10)--cycle,dot); draw((0,3)--(7,10),dot); MP(\"C\",(0,0),SW);MP(\"A\",(0,3),NW);MP(\"B\",(4,0),S);MP(\"E\",(7,0),SE);MP(\"D\",(7,10),NE); [/asy] Triangle $ABC$ has a right angle at $C, AC=3$ and $BC=4$. Triangle $ABD$ has a right angle at $A$ and $AD=12$. Points $C$ and $D$ are on opposite sides of $\\overline{AB}$. The line through $D$ parallel to $\\overline{AC}$ meets $\\overline{CB}$ extended at $E$. If\n\n\n\\[\\frac{DE}{DB}=\\frac{m}{n},\\]\n\n\nwhere $m$ and $n$ are relatively prime positive integers, then $m+n=$ $\\text{(A) } 25\\quad \\text{(B) } 128\\quad \\text{(C) } 153\\quad \\text{(D) } 243\\quad \\text{(E) } 256$",
         "algebra"
     ],
     [
@@ -52,7 +64,19 @@
         "algebra"
     ],
     [
+        "[asy] draw(circle((0,0),10),black+linewidth(.75)); draw((-10,0)--(10,0),black+linewidth(.75)); draw((-10,0)--(9,sqrt(19)),black+linewidth(.75)); draw((-10,0)--(9,-sqrt(19)),black+linewidth(.75)); draw((2,0)--(9,sqrt(19)),black+linewidth(.75)); draw((2,0)--(9,-sqrt(19)),black+linewidth(.75)); MP(\"X\",(2,0),N);MP(\"A\",(-10,0),W);MP(\"D\",(10,0),E);MP(\"B\",(9,sqrt(19)),E);MP(\"C\",(9,-sqrt(19)),E); [/asy] Points $A,B,C$ and $D$ are on a circle of diameter $1$, and $X$ is on diameter $\\overline{AD}.$ If $BX=CX$ and $3\\angle{BAC}=\\angle{BXC}=36^\\circ$, then $AX=$ $\\text{(A) } \\cos(6^\\circ)\\cos(12^\\circ)\\sec(18^\\circ)\\quad\\\\ \\text{(B) } \\cos(6^\\circ)\\sin(12^\\circ)\\csc(18^\\circ)\\quad\\\\ \\text{(C) } \\cos(6^\\circ)\\sin(12^\\circ)\\sec(18^\\circ)\\quad\\\\ \\text{(D) } \\sin(6^\\circ)\\sin(12^\\circ)\\csc(18^\\circ)\\quad\\\\ \\text{(E) } \\sin(6^\\circ)\\sin(12^\\circ)\\sec(18^\\circ)$",
+        "algebra"
+    ],
+    [
+        "Euler's formula states that for a convex polyhedron with $V$ vertices, $E$ edges, and $F$ faces, $V-E+F=2$. A particular convex polyhedron has 32 faces, each of which is either a triangle or a pentagon. At each of its $V$ vertices, $T$ triangular faces and $P$ pentagonal faces meet. What is the value of $100P+10T+V$? ",
+        "algebra"
+    ],
+    [
         "A fenced, rectangular field measures $24$ meters by $52$ meters. An agricultural researcher has 1994 meters of fence that can be used for internal fencing to partition the field into congruent, square test plots. The entire field must be partitioned, and the sides of the squares must be parallel to the edges of the field. What is the largest number of square test plots into which the field can be partitioned using all or some of the 1994 meters of fence? ",
+        "algebra"
+    ],
+    [
+        "Given a point $P^{}_{}$ on a triangular piece of paper $ABC,\\,$ consider the creases that are formed in the paper when $A, B,\\,$ and $C\\,$ are folded onto $P.\\,$ Let us call $P_{}^{}$ a fold point of $\\triangle ABC\\,$ if these creases, which number three unless $P^{}_{}$ is one of the vertices, do not intersect. Suppose that $AB=36, AC=72,\\,$ and $\\angle B=90^\\circ.\\,$ Then the area of the set of all fold points of $\\triangle ABC\\,$ can be written in the form $q\\pi-r\\sqrt{s},\\,$ where $q, r,\\,$ and $s\\,$ are positive integers and $s\\,$ is not divisible by the square of any prime. What is $q+r+s\\,$? ",
         "algebra"
     ],
     [
@@ -60,8 +84,8 @@
         "algebra"
     ],
     [
-        "A tetrahedron with four equilateral triangular faces has a sphere inscribed within it and a sphere circumscribed about it. For each of the four faces, there is a sphere tangent externally to the face at its center and to the circumscribed sphere. A point $P$ is selected at random inside the circumscribed sphere. The probability that $P$ lies inside one of the five small spheres is closest to $\\mathrm{(A) \\ }0 \\qquad \\mathrm{(B) \\ }0.1 \\qquad \\mathrm{(C) \\ }0.2 \\qquad \\mathrm{(D) \\ }0.3 \\qquad \\mathrm{(E) \\ }0.4$",
-        "combinatorics"
+        "Let $ABC$ be equilateral, and $D, E,$ and $F$ be the midpoints of $\\overline{BC}, \\overline{CA},$ and $\\overline{AB},$ respectively. There exist points $P, Q,$ and $R$ on $\\overline{DE}, \\overline{EF},$ and $\\overline{FD},$ respectively, with the property that $P$ is on $\\overline{CQ}, Q$ is on $\\overline{AR},$ and $R$ is on $\\overline{BP}.$ The ratio of the area of triangle $ABC$ to the area of triangle $PQR$ is $a + b\\sqrt {c},$ where $a, b$ and $c$ are integers, and $c$ is not divisible by the square of any prime. What is $a^{2} + b^{2} + c^{2}$? ",
+        "algebra"
     ],
     [
         "Let $\\mathcal{T}$ be the set of ordered triples $(x,y,z)$ of nonnegative real numbers that lie in the plane $x+y+z=1.$ Let us say that $(x,y,z)$ supports $(a,b,c)$ when exactly two of the following are true: $x\\ge a, y\\ge b, z\\ge c.$ Let $\\mathcal{S}$ consist of those triples in $\\mathcal{T}$ that support $\\left(\\frac 12,\\frac 13,\\frac 16\\right).$ The area of $\\mathcal{S}$ divided by the area of $\\mathcal{T}$ is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers. Find $m+n.$ ",
@@ -74,6 +98,10 @@
     [
         "In the middle of a vast prairie, a firetruck is stationed at the intersection of two perpendicular straight highways. The truck travels at $50$ miles per hour along the highways and at $14$ miles per hour across the prairie. Consider the set of points that can be reached by the firetruck within six minutes. The area of this region is $m/n$ square miles, where $m$ and $n$ are relatively prime positive integers. Find $m + n$. ",
         "algebra"
+    ],
+    [
+        "A chord of a circle is perpendicular to a radius at the midpoint of the radius. The ratio of the area of the larger of the two regions into which the chord divides the circle to the smaller can be expressed in the form $\\frac{a\\pi+b\\sqrt{c}}{d\\pi-e\\sqrt{f}},$ where $a, b, c, d, e,$ and $f$ are positive integers, $a$ and $e$ are relatively prime, and neither $c$ nor $f$ is divisible by the square of any prime. Find the remainder when the product $abcdef$ is divided by 1000. ",
+        "number"
     ],
     [
         "Given that $O$ is a regular octahedron, that $C$ is the cube whose vertices are the centers of the faces of $O,$ and that the ratio of the volume of $O$ to that of $C$ is $\\frac mn,$ where $m$ and $n$ are relatively prime integers, find $m+n.$ Contents 1 Problem 2 Solutions 2.1 Solution 1 2.2 Solution 2 3 See also [asy] import three; currentprojection = perspective(4,-15,4); defaultpen(linewidth(0.7)); draw(box((-1,-1,-1),(1,1,1))); draw((-3,0,0)--(0,0,3)--(0,-3,0)--(-3,0,0)--(0,0,-3)--(0,-3,0)--(3,0,0)--(0,0,-3)--(0,3,0)--(0,0,3)--(3,0,0)--(0,3,0)--(-3,0,0)); [/asy] ",
@@ -104,6 +132,10 @@
         "algebra"
     ],
     [
+        "Michael draws $\\triangle ABC$ in the sand such that $\\angle ACB=90^\\circ$ and $\\angle CBA=15^\\circ$. He then picks a point at random from within the triangle and labels it point $M$. Next, he draws a segment from $A$ to $BC$ that passes through $M$, hitting $BC$ at a point he labels $D$. Just then, a wave washes over his work, so Michael redraws the exact same diagram farther from the water, labeling all the points the same way as before. If hypotenuse $AB$ is $4$ feet in length, let $p$ be the probability that the number of feet in the length of $AD$ is less than $2\\sqrt3-2$. Compute $\\lfloor1000p\\rfloor$. ",
+        "algebra"
+    ],
+    [
         "As the Kubiks head homeward, away from the beach in the family van, Jerry decides to take a different route away from the beach than the one they took to get there. The route involves lots of twists and turns, prompting Hannah to wonder aloud if Jerry's \"shortcut\" will save any time at all. Michael offers up a problem as an analogy to his father's meandering: \"Suppose dad drives around, making right-angled turns after $\\textit{every}$ mile. What is the farthest he could get us from our starting point after driving us $500$ miles assuming that he makes exactly $300$ right turns?\" \"Sounds almost like an energy efficiency problem,\" notes Hannah only half jokingly. Hannah is always encouraging her children to think along these lines. Let $d$ be the answer to Michael's problem. Compute $\\lfloor d\\rfloor$. ",
         "algebra"
     ],
@@ -116,14 +148,6 @@
         "algebra"
     ],
     [
-        "A rectangular box has width $12$ ",
-        "algebra"
-    ],
-    [
-        "Suppose that $f$ is a mapping of the plane into itself such that the vertices of every\nequilateral triangle of side one are mapped onto the vertices of a congruent triangle.\nShow that the map $f$ is distance preserving, i.e., $d(p, q) = d(f(p), f(q))$ for all points\n$p$ and $q$ in the plane, where $d(x, y)$ denotes the distance between the points $x$ and $y$ in\nthe plane. In other words, if any two points that are one unit apart are mapped to points\nthat are one unit apart, then any two points are mapped to two points that are the same\ndistance as their pre-images. ",
-        "algebra"
-    ],
-    [
         "With all angles measured in degrees, the product $\\prod_{k=1}^{45} \\csc^2(2k-1)^\\circ=m^n$, where $m$ and $n$ are integers greater than 1. Find $m+n$. ",
         "algebra"
     ],
@@ -132,7 +156,19 @@
         "algebra"
     ],
     [
+        "Tetrahedron $ABCD$ has $AD=BC=28$, $AC=BD=44$, and $AB=CD=52$. For any point $X$ in space, suppose $f(X)=AX+BX+CX+DX$. The least possible value of $f(X)$ can be expressed as $m\\sqrt{n}$, where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$. Let $M$ and $N$ be midpoints of $\\overline{AB}$ and $\\overline{CD}$. The given conditions imply that $\\triangle ABD\\cong\\triangle BAC$ and $\\triangle CDA\\cong\\triangle DCB$, and therefore $MC=MD$ and $NA=NB$. It follows that $M$ and $N$ both lie on the common perpendicular bisector of $\\overline{AB}$ and $\\overline{CD}$, and thus line $MN$ is that common perpendicular bisector. Points $B$ and $C$ are symmetric to $A$ and $D$ with respect to line $MN$. If $X$ is a point in space and $X'$ is the point symmetric to $X$ with respect to line $MN$, then $BX=AX'$ and $CX=DX'$, so $f(X) = AX+AX'+DX+DX'$. Let $Q$ be the intersection of $\\overline{XX'}$ and $\\overline{MN}$. Then $AX+AX'\\geq 2AQ$, from which it follows that $f(X) \\geq 2(AQ+DQ) = f(Q)$. It remains to minimize $f(Q)$ as $Q$ moves along $\\overline{MN}$. Allow $D$ to rotate about $\\overline{MN}$ to point $D'$ in the plane $AMN$ on the side of $\\overline{MN}$ opposite $A$. Because $\\angle DNM$ is a right angle, $D'N=DN$. It then follows that $f(Q) = 2(AQ+D'Q)\\geq 2AD'$, and equality occurs when $Q$ is the intersection of $\\overline{AD'}$ and $\\overline{MN}$. Thus $\\min f(Q) = 2AD'$. Because $\\overline{MD}$ is the median of $\\triangle ADB$, the Length of Median Formula shows that $4MD^2 = 2AD^2 + 2BD^2 - AB^2 = 2\\cdot 28^2 + 2 \\cdot 44^2 - 52^2$ and $MD^2 = 684$. By the Pythagorean Theorem $MN^2 = MD^2 - ND^2 = 8$. Because $\\angle AMN$ and $\\angle D'NM$ are right angles,\n\n\\[(AD')^2 = (AM+D'N)^2 + MN^2 = (2AM)^2 + MN^2 = 52^2 + 8 = 4\\cdot 678.\\]\n\nIt follows that $\\min f(Q) = 2AD' = 4\\sqrt{678}$. The requested sum is $4+678=\\boxed{682}$. ",
+        "algebra"
+    ],
+    [
+        "[asy] pair A=dir(72),B=dir(144),C=dir(216),D=dir(288),E=dir(360),O=(0,0); draw(A--B--C--D--E--A); pair AB1=(A+2*B)/3,AB2=(A+B)/2,AB3=(2*A+B)/3; draw(C--AB1--C--AB2--C--AB3); pair BC1=(B+2*C)/3,BC2=(B+C)/2,BC3=(2*B+C)/3; draw(D--BC1--D--BC2--D--BC3); pair CD1=(C+2*D)/3,CD2=(C+D)/2,CD3=(2*C+D)/3; draw(E--CD1--E--CD2--E--CD3); pair DE1=(D+2*E)/3,DE2=(D+E)/2,DE3=(2*D+E)/3; draw(A--DE1--A--DE2--A--DE3); pair EA1=(E+2*A)/3,EA2=(E+A)/2,EA3=(2*E+A)/3; draw(B--EA1--B--EA2--B--EA3); [/asy] On a regular pentagon, a spider\nforms segments that connect one endpoint of each\nside to n different non-vertex points on the side adjacent\nto the other endpoint of that side, going around\nclockwise, as shown. Into how many non-overlapping\nregions do the segments divide the pentagon? Your answer\nshould be a formula involving n. (In the diagram,\nn = 3 and the pentagon is divided into 61 regions.) ",
+        "algebra"
+    ],
+    [
         "Consider a triangulation (mesh) of a polygonal domain like the one in the \ufb01gure below. (a) Given the vertices of a triangle, devise a strategy for determining if a given point is inside that triangle. (b) Will your strategy work for polygons with more than three sides? (c) After implementing your strategy in an optimally e\ufb03cient computer code you \ufb01nd that the search for a problem with $100$ triangles, on average, takes $10$ seconds. You re\ufb01ne the triangulation by subdividing each of the triangles into smaller triangles by placing a new vertex at the center of gravity of each triangle. On average, how long will it take to \ufb01nd a point in the new mesh? ",
+        "algebra"
+    ],
+    [
+        "Ajay is standing at point $A$ near Pontianak, Indonesia, $0^\\circ$ latitude and $110^\\circ \\text{ E}$ longitude. Billy is standing at point $B$ near Big Baldy Mountain, Idaho, USA, $45^\\circ \\text{ N}$ latitude and $115^\\circ \\text{ W}$ longitude. Assume that Earth is a perfect sphere with center $C.$ What is the degree measure of $\\angle ACB?$ $\\textbf{(A) }105 \\qquad \\textbf{(B) }112\\frac{1}{2} \\qquad \\textbf{(C) }120 \\qquad \\textbf{(D) }135 \\qquad \\textbf{(E) }150 \\qquad$[asy] /* Made by MRENTHUSIASM */ size(250); import graph3; import solids; currentprojection=orthographic((0.2,-0.5,0.2)); triple A, B, C; A = (1,0,0); B = (-1/2,1/2,sqrt(2)/2); C = (0,0,0); draw(unitsphere,white,light=White); dot(A^^B^^C,linewidth(4.5)); draw(Circle(C,1,(0,0,1))^^A--C--B); label(\"$A$\",A,3*dir(A)); label(\"$B$\",B,3*dir(B)); label(\"$C$\",C,3*(0,0,-1)); [/asy]\n\n\n~MRENTHUSIASM",
         "algebra"
     ],
     [
@@ -145,10 +181,6 @@
     ],
     [
         "Let $S$ be the set of positive integers $k$ such that the two parabolas\n\n\\[y=x^2-k~~\\text{and}~~x=2(y-20)^2-k\\]\n\nintersect in four distinct points, and these four points lie on a circle with radius at most $21$. Find the sum of the least element of $S$ and the greatest element of $S$. Graph in Desmos: https://www.desmos.com/calculator/37hsgxbygj ~MRENTHUSIASM ",
-        "algebra"
-    ],
-    [
-        "Let $S$ be the set of lattice points in the coordinate plane, both of whose coordinates are integers between $1$ and $30,$ inclusive. Exactly $300$ points in $S$ lie on or below a line with equation $y=mx.$ The possible values of $m$ lie in an interval of length $\\frac ab,$ where $a$ and $b$ are relatively prime positive integers. What is $a+b?$ $\\textbf{(A)} ~31 \\qquad \\textbf{(B)} ~47 \\qquad \\textbf{(C)} ~62\\qquad \\textbf{(D)} ~72 \\qquad \\textbf{(E)} ~85$",
         "algebra"
     ],
     [

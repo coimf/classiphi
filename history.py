@@ -54,7 +54,7 @@ def increase_max_results_per_page(increment: Optional[int] = 10) -> None:
     if "max_results_per_page" in st.session_state:
         st.session_state.max_results_per_page += (increment if increment and increment > 0 else 10)
 
-def main():
+def main() -> None:
     global load_persistent_history
     load_persistent_history = os.path.exists('history.json')
     st.set_page_config(page_title="ClassiPhi | History", page_icon="👾")

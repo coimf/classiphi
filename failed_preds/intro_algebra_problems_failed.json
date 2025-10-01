@@ -4,10 +4,6 @@
         "geometry"
     ],
     [
-        "The number of circular pipes with an inside diameter of $1$ inch which will carry the same amount of water as a pipe with an inside diameter of $6$ inches is: $\\textbf{(A)}\\ 6\\pi \\qquad \\textbf{(B)}\\ 6 \\qquad \\textbf{(C)}\\ 12 \\qquad \\textbf{(D)}\\ 36 \\qquad \\textbf{(E)}\\ 36\\pi$",
-        "geometry"
-    ],
-    [
         "When the circumference of a toy balloon is increased from $20$ inches to $25$ inches, the radius is increased by: $\\textbf{(A)}\\ 5\\text{ in} \\qquad \\textbf{(B)}\\ 2\\dfrac{1}{2}\\text{ in} \\qquad \\textbf{(C)}\\ \\dfrac{5}{\\pi}\\text{ in} \\qquad \\textbf{(D)}\\ \\dfrac{5}{2\\pi}\\text{ in} \\qquad \\textbf{(E)}\\ \\dfrac{\\pi}{5}\\text{ in}$",
         "geometry"
     ],
@@ -80,6 +76,10 @@
         "geometry"
     ],
     [
+        "If the square of a number of two digits is decreased by the square of the number formed by reversing the digits,\nthen the result is not always divisible by: $\\textbf{(A)}\\ 9 \\qquad \\textbf{(B)}\\ \\text{the product of the digits}\\qquad \\textbf{(C)}\\ \\text{the sum of the digits}\\qquad \\textbf{(D)}\\ \\text{the difference of the digits}\\qquad \\textbf{(E)}\\ 11$",
+        "number"
+    ],
+    [
         "The polygon(s) formed by $y=3x+2, y=-3x+2$, and $y=-2$, is (are): $\\textbf{(A) }\\text{An equilateral triangle}\\qquad\\textbf{(B) }\\text{an isosceles triangle} \\qquad\\textbf{(C) }\\text{a right triangle} \\qquad \\\\ \\textbf{(D) }\\text{a triangle and a trapezoid}\\qquad\\textbf{(E) }\\text{a quadrilateral}$",
         "geometry"
     ],
@@ -89,6 +89,10 @@
     ],
     [
         "An altitude $h$ of a triangle is increased by a length $m$. How much must be taken from the corresponding base $b$\nso that the area of the new triangle is one-half that of the original triangle? $\\textbf{(A)}\\ \\frac{bm}{h+m}\\qquad \\textbf{(B)}\\ \\frac{bh}{2h+2m}\\qquad \\textbf{(C)}\\ \\frac{b(2m+h)}{m+h}\\qquad \\textbf{(D)}\\ \\frac{b(m+h)}{2m+h}\\qquad \\textbf{(E)}\\ \\frac{b(2m+h)}{2(h+m)}$",
+        "geometry"
+    ],
+    [
+        "The set of points satisfying the pair of inequalities $y>2x$ and $y>4-x$ is contained entirely in quadrants: $\\textbf{(A)}\\ \\text{I and II}\\qquad \\textbf{(B)}\\ \\text{II and III}\\qquad \\textbf{(C)}\\ \\text{I and III}\\qquad \\textbf{(D)}\\ \\text{III and IV}\\qquad \\textbf{(E)}\\ \\text{I and IV}$",
         "geometry"
     ],
     [
@@ -104,8 +108,8 @@
         "geometry"
     ],
     [
-        "In counting $n$ colored balls, some red and some black, it was found that $49$ of the first $50$ counted were red.\nThereafter, $7$ out of every $8$ counted were red. If, in all, $90$ \u00a0% or more of the balls counted were red, the maximum value of $n$ is: $\\textbf{(A)}\\ 225 \\qquad \\textbf{(B)}\\ 210 \\qquad \\textbf{(C)}\\ 200 \\qquad \\textbf{(D)}\\ 180 \\qquad \\textbf{(E)}\\ 175$",
-        "combinatorics"
+        "Given the four equations: $\\textbf{(1)}\\ 3y-2x=12 \\qquad\\textbf{(2)}\\ -2x-3y=10 \\qquad\\textbf{(3)}\\ 3y+2x=12 \\qquad\\textbf{(4)}\\ 2y+3x=10$ The pair representing the perpendicular lines is: $\\textbf{(A)}\\ \\text{(1) and (4)}\\qquad \\textbf{(B)}\\ \\text{(1) and (3)}\\qquad \\textbf{(C)}\\ \\text{(1) and (2)}\\qquad \\textbf{(D)}\\ \\text{(2) and (4)}\\qquad \\textbf{(E)}\\ \\text{(2) and (3)}$",
+        "geometry"
     ],
     [
         "The graph of $x^2-4y^2=0$ is: $\\textbf{(A)}\\ \\text{a parabola} \\qquad \\textbf{(B)}\\ \\text{an ellipse} \\qquad \\textbf{(C)}\\ \\text{a pair of straight lines}\\qquad \\\\ \\textbf{(D)}\\ \\text{a point}\\qquad \\textbf{(E)}\\ \\text{None of these}$",
@@ -116,7 +120,15 @@
         "geometry"
     ],
     [
+        "The three-digit number $2a3$ is added to the number $326$ to give the three-digit number $5b9$. If $5b9$ is divisible by 9, then $a+b$ equals $\\text{(A)}\\ 2\\qquad\\text{(B)}\\ 4\\qquad\\text{(C)}\\ 6\\qquad\\text{(D)}\\ 8\\qquad\\text{(E)}\\ 9$",
+        "number"
+    ],
+    [
         "Let the product $(12)(15)(16)$, each factor written in base $b$, equals $3146$ in base $b$. Let $s=12+15+16$, each term expressed in base $b$. Then $s$, in base $b$, is $\\textbf{(A)}\\ 43\\qquad \\textbf{(B)}\\ 44\\qquad \\textbf{(C)}\\ 45\\qquad \\textbf{(D)}\\ 46\\qquad \\textbf{(E)}\\ 47$",
+        "number"
+    ],
+    [
+        "The number of solution-pairs in the positive integers of the equation $3x+5y=501$ is: $\\textbf{(A)}\\ 33\\qquad \\textbf{(B)}\\ 34\\qquad \\textbf{(C)}\\ 35\\qquad \\textbf{(D)}\\ 100\\qquad \\textbf{(E)}\\ \\text{none of these}$",
         "number"
     ],
     [
@@ -130,6 +142,10 @@
     [
         "A straight line passing through the point $(0,4)$ is perpendicular to the line $x-3y-7=0$. Its equation is: $\\text{(A) } y+3x-4=0\\quad \\text{(B) } y+3x+4=0\\quad \\text{(C) } y-3x-4=0\\quad \\\\ \\text{(D) } 3y+x-12=0\\quad \\text{(E) } 3y-x-12=0$",
         "geometry"
+    ],
+    [
+        "A positive number is mistakenly divided by $6$ instead of being multiplied by $6.$ Based on the correct answer, the error thus committed, to the nearest percent, is\u00a0: $\\text{(A) } 100\\quad \\text{(B) } 97\\quad \\text{(C) } 83\\quad \\text{(D) } 17\\quad \\text{(E) } 3$",
+        "number"
     ],
     [
         "A circle with radius $r$ is contained within the region bounded by a circle with radius $R$. The area bounded by the larger circle is $\\frac{a}{b}$ times the area of the region outside the smaller circle and inside the larger circle. Then $R:r$ equals: $\\text{(A) }\\sqrt{a}:\\sqrt{b} \\quad \\text{(B) } \\sqrt{a}:\\sqrt{a-b}\\quad \\text{(C) } \\sqrt{b}:\\sqrt{a-b}\\quad \\text{(D) } a:\\sqrt{a-b}\\quad \\text{(E) } b:\\sqrt{a-b}$",
@@ -176,27 +192,75 @@
         "geometry"
     ],
     [
+        "In a magic triangle, each of the six whole numbers $10-15$ is placed in one of the circles so that the sum, $S$, of the three numbers on each side of the triangle is the same. The largest possible value for $S$ is [asy] draw(circle((0,0),1)); draw(dir(60)--6*dir(60)); draw(circle(7*dir(60),1)); draw(8*dir(60)--13*dir(60)); draw(circle(14*dir(60),1)); draw((1,0)--(6,0)); draw(circle((7,0),1)); draw((8,0)--(13,0)); draw(circle((14,0),1)); draw(circle((10.5,6.0621778264910705273460621952706),1)); draw((13.5,0.86602540378443864676372317075294)--(11,5.1961524227066318805823390245176)); draw((10,6.9282032302755091741097853660235)--(7.5,11.258330249197702407928401219788)); [/asy] $\\text{(A)}\\ 36 \\qquad \\text{(B)}\\ 37 \\qquad \\text{(C)}\\ 38 \\qquad \\text{(D)}\\ 39 \\qquad \\text{(E)}\\ 40$",
+        "geometry"
+    ],
+    [
+        "$\\frac{10^7}{5\\times 10^4}=$ $\\text{(A)}\\.002 \\qquad \\text{(B)}\\.2 \\qquad \\text{(C)}\\ 20 \\qquad \\text{(D)}\\ 200 \\qquad \\text{(E)}\\ 2000$",
+        "number"
+    ],
+    [
+        "[asy] unitsize(13); draw((0,0)--(20,0)); draw((0,0)--(0,15)); draw((0,3)--(-1,3)); draw((0,6)--(-1,6)); draw((0,9)--(-1,9)); draw((0,12)--(-1,12)); draw((0,15)--(-1,15)); fill((2,0)--(2,15)--(3,15)--(3,0)--cycle,black); fill((4,0)--(4,12)--(5,12)--(5,0)--cycle,black); fill((6,0)--(6,9)--(7,9)--(7,0)--cycle,black); fill((8,0)--(8,9)--(9,9)--(9,0)--cycle,black); fill((10,0)--(10,15)--(11,15)--(11,0)--cycle,black); label(\"A\",(2.5,-.5),S); label(\"B\",(4.5,-.5),S); label(\"C\",(6.5,-.5),S); label(\"D\",(8.5,-.5),S); label(\"F\",(10.5,-.5),S); label(\"Grade\",(15,-.5),S); label(\"$1$\",(-1,3),W); label(\"$2$\",(-1,6),W); label(\"$3$\",(-1,9),W); label(\"$4$\",(-1,12),W); label(\"$5$\",(-1,15),W); [/asy] The bar graph shows the grades in a mathematics class for the last grading period. If A, B, C, and D are satisfactory grades, what fraction of the grades shown in the graph are satisfactory? $\\text{(A)}\\ \\frac{1}{2} \\qquad \\text{(B)}\\ \\frac{2}{3} \\qquad \\text{(C)}\\ \\frac{3}{4} \\qquad \\text{(D)}\\ \\frac{4}{5} \\qquad \\text{(E)}\\ \\frac{9}{10}$",
+        "combinatorics"
+    ],
+    [
+        "A \"stair-step\" figure is made of alternating black and white squares in each row. Rows $1$ through $4$ are shown. All rows begin and end with a white square. The number of black squares in the $37\\text{th}$ row is [asy] draw((0,0)--(7,0)--(7,1)--(0,1)--cycle); draw((1,0)--(6,0)--(6,2)--(1,2)--cycle); draw((2,0)--(5,0)--(5,3)--(2,3)--cycle); draw((3,0)--(4,0)--(4,4)--(3,4)--cycle); fill((1,0)--(2,0)--(2,1)--(1,1)--cycle,black); fill((3,0)--(4,0)--(4,1)--(3,1)--cycle,black); fill((5,0)--(6,0)--(6,1)--(5,1)--cycle,black); fill((2,1)--(3,1)--(3,2)--(2,2)--cycle,black); fill((4,1)--(5,1)--(5,2)--(4,2)--cycle,black); fill((3,2)--(4,2)--(4,3)--(3,3)--cycle,black); [/asy] $\\text{(A)}\\ 34 \\qquad \\text{(B)}\\ 35 \\qquad \\text{(C)}\\ 36 \\qquad \\text{(D)}\\ 37 \\qquad \\text{(E)}\\ 38$",
+        "combinatorics"
+    ],
+    [
         "A parabola $y = ax^{2} + bx + c$ has vertex $(4,2)$. If $(2,0)$ is on the parabola, then $abc$ equals $\\textbf{(A)}\\ -12\\qquad \\textbf{(B)}\\ -6\\qquad \\textbf{(C)}\\ 0\\qquad \\textbf{(D)}\\ 6\\qquad \\textbf{(E)}\\ 12$",
         "geometry"
+    ],
+    [
+        "Let S be the statement\n\"If the sum of the digits of the whole number $n$ is divisible by $6$, then $n$ is divisible by $6$.\" A value of $n$ which shows $S$ to be false is $\\textbf{(A)}\\ 30 \\qquad \\textbf{(B)}\\ 33 \\qquad \\textbf{(C)}\\ 40 \\qquad \\textbf{(D)}\\ 42 \\qquad \\textbf{(E)}\\ \\text{ none of these}$",
+        "number"
     ],
     [
         "A picture $3$ feet across is hung in the center of a wall that is $19$ feet wide. How many feet from the end of the wall is the nearest edge of the picture? $\\text{(A)}\\ 1\\frac{1}{2} \\qquad \\text{(B)}\\ 8 \\qquad \\text{(C)}\\ 9\\frac{1}{2} \\qquad \\text{(D)}\\ 16 \\qquad \\text{(E)}\\ 22$",
         "geometry"
     ],
     [
+        "The product $(1.8)(40.3+.07)$ is closest to $\\text{(A)}\\ 7 \\qquad \\text{(B)}\\ 42 \\qquad \\text{(C)}\\ 74 \\qquad \\text{(D)}\\ 84 \\qquad \\text{(E)}\\ 737$",
+        "number"
+    ],
+    [
+        "How many whole numbers are between $\\sqrt{8}$ and $\\sqrt{80}$? $\\text{(A)}\\ 5 \\qquad \\text{(B)}\\ 6 \\qquad \\text{(C)}\\ 7 \\qquad \\text{(D)}\\ 8 \\qquad \\text{(E)}\\ 9$",
+        "number"
+    ],
+    [
+        "In the product shown, $\\text{B}$ is a digit. The value of $\\text{B}$ is \\[\\begin{array}{rr} &\\text{B}2 \\\\ \\times& 7\\text{B} \\\\ \\hline &6396 \\\\ \\end{array}\\] $\\text{(A)}\\ 3 \\qquad \\text{(B)}\\ 5 \\qquad \\text{(C)}\\ 6 \\qquad \\text{(D)}\\ 7 \\qquad \\text{(E)}\\ 8$",
+        "number"
+    ],
+    [
         "How many ordered triples $(a, b, c)$ of non-zero real numbers have the property that each number is the product of the other two? $\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 3 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ 5$",
         "combinatorics"
     ],
     [
-        "In an office, at various times during the day the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's in-box. When there is time, the secretary takes the top letter off the pile and types it. If there are five letters in all, and the boss delivers them in the order $1\\ 2\\ 3\\ 4\\ 5$, which of the following could not be the order in which the secretary types them? $\\textbf{(A)}\\ 1\\ 2\\ 3\\ 4\\ 5 \\qquad \\textbf{(B)}\\ 2\\ 4\\ 3\\ 5\\ 1 \\qquad \\textbf{(C)}\\ 3\\ 2\\ 4\\ 1\\ 5 \\qquad \\textbf{(D)}\\ 4\\ 5\\ 2\\ 3\\ 1 \\qquad \\textbf{(E)}\\ 5\\ 4\\ 3\\ 2\\ 1 \\qquad$",
-        "combinatorics"
+        "$.4+.02+.006=$ $\\text{(A)}\\.012 \\qquad \\text{(B)}\\.066 \\qquad \\text{(C)}\\.12 \\qquad \\text{(D)}\\.24 \\qquad \\text{(E)}.426$",
+        "number"
+    ],
+    [
+        "$4(299)+3(299)+2(299)+298=$ $\\text{(A)}\\ 2889 \\qquad \\text{(B)}\\ 2989 \\qquad \\text{(C)}\\ 2991 \\qquad \\text{(D)}\\ 2999 \\qquad \\text{(E)}\\ 3009$",
+        "number"
     ],
     [
         "A multiple choice examination consists of $20$ questions. The scoring is $+5$ for each correct answer, $-2$ for each incorrect answer, and $0$ for each unanswered question. John's score on the examination is $48$. What is the maximum number of questions he could have answered correctly? $\\text{(A)}\\ 9 \\qquad \\text{(B)}\\ 10 \\qquad \\text{(C)}\\ 11 \\qquad \\text{(D)}\\ 12 \\qquad \\text{(E)}\\ 16$",
         "combinatorics"
     ],
     [
+        "The smallest product one could obtain by multiplying two numbers in the set $\\{ -7,-5,-1,1,3 \\}$ is $\\text{(A)}\\ -35 \\qquad \\text{(B)}\\ -21 \\qquad \\text{(C)}\\ -15 \\qquad \\text{(D)}\\ -1 \\qquad \\text{(E)}\\ 3$",
+        "number"
+    ],
+    [
+        "$\\diamondsuit$ and $\\Delta$ are whole numbers and $\\diamondsuit \\times \\Delta =36$. The largest possible value of $\\diamondsuit + \\Delta$ is $\\text{(A)}\\ 12 \\qquad \\text{(B)}\\ 13 \\qquad \\text{(C)}\\ 15 \\qquad \\text{(D)}\\ 20\\ \\qquad \\text{(E)}\\ 37$",
+        "number"
+    ],
+    [
         "What is the $100\\text{th}$ number in the arithmetic sequence : $1,5,9,13,17,21,25,...$? $\\text{(A)}\\ 397 \\qquad \\text{(B)}\\ 399 \\qquad \\text{(C)}\\ 401 \\qquad \\text{(D)}\\ 403 \\qquad \\text{(E)}\\ 405$",
+        "number"
+    ],
+    [
+        "$2.46\\times 8.163\\times (5.17+4.829)$ is closest to $\\text{(A)}\\ 100 \\qquad \\text{(B)}\\ 200 \\qquad \\text{(C)}\\ 300 \\qquad \\text{(D)}\\ 400 \\qquad \\text{(E)}\\ 500$",
         "number"
     ],
     [
@@ -204,12 +268,24 @@
         "geometry"
     ],
     [
-        "Mr. and Mrs. Zeta want to name baby Zeta so that its monogram (first, middle, and last initials) will be in alphabetical order with no letters repeated. How many such monograms are possible? $\\textrm{(A)}\\ 276\\qquad\\textrm{(B)}\\ 300\\qquad\\textrm{(C)}\\ 552\\qquad\\textrm{(D)}\\ 600\\qquad\\textrm{(E)}\\ 15600$",
-        "combinatorics"
+        "For how many integers $n$ between 1 and 100 does $x^2+x-n$ factor into the product of two linear factors with integer coefficients? $\\mathrm{(A) \\ 0 } \\qquad \\mathrm{(B) \\ 1 } \\qquad \\mathrm{(C) \\ 2 } \\qquad \\mathrm{(D) \\ 9 } \\qquad \\mathrm{(E) \\ 10 }$",
+        "number"
+    ],
+    [
+        "$(1+11+21+31+41)+(9+19+29+39+49)=$ $\\text{(A)}\\ 150 \\qquad \\text{(B)}\\ 199 \\qquad \\text{(C)}\\ 200 \\qquad \\text{(D)}\\ 249 \\qquad \\text{(E)}\\ 250$",
+        "number"
+    ],
+    [
+        "The number $\\text{N}$ is between $9$ and $17$. The average of $6$, $10$, and $\\text{N}$ could be $\\text{(A)}\\ 8 \\qquad \\text{(B)}\\ 10 \\qquad \\text{(C)}\\ 12 \\qquad \\text{(D)}\\ 14 \\qquad \\text{(E)}\\ 16$",
+        "number"
     ],
     [
         "Which of the following numbers is the largest? $\\text{(A)}\\.99 \\qquad \\text{(B)}\\.9099 \\qquad \\text{(C)}\\.9 \\qquad \\text{(D)}\\.909 \\qquad \\text{(E)}\\.9009$",
         "number"
+    ],
+    [
+        "If the markings on the number line are equally spaced, what is the number $\\text{y}$? [asy] draw((-4,0)--(26,0),Arrows); for(int a=0; a<6; ++a) { draw((4a,-1)--(4a,1)); } label(\"0\",(0,-1),S); label(\"20\",(20,-1),S); label(\"y\",(12,-1),S); [/asy] $\\text{(A)}\\ 3 \\qquad \\text{(B)}\\ 10 \\qquad \\text{(C)}\\ 12 \\qquad \\text{(D)}\\ 15 \\qquad \\text{(E)}\\ 16$",
+        "combinatorics"
     ],
     [
         "How many of the numbers, $100,101,\\cdots,999$ have three different digits in increasing order or in decreasing order? $\\text{(A) } 120\\quad \\text{(B) } 168\\quad \\text{(C) } 204\\quad \\text{(D) } 216\\quad \\text{(E) } 240$",
@@ -220,6 +296,10 @@
         "combinatorics"
     ],
     [
+        "For how many integers $N$ between $1$ and $1990$ is the improper fraction $\\frac{N^2+7}{N+4}$ $\\underline{not}$ in lowest terms? $\\text{(A) } 0\\quad \\text{(B) } 86\\quad \\text{(C) } 90\\quad \\text{(D) } 104\\quad \\text{(E) } 105$",
+        "number"
+    ],
+    [
         "The consecutive angles of a trapezoid form an arithmetic sequence. If the smallest angle is $75^\\circ$, then the largest angle is $\\text{(A) } 95^\\circ\\quad \\text{(B) } 100^\\circ\\quad \\text{(C) } 105^\\circ\\quad \\text{(D) } 110^\\circ\\quad \\text{(E) } 115^\\circ$",
         "geometry"
     ],
@@ -228,8 +308,16 @@
         "number"
     ],
     [
+        "When three different numbers from the set $\\{ -3, -2, -1, 4, 5 \\}$ are multiplied, the largest possible product is $\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 20 \\qquad \\text{(C)}\\ 30 \\qquad \\text{(D)}\\ 40 \\qquad \\text{(E)}\\ 60$",
+        "number"
+    ],
+    [
         "Horses $X,Y$ and $Z$ are entered in a three-horse race in which ties are not possible. The odds against $X$ winning are $3:1$ and the odds against $Y$ winning are $2:3$, what are the odds against $Z$ winning? (By \"odds against $H$ winning are $p:q$ \" we mean the probability of $H$ winning the race is $\\frac{q}{p+q}$.) $\\text{(A) } 3:20\\quad \\text{(B) } 5:6\\quad \\text{(C) } 8:5\\quad \\text{(D) } 17:3\\quad \\text{(E) } 20:3$",
         "combinatorics"
+    ],
+    [
+        "A positive integer $N$ is a palindrome if the integer obtained by reversing the sequence of digits of $N$ is equal to $N$. The year 1991 is the only year in the current century with the following 2 properties: (a) It is a palindrome\n(b) It factors as a product of a 2-digit prime palindrome and a 3-digit prime palindrome. How many years in the millenium between 1000 and 2000 have properties (a) and (b)? $\\text{(A) } 1\\quad \\text{(B) } 2\\quad \\text{(C) } 3\\quad \\text{(D) } 4\\quad \\text{(E) } 5$",
+        "number"
     ],
     [
         "If $S$ is the set of points $z$ in the complex plane such that $(3+4i)z$ is a real number, then $S$ is a (A) right triangle\n(B) circle\n(C) hyperbola\n(D) line\n(E) parabola",
@@ -244,6 +332,18 @@
         "combinatorics"
     ],
     [
+        "The vertical axis indicates the number of employees, but the scale was accidentally omitted from this graph. What percent of the employees at the Gauss company have worked there for $5$ years or more? [asy] for(int a=1; a<11; ++a) { draw((a,0)--(a,-.5)); } draw((0,10.5)--(0,0)--(10.5,0)); label(\"$1$\",(1,-.5),S); label(\"$2$\",(2,-.5),S); label(\"$3$\",(3,-.5),S); label(\"$4$\",(4,-.5),S); label(\"$5$\",(5,-.5),S); label(\"$6$\",(6,-.5),S); label(\"$7$\",(7,-.5),S); label(\"$8$\",(8,-.5),S); label(\"$9$\",(9,-.5),S); label(\"$10$\",(10,-.5),S); label(\"Number of years with company\",(5.5,-2),S); label(\"X\",(1,0),N); label(\"X\",(1,1),N); label(\"X\",(1,2),N); label(\"X\",(1,3),N); label(\"X\",(1,4),N); label(\"X\",(2,0),N); label(\"X\",(2,1),N); label(\"X\",(2,2),N); label(\"X\",(2,3),N); label(\"X\",(2,4),N); label(\"X\",(3,0),N); label(\"X\",(3,1),N); label(\"X\",(3,2),N); label(\"X\",(3,3),N); label(\"X\",(3,4),N); label(\"X\",(3,5),N); label(\"X\",(3,6),N); label(\"X\",(3,7),N); label(\"X\",(4,0),N); label(\"X\",(4,1),N); label(\"X\",(4,2),N); label(\"X\",(5,0),N); label(\"X\",(5,1),N); label(\"X\",(6,0),N); label(\"X\",(6,1),N); label(\"X\",(7,0),N); label(\"X\",(7,1),N); label(\"X\",(8,0),N); label(\"X\",(9,0),N); label(\"X\",(10,0),N); label(\"Gauss Company\",(5.5,10),N); [/asy] $\\text{(A)}\\ 9\\% \\qquad \\text{(B)}\\ 23\\frac{1}{3}\\% \\qquad \\text{(C)}\\ 30\\% \\qquad \\text{(D)}\\ 42\\frac{6}{7}\\% \\qquad \\text{(E)}\\ 50\\%$",
+        "combinatorics"
+    ],
+    [
+        "For every $3^\\circ$ rise in temperature, the volume of a certain gas expands by $4$ cubic centimeters. If the volume of the gas is $24$ cubic centimeters when the temperature is $32^\\circ$, what was the volume of the gas in cubic centimeters when the temperature was $20^\\circ$? $\\text{(A)}\\ 8 \\qquad \\text{(B)}\\ 12 \\qquad \\text{(C)}\\ 15 \\qquad \\text{(D)}\\ 16 \\qquad \\text{(E)}\\ 40$",
+        "geometry"
+    ],
+    [
+        "What is the largest quotient that can be formed using two numbers chosen from the set $\\{ -24, -3, -2, 1, 2, 8 \\}$? $\\text{(A)}\\ -24 \\qquad \\text{(B)}\\ -3 \\qquad \\text{(C)}\\ 8 \\qquad \\text{(D)}\\ 12 \\qquad \\text{(E)}\\ 24$",
+        "number"
+    ],
+    [
         "An urn is filled with coins and beads, all of which are either silver or gold. Twenty percent of the objects in the urn are beads. Forty percent of the coins in the urn are silver. What percent of objects in the urn are gold coins? $\\text{(A) } 40\\%\\quad \\text{(B) } 48\\%\\quad \\text{(C) } 52\\%\\quad \\text{(D) } 60\\%\\quad \\text{(E) } 80\\%$",
         "combinatorics"
     ],
@@ -252,15 +352,15 @@
         "geometry"
     ],
     [
-        "What is the largest difference that can be formed by subtracting two numbers chosen from the set $\\{ -16,-4,0,2,4,12 \\}$? $\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 12 \\qquad \\text{(C)}\\ 16 \\qquad \\text{(D)}\\ 28 \\qquad \\text{(E)}\\ 48$",
-        "combinatorics"
-    ],
-    [
         "The digit-sum of $998$ is $9+9+8=26$. How many 3-digit whole numbers, whose digit-sum is $26$, are even? $\\text{(A)}\\ 1 \\qquad \\text{(B)}\\ 2 \\qquad \\text{(C)}\\ 3 \\qquad \\text{(D)}\\ 4 \\qquad \\text{(E)}\\ 5$",
         "combinatorics"
     ],
     [
         "If $\\log_2(\\log_2(\\log_2(x)))=2$, then how many digits are in the base-ten representation for x? $\\text{(A) } 5\\quad \\text{(B) } 7\\quad \\text{(C) } 9\\quad \\text{(D) } 11\\quad \\text{(E) } 13$",
+        "number"
+    ],
+    [
+        "Consider the non-decreasing sequence of positive integers\n\n\n\\[1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,\\cdots\\]\n\n\nin which the $n^{th}$ positive integer appears $n$ times. The remainder when the $1993^{rd}$ term is divided by $5$ is $\\text{(A) } 0\\quad \\text{(B) } 1\\quad \\text{(C) } 2\\quad \\text{(D) } 3\\quad \\text{(E) } 4$",
         "number"
     ],
     [
@@ -285,7 +385,7 @@
     ],
     [
         "In a magic square, the sum of the three entries in any row, column, or diagonal is the same value. The figure shows four of the entries of a magic square. Find $x$. ",
-        "combinatorics"
+        "geometry"
     ],
     [
         "To type all the integers from 1 to 1997 using a typewriter on a piece of paper, how many times is the key ' 9 ' needed to be pressed? ",
@@ -296,16 +396,24 @@
         "number"
     ],
     [
+        "Figures $0$, $1$, $2$, and $3$ consist of $1$, $5$, $13$, and $25$ nonoverlapping unit squares, respectively. If the pattern were continued, how many nonoverlapping unit squares would there be in figure 100? [asy] unitsize(8); draw((0,0)--(1,0)--(1,1)--(0,1)--cycle); draw((9,0)--(10,0)--(10,3)--(9,3)--cycle); draw((8,1)--(11,1)--(11,2)--(8,2)--cycle); draw((19,0)--(20,0)--(20,5)--(19,5)--cycle); draw((18,1)--(21,1)--(21,4)--(18,4)--cycle); draw((17,2)--(22,2)--(22,3)--(17,3)--cycle); draw((32,0)--(33,0)--(33,7)--(32,7)--cycle); draw((29,3)--(36,3)--(36,4)--(29,4)--cycle); draw((30,2)--(35,2)--(35,5)--(30,5)--cycle); label(\"Figure\",(0.5,-1),S); label(\"$0$\",(0.5,-2.5),S); label(\"Figure\",(9.5,-1),S); label(\"$1$\",(9.5,-2.5),S); label(\"Figure\",(19.5,-1),S); label(\"$2$\",(19.5,-2.5),S); label(\"Figure\",(32.5,-1),S); label(\"$3$\",(32.5,-2.5),S); [/asy] $\\textbf{(A)}\\ 10401 \\qquad\\textbf{(B)}\\ 19801 \\qquad\\textbf{(C)}\\ 20201 \\qquad\\textbf{(D)}\\ 39801 \\qquad\\textbf{(E)}\\ 40801$https://www.youtube.com/watch?v=HVP6qjKAkjA&t=2s",
+        "combinatorics"
+    ],
+    [
         "A set of tiles numbered 1 through 100 is modified repeatedly by the following operation: remove all tiles numbered with a perfect square, and renumber the remaining tiles consecutively starting with 1. How many times must the operation be performed to reduce the number of tiles in the set to one? $\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 11 \\qquad \\text{(C)}\\ 18 \\qquad \\text{(D)}\\ 19 \\qquad \\text{(E)}\\ 20$",
         "combinatorics"
     ],
     [
         "The arithmetic mean of the nine numbers in the set $\\{9, 99, 999, 9999, \\ldots, 999999999\\}$ is a $9$ -digit number $M$, all of whose digits are distinct. The number $M$ doesn't contain the digit $\\mathrm{(A)}\\ 0 \\qquad\\mathrm{(B)}\\ 2 \\qquad\\mathrm{(C)}\\ 4 \\qquad\\mathrm{(D)}\\ 6 \\qquad\\mathrm{(E)}\\ 8$",
-        "combinatorics"
+        "number"
     ],
     [
         "How many four-digit numbers $N$ have the property that the three-digit number obtained by removing the leftmost digit is one ninth of $N$? $\\mathrm{(A)}\\ 4 \\qquad\\mathrm{(B)}\\ 5 \\qquad\\mathrm{(C)}\\ 6 \\qquad\\mathrm{(D)}\\ 7 \\qquad\\mathrm{(E)}\\ 8$",
         "combinatorics"
+    ],
+    [
+        "The product of three consecutive positive integers is $8$ times their sum. What is the sum of their squares? $\\mathrm{(A)}\\ 50 \\qquad\\mathrm{(B)}\\ 77 \\qquad\\mathrm{(C)}\\ 110 \\qquad\\mathrm{(D)}\\ 149 \\qquad\\mathrm{(E)}\\ 194$",
+        "number"
     ],
     [
         "A point $(x,y)$ is randomly picked from inside the rectangle with vertices $(0,0)$, $(4,0)$, $(4,1)$, and $(0,1)$. What is the probability that $x<y$? $\\mathrm{(A) \\ } \\frac{1}{8}\\qquad \\mathrm{(B) \\ } \\frac{1}{4}\\qquad \\mathrm{(C) \\ } \\frac{3}{8}\\qquad \\mathrm{(D) \\ } \\frac{1}{2}\\qquad \\mathrm{(E) \\ } \\frac{3}{4}$",
@@ -314,6 +422,10 @@
     [
         "Sally has five red cards numbered $1$ through $5$ and four blue cards numbered $3$ through $6$. She stacks the cards so that the colors alternate and so that the number on each red card divides evenly into the number on each neighboring blue card. What is the sum of the numbers on the middle three cards? $\\mathrm{(A) \\ } 8\\qquad \\mathrm{(B) \\ } 9\\qquad \\mathrm{(C) \\ } 10\\qquad \\mathrm{(D) \\ } 11\\qquad \\mathrm{(E) \\ } 12$",
         "combinatorics"
+    ],
+    [
+        "The sum of the two 5-digit numbers $AMC10$ and $AMC12$ is $123422$. What is $A+M+C$? $\\mathrm{(A) \\ } 10\\qquad \\mathrm{(B) \\ } 11\\qquad \\mathrm{(C) \\ } 12\\qquad \\mathrm{(D) \\ } 13\\qquad \\mathrm{(E) \\ } 14$",
+        "number"
     ],
     [
         "A set $S$ of points in the $xy$ -plane is symmetric about the origin, both coordinate axes, and the line $y=x$. If $(2,3)$ is in $S$, what is the smallest number of points in $S$? $\\mathrm{(A) \\ } 1\\qquad \\mathrm{(B) \\ } 2\\qquad \\mathrm{(C) \\ } 4\\qquad \\mathrm{(D) \\ } 8\\qquad \\mathrm{(E) \\ } 16$",
@@ -328,8 +440,20 @@
         "combinatorics"
     ],
     [
+        "The sum of $49$ consecutive integers is $7^5$. What is their median? $\\text {(A)}\\ 7 \\qquad \\text {(B)}\\ 7^2\\qquad \\text {(C)}\\ 7^3\\qquad \\text {(D)}\\ 7^4\\qquad \\text {(E)}\\ 7^5$",
+        "number"
+    ],
+    [
+        "On the AMC 12, each correct answer is worth $6$ points, each incorrect answer is worth $0$ points, and each problem left unanswered is worth $2.5$ points. If Charlyn leaves $8$ of the $25$ problems unanswered, how many of the remaining problems must she answer correctly in order to score at least $100$? $\\text {(A)} 11 \\qquad \\text {(B)} 13 \\qquad \\text {(C)} 14 \\qquad \\text {(D)} 16\\qquad \\text {(E)}17$",
+        "combinatorics"
+    ],
+    [
         "A game uses a deck of $n$ different cards, where $n$ is an integer and $n \\geq 6.$ The number of possible sets of 6 cards that can be drawn from the deck is 6 times the number of possible sets of 3 cards that can be drawn. Find $n.$ https://youtu.be/IRyWOZQMTV8?t=150 ~ pi_is_3.14 ",
         "combinatorics"
+    ],
+    [
+        "Two is $10 \\%$ of $x$ and $20 \\%$ of $y$. What is $x - y$? $(\\mathrm {A}) \\ 1 \\qquad (\\mathrm {B}) \\ 2 \\qquad (\\mathrm {C})\\ 5 \\qquad (\\mathrm {D}) \\ 10 \\qquad (\\mathrm {E})\\ 20$",
+        "number"
     ],
     [
         "Sixty meters of rope is used to make three sides of a rectangular camping area with a long wall used as the other side. The length of each side of the rectangle is a natural number. What is the largest area that can be enclosed by the rope and the wall? ",
@@ -352,12 +476,28 @@
         "geometry"
     ],
     [
+        "Which of the following describes the graph of the equation $(x+y)^2=x^2+y^2$? $\\mathrm{(A)}\\ \\text{the empty set}\\qquad\\mathrm{(B)}\\ \\text{one point}\\qquad\\mathrm{(C)}\\ \\text{two lines}\\qquad\\mathrm{(D)}\\ \\text{a circle}\\qquad\\mathrm{(E)}\\ \\text{the entire plane}$",
+        "geometry"
+    ],
+    [
         "A number of linked rings, each $1$ cm thick, are hanging on a peg. The top ring has an outside diameter of $20$ cm. The outside diameter of each of the outer rings is $1$ cm less than that of the ring above it. The bottom ring has an outside diameter of $3$ cm. What is the distance, in cm, from the top of the top ring to the bottom of the bottom ring? [asy] size(7cm); pathpen = linewidth(0.7); D(CR((0,0),10)); D(CR((0,0),9.5)); D(CR((0,-18.5),9.5)); D(CR((0,-18.5),9)); MP(\"$\\vdots$\",(0,-31),(0,0)); D(CR((0,-39),3)); D(CR((0,-39),2.5)); D(CR((0,-43.5),2.5)); D(CR((0,-43.5),2)); D(CR((0,-47),2)); D(CR((0,-47),1.5)); D(CR((0,-49.5),1.5)); D(CR((0,-49.5),1.0)); D((12,-10)--(12,10)); MP('20',(12,0),E); D((12,-51)--(12,-48)); MP('3',(12,-49.5),E);[/asy] $\\textbf{(A) } 171\\qquad\\textbf{(B) } 173\\qquad\\textbf{(C) } 182\\qquad\\textbf{(D) } 188\\qquad\\textbf{(E) } 210\\qquad$",
         "geometry"
     ],
     [
         "How many sets of two or more consecutive positive integers have a sum of $15$? $\\textbf{(A) } 1\\qquad \\textbf{(B) } 2\\qquad \\textbf{(C) } 3\\qquad \\textbf{(D) } 4\\qquad \\textbf{(E) } 5$",
         "combinatorics"
+    ],
+    [
+        "The parabola $y=ax^2+bx+c$ has vertex $(p,p)$ and $y$ -intercept $(0,-p)$, where $p\\ne 0$. What is $b$? $\\text {(A) } -p \\qquad \\text {(B) } 0 \\qquad \\text {(C) } 2 \\qquad \\text {(D) } 4 \\qquad \\text {(E) } p$",
+        "geometry"
+    ],
+    [
+        "Let $S$ be the set of all point $(x,y)$ in the coordinate plane such that $0 \\le x \\le \\frac{\\pi}{2}$ and $0 \\le y \\le \\frac{\\pi}{2}$. What is the area of the subset of $S$ for which\n\n\\[\\sin^2x-\\sin x \\sin y + \\sin^2y \\le \\frac34?\\] $\\mathrm{(A)}\\ \\dfrac{\\pi^2}{9} \\qquad \\mathrm{(B)}\\ \\dfrac{\\pi^2}{8} \\qquad \\mathrm{(C)}\\ \\dfrac{\\pi^2}{6} \\qquad \\mathrm{(D)}\\ \\dfrac{3\\pi^2}{16} \\qquad \\mathrm{(E)}\\ \\dfrac{2\\pi^2}{9}$",
+        "geometry"
+    ],
+    [
+        "If $2^x=15$ and $15^y=256$, then the product $xy$ equals $\\mathrm{(A)}\\ 7\\qquad\\mathrm{(B)}\\ 3\\qquad\\mathrm{(C)}\\ 1\\qquad\\mathrm{(D)}\\ 8\\qquad\\mathrm{(E)}\\ 6$",
+        "number"
     ],
     [
         "The sum of the digits of the number $10^{2006}-2006$ is $\\mathrm{(A)}\\ 18006\\qquad\\mathrm{(B)}\\ 20060\\qquad\\mathrm{(C)}\\ 2006\\qquad\\mathrm{(D)}\\ 18047\\qquad\\mathrm{(E)}\\ \\text{None of these}$",
@@ -376,12 +516,20 @@
         "geometry"
     ],
     [
-        "The first 14 integers are written in order around a circle. Starting with 1, every fifth integer is underlined. (That is $1,6,11,2,7,\\ldots$ ).\nWhat is the $2006^{th}$ number underlined? [asy] draw(unitcircle,black); pair A; for(int j=1;j<15;++j){ A=dir(90-(j-1)*(360/14)); MP(string(j),A,A); } [/asy] ",
-        "combinatorics"
+        "The sum of $17$ consecutive integers is $2006$. Find the second largest integer. $\\mathrm{(A)}\\,17\\quad\\mathrm{(B)}\\,72\\quad\\mathrm{(C)}\\,95\\quad\\mathrm{(D)}\\,101\\quad\\mathrm{(E)}\\,102\\quad\\mathrm{(F)}\\,111\\quad\\mathrm{(G)}\\,125$",
+        "number"
+    ],
+    [
+        "The five digits $a,b,c,d$ and $e$ of $55225$ are such that $a=b=e$ and $c=d$ ; in addition, $55225=235^2=(235)(235)$.\nFind another integer $m$ such that $m^2$ is also a five digit number $abcde$ that satisfies $a=b=e$ and $c=d$. ",
+        "number"
     ],
     [
         "An aquarium has a rectangular base that measures $100$ cm by $40$ cm and has a height of $50$ cm. It is filled with water to a height of $40$ cm. A brick with a rectangular base that measures $40$ cm by $20$ cm and a height of $10$ cm is placed in the aquarium. By how many centimeters does the water rise? $\\text{(A)}\\ 0.5 \\qquad \\text{(B)}\\ 1 \\qquad \\text{(C)}\\ 1.5 \\qquad \\text{(D)}\\ 2 \\qquad \\text{(E)}\\ 2.5$",
         "geometry"
+    ],
+    [
+        "The larger of two consecutive odd integers is three times the smaller. What is their sum? $\\text{(A)}\\ 4 \\qquad \\text{(B)}\\ 8 \\qquad \\text{(C)}\\ 12 \\qquad \\text{(D)}\\ 16 \\qquad \\text{(E)}\\ 20$",
+        "number"
     ],
     [
         "An aquarium has a rectangular base that measures 100 cm by 40 cm and has a height of 50 cm. It is filled with water to a height of 40 cm. A brick with a rectangular base that measures 40 cm by 20 cm and a height of 10 cm is placed in the aquarium. By how many centimeters does the water rise? $\\mathrm{(A)}\\ 0.5\\qquad \\mathrm{(B)}\\ 1\\qquad \\mathrm{(C)}\\ 1.5\\qquad \\mathrm{(D)}\\ 2\\qquad \\mathrm{(E)}\\ 2.5$",
@@ -390,6 +538,10 @@
     [
         "Square $ABCD$ has area $36,$ and $\\overline{AB}$ is parallel to the x-axis. Vertices $A,$ $B$, and $C$ are on the graphs of $y = \\log_{a}x,$ $y = 2\\log_{a}x,$ and $y = 3\\log_{a}x,$ respectively. What is $a?$ $\\mathrm{(A)}\\ \\sqrt [6]{3}\\qquad \\mathrm{(B)}\\ \\sqrt {3}\\qquad \\mathrm{(C)}\\ \\sqrt [3]{6}\\qquad \\mathrm{(D)}\\ \\sqrt {6}\\qquad \\mathrm{(E)}\\ 6$",
         "geometry"
+    ],
+    [
+        "The larger of two consecutive odd integers is three times the smaller. What is their sum? $\\mathrm{(A)}\\ 4\\qquad \\mathrm{(B)}\\ 8\\qquad \\mathrm{(C)}\\ 12\\qquad \\mathrm{(D)}\\ 16\\qquad \\mathrm{(E)}\\ 20$",
+        "number"
     ],
     [
         "The volume of an orthogonal parallelepiped is $132\\;\\mathrm{cm}^3$ and its dimensions are integers. The minimum sum of the dimensions is $\\mathrm{(A) \\ } 27\\;\\mathrm{ cm}\\qquad \\mathrm{(B) \\ } 19\\;\\mathrm{ cm}\\qquad \\mathrm{(C) \\ }20\\;\\mathrm{ cm}\\qquad \\mathrm{(D) \\ } 18\\;\\mathrm{ cm}\\qquad \\mathrm{(E) \\ } \\mathrm{None\\ of\\ these}$",
@@ -416,8 +568,8 @@
         "geometry"
     ],
     [
-        "Of the students attending a school party, $60\\%$ of the students are girls, and $40\\%$ of the students like to dance. After these students are joined by $20$ more boy students, all of whom like to dance, the party is now $58\\%$ girls. How many students now at the party like to dance? ",
-        "combinatorics"
+        "Suppose that $m$ and $n$ are positive integers such that $m < n$, the geometric mean of $m$ and $n$ is greater than $2007$, and the arithmetic mean of $m$ and $n$ is less than $2007$. How many pairs $(m, n)$ satisfy these conditions? $\\mathrm{(A)}\\,0\\quad\\mathrm{(B)}\\,1\\quad\\mathrm{(C)}\\,2\\quad\\mathrm{(D)}\\,3\\quad\\mathrm{(E)}\\,4\\quad\\mathrm{(F)}\\,5\\quad\\mathrm{(G)}\\,6\\quad\\mathrm{(H)}\\,7\\quad\\mathrm{(I)}\\,2007$",
+        "number"
     ],
     [
         "What is the area of the region defined by the inequality $|3x-18|+|2y+7|\\le3$? $\\mathrm{(A)}\\ 3\\qquad\\mathrm{(B)}\\ \\frac{7}{2}\\qquad\\mathrm{(C)}\\ 4\\qquad\\mathrm{(D)}\\ \\frac{9}{2}\\qquad\\mathrm{(E)}\\ 5$",
@@ -436,6 +588,10 @@
         "combinatorics"
     ],
     [
+        "The sums of three whole numbers taken in pairs are 12, 17, and 19. What is the middle number? $\\textbf{(A)}\\ 4\\qquad\\textbf{(B)}\\ 5\\qquad\\textbf{(C)}\\ 6\\qquad\\textbf{(D)}\\ 7\\qquad\\textbf{(E)}\\ 8$",
+        "number"
+    ],
+    [
         "(a) What is the largest factor of $180$ that is not a multiple of $15$? (b) If $N$ satisfies $2^5 \\times 3^2 \\times5^4 \\times 7^3 \\times 11=99000 \\times N$,\nthen what is the largest perfect square that is a factor of $N$? ",
         "number"
     ],
@@ -448,20 +604,28 @@
         "combinatorics"
     ],
     [
+        "Which of the following integers cannot be written as the sum of four consecutive odd integers? $\\textbf{(A)}\\text{ 16}\\quad\\textbf{(B)}\\text{ 40}\\quad\\textbf{(C)}\\text{ 72}\\quad\\textbf{(D)}\\text{ 100}\\quad\\textbf{(E)}\\text{ 200}$",
+        "number"
+    ],
+    [
         "A triangle with vertices as $A=(1,3)$, $B=(5,1)$, and $C=(4,4)$ is plotted on a $6\\times5$ grid. What fraction of the grid is covered by the triangle? $\\textbf{(A) }\\frac{1}{6} \\qquad \\textbf{(B) }\\frac{1}{5} \\qquad \\textbf{(C) }\\frac{1}{4} \\qquad \\textbf{(D) }\\frac{1}{3} \\qquad \\textbf{(E) }\\frac{1}{2}$[asy] draw((1,0)--(1,5),linewidth(.5)); draw((2,0)--(2,5),linewidth(.5)); draw((3,0)--(3,5),linewidth(.5)); draw((4,0)--(4,5),linewidth(.5)); draw((5,0)--(5,5),linewidth(.5)); draw((6,0)--(6,5),linewidth(.5)); draw((0,1)--(6,1),linewidth(.5)); draw((0,2)--(6,2),linewidth(.5)); draw((0,3)--(6,3),linewidth(.5)); draw((0,4)--(6,4),linewidth(.5)); draw((0,5)--(6,5),linewidth(.5)); draw((0,0)--(0,6),EndArrow); draw((0,0)--(7,0),EndArrow); draw((1,3)--(4,4)--(5,1)--cycle); label(\"$y$\",(0,6),W); label(\"$x$\",(7,0),S); label(\"$A$\",(1,3),dir(210)); label(\"$B$\",(5,1),SE); label(\"$C$\",(4,4),dir(100)); [/asy]",
         "geometry"
     ],
     [
-        "Determine how many two-digit numbers satisfy the following property: when the number is added to the number obtained by reversing its digits, the sum is $132.$ $\\textbf{(A) }5\\qquad\\textbf{(B) }7\\qquad\\textbf{(C) }9\\qquad\\textbf{(D) }11\\qquad \\textbf{(E) }12$",
+        "Ralph went to the store and bought 12 pairs of socks for a total of $$24$. Some of the socks he bought cost $$1$ a pair, some of the socks he bought cost $$3$ a pair, and some of the socks he bought cost $$4$ a pair. If he bought at least one pair of each type, how many pairs of $$1$ socks did Ralph buy? $\\textbf{(A) } 4 \\qquad \\textbf{(B) } 5 \\qquad \\textbf{(C) } 6 \\qquad \\textbf{(D) } 7 \\qquad \\textbf{(E) } 8$",
         "combinatorics"
+    ],
+    [
+        "In the sequence\n$1, 2, 2, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, \\cdots$\nwhat number occupies position $2015$? ",
+        "number"
+    ],
+    [
+        "Determine how many two-digit numbers satisfy the following property: when the number is added to the number obtained by reversing its digits, the sum is $132.$ $\\textbf{(A) }5\\qquad\\textbf{(B) }7\\qquad\\textbf{(C) }9\\qquad\\textbf{(D) }11\\qquad \\textbf{(E) }12$",
+        "number"
     ],
     [
         "What is the largest power of $2$ that is a divisor of $13^4 - 11^4$? $\\textbf{(A)}\\mbox{ }8\\qquad \\textbf{(B)}\\mbox{ }16\\qquad \\textbf{(C)}\\mbox{ }32\\qquad \\textbf{(D)}\\mbox{ }64\\qquad \\textbf{(E)}\\mbox{ }128$",
         "number"
-    ],
-    [
-        "Four students take an exam. Three of their scores are $70, 80,$ and $90$. If the average of their four scores is $70$, then what is the remaining score? $\\textbf{(A) }40\\qquad\\textbf{(B) }50\\qquad\\textbf{(C) }55\\qquad\\textbf{(D) }60\\qquad \\textbf{(E) }70$",
-        "combinatorics"
     ],
     [
         "Which of the following numbers is not a perfect square? $\\textbf{(A) }1^{2016}\\qquad\\textbf{(B) }2^{2017}\\qquad\\textbf{(C) }3^{2018}\\qquad\\textbf{(D) }4^{2019}\\qquad \\textbf{(E) }5^{2020}$",
@@ -472,6 +636,10 @@
         "geometry"
     ],
     [
+        "When $0.000315$ is multiplied by $7,928,564$ the product is closest to which of the following? $\\textbf{(A) }210\\qquad\\textbf{(B) }240\\qquad\\textbf{(C) }2100\\qquad\\textbf{(D) }2400\\qquad\\textbf{(E) }24000$",
+        "number"
+    ],
+    [
         "All of Marcy's marbles are blue, red, green, or yellow. One third of her marbles are blue, one fourth of them are red, and six of them are green. What is the smallest number of yellow marbles that Marcy could have? $\\textbf{(A) }1\\qquad\\textbf{(B) }2\\qquad\\textbf{(C) }3\\qquad\\textbf{(D) }4\\qquad\\textbf{(E) }5$",
         "combinatorics"
     ],
@@ -480,11 +648,11 @@
         "geometry"
     ],
     [
-        "A point is chosen at random within the square in the coordinate plane whose vertices are $(0, 0), (2020, 0), (2020, 2020),$ and $(0, 2020)$. The probability that the point is within $d$ units of a lattice point is $\\tfrac{1}{2}$. (A point $(x, y)$ is a lattice point if $x$ and $y$ are both integers.) What is $d$ to the nearest tenth $?$ $\\textbf{(A) } 0.3 \\qquad \\textbf{(B) } 0.4 \\qquad \\textbf{(C) } 0.5 \\qquad \\textbf{(D) } 0.6 \\qquad \\textbf{(E) } 0.7$[asy] size(10cm); draw((0,0)--(1,0)--(1,1)--(0,1)--cycle); filldraw((arc((0,0), 0.3989, 0, 90))--(0,0)--cycle, gray); draw(arc((1,0), 0.3989, 90, 180)); filldraw((arc((1,0), 0.3989, 90, 180))--(1,0)--cycle, gray); draw(arc((1,1), 0.3989, 180, 270)); filldraw((arc((1,1), 0.3989, 180, 270))--(1,1)--cycle, gray); draw(arc((0,1), 0.3989, 270, 360)); filldraw(arc((0,1), 0.3989, 270, 360)--(0,1)--cycle, gray); [/asy]The diagram represents each unit square of the given $2020 \\times 2020$ square.",
-        "combinatorics"
+        "An amusement park has a collection of scale models, with a ratio of $1: 20$, of buildings and other sights from around the country. The height of the United States Capitol is $289$ feet. What is the height in feet of its duplicate to the nearest whole number? $\\textbf{(A) }14\\qquad\\textbf{(B) }15\\qquad\\textbf{(C) }16\\qquad\\textbf{(D) }18\\qquad\\textbf{(E) }20$",
+        "geometry"
     ],
     [
-        "Three positive integers are equally spaced on a number line. The middle number is $15,$ and the largest number is $4$ times the smallest number. What is the smallest of these three numbers? $\\textbf{(A) } 4 \\qquad \\textbf{(B) } 5 \\qquad \\textbf{(C) } 6 \\qquad \\textbf{(D) } 7 \\qquad \\textbf{(E) } 8$",
+        "A point is chosen at random within the square in the coordinate plane whose vertices are $(0, 0), (2020, 0), (2020, 2020),$ and $(0, 2020)$. The probability that the point is within $d$ units of a lattice point is $\\tfrac{1}{2}$. (A point $(x, y)$ is a lattice point if $x$ and $y$ are both integers.) What is $d$ to the nearest tenth $?$ $\\textbf{(A) } 0.3 \\qquad \\textbf{(B) } 0.4 \\qquad \\textbf{(C) } 0.5 \\qquad \\textbf{(D) } 0.6 \\qquad \\textbf{(E) } 0.7$[asy] size(10cm); draw((0,0)--(1,0)--(1,1)--(0,1)--cycle); filldraw((arc((0,0), 0.3989, 0, 90))--(0,0)--cycle, gray); draw(arc((1,0), 0.3989, 90, 180)); filldraw((arc((1,0), 0.3989, 90, 180))--(1,0)--cycle, gray); draw(arc((1,1), 0.3989, 180, 270)); filldraw((arc((1,1), 0.3989, 180, 270))--(1,1)--cycle, gray); draw(arc((0,1), 0.3989, 270, 360)); filldraw(arc((0,1), 0.3989, 270, 360)--(0,1)--cycle, gray); [/asy]The diagram represents each unit square of the given $2020 \\times 2020$ square.",
         "combinatorics"
     ],
     [
@@ -504,19 +672,51 @@
         "geometry"
     ],
     [
-        "A fifth number, $n$, is added to the set $\\{ 3,6,9,10 \\}$ to make the mean of the set of five numbers equal to its median. The number of possible values of $n$ is $\\text{(A)}\\ 1 \\qquad \\text{(B)}\\ 2 \\qquad \\text{(C)}\\ 3 \\qquad \\text{(D)}\\ 4 \\qquad \\text{(E)}\\ \\text{more than }4$",
-        "combinatorics"
+        "Which one of the following points is not on the graph of $y=\\dfrac{x}{x+1}$? $\\textbf{(A)}\\ (0,0)\\qquad \\textbf{(B)}\\ \\left(-\\frac{1}{2},-1\\right)\\qquad \\textbf{(C)}\\ \\left(\\frac{1}{2},\\frac{1}{3}\\right)\\qquad \\textbf{(D)}\\ (-1,1)\\qquad \\textbf{(E)}\\ (-2,2)$",
+        "geometry"
+    ],
+    [
+        "What is the value of $[\\log_{10}(5\\log_{10}100)]^2$? $\\textbf{(A)}\\ \\log_{10}50 \\qquad \\textbf{(B)}\\ 25\\qquad \\textbf{(C)}\\ 10 \\qquad \\textbf{(D)}\\ 2\\qquad \\textbf{(E)}\\ 1$",
+        "number"
+    ],
+    [
+        "The sum of all integers between 50 and 350 which end in 1 is $\\textbf{(A)}\\ 5880\\qquad\\textbf{(B)}\\ 5539\\qquad\\textbf{(C)}\\ 5208\\qquad\\textbf{(D)}\\ 4877\\qquad\\textbf{(E)}\\ 4566$",
+        "number"
+    ],
+    [
+        "$\\frac{2}{25}=$ $\\text{(A)}\\.008 \\qquad \\text{(B)}\\.08 \\qquad \\text{(C)}\\.8 \\qquad \\text{(D)}\\ 1.25 \\qquad \\text{(E)}\\ 12.5$",
+        "number"
+    ],
+    [
+        "Let $N$ be the largest positive integer with the following property: reading from left to right, each pair of consecutive digits of $N$ forms a perfect square. What are the leftmost three digits of $N$? ",
+        "number"
     ],
     [
         "The mean, median, unique mode, and range of a collection of eight integers are all equal to 8. The largest integer that can be an element of this collection is $\\text{(A) }11 \\qquad \\text{(B) }12 \\qquad \\text{(C) }13 \\qquad \\text{(D) }14 \\qquad \\text{(E) }15$",
-        "combinatorics"
+        "number"
     ],
     [
         "A wooden cube $n$ units on a side is painted red on all six faces and then cut into $n^3$ unit cubes. Exactly one-fourth of the total number of faces of the unit cubes are red. What is $n$? $(\\mathrm {A}) \\ 3 \\qquad (\\mathrm {B}) \\ 4 \\qquad (\\mathrm {C})\\ 5 \\qquad (\\mathrm {D}) \\ 6 \\qquad (\\mathrm {E})\\ 7$",
-        "combinatorics"
+        "geometry"
     ],
     [
         "The point $O$ is the center of the circle circumscribed about triangle $ABC$, with $\\angle BOC = 120^{\\circ}$ and $\\angle AOB = 140^{\\circ}$, as shown. What is the degree measure of $\\angle ABC$? $\\mathrm {(A)} 35 \\qquad \\mathrm {(B)} 40 \\qquad \\mathrm {(C)} 45 \\qquad \\mathrm {(D)} 50 \\qquad \\mathrm {(E)} 60$",
         "geometry"
+    ],
+    [
+        "A $\\text{palindrome}$, such as $83438$, is a number that remains the same when its digits are reversed. The numbers $x$ and $x+32$ are three-digit and four-digit palindromes, respectively. What is the sum of the digits of $x$? $\\textbf{(A)}\\ 20 \\qquad \\textbf{(B)}\\ 21 \\qquad \\textbf{(C)}\\ 22 \\qquad \\textbf{(D)}\\ 23 \\qquad \\textbf{(E)}\\ 24$",
+        "number"
+    ],
+    [
+        "Find a $3$ -digit integer less than $200$ where each digit is odd and the sum of the cubes of the digits is\nthe original number. ",
+        "number"
+    ],
+    [
+        "Joe has a collection of $23$ coins, consisting of $5$ -cent coins, $10$ -cent coins, and $25$ -cent coins. He has $3$ more $10$ -cent coins than $5$ -cent coins, and the total value of his collection is $320$ cents. How many more $25$ -cent coins does Joe have than $5$ -cent coins? $\\textbf{(A) } 0 \\qquad \\textbf{(B) } 1 \\qquad \\textbf{(C) } 2 \\qquad \\textbf{(D) } 3 \\qquad \\textbf{(E) } 4$",
+        "combinatorics"
+    ],
+    [
+        "Four friends do yardwork for their neighbors over the weekend, earning $$15, $20, $25,$ and $$40,$ respectively. They decide to split their earnings equally among themselves. In total, how much will the friend who earned $$40$ give to the others? $\\textbf{(A) }$5 \\qquad \\textbf{(B) }$10 \\qquad \\textbf{(C) }$15 \\qquad \\textbf{(D) }$20 \\qquad \\textbf{(E) }$25$",
+        "combinatorics"
     ]
 ]

@@ -12,11 +12,6 @@ if __name__ == "__main__":
             title="History",
             icon=":material/history:"
         ),
-        st.Page(
-            "review_generated.py",
-            title="Review",
-            icon=":material/database_search:"
-        )
     ]
     page = st.navigation(pages)
     page.run()

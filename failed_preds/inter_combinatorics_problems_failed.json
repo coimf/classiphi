@@ -21,7 +21,7 @@
     ],
     [
         "Let $[r,s]$ denote the least common multiple of positive integers $r$ and $s$. Find the number of ordered triples $(a,b,c)$ of positive integers for which $[a,b] = 1000$, $[b,c] = 2000$, and $[c,a] = 2000$. Contents 1 Problem 2 Solution 1 3 Solution 2 4 See also ",
-        "algebra"
+        "number"
     ],
     [
         "At the end of a professional bowling tournament, the top 5 bowlers have a playoff.\nFirst #5 bowls #4. The loser receives $5$ th prize and the winner bowls #3 in another game.\nThe loser of this game receives $4$ th prize and the winner bowls #2.\nThe loser of this game receives $3$ rd prize and the winner bowls #1.\nThe winner of this game gets 1st prize and the loser gets 2nd prize.\nIn how many orders can bowlers #1 through #5 receive the prizes? $\\textbf{(A)}\\ 10\\qquad \\textbf{(B)}\\ 16\\qquad \\textbf{(C)}\\ 24\\qquad \\textbf{(D)}\\ 120\\qquad \\textbf{(E)}\\ \\text{none of these}$",
@@ -32,7 +32,15 @@
         "geometry"
     ],
     [
+        "In an office at various times during the day, the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's inbox. When there is time, the secretary takes the top letter off the pile and types it. There are nine letters to be typed during the day, and the boss delivers them in the order $1, 2, 3, 4, 5, 6, 7, 8, 9$. While leaving for lunch, the secretary tells a colleague that letter $8$ has already been typed but says nothing else about the morning's typing. The colleague wonders which of the nine letters remain to be typed after lunch and in what order they will be typed. Based on the above information, how many such after-lunch typing orders are possible? (That there are no letters left to be typed is one of the possibilities.) ",
+        "algebra"
+    ],
+    [
         "What is the value of the sum $S=\\sum_{k=0}^{49}(-1)^k\\binom{99}{2k}=\\binom{99}{0}-\\binom{99}{2}+\\binom{99}{4}-\\cdots -\\binom{99}{98}?$ $\\textrm{(A)}\\ -2^{50}\\qquad\\textrm{(B)}\\ -2^{49}\\qquad\\textrm{(C)}\\ 0\\qquad\\textrm{(D)}\\ 2^{49}\\qquad\\textrm{(E)}\\ 2^{50}$",
+        "algebra"
+    ],
+    [
+        "Suppose that 7 boys and 13 girls line up in a row. Let $S$ be the number of places in the row where a boy and a girl are standing next to each other. For example, for the row $\\text{GBBGGGBGBGGGBGBGGBGG}$ we have that $S=12$. The average value of $S$ (if all possible orders of these 20 people are considered) is closest to $\\text{(A)}\\ 9\\qquad\\text{(B)}\\ 10\\qquad\\text{(C)}\\ 11\\qquad\\text{(D)}\\ 12\\qquad\\text{(E)}\\ 13$",
         "algebra"
     ],
     [
@@ -52,6 +60,10 @@
         "algebra"
     ],
     [
+        "A solitaire game is played as follows. Six distinct pairs of matched tiles are placed in a bag. The player randomly draws tiles one at a time from the bag and retains them, except that matching tiles are put aside as soon as they appear in the player's hand. The game ends if the player ever holds three tiles, no two of which match; otherwise the drawing continues until the bag is empty. The probability that the bag will be emptied is $p/q,\\,$ where $p\\,$ and $q\\,$ are relatively prime positive integers. Find $p+q.\\,$ ",
+        "algebra"
+    ],
+    [
         "Let $p_{}$ be the probability that, in the process of repeatedly flipping a fair coin, one will encounter a run of $5$ heads before one encounters a run of $2$ tails. Given that $p_{}$ can be written in the form $m/n$ where $m_{}$ and $n_{}$ are relatively prime positive integers, find $m+n$. Contents 1 Problem 2 Solution 2.1 Solution 1 2.2 Solution 2 2.3 Solution 3 3 Solution 4(fast) 4 Solution 5 5 Video solution 6 See also ",
         "algebra"
     ],
@@ -65,7 +77,7 @@
     ],
     [
         "The nine horizontal and nine vertical lines on an $8\\times8$ checkerboard form $r$ rectangles, of which $s$ are squares. The number $s/r$ can be written in the form $m/n,$ where $m$ and $n$ are relatively prime positive integers. Find $m + n.$ ",
-        "algebra"
+        "number"
     ],
     [
         "Define a domino to be an ordered pair of distinct positive integers. A proper sequence of dominos is a list of distinct dominos in which the first coordinate of each pair after the first equals the second coordinate of the immediately preceding pair, and in which $(i,j)$ and $(j,i)$ do not both appear for any $i$ and $j$. Let $D_{40}$ be the set of all dominos whose coordinates are no larger than 40. Find the length of the longest proper sequence of dominos that can be formed using the dominos of $D_{40}.$ ",
@@ -84,7 +96,15 @@
         "algebra"
     ],
     [
+        "A fair die is rolled four times. The probability that each of the final three rolls is at least as large as the roll preceding it may be expressed in the form $\\frac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$. Contents 1 Problem 2 Solutions 2.1 Solution 1 2.2 Solution 2 2.3 Solution 3 2.4 Solution 4 2.5 Solution 5 2.6 Solution 6 2.7 Solution 7 2.8 Solution 8 Recursion Formula 2.9 Solution 9: Observation of each case 2.10 Solution 10: Distributions 2.11 Solution 11: Stars and Bars(Under 2 minutes) 2.12 Solution 12 3 See also ",
+        "algebra"
+    ],
+    [
         "Each of the $2001$ students at a high school studies either Spanish or French, and some study both. The number who study Spanish is between $80$ percent and $85$ percent of the school population, and the number who study French is between $30$ percent and $40$ percent. Let $m$ be the smallest number of students who could study both languages, and let $M$ be the largest number of students who could study both languages. Find $M-m$. ",
+        "algebra"
+    ],
+    [
+        "Let $n$ be a positive integer. A child builds a wall along a line with $n$ identical cubes. He lays the first cube on the line and at each subsequent step, he lays the next cube either on the ground or on the top of another cube, so that it has a common face with the previous one. How many such distinct walls exist? ",
         "algebra"
     ],
     [
@@ -96,15 +116,15 @@
         "number"
     ],
     [
+        "A bug starts at a vertex of an equilateral triangle. On each move, it randomly selects one of the two vertices where it is not currently located, and crawls along a side of the triangle to that vertex. Given that the probability that the bug moves to its starting vertex on its tenth move is $m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m + n.$ ",
+        "algebra"
+    ],
+    [
         "A hall of a palace is in a shape of regular hexagon, where the sidelength is $6 \\text{ m}$. The floor of the hall is covered with an equilateral triangle-shaped tile with sidelength $50 \\text{ cm}$. Every tile is divided into $3$ congruent triangles (refer to the figure). Every triangle-region is colored with a certain color so that each tile has $3$ different colors. The King wants to ensure that no two tiles have the same color pattern. At least, how many colors are needed? [asy] pair C=(25,14.434); draw((0,0)--(50,0)--(25,43.301)--(0,0)); draw(C--(0,0)); draw(C--(50,0)); draw(C--(25,43.301)); [/asy] ",
         "geometry"
     ],
     [
         "A convex polyhedron $P$ has $26$ vertices, $60$ edges, and $36$ faces, $24$ of which are triangular and $12$ of which are quadrilaterals. A space diagonal is a line segment connecting two non-adjacent vertices that do not belong to the same face. How many space diagonals does $P$ have? ",
-        "geometry"
-    ],
-    [
-        "Define a regular $n$ -pointed star to be the union of $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ such that the points $P_1, P_2,\\ldots, P_n$ are coplanar and no three of them are collinear, each of the $n$ line segments intersects at least one of the other line segments at a point other than an endpoint, all of the angles at $P_1, P_2,\\ldots, P_n$ are congruent, all of the $n$ line segments $P_1P_2, P_2P_3,\\ldots, P_nP_1$ are congruent, and the path $P_1P_2, P_2P_3,\\ldots, P_nP_1$ turns counterclockwise at an angle of less than 180 degrees at each vertex. There are no regular 3-pointed, 4-pointed, or 6-pointed stars. All regular 5-pointed stars are similar, but there are two non-similar regular 7-pointed stars. How many non-similar regular 1000-pointed stars are there? ",
         "geometry"
     ],
     [
@@ -116,11 +136,23 @@
         "geometry"
     ],
     [
+        "For how many ordered pairs of digits $(A,B)$ is $2AB8$ a multiple of $12$? ",
+        "number"
+    ],
+    [
         "Consider an equilateral triangle of side length $n$, which is divided into unit triangles, as shown. Let $f(n)$ be the number of paths from the triangle in the top row to the middle triangle in the bottom row, such that adjacent triangles in our path share a common edge and the path never travels up (from a lower row to a higher row) or revisits a triangle. An example of one such path is illustrated below for $n=5$. Determine the value of $f(2005)$. ",
         "geometry"
     ],
     [
+        "There are $90$ contestants in a mathematics competition. Each contestant gets acquainted with at least $60$ other contestants. One of the contestants, Amin, state that at least four contestants have the same number of new friends. Prove or disprove his statement. ",
+        "algebra"
+    ],
+    [
         "A collection of 8 cubes consists of one cube with edge - length $k$ for each integer $k, 1 \\le k \\le 8.$ A tower is to be built using all 8 cubes according to the rules: Any cube may be the bottom cube in the tower. The cube immediately on top of a cube with edge-length $k$ must have edge-length at most $k+2.$ Let $T$ be the number of different towers than can be constructed. What is the remainder when $T$ is divided by 1000? ",
+        "algebra"
+    ],
+    [
+        "Let set $\\mathcal{A}$ be a 90- element subset of $\\{1,2,3,\\ldots,100\\},$ and let $S$ be the sum of the elements of $\\mathcal{A}.$ Find the number of possible values of $S.$ ",
         "algebra"
     ],
     [
@@ -132,12 +164,8 @@
         "algebra"
     ],
     [
-        "Let $(a_1,a_2,a_3,\\ldots,a_{12})$ be a permutation of $(1,2,3,\\ldots,12)$ for which $a_1>a_2>a_3>a_4>a_5>a_6 \\mathrm{\\ and \\ } a_6<a_7<a_8<a_9<a_{10}<a_{11}<a_{12}.$ An example of such a permutation is $(6,5,4,3,2,1,7,8,9,10,11,12).$ Find the number of such permutations. ",
+        "A mathematical organization is producing a set of commemorative license plates. Each plate contains a sequence of five characters chosen from the four letters in AIME and the four digits in 2007. No character may appear in a sequence more times than it appears among the four letters in AIME or the four digits in 2007. A set of plates in which each possible sequence appears exactly once contains N license plates. Find $\\frac{N}{10}$. ",
         "algebra"
-    ],
-    [
-        "There is an unlimited supply of congruent equilateral triangles made of colored paper. Each triangle is a solid color with the same color on both sides of the paper. A large equilateral triangle is constructed from four of these paper triangles. Two large triangles are considered distinguishable if it is not possible to place one on the other, using translations, rotations, and/or reflections, so that their corresponding small triangles are of the same color. Given that there are six different colors of triangles from which to choose, how many distinguishable large equilateral triangles may be formed? [asy] pair A,B; A=(0,0); B=(2,0); pair C=rotate(60,A)*B; pair D, E, F; D = (1,0); E=rotate(60,A)*D; F=rotate(60,C)*E; draw(C--A--B--cycle); draw(D--E--F--cycle); [/asy] ",
-        "geometry"
     ],
     [
         "A triangular array of squares has one square in the first row, two in the second, and in general, $k$ squares in the $k$ th row for $1 \\leq k \\leq 11.$ With the exception of the bottom row, each square rests on two squares in the row immediately below (illustrated in the given diagram). In each square of the eleventh row, a $0$ or a $1$ is placed. Numbers are then placed into the other squares, with the entry for each square being the sum of the entries in the two squares below it. For how many initial distributions of $0$ 's and $1$ 's in the bottom row is the number in the top square a multiple of $3$? [asy] for (int i=0; i<12; ++i){ for (int j=0; j<i; ++j){ //dot((-j+i/2,-i)); draw((-j+i/2,-i)--(-j+i/2+1,-i)--(-j+i/2+1,-i+1)--(-j+i/2,-i+1)--cycle); } } [/asy] ",
@@ -149,10 +177,6 @@
     ],
     [
         "James writes down fifteen 1's in a row and randomly writes + or - between each pair of consecutive 1's.\nOne such example is\n\n\n\\[1+1+1-1-1+1-1+1-1+1-1-1-1+1+1.\\]\n\n\nWhat is the probability that the value of the expression James wrote down is $7$? $\\text{(A) }0\\qquad \\text{(B) }\\frac{6435 }{2^{14}}\\qquad \\text{(C) }\\frac{6435 }{2^{13}}\\qquad \\text{(D) }\\frac{429}{2^{12}}\\qquad \\text{(E) }\\frac{429}{2^{11}}\\qquad \\text{(F) }\\frac{429}{2^{10}}\\qquad \\text{(G) }\\frac{1}{15}\\qquad \\text{(H) }\\frac{1}{31}\\qquad$$\\text{(I) }\\frac{1}{30}\\qquad \\text{(J) }\\frac{1}{29}\\qquad \\text{(K) }\\frac{1001 }{2^{15}}\\qquad \\text{(L) }\\frac{1001 }{2^{14}}\\qquad \\text{(M) }\\frac{1001 }{2^{13}}\\qquad \\text{(N) }\\frac{1}{2^{7}}\\qquad \\text{(O) }\\frac{1}{2^{14}}\\qquad \\text{(P) }\\frac{1}{2^{15}}\\qquad$$\\text{(Q) }\\frac{2007}{2^{14}}\\qquad \\text{(R) }\\frac{2007}{2^{15}}\\qquad \\text{(S) }\\frac{2007}{2^{2007}}\\qquad \\text{(T) }\\frac{1}{2007}\\qquad \\text{(U) }\\frac{-2007}{2^{14}}\\qquad$",
-        "algebra"
-    ],
-    [
-        "Consider sequences that consist entirely of $A$ 's and $B$ 's and that have the property that every run of consecutive $A$ 's has even length, and every run of consecutive $B$ 's has odd length. Examples of such sequences are $AA$, $B$, and $AABAA$, while $BBAB$ is not such a sequence. How many such sequences have length 14? ",
         "algebra"
     ],
     [
@@ -205,15 +229,35 @@
     ],
     [
         "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$. Consider all possible positive differences of pairs of elements of $S$. Let $N$ be the sum of all of these differences. Find the remainder when $N$ is divided by $1000$. ",
-        "algebra"
+        "number"
+    ],
+    [
+        "Let $m$ be the number of five-element subsets that can be chosen from the set of the first $14$ natural numbers so that at least two of the five numbers are consecutive. Find the remainder when $m$ is divided by $1000$. ",
+        "number"
     ],
     [
         "Define an ordered triple $(A, B, C)$ of sets to be minimally intersecting if $|A \\cap B| = |B \\cap C| = |C \\cap A| = 1$ and $A \\cap B \\cap C = \\emptyset$. For example, $(\\{1,2\\},\\{2,3\\},\\{1,3,4\\})$ is a minimally intersecting triple. Let $N$ be the number of minimally intersecting ordered triples of sets for which each set is a subset of $\\{1,2,3,4,5,6,7\\}$. Find the remainder when $N$ is divided by $1000$. Note : $|S|$ represents the number of elements in the set $S$. ",
         "algebra"
     ],
     [
+        "Dave arrives at an airport which has twelve gates arranged in a straight line with exactly $100$ feet between adjacent gates. His departure gate is assigned at random. After waiting at that gate, Dave is told the departure gate has been changed to a different gate, again at random. Let the probability that Dave walks $400$ feet or less to the new gate be a fraction $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "algebra"
+    ],
+    [
         "Two quadrilaterals are considered the same if one can be obtained from the other by a rotation and a translation. How many different convex cyclic quadrilaterals are there with integer sides and perimeter equal to 32? $\\textbf{(A)}\\ 560 \\qquad \\textbf{(B)}\\ 564 \\qquad \\textbf{(C)}\\ 568 \\qquad \\textbf{(D)}\\ 1498 \\qquad \\textbf{(E)}\\ 2255$",
         "geometry"
+    ],
+    [
+        "(a) The $3 \\times 3$ square grid has $9$ dots equally\nspaced. How many squares (of all sizes)\ncan you make using four of these dots\nas vertices? Two examples are shown. [asy] for (int x=0; x<3; ++x) {for (int y=0; y<3; ++y) {dot((x,y));dot((x+4,y));} } draw((0,0)--(1,0)--(1,1)--(0,1)--cycle,black); draw((4,1)--(5,0)--(6,1)--(5,2)--cycle,black); draw((3,-1)--(3,3),dashed); [/asy] (b) How many for a $4 \\times 4$? (c) How many for a $5 \\times 5$? (d) How many for an $(N+1) \\times (N+1)$ grid of dots? ",
+        "algebra"
+    ],
+    [
+        "Let $P(x) = x^2 - 3x - 9$. A real number $x$ is chosen at random from the interval $5 \\le x \\le 15$. The probability that $\\left\\lfloor\\sqrt{P(x)}\\right\\rfloor = \\sqrt{P(\\left\\lfloor x \\right\\rfloor)}$ is equal to $\\frac{\\sqrt{a} + \\sqrt{b} + \\sqrt{c} - d}{e}$, where $a$, $b$, $c$, $d$, and $e$ are positive integers. Find $a + b + c + d + e$. ",
+        "algebra"
+    ],
+    [
+        "Ed has five identical green marbles, and a large supply of identical red marbles. He arranges the green marbles and some of the red ones in a row and finds that the number of marbles whose right hand neighbor is the same color as themselves is equal to the number of marbles whose right hand neighbor is the other color. An example of such an arrangement is GGRRRGGRG. Let $m$ be the maximum number of red marbles for which such an arrangement is possible, and let $N$ be the number of ways he can arrange the $m+5$ marbles to satisfy the requirement. Find the remainder when $N$ is divided by $1000$. ",
+        "algebra"
     ],
     [
         "Mrs. Olson begins a journey at the intersection of Avenue $A$ and First Street in\nthe upper left on the attached map. She ends her journey at one of the Starbucks on\nAvenue $D$. There is a Starbucks on Avenue $D$ at every intersection from First Street\nthrough Sixth Street! If Mrs. Olson walks only East and South, how many different\npaths to a Starbucks on Avenue $D$ can she take? Note that Mrs. Olson may pass one\nStarbucks on her way to another Starbucks farther to the East. [asy] size(300,100); path R=((0,0)--(0,1)--(2,1)--(2,0)--cycle); for(int rw=0;rw<5;++rw){ for (int cl=0;cl<7;++cl){ filldraw(shift(3*cl,2*rw)*R,green);} } MP(\"Avenue \\: D\",(12,1+.5),E); MP(\"Avenue \\: C\",(12,3+.5),E); MP(\"Avenue \\: B\",(0,5+.5),E); MP(\"Avenue \\: A\",(0,7+.5),E); MP(90,\"1st\\: Street\",(3-.5,0),N); MP(90,\"2cnd\\: Street\",(6-.5,0),N); MP(90,\"3rd\\: Street\",(9-.5,0),N); MP(90,\"4th\\: Street\",(12-.5,4),N); MP(90,\"5th\\: Street\",(15-.5,4),N); MP(90,\"6th\\: Street\",(18-.5,4),N); [/asy] ",
@@ -224,7 +268,23 @@
         "algebra"
     ],
     [
+        "Melinda has three empty boxes and $12$ textbooks, three of which are mathematics textbooks. One box will hold any three of her textbooks, one will hold any four of her textbooks, and one will hold any five of her textbooks. If Melinda packs her textbooks into these boxes in random order, the probability that all three mathematics textbooks end up in the same box can be written as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "algebra"
+    ],
+    [
+        "Ten adults enter a room, remove their shoes, and toss their shoes into a pile. Later, a child randomly pairs each left shoe with a right shoe without regard to which shoes belong together. The probability that for every positive integer $k<5$, no collection of $k$ pairs made by the child contains the shoes from exactly $k$ of the adults is $\\frac{m}{n}$, where m and n are relatively prime positive integers. Find $m+n.$ ",
+        "algebra"
+    ],
+    [
+        "Arnold is studying the prevalence of three health risk factors, denoted by A, B, and C, within a population of men. For each of the three factors, the probability that a randomly selected man in the population has only this risk factor (and none of the others) is 0.1. For any two of the three factors, the probability that a randomly selected man has exactly these two risk factors (but not the third) is 0.14. The probability that a randomly selected man has all three risk factors, given that he has A and B is $\\frac{1}{3}$. The probability that a man has none of the three risk factors given that he does not have risk factor A is $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$. ",
+        "algebra"
+    ],
+    [
         "A sequence of natural numbers is constructed by listing the first $4$, then skipping one, listing the next $5$, skipping $2$, listing $6$, skipping $3$, and on the $n$ th iteration, listing $n+3$ and skipping $n$. The sequence begins $1,2,3,4,6,7,8,9,10,13$. What is the $500,\\!000$ th number in the sequence? $\\textbf{(A)}\\ 996,\\!506\\qquad\\textbf{(B)}\\ 996,\\!507\\qquad\\textbf{(C)}\\ 996,\\!508\\qquad\\textbf{(D)}\\ 996,\\!509\\qquad\\textbf{(E)}\\ 996,\\!510$",
+        "algebra"
+    ],
+    [
+        "Todd and Allison are playing a game on the grid shown below. At the beginning, an orange stone\nis placed in the center intersection on the grid. They take turns, with Todd going first. In each of\nTodd\u2019s turns, he must move the orange stone from its current position to a horizontally or vertically\nadjacent intersection that is not occupied by a blue stone, and then he places a blue stone in the orange\nstone\u2019s previous spot. In each of Allison\u2019s turns, she places a blue stone on exactly one unoccupied\nintersection. Todd loses the game when he is forced to move into one of the corner intersections,\nlabeled by $A, B, C$, and $D$ in the diagram below. Allison loses if Todd can\u2019t move.\nAllison tries to force Todd to lose in as few as turns as possible, and Todd tries to survive as long as\npossible. If both of them play as best they can, how many blue stones will be on the board at the end\nof the game? (You may assume that Todd always loses.) [asy] size(200); for(int k=0;k<9;++k) { D((0,k)--(8,k),black);D((k,0)--(k,8),black); } MP(\"A\",(0,8),NW);MP(\"B\",(0,0),SW);MP(\"C\",(8,0),SE);MP(\"D\",(8,8),NE); D(CR((4,4),.2),black); fill(CR((4,4),.2),orange); [/asy] ",
         "algebra"
     ],
     [
@@ -256,8 +316,16 @@
         "algebra"
     ],
     [
+        "Each circle in this tree diagram is to be assigned a value, chosen from a set $S$, in such a way that along every pathway down the tree, the assigned values never increase. That is, $A \\ge B, B \\ge C, C \\ge D, D \\ge E$, and $A, B, C, D, E \\in S$. (It is permissible for a value in $S$ to appear more than once.) (a) How many ways can the tree be so numbered, using\nonly values chosen from the set $S = \\{1,..., 6\\}$? (b) Generalize to the case in which $S = \\{1,..., n\\}$. Find a formula for the number of ways the\ntree can be numbered. For maximal credit, express your answer in closed form as an explicit algebraic expression in $n$. ",
+        "algebra"
+    ],
+    [
         "How many triangles with positive area have all their vertices at points $(i,j)$ in the coordinate plane, where $i$ and $j$ are integers between $1$ and $5$, inclusive? $\\textbf{(A)}\\ 2128 \\qquad\\textbf{(B)}\\ 2148 \\qquad\\textbf{(C)}\\ 2160 \\qquad\\textbf{(D)}\\ 2200 \\qquad\\textbf{(E)}\\ 2300$",
         "geometry"
+    ],
+    [
+        "How many integers between 100 and 999, inclusive, have the property\nthat some permutation of its digits is a multiple of 11 between 100\nand 999? For example, both 121 and 211 have this property. $\\textbf{(A) } 226 \\qquad \\textbf{(B) } 243 \\qquad \\textbf{(C) } 270 \\qquad \\textbf{(D) } 469 \\qquad \\textbf{(E) } 486$",
+        "number"
     ],
     [
         "A square is drawn in the Cartesian coordinate plane with vertices at $(2, 2)$, $(-2, 2)$, $(-2, -2)$, $(2, -2)$. A particle starts at $(0,0)$. Every second it moves with equal probability to one of the eight lattice points (points with integer coordinates) closest to its current position, independently of its previous moves. In other words, the probability is $1/8$ that the particle will move from $(x, y)$ to each of $(x, y + 1)$, $(x + 1, y + 1)$, $(x + 1, y)$, $(x + 1, y - 1)$, $(x, y - 1)$, $(x - 1, y - 1)$, $(x - 1, y)$, or $(x - 1, y + 1)$. The particle will eventually hit the square for the first time, either at one of the 4 corners of the square or at one of the 12 lattice points in the interior of one of the sides of the square. The probability that it will hit at a corner rather than at an interior point of a side is $m/n$, where $m$ and $n$ are relatively prime positive integers. What is $m + n$? $\\textbf{(A) } 4 \\qquad\\textbf{(B) } 5 \\qquad\\textbf{(C) } 7 \\qquad\\textbf{(D) } 15 \\qquad\\textbf{(E) } 39$",
@@ -269,7 +337,7 @@
     ],
     [
         "Find a formula for\n$\\sum_{k=0}^{\\lfloor \\frac{n}{4} \\rfloor } \\binom{n}{4k}$ for any natural number $n$. ",
-        "number"
+        "algebra"
     ],
     [
         "Find the number of functions $f(x)$ from $\\{1, 2, 3, 4, 5\\}$ to $\\{1, 2, 3, 4, 5\\}$ that satisfy $f(f(x)) = f(f(f(x)))$ for all $x$ in $\\{1, 2, 3, 4, 5\\}$. ",
@@ -277,10 +345,6 @@
     ],
     [
         "A frog is positioned at the origin of the coordinate plane. From the point $(x, y)$, the frog can jump to any of the points $(x + 1, y)$, $(x + 2, y)$, $(x, y + 1)$, or $(x, y + 2)$. Find the number of distinct sequences of jumps in which the frog begins at $(0, 0)$ and ends at $(4, 4)$. ",
-        "algebra"
-    ],
-    [
-        "A scanning code consists of a $7 \\times 7$ grid of squares, with some of its squares colored black and the rest colored white. There must be at least one square of each color in this grid of $49$ squares. A scanning code is called $\\textit{symmetric}$ if its look does not change when the entire square is rotated by a multiple of $90 ^{\\circ}$ counterclockwise around its center, nor when it is reflected across a line joining opposite corners or a line joining midpoints of opposite sides. What is the total number of possible symmetric scanning codes? $\\textbf{(A)} \\text{ 510} \\qquad \\textbf{(B)} \\text{ 1022} \\qquad \\textbf{(C)} \\text{ 8190} \\qquad \\textbf{(D)} \\text{ 8192} \\qquad \\textbf{(E)} \\text{ 65,534}$",
         "algebra"
     ],
     [
@@ -304,7 +368,15 @@
         "algebra"
     ],
     [
+        "Let $A_1A_2A_3\\ldots A_{12}$ be a dodecagon ( $12$ -gon). Three frogs initially sit at $A_4,A_8,$ and $A_{12}$. At the end of each minute, simultaneously, each of the three frogs jumps to one of the two vertices adjacent to its current position, chosen randomly and independently with both choices being equally likely. All three frogs stop jumping as soon as two frogs arrive at the same vertex at the same time. The expected number of minutes until the frogs stop jumping is $\\frac mn$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. ",
+        "algebra"
+    ],
+    [
         "A choir director must select a group of singers from among his $6$ tenors and $8$ basses. The only requirements are that the difference between the number of tenors and basses must be a multiple of $4$, and the group must have at least one singer. Let $N$ be the number of different groups that could be selected. What is the remainder when $N$ is divided by $100$? $\\textbf{(A) } 47\\qquad\\textbf{(B) } 48\\qquad\\textbf{(C) } 83\\qquad\\textbf{(D) } 95\\qquad\\textbf{(E) } 96\\qquad$",
+        "algebra"
+    ],
+    [
+        "Frieda the frog begins a sequence of hops on a $3 \\times 3$ grid of squares, moving one square on each hop and choosing at random the direction of each hop-up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square. Suppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops? $\\textbf{(A)} ~\\frac{9}{16}\\qquad\\textbf{(B)} ~\\frac{5}{8}\\qquad\\textbf{(C)} ~\\frac{3}{4}\\qquad\\textbf{(D)} ~\\frac{25}{32}\\qquad\\textbf{(E)} ~\\frac{13}{16}$",
         "algebra"
     ],
     [
@@ -316,7 +388,7 @@
         "algebra"
     ],
     [
-        "Find the number of ordered pairs of integers $(a, b)$ such that the sequence\n\n\\[3, 4, 5, a, b, 30, 40, 50\\]\n\nis strictly increasing and no set of four (not necessarily consecutive) terms forms an arithmetic progression. ",
+        "Ellina has twelve blocks, two each of red ( $\\textbf{R}$ ), blue ( $\\textbf{B}$ ), yellow ( $\\textbf{Y}$ ), green ( $\\textbf{G}$ ), orange ( $\\textbf{O}$ ), and purple ( $\\textbf{P}$ ). Call an arrangement of blocks $\\textit{even}$ if there is an even number of blocks between each pair of blocks of the same color. For example, the arrangement\n\n\n\\[\\textbf{R B B Y G G Y R O P P O}\\]\n\n\nis even. Ellina arranges her blocks in a row in random order. The probability that her arrangement is even is $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$ ",
         "algebra"
     ],
     [
@@ -348,12 +420,20 @@
         "algebra"
     ],
     [
+        "Alice chooses a set $A$ of positive integers. Then Bob lists all finite nonempty sets $B$ of positive integers with the property that the maximum element of $B$ belongs to $A$. Bob's list has 2024 sets. Find the sum of the elements of A. ",
+        "algebra"
+    ],
+    [
         "Let $S$ be a subset of $\\{1, 2, 3, \\dots, 2024\\}$ such that the following two conditions hold: If $x$ and $y$ are distinct elements of $S$, then $|x-y| > 2.$ If $x$ and $y$ are distinct odd elements of $S$, then $|x-y| > 6.$ What is the maximum possible number of elements in $S$? $\\textbf{(A) }436 \\qquad \\textbf{(B) }506 \\qquad \\textbf{(C) }608 \\qquad \\textbf{(D) }654 \\qquad \\textbf{(E) }675$",
         "algebra"
     ],
     [
         "Find the last three digits of the number of 7-tuples of positive integers $(a_1, a_2, a_3, a_4, a_5, a_6, a_7)$ such that $a_1 \\, | \\, a_2 \\, | \\, a_3 \\, | \\, a_4 \\, | \\, a_5 \\, | \\, a_6 \\, | \\, a_7 \\, | \\, 6468$, that is, $a_1$ divides $a_2$, $a_2$ divides $a_3$, $a_3$ divides $a_4$, $a_4$ divides $a_5$, $a_5$ divides $a_6$, $a_6$ divides $a_7$, and $a_7$ divides $6468$. ",
         "number"
+    ],
+    [
+        "In the context of this problem, a $\\emph{square}$ is a $1 \\times 1$ block, a $\\emph{domino}$ is a $1 \\times 2$ block, and a $\\emph{triomino}$ is a $1 \\times 3$ block. If $N$ is the number of ways George can place one square, two identical dominoes, and three identical triominoes on a $1 \\times 20$ chessboard such that no two overlap, find the remainder when $N$ is divided by 1000. ",
+        "algebra"
     ],
     [
         "A paperboy delivers newspapers to 10 houses along Main Street. Wishing to save effort, he doesn't always deliver to every house, but to avoid being fired he never misses three consecutive houses. Compute the number of ways the paperboy could deliver papers in this manner. ",
@@ -384,6 +464,10 @@
         "number"
     ],
     [
+        "Let the sum of a set of numbers be the sum of its elements. Let $S$ be a set of positive integers, none greater than 15. Suppose no two disjoint subsets of $S$ have the same sum. What is the largest sum a set $S$ with these properties can have? ",
+        "algebra"
+    ],
+    [
         "Eight congruent equilateral triangles, each of a different color, are used to construct a regular octahedron. How many distinguishable ways are there to construct the octahedron? (Two colored octahedrons are distinguishable if neither can be rotated to look just like the other.) [asy] import three; import math; unitsize(1.5cm); currentprojection=orthographic(2,0.2,1); triple A=(0,0,1); triple B=(sqrt(2)/2,sqrt(2)/2,0); triple C=(sqrt(2)/2,-sqrt(2)/2,0); triple D=(-sqrt(2)/2,-sqrt(2)/2,0); triple E=(-sqrt(2)/2,sqrt(2)/2,0); triple F=(0,0,-1); draw(A--B--E--cycle); draw(A--C--D--cycle); draw(F--C--B--cycle); draw(F--D--E--cycle,dotted+linewidth(0.7)); [/asy] $\\textbf {(A)}\\ 210 \\qquad \\textbf {(B)}\\ 560 \\qquad \\textbf {(C)}\\ 840 \\qquad \\textbf {(D)}\\ 1260 \\qquad \\textbf {(E)}\\ 1680$",
         "algebra"
     ],
@@ -393,10 +477,18 @@
     ],
     [
         "Let $\\mathcal{S}$ be the set $\\lbrace1,2,3,\\ldots,10\\rbrace$. Let $n$ be the number of sets of two non-empty disjoint subsets of $\\mathcal{S}$. (Disjoint sets are defined as sets that have no common elements.) Find the remainder obtained when $n$ is divided by $1000$. ",
+        "number"
+    ],
+    [
+        "There are $12$ stacks of $12$ coins. Each of the coins in $11$ of the $12$ stacks weighs $10$ grams each. Suppose the coins in the remaining stack each weigh $9.9$ grams. You are given one time access to a precise digital scale. Devise a plan to weigh some coins in precisely one weighing to determine which pile has the lighter coins. ",
         "algebra"
     ],
     [
         "Let $a_1 < a_2 < a_3$ be three positive integers in the interval $[1,14]$ satisfying $a_2-a_1\\ge3$ and $a_3-a_2\\ge3$. How many di\ufb00erent choices of $(a_1,a_2,a_3)$ exist? ",
+        "algebra"
+    ],
+    [
+        "An ant makes a sequence of moves on a cube where a move consists of walking from one vertex to an adjacent vertex along an edge of the cube. Initially the ant is at a vertex of the bottom face of the cube and chooses one of the three adjacent vertices to move to as its first move. For all moves after the first move, the ant does not return to its previous vertex, but chooses to move to one of the other two adjacent vertices. All choices are selected at random so that each of the possible moves is equally likely. The probability that after exactly $8$ moves that ant is at a vertex of the top face on the cube is $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$ ",
         "algebra"
     ]
 ]

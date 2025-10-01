@@ -33,5 +33,9 @@ history.json
 !.streamlit
 *secret*
 *problem_labels*
+*problems*
+*data*
+*test*
+*graph*
 *response_schema.json
-sys_prompt.txt
+*sys_prompt*
